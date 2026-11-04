@@ -1,0 +1,124 @@
+[
+ {
+  "tool": "roster.unassign",
+  "args": {
+   "assignment_id": "initial-000018"
+  }
+ },
+ {
+  "tool": "roster.unassign",
+  "args": {
+   "assignment_id": "initial-000055"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0002",
+   "date": "2026-01-11",
+   "ward_id": "ward-01",
+   "shift_type": "night"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0006",
+   "date": "2026-01-08",
+   "ward_id": "ward-01",
+   "shift_type": "night"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0008",
+   "date": "2026-01-04",
+   "ward_id": "ward-01",
+   "shift_type": "early"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0014",
+   "date": "2026-01-13",
+   "ward_id": "ward-01",
+   "shift_type": "night"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0016",
+   "date": "2026-01-15",
+   "ward_id": "ward-01",
+   "shift_type": "night"
+  }
+ },
+ {
+  "tool": "agency.request",
+  "args": {
+   "offer_id": "agency-rn-001",
+   "requested_for": "2026-01-02",
+   "ward_id": "ward-01",
+   "shift_type": "night",
+   "staff_count": 1
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0002",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-01-04",
+   "shift_type": "early",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0006",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-01-08",
+   "shift_type": "night",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0008",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-01-04",
+   "shift_type": "early",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0014",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-01-13",
+   "shift_type": "night",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0016",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-01-15",
+   "shift_type": "night",
+   "ward_id": "ward-01"
+  }
+ }
+]

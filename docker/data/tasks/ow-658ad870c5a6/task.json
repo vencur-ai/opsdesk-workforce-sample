@@ -1,0 +1,37 @@
+{
+  "app_sha256": "f8090ff279cef6398da0941c1cf3bda250ad7001c31f9333c71258ab13fb11bb",
+  "baseline": {
+    "greedy_passed": false,
+    "greedy_score": 0.0
+  },
+  "difficulty": "easy",
+  "document_ids": [
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "family": "F03_swap_requests",
+  "horizon_days": 7,
+  "instruction": "Mohammed – There are 5 swap requests waiting. Please decide them – approve what works, decline the rest with a reason. Both people in each request need to hear the outcome. Please keep changes to a minimum. Please message everyone you move. Watch the rules – rest periods, nights in a row, the lot. Keep the cost down – no unnecessary overtime.",
+  "jurisdiction": "uk",
+  "start_date": "2026-09-13",
+  "surface": "workforce",
+  "task_id": "ow-658ad870c5a6",
+  "workforce": {
+    "apps": [
+      "chat",
+      "rota"
+    ],
+    "estimate_basis": "gold actions × fixed times (see taskgen.human_estimate); not measured",
+    "estimated_human_minutes": 18,
+    "gold_actions": 16,
+    "locale": "en-GB",
+    "staff": 64,
+    "units": 2,
+    "variant": ""
+  },
+  "world_file": "world.json"
+}

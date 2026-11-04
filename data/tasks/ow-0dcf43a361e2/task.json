@@ -1,0 +1,36 @@
+{
+  "app_sha256": "8a9cef048bf436ce1e9eb6382e320d471876fdd31ed6bff263619203c83764f2",
+  "baseline": {
+    "greedy_passed": false,
+    "greedy_score": 0.0
+  },
+  "difficulty": "medium",
+  "document_ids": [
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "family": "F07_works_council_rejection",
+  "horizon_days": 7,
+  "instruction": "Unser Entwurf kam vom Betriebsrat zurück. Kannst du die Punkte beheben, erneut einreichen und den Plan dann veröffentlichen? Außerdem sind von vorher noch Dienste offen (Fr. 27.11. Nachtdienst (Wohnbereich Lindenhof)) – die bitte auch besetzen, wenn es geht. Wer umgeplant wird, muss eine Nachricht bekommen. Alles muss regelkonform bleiben. Möglichst günstig, bitte – keine unnötigen Überstunden. Uwe",
+  "jurisdiction": "de",
+  "start_date": "2026-11-26",
+  "surface": "workforce",
+  "task_id": "ow-0dcf43a361e2",
+  "workforce": {
+    "apps": [
+      "rota"
+    ],
+    "estimate_basis": "gold actions × fixed times (see taskgen.human_estimate); not measured",
+    "estimated_human_minutes": 9,
+    "gold_actions": 6,
+    "locale": "de-DE",
+    "staff": 20,
+    "units": 1,
+    "variant": ""
+  },
+  "world_file": "world.json"
+}

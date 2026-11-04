@@ -1,0 +1,47 @@
+[
+ {
+  "tool": "roster.unassign",
+  "args": {
+   "assignment_id": "council-bad-0001"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0013",
+   "date": "2026-11-27",
+   "ward_id": "ward-01",
+   "shift_type": "night"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0013",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-11-27",
+   "shift_type": "night",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0014",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-11-26",
+   "shift_type": "night",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "works_council.submit",
+  "args": {}
+ },
+ {
+  "tool": "roster.publish",
+  "args": {}
+ }
+]

@@ -1,0 +1,93 @@
+{
+  "machine": "Apple M4, macOS 27.0.1, Docker 29.9.2",
+  "date": "2026-11-04",
+  "cold_build_seconds": 13.8,
+  "requests": [
+    {
+      "request": "ow-658ad870c5a6",
+      "exit": 0,
+      "seconds": 1.3,
+      "empty": 0.0,
+      "empty_passed": false,
+      "reference": 1.0,
+      "reference_passed": true,
+      "stdout": [
+        "request ow-658ad870c5a6 – the app is at http://127.0.0.1:54423 while this runs",
+        "empty workspace:    0.0 not passed",
+        "replayed 16 calls",
+        "reference replayed: 1.0 passed",
+        "took 1 s"
+      ],
+      "stderr_tail": []
+    },
+    {
+      "request": "ow-e47b95f24436",
+      "exit": 0,
+      "seconds": 1.0,
+      "empty": 0.0,
+      "empty_passed": false,
+      "reference": 1.0,
+      "reference_passed": true,
+      "stdout": [
+        "request ow-e47b95f24436 – the app is at http://127.0.0.1:54447 while this runs",
+        "empty workspace:    0.0 not passed",
+        "replayed 4 calls",
+        "reference replayed: 1.0 passed",
+        "took 1 s"
+      ],
+      "stderr_tail": []
+    },
+    {
+      "request": "ow-0dcf43a361e2",
+      "exit": 0,
+      "seconds": 1.1,
+      "empty": 0.0,
+      "empty_passed": false,
+      "reference": 1.0,
+      "reference_passed": true,
+      "stdout": [
+        "request ow-0dcf43a361e2 – the app is at http://127.0.0.1:54459 while this runs",
+        "empty workspace:    0.0 not passed",
+        "replayed 6 calls",
+        "reference replayed: 1.0 passed",
+        "took 1 s"
+      ],
+      "stderr_tail": []
+    },
+    {
+      "request": "ow-52c93274b5a8",
+      "exit": 0,
+      "seconds": 1.1,
+      "empty": 0.0,
+      "empty_passed": false,
+      "reference": 1.0,
+      "reference_passed": true,
+      "stdout": [
+        "request ow-52c93274b5a8 – the app is at http://127.0.0.1:54473 while this runs",
+        "empty workspace:    0.0 not passed",
+        "replayed 13 calls",
+        "reference replayed: 1.0 passed",
+        "took 1 s"
+      ],
+      "stderr_tail": []
+    },
+    {
+      "request": "ow-087ab90a8670",
+      "exit": 0,
+      "seconds": 1.1,
+      "empty": 0.0,
+      "empty_passed": false,
+      "reference": 1.0,
+      "reference_passed": true,
+      "stdout": [
+        "request ow-087ab90a8670 – the app is at http://127.0.0.1:54494 while this runs",
+        "empty workspace:    0.0 not passed",
+        "replayed 18 calls",
+        "reference replayed: 1.0 passed",
+        "took 1 s"
+      ],
+      "stderr_tail": []
+    }
+  ],
+  "all_ok": true
+}

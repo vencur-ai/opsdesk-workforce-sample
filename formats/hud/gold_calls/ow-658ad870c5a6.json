@@ -1,0 +1,159 @@
+[
+ {
+  "tool": "chat.post",
+  "args": {
+   "employee_id": "staff-0059",
+   "text": "Hi Samuel, could you confirm the swap with Amelia in the app, please?"
+  }
+ },
+ {
+  "tool": "requests.decide",
+  "args": {
+   "request_id": "request-0004",
+   "decision": "approve",
+   "reason": ""
+  }
+ },
+ {
+  "tool": "requests.decide",
+  "args": {
+   "request_id": "request-0001",
+   "decision": "decline",
+   "reason": "One of you cannot take the other shift under the rules."
+  }
+ },
+ {
+  "tool": "requests.decide",
+  "args": {
+   "request_id": "request-0002",
+   "decision": "decline",
+   "reason": "One of you cannot take the other shift under the rules."
+  }
+ },
+ {
+  "tool": "requests.decide",
+  "args": {
+   "request_id": "request-0005",
+   "decision": "approve",
+   "reason": ""
+  }
+ },
+ {
+  "tool": "requests.decide",
+  "args": {
+   "request_id": "request-0003",
+   "decision": "decline",
+   "reason": "One of you cannot take the other shift under the rules."
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0022",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-09-19",
+   "shift_type": "early",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0032",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-09-15",
+   "shift_type": "late",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0036",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-09-14",
+   "shift_type": "early",
+   "ward_id": "ward-02"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0038",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-09-17",
+   "shift_type": "late",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0039",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-09-17",
+   "shift_type": "late",
+   "ward_id": "ward-02"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0051",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-09-15",
+   "shift_type": "early",
+   "ward_id": "ward-02"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0052",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-09-14",
+   "shift_type": "early",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0057",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-09-15",
+   "shift_type": "early",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0059",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-09-19",
+   "shift_type": "early",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0062",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-09-15",
+   "shift_type": "late",
+   "ward_id": "ward-01"
+  }
+ }
+]

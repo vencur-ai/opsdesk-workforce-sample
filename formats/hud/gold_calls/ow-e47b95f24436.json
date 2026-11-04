@@ -1,0 +1,42 @@
+[
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0006",
+   "date": "2026-10-24",
+   "ward_id": "ward-01",
+   "shift_type": "night"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0015",
+   "date": "2026-10-22",
+   "ward_id": "ward-01",
+   "shift_type": "late"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0006",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-10-24",
+   "shift_type": "night",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0015",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-10-22",
+   "shift_type": "late",
+   "ward_id": "ward-01"
+  }
+ }
+]

@@ -1,0 +1,37 @@
+{
+  "app_sha256": "00638f49885be9d1545db6dcc9fdc35573f2898be0d4e32c9761c0315b169597",
+  "baseline": {
+    "greedy_passed": false,
+    "greedy_score": 0.0
+  },
+  "difficulty": "expert",
+  "document_ids": [
+    "doc-current-memo",
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "family": "F10_infeasible_month",
+  "horizon_days": 14,
+  "instruction": "Der Plan für So. 08.02. bis Sa. 21.02. (Wohnbereich Birke) ist noch sehr lückenhaft. Bitte so vollständig besetzen, wie es regelkonform geht. Überstunden bitte nur, wenn es wirklich nötig ist. Was sich nicht besetzen lässt, meldest du mir bitte als Unterbesetzung mit Begründung. Sag bitte allen Bescheid, deren Dienst sich ändert. Alles muss regelkonform bleiben.",
+  "jurisdiction": "de",
+  "start_date": "2026-02-08",
+  "surface": "workforce",
+  "task_id": "ow-087ab90a8670",
+  "workforce": {
+    "apps": [
+      "rota"
+    ],
+    "estimate_basis": "gold actions × fixed times (see taskgen.human_estimate); not measured",
+    "estimated_human_minutes": 16,
+    "gold_actions": 18,
+    "locale": "de-DE",
+    "staff": 17,
+    "units": 1,
+    "variant": ""
+  },
+  "world_file": "world.json"
+}

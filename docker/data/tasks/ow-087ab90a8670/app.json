@@ -1,0 +1,1388 @@
+{
+  "absence_meta": [
+    {
+      "absence_id": "absence-event-0001",
+      "channel": "phone",
+      "entered_by": "Dmitri Richter",
+      "entered_on": "2026-02-08",
+      "note": "Krankmeldung telefonisch"
+    },
+    {
+      "absence_id": "absence-event-0003",
+      "channel": "phone",
+      "entered_by": "Dmitri Richter",
+      "entered_on": "2026-02-08",
+      "note": "Krankmeldung telefonisch"
+    },
+    {
+      "absence_id": "absence-event-0005",
+      "channel": "phone",
+      "entered_by": "Dmitri Richter",
+      "entered_on": "2026-02-08",
+      "note": "Krankmeldung telefonisch"
+    },
+    {
+      "absence_id": "holiday-0001",
+      "channel": "planned",
+      "entered_by": "Birgit Schwarz",
+      "entered_on": "2026-01-19",
+      "note": ""
+    },
+    {
+      "absence_id": "holiday-0002",
+      "channel": "planned",
+      "entered_by": "Birgit Schwarz",
+      "entered_on": "2026-01-11",
+      "note": ""
+    },
+    {
+      "absence_id": "training-0001",
+      "channel": "planned",
+      "entered_by": "Birgit Schwarz",
+      "entered_on": "2026-01-11",
+      "note": "Pflichtfortbildung (Pflegefachkräfte)"
+    },
+    {
+      "absence_id": "training-0002",
+      "channel": "planned",
+      "entered_by": "Birgit Schwarz",
+      "entered_on": "2025-12-27",
+      "note": "Pflichtfortbildung (Pflegefachkräfte)"
+    },
+    {
+      "absence_id": "training-0003",
+      "channel": "planned",
+      "entered_by": "Birgit Schwarz",
+      "entered_on": "2026-01-05",
+      "note": "Pflichtfortbildung (Pflegefachkräfte)"
+    },
+    {
+      "absence_id": "training-0004",
+      "channel": "planned",
+      "entered_by": "Birgit Schwarz",
+      "entered_on": "2026-01-04",
+      "note": "Pflichtfortbildung (Pflegefachkräfte)"
+    },
+    {
+      "absence_id": "training-0005",
+      "channel": "planned",
+      "entered_by": "Birgit Schwarz",
+      "entered_on": "2026-01-20",
+      "note": "Pflichtfortbildung (Pflegefachkräfte)"
+    },
+    {
+      "absence_id": "training-0006",
+      "channel": "planned",
+      "entered_by": "Birgit Schwarz",
+      "entered_on": "2026-01-29",
+      "note": "Pflichtfortbildung (Pflegefachkräfte)"
+    },
+    {
+      "absence_id": "training-0007",
+      "channel": "planned",
+      "entered_by": "Birgit Schwarz",
+      "entered_on": "2026-01-20",
+      "note": "Pflichtfortbildung (Pflegefachkräfte)"
+    },
+    {
+      "absence_id": "training-0008",
+      "channel": "planned",
+      "entered_by": "Birgit Schwarz",
+      "entered_on": "2026-01-01",
+      "note": "Pflichtfortbildung (Pflegefachkräfte)"
+    }
+  ],
+  "budget_in_mail": false,
+  "calendar": [
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0001",
+        "staff-0002",
+        "staff-0003",
+        "staff-0004",
+        "staff-0005",
+        "staff-0006",
+        "staff-0007",
+        "staff-0008"
+      ],
+      "created_by": "Birgit Schwarz",
+      "end": "2026-02-08 16:30",
+      "event_id": "event-0001",
+      "kind": "training",
+      "location": "Bildungswerk Pflege Süd, Kleinbergen",
+      "notes": "Alle Pflegefachkräfte angemeldet. An diesem Tag keine Dienste für Teilnehmende.",
+      "start": "2026-02-08 09:00",
+      "title": "Pflichtfortbildung Pflegefachkräfte"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Birgit Schwarz",
+      "end": "2026-02-09 10:30",
+      "event_id": "event-0002",
+      "kind": "other",
+      "location": "Seniorenresidenz Ahornhof",
+      "notes": "",
+      "start": "2026-02-09 10:00",
+      "title": "Probealarm Brandmeldeanlage"
+    },
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0012"
+      ],
+      "created_by": "Birgit Schwarz",
+      "end": "2026-02-11 23:59",
+      "event_id": "event-0003",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-02-11 00:00",
+      "title": "Urlaub: Anne Bauer"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Birgit Schwarz",
+      "end": "2026-02-11 14:15",
+      "event_id": "event-0004",
+      "kind": "meeting",
+      "location": "Pausenraum",
+      "notes": "",
+      "start": "2026-02-11 13:30",
+      "title": "Teambesprechung Wohnbereich Birke"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Birgit Schwarz",
+      "end": "2026-02-12 12:30",
+      "event_id": "event-0005",
+      "kind": "meeting",
+      "location": "alle Wohnbereiche",
+      "notes": "",
+      "start": "2026-02-12 11:00",
+      "title": "Hausarztvisite"
+    },
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0011"
+      ],
+      "created_by": "Birgit Schwarz",
+      "end": "2026-02-17 23:59",
+      "event_id": "event-0006",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-02-16 00:00",
+      "title": "Urlaub: Mia Wolf"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Birgit Schwarz",
+      "end": "2026-02-19 12:30",
+      "event_id": "event-0007",
+      "kind": "meeting",
+      "location": "alle Wohnbereiche",
+      "notes": "",
+      "start": "2026-02-19 11:00",
+      "title": "Hausarztvisite"
+    },
+    {
+      "all_day": false,
+      "attendees": [
+        "staff-0008"
+      ],
+      "created_by": "Leon Vogel",
+      "end": "2026-02-20 15:30",
+      "event_id": "event-0008",
+      "kind": "council",
+      "location": "Besprechungsraum",
+      "notes": "Dienstpläne, Überstunden, Fortbildungen.",
+      "start": "2026-02-20 14:00",
+      "title": "Betriebsratssitzung"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Birgit Schwarz",
+      "end": "2026-03-13 15:00",
+      "event_id": "event-0009",
+      "kind": "inspection",
+      "location": "Seniorenresidenz Ahornhof",
+      "notes": "Pflegedokumentation und Dienstpläne der letzten drei Monate.",
+      "start": "2026-03-13 09:00",
+      "title": "Begehung Heimaufsicht (angekündigt)"
+    }
+  ],
+  "chat_channels": [
+    {
+      "channel_id": "chat-all",
+      "kind": "group",
+      "members": [
+        "me",
+        "manager",
+        "staff-0001",
+        "staff-0002",
+        "staff-0003",
+        "staff-0004",
+        "staff-0005",
+        "staff-0006",
+        "staff-0007",
+        "staff-0008",
+        "staff-0009",
+        "staff-0010",
+        "staff-0011",
+        "staff-0012",
+        "staff-0013",
+        "staff-0014",
+        "staff-0015",
+        "staff-0016",
+        "staff-0017"
+      ],
+      "name": "Alle Mitarbeitenden",
+      "topic": "Infos für das ganze Haus"
+    },
+    {
+      "channel_id": "chat-ward-01",
+      "kind": "group",
+      "members": [
+        "me",
+        "staff-0001",
+        "staff-0002",
+        "staff-0003",
+        "staff-0004",
+        "staff-0005",
+        "staff-0006",
+        "staff-0007",
+        "staff-0008",
+        "staff-0009",
+        "staff-0010",
+        "staff-0011",
+        "staff-0012",
+        "staff-0013",
+        "staff-0014",
+        "staff-0015",
+        "staff-0016",
+        "staff-0017"
+      ],
+      "name": "Team Wohnbereich Birke",
+      "topic": "Übergaben und Dienstfragen"
+    },
+    {
+      "channel_id": "chat-nights",
+      "kind": "group",
+      "members": [
+        "me",
+        "staff-0001",
+        "staff-0005",
+        "staff-0006",
+        "staff-0014",
+        "staff-0017"
+      ],
+      "name": "Nachtdienst",
+      "topic": "Nachtteam"
+    },
+    {
+      "channel_id": "dm-staff-0015",
+      "kind": "direct",
+      "members": [
+        "me",
+        "staff-0015"
+      ],
+      "name": "Florian Schmidt",
+      "topic": ""
+    },
+    {
+      "channel_id": "dm-staff-0003",
+      "kind": "direct",
+      "members": [
+        "me",
+        "staff-0003"
+      ],
+      "name": "Anna Klein",
+      "topic": ""
+    }
+  ],
+  "chat_messages": [
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0001",
+      "reply_to": null,
+      "sender_id": "staff-0007",
+      "sent_at": "2026-01-30 06:39",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Neue Handschuhe Größe M sind im Schrank am Aufzug.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-nights",
+      "chat_id": "chat-0002",
+      "reply_to": null,
+      "sender_id": "staff-0004",
+      "sent_at": "2026-01-31 13:07",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Die Hausarztvisite ist diese Woche auf Donnerstag 11 Uhr verschoben.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0003",
+      "reply_to": null,
+      "sender_id": "staff-0001",
+      "sent_at": "2026-02-01 13:01",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Bitte jede Schicht die Kühlschranktemperatur eintragen.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-nights",
+      "chat_id": "chat-0004",
+      "reply_to": null,
+      "sender_id": "staff-0002",
+      "sent_at": "2026-02-02 11:24",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Danke fürs Bleiben gestern Nacht!",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0005",
+      "reply_to": null,
+      "sender_id": "manager",
+      "sent_at": "2026-02-02 12:04",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Erinnerung: alle Pflegefachkräfte sind am So., 08.02.2026 bei der Pflichtfortbildung (09:00–16:30). Die Bestätigung liegt im Büro-Postfach.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0006",
+      "reply_to": null,
+      "sender_id": "staff-0017",
+      "sent_at": "2026-02-04 11:27",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Wer hat den Schlüssel fürs Medikamentenzimmer? Er ist nicht im Kasten.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-ward-01",
+      "chat_id": "chat-0007",
+      "reply_to": null,
+      "sender_id": "staff-0001",
+      "sent_at": "2026-02-04 14:12",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Kann der Spätdienst morgen die Speisekarten in die Küche bringen?",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "dm-staff-0015",
+      "chat_id": "chat-0008",
+      "reply_to": null,
+      "sender_id": "staff-0015",
+      "sent_at": "2026-02-05 15:21",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Guten Morgen! Ich wollte nur sichergehen, dass ich Samstag Früh habe – auf dem Ausdruck im Büro steht Spät.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "dm-staff-0015",
+      "chat_id": "chat-0009",
+      "reply_to": null,
+      "sender_id": "me",
+      "sent_at": "2026-02-05 20:02",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Danke – ich schaue nach und melde mich.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-ward-01",
+      "chat_id": "chat-0010",
+      "reply_to": null,
+      "sender_id": "staff-0006",
+      "sent_at": "2026-02-05 21:29",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Kuchen im Pausenraum – bedient euch.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "dm-staff-0003",
+      "chat_id": "chat-0011",
+      "reply_to": null,
+      "sender_id": "staff-0003",
+      "sent_at": "2026-02-07 11:04",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Hallo, mein Fortbildungsnachweis ist erneuert – wohin soll ich die Kopie schicken?",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "dm-staff-0003",
+      "chat_id": "chat-0012",
+      "reply_to": null,
+      "sender_id": "me",
+      "sent_at": "2026-02-07 20:21",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Danke – ich schaue nach und melde mich.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-ward-01",
+      "chat_id": "chat-0013",
+      "reply_to": null,
+      "sender_id": "staff-0016",
+      "sent_at": "2026-02-07 21:08",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Hab ihn – lag in der Übergabemappe.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-nights",
+      "chat_id": "chat-0014",
+      "reply_to": null,
+      "sender_id": "staff-0013",
+      "sent_at": "2026-02-08 06:27",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Erinnerung: neue Liftertücher liegen im Lager, die alten bitte in die Wäsche.",
+      "ward_id": null
+    }
+  ],
+  "contacts": [
+    {
+      "address": "birgit.schwarz@seniorenresidenz-ahornhof-kleinbergen.de",
+      "contact_id": "contact-manager",
+      "name": "Birgit Schwarz",
+      "organisation": "Seniorenresidenz Ahornhof",
+      "role": "Pflegedienstleitung"
+    },
+    {
+      "address": "lea.zimmermann@kleinbergen-pflegeverbund.de",
+      "contact_id": "contact-ops",
+      "name": "Lea Zimmermann",
+      "organisation": "Regionalbüro",
+      "role": "Regionalleitung"
+    },
+    {
+      "address": "nicole.haas@kessler-lohnbuero-kleinbergen.de",
+      "contact_id": "contact-payroll",
+      "name": "Nicole Haas",
+      "organisation": "Lohnbüro Kessler & Partner",
+      "role": "Lohnabrechnung"
+    },
+    {
+      "address": "sarah.krause@bildungswerk-pflegesued-kleinbergen.de",
+      "contact_id": "contact-training",
+      "name": "Sarah Krause",
+      "organisation": "Bildungswerk Pflege Süd",
+      "role": "Fortbildungsträger"
+    },
+    {
+      "address": "einsatz@pflegepool-nord-kleinbergen.de",
+      "contact_id": "contact-agency-1",
+      "name": "Anna Schmidt",
+      "organisation": "Pflegepool Nord GmbH",
+      "role": "Disposition"
+    },
+    {
+      "address": "einsatz@personaldienst-altenhilfe-sued-kleinbergen.de",
+      "contact_id": "contact-agency-2",
+      "name": "Finn Krüger",
+      "organisation": "Personaldienst Altenhilfe Süd",
+      "role": "Disposition"
+    },
+    {
+      "address": "einsatz@curaflex-zeitarbeit-kleinbergen.de",
+      "contact_id": "contact-agency-3",
+      "name": "Mehmet Roth",
+      "organisation": "CuraFlex Zeitarbeit",
+      "role": "Disposition"
+    },
+    {
+      "address": "leon.vogel@seniorenresidenz-ahornhof-kleinbergen.de",
+      "contact_id": "contact-rep",
+      "name": "Leon Vogel",
+      "organisation": "Betriebsrat",
+      "role": "Vorsitz Betriebsrat"
+    },
+    {
+      "address": "birgit.lorenz@kleinbergen-post.de",
+      "contact_id": "contact-family-1",
+      "name": "Birgit Lorenz",
+      "organisation": "Angehörige/r",
+      "role": "Angehörige/r von Frau Brandl"
+    },
+    {
+      "address": "julia.koehler@kleinbergen-post.de",
+      "contact_id": "contact-family-2",
+      "name": "Julia Köhler",
+      "organisation": "Angehörige/r",
+      "role": "Angehörige/r von Herrn Kowalczyk"
+    },
+    {
+      "address": "kerstin.berger@kleinbergen-post.de",
+      "contact_id": "contact-family-3",
+      "name": "Kerstin Berger",
+      "organisation": "Angehörige/r",
+      "role": "Angehörige/r von Herrn Steiner"
+    },
+    {
+      "address": "lea.richter@seniorenresidenz-ahornhof-kleinbergen.de",
+      "contact_id": "contact-clinical",
+      "name": "Lea Richter",
+      "organisation": "Seniorenresidenz Ahornhof",
+      "role": "Wohnbereichsleitung"
+    }
+  ],
+  "history": [
+    {
+      "action": "Abwesenheit erfasst",
+      "after": "Pflichtfortbildung 08.02.2026–08.02.2026",
+      "at": "2025-12-27 09:31",
+      "before": "",
+      "object": "Dmitri Hoffmann",
+      "user": "Birgit Schwarz"
+    },
+    {
+      "action": "Abwesenheit erfasst",
+      "after": "Pflichtfortbildung 08.02.2026–08.02.2026",
+      "at": "2026-01-01 09:14",
+      "before": "",
+      "object": "Leon Vogel",
+      "user": "Birgit Schwarz"
+    },
+    {
+      "action": "Abwesenheit erfasst",
+      "after": "Pflichtfortbildung 08.02.2026–08.02.2026",
+      "at": "2026-01-04 09:11",
+      "before": "",
+      "object": "Lena Schulz",
+      "user": "Birgit Schwarz"
+    },
+    {
+      "action": "Abwesenheit erfasst",
+      "after": "Pflichtfortbildung 08.02.2026–08.02.2026",
+      "at": "2026-01-05 09:20",
+      "before": "",
+      "object": "Anna Klein",
+      "user": "Birgit Schwarz"
+    },
+    {
+      "action": "Abwesenheit erfasst",
+      "after": "Pflichtfortbildung 08.02.2026–08.02.2026",
+      "at": "2026-01-11 09:35",
+      "before": "",
+      "object": "Dmitri Richter",
+      "user": "Birgit Schwarz"
+    },
+    {
+      "action": "Abwesenheit erfasst",
+      "after": "Urlaub 11.02.2026–11.02.2026",
+      "at": "2026-01-11 09:56",
+      "before": "",
+      "object": "Anne Bauer",
+      "user": "Birgit Schwarz"
+    },
+    {
+      "action": "Dienstplan veröffentlicht",
+      "after": "",
+      "at": "2026-01-11 16:10",
+      "before": "",
+      "object": "Woche 2",
+      "user": "Birgit Schwarz"
+    },
+    {
+      "action": "Dienst geändert",
+      "after": "Spät",
+      "at": "2026-01-13 09:21",
+      "before": "Do. 15.01. Früh",
+      "object": "Katharina Weber",
+      "user": "Lea Richter"
+    },
+    {
+      "action": "Dienstmitteilung gesendet",
+      "after": "",
+      "at": "2026-01-13 13:08",
+      "before": "",
+      "object": "Dmitri Hoffmann",
+      "user": "Michael Schwarz"
+    },
+    {
+      "action": "Dienst geändert",
+      "after": "Früh",
+      "at": "2026-01-13 17:58",
+      "before": "So. 18.01. Nacht",
+      "object": "Elif Werner",
+      "user": "Lea Richter"
+    },
+    {
+      "action": "Tausch genehmigt",
+      "after": "",
+      "at": "2026-01-14 10:34",
+      "before": "",
+      "object": "Agnieszka Nowak ↔ Nicole Roth",
+      "user": "Michael Schwarz"
+    },
+    {
+      "action": "Dienst geändert",
+      "after": "Nacht",
+      "at": "2026-01-15 09:27",
+      "before": "So. 18.01. Früh",
+      "object": "Lena Schulz",
+      "user": "Birgit Schwarz"
+    },
+    {
+      "action": "Kontaktdaten geändert",
+      "after": "Telefonnummer",
+      "at": "2026-01-15 15:36",
+      "before": "",
+      "object": "Nicole Roth",
+      "user": "Michael Schwarz"
+    },
+    {
+      "action": "Dienstplan veröffentlicht",
+      "after": "",
+      "at": "2026-01-18 16:17",
+      "before": "",
+      "object": "Woche 3",
+      "user": "Birgit Schwarz"
+    },
+    {
+      "action": "Abwesenheit erfasst",
+      "after": "Urlaub 16.02.2026–17.02.2026",
+      "at": "2026-01-19 09:12",
+      "before": "",
+      "object": "Mia Wolf",
+      "user": "Birgit Schwarz"
+    },
+    {
+      "action": "Abwesenheit erfasst",
+      "after": "Pflichtfortbildung 08.02.2026–08.02.2026",
+      "at": "2026-01-20 09:22",
+      "before": "",
+      "object": "Maria Winkler",
+      "user": "Birgit Schwarz"
+    },
+    {
+      "action": "Kontaktdaten geändert",
+      "after": "Telefonnummer",
+      "at": "2026-01-20 09:40",
+      "before": "",
+      "object": "Dmitri Richter",
+      "user": "Michael Schwarz"
+    },
+    {
+      "action": "Abwesenheit erfasst",
+      "after": "Pflichtfortbildung 08.02.2026–08.02.2026",
+      "at": "2026-01-20 09:41",
+      "before": "",
+      "object": "Leon Schmitt",
+      "user": "Birgit Schwarz"
+    },
+    {
+      "action": "Dienst geändert",
+      "after": "Früh",
+      "at": "2026-01-23 10:30",
+      "before": "Do. 29.01. Nacht",
+      "object": "Nicole Fischer",
+      "user": "Michael Schwarz"
+    },
+    {
+      "action": "Dienst geändert",
+      "after": "Spät",
+      "at": "2026-01-25 13:45",
+      "before": "Fr. 30.01. Nacht",
+      "object": "Lena Schulz",
+      "user": "Michael Schwarz"
+    },
+    {
+      "action": "Dienst geändert",
+      "after": "Nacht",
+      "at": "2026-01-25 15:56",
+      "before": "Mi. 28.01. Spät",
+      "object": "Katharina Weber",
+      "user": "Lea Richter"
+    },
+    {
+      "action": "Dienstplan veröffentlicht",
+      "after": "",
+      "at": "2026-01-25 16:24",
+      "before": "",
+      "object": "Woche 4",
+      "user": "Birgit Schwarz"
+    },
+    {
+      "action": "Tausch genehmigt",
+      "after": "",
+      "at": "2026-01-26 13:31",
+      "before": "",
+      "object": "Florian Schmidt ↔ Leon Schmitt",
+      "user": "Michael Schwarz"
+    },
+    {
+      "action": "Tausch genehmigt",
+      "after": "",
+      "at": "2026-01-28 09:15",
+      "before": "",
+      "object": "Nicole Fischer ↔ Mia Wolf",
+      "user": "Michael Schwarz"
+    },
+    {
+      "action": "Krankmeldung erfasst",
+      "after": "28.01.2026",
+      "at": "2026-01-28 12:54",
+      "before": "",
+      "object": "Tobias Roth",
+      "user": "Dmitri Richter"
+    },
+    {
+      "action": "Abwesenheit erfasst",
+      "after": "Pflichtfortbildung 08.02.2026–08.02.2026",
+      "at": "2026-01-29 09:26",
+      "before": "",
+      "object": "Ewa Berger",
+      "user": "Birgit Schwarz"
+    },
+    {
+      "action": "Dienstplan veröffentlicht",
+      "after": "",
+      "at": "2026-02-01 16:31",
+      "before": "",
+      "object": "Woche 5",
+      "user": "Birgit Schwarz"
+    },
+    {
+      "action": "Dienstmitteilung gesendet",
+      "after": "",
+      "at": "2026-02-05 15:32",
+      "before": "",
+      "object": "Anne Bauer",
+      "user": "Michael Schwarz"
+    }
+  ],
+  "home": {
+    "address": "Am Anger 15, 29364 Kleinbergen",
+    "manager_name": "Birgit Schwarz",
+    "manager_title": "Pflegedienstleitung",
+    "night_lead_name": "Dmitri Richter",
+    "user_name": "Michael Schwarz",
+    "user_title": "Assistenz der Pflegedienstleitung"
+  },
+  "locale": "de-DE",
+  "mail_address": "michael.schwarz@seniorenresidenz-ahornhof-kleinbergen.de",
+  "mails": [
+    {
+      "attachments": [
+        {
+          "attachment_id": "att-0003-anmeldebesta",
+          "content": "Bildungswerk Pflege Süd\nAnmeldebestätigung\n\nKurs: Medikamentenmanagement und Fachupdate (Pflichtfortbildung, Pflegefachkräfte)\nDatum: So., 08.02.2026, 09:00–16:30\nOrt: Bildungswerk Pflege Süd, Kleinbergen\n\nTeilnehmende:\n- Dmitri Richter\n- Dmitri Hoffmann\n- Anna Klein\n- Lena Schulz\n- Leon Schmitt\n- Ewa Berger\n- Maria Winkler\n- Leon Vogel",
+          "filename": "anmeldebestaetigung.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
+      "body": "Guten Tag,\n\nvielen Dank für die Anmeldung aller Pflegefachkräfte zur Pflichtfortbildung am So., 08.02.2026. Der Tag geht von 09:00 bis 16:30 Uhr einschließlich Lernerfolgskontrolle; an diesem Tag können die Teilnehmenden keinen Dienst übernehmen. Die Teilnehmerliste liegt bei.\n\nMit freundlichen Grüßen\nSarah Krause",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0003",
+      "sender": "sarah.krause@bildungswerk-pflegesued-kleinbergen.de",
+      "sender_name": "Sarah Krause",
+      "sent_at": "2026-01-12 14:03",
+      "subject": "Anmeldung bestätigt: Pflichtfortbildung am So. 08.02.",
+      "thread_id": "thread-0003",
+      "to": [
+        "birgit.schwarz@seniorenresidenz-ahornhof-kleinbergen.de",
+        "michael.schwarz@seniorenresidenz-ahornhof-kleinbergen.de"
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "attachment_id": "att-0002-preislistepd",
+          "content": "Pflegepool Nord GmbH\nPreisliste – gültig ab dem 1. dieses Monats\n\nPflegefachkraft: auf Anfrage\nPflegehilfskraft: auf Anfrage\n\nEin Stundensatz für alle Dienste, auch nachts und am Wochenende.\nMindesteinsatz 6 Stunden. Kostenfreie Stornierung bis 24 Stunden vor Dienstbeginn, danach voller Satz.\nVorlauf: wie im Buchungsportal je Angebot angegeben.",
+          "filename": "preisliste.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
+      "body": "Guten Tag,\n\nanbei unsere aktuelle Preisliste. Für bereits bestätigte Einsätze ändert sich nichts. Bitte wie gewohnt über das Portal buchen, damit alle Dienstdaten vollständig sind.\n\nFreundliche Grüße\nAnna Schmidt\nPflegepool Nord GmbH",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0002",
+      "sender": "einsatz@pflegepool-nord-kleinbergen.de",
+      "sender_name": "Anna Schmidt",
+      "sent_at": "2026-01-27 11:00",
+      "subject": "Neue Preisliste",
+      "thread_id": "thread-0002",
+      "to": [
+        "michael.schwarz@seniorenresidenz-ahornhof-kleinbergen.de"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hallo zusammen,\n\ndie nächste Sitzung des Betriebsrats ist am Fr., 20.02.2026 um 14:00 Uhr im Besprechungsraum. Tagesordnung: Dienstpläne der kommenden Wochen, Überstunden, Fortbildungen. Dienstplanentwürfe bitte wie in der Betriebsvereinbarung vereinbart vorher zur Zustimmung einreichen.\n\nViele Grüße\nLeon Vogel",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0005",
+      "sender": "leon.vogel@seniorenresidenz-ahornhof-kleinbergen.de",
+      "sender_name": "Leon Vogel",
+      "sent_at": "2026-01-31 13:36",
+      "subject": "Einladung Betriebsratssitzung",
+      "thread_id": "thread-0005",
+      "to": [
+        "michael.schwarz@seniorenresidenz-ahornhof-kleinbergen.de",
+        "birgit.schwarz@seniorenresidenz-ahornhof-kleinbergen.de"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Liebe Kolleginnen und Kollegen,\n\ndanke für die Zahlen des letzten Monats. In der Region sind die Überstunden wieder gestiegen. Künftig frage ich bei jedem Haus kurz nach, wenn ein Planungszeitraum über den Vertragsstunden endet. Heute ist nichts zu tun.\n\nViele Grüße\nLea Zimmermann",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0009",
+      "sender": "lea.zimmermann@kleinbergen-pflegeverbund.de",
+      "sender_name": "Lea Zimmermann",
+      "sent_at": "2026-02-03 16:59",
+      "subject": "Stundenbericht Region",
+      "thread_id": "thread-0009",
+      "to": [
+        "birgit.schwarz@seniorenresidenz-ahornhof-kleinbergen.de",
+        "michael.schwarz@seniorenresidenz-ahornhof-kleinbergen.de"
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "attachment_id": "att-0001-stunden20260",
+          "content": "personalnr;name;vertrag_std_woche;geleistet_std;plus_minus_std\nPN-2007;Dmitri Richter;40,00;171,70;-1,50\nPN-2014;Dmitri Hoffmann;40,00;171,20;-2,00\nPN-2021;Anna Klein;16,00;68,27;-1,00\nPN-2028;Lena Schulz;24,00;99,92;-4,00\nPN-2035;Leon Schmitt;40,00;169,70;-3,50\nPN-2042;Ewa Berger;37,50;163,37;1,00\nPN-2049;Maria Winkler;37,50;167,37;5,00\nPN-2056;Leon Vogel;40,00;170,20;-3,00\nPN-2063;Elif Werner;37,50;163,87;1,50\nPN-2070;Nicole Fischer;37,50;168,37;6,00\nPN-2077;Mia Wolf;16,00;71,27;2,00\nPN-2084;Anne Bauer;24,00;109,92;6,00\nPN-2091;Tobias Roth;37,50;164,37;2,00\nPN-2098;Agnieszka Nowak;40,00;178,20;5,00\nPN-2105;Florian Schmidt;40,00;170,20;-3,00\nPN-2112;Katharina Weber;40,00;176,20;3,00\nPN-2119;Nicole Roth;40,00;174,70;1,50\n",
+          "filename": "stunden_2026_01.csv",
+          "media_type": "text/csv"
+        }
+      ],
+      "body": "Guten Tag,\n\nanbei die abgerechneten Stunden für 01/2026. Änderungen an Vertragsstunden, Ein- und Austritte für den nächsten Lauf brauchen wir bis Di., 17.02.2026. Plus- und Minusstunden gehen auf das Stundenkonto und werden über Zeitausgleich ausgeglichen; ausgezahlt wird nur nach Freigabe durch die Pflegedienstleitung.\n\nWenn eine Zahl nicht stimmt, antworten Sie bitte mit Personalnummer und korrigierten Stunden – bitte die Datei nicht ändern.\n\nMit freundlichen Grüßen\nNicole Haas\nLohnbüro Kessler & Partner",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0001",
+      "sender": "nicole.haas@kessler-lohnbuero-kleinbergen.de",
+      "sender_name": "Nicole Haas",
+      "sent_at": "2026-02-04 09:11",
+      "subject": "Abrechnungsschluss und Stundenübersicht 01/2026",
+      "thread_id": "thread-0001",
+      "to": [
+        "michael.schwarz@seniorenresidenz-ahornhof-kleinbergen.de"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Guten Tag,\n\ndanke für die Übernahme des Spätdienstes letzte Woche. Könnten Sie mir die Vorgangsnummer für die Rechnung schicken?\n\nMichael Schwarz\nAssistenz der Pflegedienstleitung, Seniorenresidenz Ahornhof",
+      "cc": [],
+      "folder": "sent",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0010",
+      "sender": "michael.schwarz@seniorenresidenz-ahornhof-kleinbergen.de",
+      "sender_name": "Michael Schwarz",
+      "sent_at": "2026-02-04 10:27",
+      "subject": "Buchungsanfrage – Vorgangsnummer",
+      "thread_id": "thread-0010",
+      "to": [
+        "einsatz@pflegepool-nord-kleinbergen.de"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hallo Birgit,\n\nder Dienstplan ab So. 08.02. ist veröffentlicht. Offene Punkte stehen wie immer im Plan.\n\nMichael Schwarz\nAssistenz der Pflegedienstleitung, Seniorenresidenz Ahornhof",
+      "cc": [],
+      "folder": "sent",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0011",
+      "sender": "michael.schwarz@seniorenresidenz-ahornhof-kleinbergen.de",
+      "sender_name": "Michael Schwarz",
+      "sent_at": "2026-02-05 15:41",
+      "subject": "Dienstplan veröffentlicht",
+      "thread_id": "thread-0011",
+      "to": [
+        "birgit.schwarz@seniorenresidenz-ahornhof-kleinbergen.de"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hallo zusammen,\n\nam Mo., 09.02.2026 zwischen 10:00 und 10:30 Uhr gibt es einen Probealarm der Brandmeldeanlage. Bitte die Bewohnerinnen und Bewohner vorher beruhigen. Keine Räumung.\n\nBirgit",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0008",
+      "sender": "birgit.schwarz@seniorenresidenz-ahornhof-kleinbergen.de",
+      "sender_name": "Birgit Schwarz",
+      "sent_at": "2026-02-06 08:17",
+      "subject": "Probealarm am Mo. 09.02.",
+      "thread_id": "thread-0008",
+      "to": [
+        "michael.schwarz@seniorenresidenz-ahornhof-kleinbergen.de"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Guten Tag,\n\nzur Info: Frau Brandl hat am Mo. 16.02. um 10:30 Uhr einen ambulanten Termin. Ich begleite sie selbst, eine Begleitung durch das Haus ist also nicht nötig.\n\nViele Grüße\nBirgit Lorenz",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0006",
+      "sender": "birgit.lorenz@kleinbergen-post.de",
+      "sender_name": "Birgit Lorenz",
+      "sent_at": "2026-02-06 17:10",
+      "subject": "Termin im Krankenhaus",
+      "thread_id": "thread-0006",
+      "to": [
+        "michael.schwarz@seniorenresidenz-ahornhof-kleinbergen.de"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hallo Michael,\n\nein paar Punkte für die nächsten Tage:\n- Überstunden nur, wo es wirklich nötig ist – die Regionalleitung schaut gerade genau auf die Stunden\n- bitte allen Bescheid geben, deren Dienst sich ändert\n\nIch bin morgen Vormittag fast durchgehend in Terminen; wenn etwas nicht warten kann, schreib mir im Chat.\n\nBirgit",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0004",
+      "sender": "birgit.schwarz@seniorenresidenz-ahornhof-kleinbergen.de",
+      "sender_name": "Birgit Schwarz",
+      "sent_at": "2026-02-07 17:27",
+      "subject": "Diese Woche – ein paar Punkte",
+      "thread_id": "thread-0004",
+      "to": [
+        "michael.schwarz@seniorenresidenz-ahornhof-kleinbergen.de"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hallo,\n\nich glaube, Herr Kowalczyk hat die neue Brille am Dienstag im Speisesaal liegen lassen. Könnte bitte jemand nachsehen? Die Ersatzbrille kann ich am Freitag vorbeibringen.\n\nDanke\nJulia Köhler",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": false,
+      "mail_id": "mail-0007",
+      "sender": "julia.koehler@kleinbergen-post.de",
+      "sender_name": "Julia Köhler",
+      "sent_at": "2026-02-08 06:12",
+      "subject": "Brille",
+      "thread_id": "thread-0007",
+      "to": [
+        "michael.schwarz@seniorenresidenz-ahornhof-kleinbergen.de"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Wir bekommen eine Neuaufnahme mit hohem Pflegebedarf. Wir brauchen in diesem Dienst 1 zusätzliche Person:\n- So. 15.02., Wohnbereich Birke, Früh\nGruß, Lea Richter",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": false,
+      "mail_id": "mail-0012",
+      "sender": "lea.richter@seniorenresidenz-ahornhof-kleinbergen.de",
+      "sender_name": "Lea Richter",
+      "sent_at": "2026-02-08 06:51",
+      "subject": "Neuaufnahme – zusätzliche Besetzung",
+      "thread_id": "thread-0012",
+      "to": [
+        "michael.schwarz@seniorenresidenz-ahornhof-kleinbergen.de"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Zwei Bewohner sind deutlich pflegeaufwändiger geworden. Wir brauchen in diesem Dienst 1 zusätzliche Person:\n- Di. 10.02., Wohnbereich Birke, Nacht\nGruß, Lea Richter",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": false,
+      "mail_id": "mail-0013",
+      "sender": "lea.richter@seniorenresidenz-ahornhof-kleinbergen.de",
+      "sender_name": "Lea Richter",
+      "sent_at": "2026-02-08 06:52",
+      "subject": "Mehr Personal nötig",
+      "thread_id": "thread-0013",
+      "to": [
+        "michael.schwarz@seniorenresidenz-ahornhof-kleinbergen.de"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Eine Bewohnerin braucht ab sofort eine engere Begleitung. Wir brauchen in diesem Dienst 1 zusätzliche Person:\n- Di. 17.02., Wohnbereich Birke, Spät\nGruß, Lea Richter",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": false,
+      "mail_id": "mail-0014",
+      "sender": "lea.richter@seniorenresidenz-ahornhof-kleinbergen.de",
+      "sender_name": "Lea Richter",
+      "sent_at": "2026-02-08 06:53",
+      "subject": "Bitte mehr Personal (Palliativbegleitung)",
+      "thread_id": "thread-0014",
+      "to": [
+        "michael.schwarz@seniorenresidenz-ahornhof-kleinbergen.de"
+      ]
+    }
+  ],
+  "message_meta": [
+    {
+      "channel": "phone",
+      "message_id": "message-event-event-0005",
+      "sender_label": "Dmitri Richter"
+    },
+    {
+      "channel": "email",
+      "message_id": "message-event-event-0004",
+      "sender_label": "Lea Richter"
+    },
+    {
+      "channel": "email",
+      "message_id": "message-event-event-0002",
+      "sender_label": "Lea Richter"
+    },
+    {
+      "channel": "phone",
+      "message_id": "message-event-event-0003",
+      "sender_label": "Dmitri Richter"
+    },
+    {
+      "channel": "email",
+      "message_id": "message-event-event-0006",
+      "sender_label": "Lea Richter"
+    },
+    {
+      "channel": "phone",
+      "message_id": "message-event-event-0001",
+      "sender_label": "Dmitri Richter"
+    }
+  ],
+  "message_texts": {
+    "message-event-event-0001": {
+      "body": "Tobias Roth hat um 06:07 angerufen: Krankschreibung liegt vor (Fr. 20.02.). Im System eingetragen. Aufgenommen von Dmitri Richter (Nachtdienst).",
+      "subject": "Krankmeldung Tobias Roth"
+    },
+    "message-event-event-0002": {
+      "body": "Wir bekommen eine Neuaufnahme mit hohem Pflegebedarf. Wir brauchen in diesem Dienst 1 zusätzliche Person:\n- So. 15.02., Wohnbereich Birke, Früh\nGruß, Lea Richter",
+      "subject": "Neuaufnahme – zusätzliche Besetzung"
+    },
+    "message-event-event-0003": {
+      "body": "Katharina Weber hat um 05:16 angerufen: Krankschreibung liegt vor (Di. 17.02.). Im System eingetragen. Aufgenommen von Dmitri Richter (Nachtdienst).",
+      "subject": "Krankmeldung Katharina Weber"
+    },
+    "message-event-event-0004": {
+      "body": "Zwei Bewohner sind deutlich pflegeaufwändiger geworden. Wir brauchen in diesem Dienst 1 zusätzliche Person:\n- Di. 10.02., Wohnbereich Birke, Nacht\nGruß, Lea Richter",
+      "subject": "Mehr Personal nötig"
+    },
+    "message-event-event-0005": {
+      "body": "Nicole Roth hat um 05:18 angerufen: Krankschreibung liegt vor (Mo. 09.02.). Im System eingetragen. Aufgenommen von Dmitri Richter (Nachtdienst).",
+      "subject": "Krankmeldung Nicole Roth"
+    },
+    "message-event-event-0006": {
+      "body": "Eine Bewohnerin braucht ab sofort eine engere Begleitung. Wir brauchen in diesem Dienst 1 zusätzliche Person:\n- Di. 17.02., Wohnbereich Birke, Spät\nGruß, Lea Richter",
+      "subject": "Bitte mehr Personal (Palliativbegleitung)"
+    }
+  },
+  "open_at_start": 0,
+  "profiles": [
+    {
+      "employee_id": "staff-0001",
+      "hire_date": "2020-03-25",
+      "hours_balance_minutes": -90,
+      "notes": "",
+      "phone": "intern 201",
+      "previous_period_minutes": 10302,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2026-06-08",
+        "Erste-Hilfe-Kurs": "2026-12-29",
+        "Hygieneschulung": "2028-02-03"
+      },
+      "staff_number": "PN-2007",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0002",
+      "hire_date": "2018-09-05",
+      "hours_balance_minutes": -120,
+      "notes": "",
+      "phone": "intern 202",
+      "previous_period_minutes": 10272,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2028-08-04",
+        "Erste-Hilfe-Kurs": "2026-11-21",
+        "Expertenstandard Sturzprophylaxe": "2027-10-09"
+      },
+      "staff_number": "PN-2014",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0003",
+      "hire_date": "2020-09-04",
+      "hours_balance_minutes": -60,
+      "notes": "",
+      "phone": "intern 203",
+      "previous_period_minutes": 4096,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2027-12-13",
+        "Brandschutzunterweisung": "2028-03-28",
+        "Hygieneschulung": "2027-02-07"
+      },
+      "staff_number": "PN-2021",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0004",
+      "hire_date": "2011-05-31",
+      "hours_balance_minutes": -240,
+      "notes": "",
+      "phone": "intern 204",
+      "previous_period_minutes": 5995,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2026-10-28",
+        "Brandschutzunterweisung": "2027-02-18",
+        "Expertenstandard Sturzprophylaxe": "2027-11-08"
+      },
+      "staff_number": "PN-2028",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0005",
+      "hire_date": "2016-09-15",
+      "hours_balance_minutes": -210,
+      "notes": "Nicht verwechseln mit Florian Schmidt.",
+      "phone": "intern 205",
+      "previous_period_minutes": 10182,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2028-10-02",
+        "Erste-Hilfe-Kurs": "2027-10-25",
+        "Hygieneschulung": "2027-07-24"
+      },
+      "staff_number": "PN-2035",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0006",
+      "hire_date": "2010-12-28",
+      "hours_balance_minutes": 60,
+      "notes": "",
+      "phone": "intern 206",
+      "previous_period_minutes": 9802,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2027-09-21",
+        "Brandschutzunterweisung": "2028-05-21",
+        "Expertenstandard Sturzprophylaxe": "2027-02-08"
+      },
+      "staff_number": "PN-2042",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0007",
+      "hire_date": "2012-10-01",
+      "hours_balance_minutes": 300,
+      "notes": "",
+      "phone": "intern 207",
+      "previous_period_minutes": 10042,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2027-06-11",
+        "Brandschutzunterweisung": "2028-06-23",
+        "Hygieneschulung": "2027-03-30"
+      },
+      "staff_number": "PN-2049",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0008",
+      "hire_date": "2024-11-23",
+      "hours_balance_minutes": -180,
+      "notes": "",
+      "phone": "intern 208",
+      "previous_period_minutes": 10212,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2028-09-19",
+        "Expertenstandard Sturzprophylaxe": "2027-07-18",
+        "Hygieneschulung": "2026-11-07"
+      },
+      "staff_number": "PN-2056",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0009",
+      "hire_date": "2020-11-06",
+      "hours_balance_minutes": 90,
+      "notes": "",
+      "phone": "intern 209",
+      "previous_period_minutes": 9832,
+      "qualification_valid_until": {
+        "Expertenstandard Sturzprophylaxe": "2026-06-08",
+        "Hygieneschulung": "2026-09-06"
+      },
+      "staff_number": "PN-2063",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0010",
+      "hire_date": "2025-05-03",
+      "hours_balance_minutes": 360,
+      "notes": "Bitte erst nach 10 Uhr anrufen.",
+      "phone": "intern 210",
+      "previous_period_minutes": 10102,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2027-05-06",
+        "Expertenstandard Sturzprophylaxe": "2027-10-21"
+      },
+      "staff_number": "PN-2070",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0011",
+      "hire_date": "2023-12-20",
+      "hours_balance_minutes": 120,
+      "notes": "Bitte erst nach 10 Uhr anrufen.",
+      "phone": "intern 211",
+      "previous_period_minutes": 4276,
+      "qualification_valid_until": {
+        "Expertenstandard Sturzprophylaxe": "2026-09-12",
+        "Hygieneschulung": "2027-07-17"
+      },
+      "staff_number": "PN-2077",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0012",
+      "hire_date": "2024-07-28",
+      "hours_balance_minutes": 360,
+      "notes": "",
+      "phone": "intern 212",
+      "previous_period_minutes": 6595,
+      "qualification_valid_until": {
+        "Expertenstandard Sturzprophylaxe": "2026-05-18",
+        "Hygieneschulung": "2026-12-31"
+      },
+      "staff_number": "PN-2084",
+      "wishes": [
+        "Möchte am liebsten Spätdienste"
+      ]
+    },
+    {
+      "employee_id": "staff-0013",
+      "hire_date": "2018-05-05",
+      "hours_balance_minutes": 120,
+      "notes": "",
+      "phone": "intern 213",
+      "previous_period_minutes": 9862,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2026-09-23",
+        "Erste-Hilfe-Kurs": "2027-05-31"
+      },
+      "staff_number": "PN-2091",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0014",
+      "hire_date": "2024-10-02",
+      "hours_balance_minutes": 300,
+      "notes": "",
+      "phone": "intern 214",
+      "previous_period_minutes": 10692,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2027-08-06",
+        "Erste-Hilfe-Kurs": "2027-12-12"
+      },
+      "staff_number": "PN-2098",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0015",
+      "hire_date": "2015-04-08",
+      "hours_balance_minutes": -180,
+      "notes": "Bitte erst nach 10 Uhr anrufen.",
+      "phone": "intern 215",
+      "previous_period_minutes": 10212,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2026-11-24",
+        "Expertenstandard Sturzprophylaxe": "2027-07-10"
+      },
+      "staff_number": "PN-2105",
+      "wishes": [
+        "Tauscht keine Dienste"
+      ]
+    },
+    {
+      "employee_id": "staff-0016",
+      "hire_date": "2010-07-09",
+      "hours_balance_minutes": 180,
+      "notes": "",
+      "phone": "intern 216",
+      "previous_period_minutes": 10572,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2028-01-27",
+        "Hygieneschulung": "2028-01-17"
+      },
+      "staff_number": "PN-2112",
+      "wishes": [
+        "Möchte am liebsten Spätdienste"
+      ]
+    },
+    {
+      "employee_id": "staff-0017",
+      "hire_date": "2014-10-09",
+      "hours_balance_minutes": 90,
+      "notes": "",
+      "phone": "intern 217",
+      "previous_period_minutes": 10482,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2027-02-18",
+        "Expertenstandard Sturzprophylaxe": "2026-10-08"
+      },
+      "staff_number": "PN-2119",
+      "wishes": []
+    }
+  ],
+  "publications": [],
+  "reports": [],
+  "requests": [],
+  "schema_version": "workforce-app/v2",
+  "session_log": [],
+  "staged": [],
+  "unit_names": {
+    "ward-01": "Wohnbereich Birke"
+  }
+}

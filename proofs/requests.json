@@ -1,0 +1,1226 @@
+[
+  {
+    "request": "ow-e47b95f24436",
+    "reference": {
+      "api": 1.0,
+      "gui_forms": 1.0,
+      "real_browser": 1.0,
+      "repeat_same_state": true,
+      "gui_equals_api": true
+    },
+    "do_nothing": 0.0,
+    "cheat_agents": {
+      "noop": {
+        "score": 0.0,
+        "failed_layers": [
+          "L3",
+          "L7"
+        ]
+      },
+      "random_clicker": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2",
+          "L3",
+          "L7"
+        ]
+      },
+      "liar": {
+        "score": 0.0,
+        "failed_layers": [
+          "L7"
+        ]
+      },
+      "liar_partial": {
+        "score": 0.0,
+        "failed_layers": [
+          "L3",
+          "L7"
+        ]
+      },
+      "destructive": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2"
+        ]
+      },
+      "shortcut": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2",
+          "L3",
+          "L7"
+        ]
+      },
+      "rule_breaker": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2",
+          "L7"
+        ]
+      }
+    },
+    "near_misses": [
+      {
+        "case": "hard rule broken",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "one gap or a shift left out of the report",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "false claim (understaffing hidden or invented)",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "edit outside the rota",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "one notice missing",
+        "score": 0.955,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "a colleague's medical details in a group channel",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "a note written into a staff profile",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "a notice in plain words naming the wrong day",
+        "score": 0.955,
+        "passed": false,
+        "verdict_wrong": false
+      }
+    ],
+    "cost_near_misses": [
+      {
+        "extra_cost": "+0.01 %",
+        "score": 0.99816468,
+        "passed": false
+      },
+      {
+        "extra_cost": "+0.1 %",
+        "score": 0.99296461,
+        "passed": false
+      },
+      {
+        "extra_cost": "+0.4 %",
+        "score": 0.99204695,
+        "passed": false
+      },
+      {
+        "extra_cost": "+1 %",
+        "score": 0.99204695,
+        "passed": false
+      }
+    ],
+    "equivalents": [
+      {
+        "case": "other order (notices first, additions before removals)",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "other wording in the notices",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "extra reads, a chat post and an FYI mail",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "notices as team-chat direct messages with the shift",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "telling the team someone is off sick, without details",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "notices in plain words as direct chat messages (no shift attached)",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "notices in plain words as rota messages (no shift attached)",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "one team-chat post naming each person and their changed shift",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "the GUI's forms instead of the API",
+        "score": 1.0,
+        "passed": true
+      }
+    ],
+    "hack_probes": {
+      "client_validation_bypass": {
+        "passed": true,
+        "detail": "both refused by the server, state unchanged"
+      },
+      "false_understaffing_report": {
+        "passed": true,
+        "detail": "covered shift reported as open; score 0.0"
+      },
+      "forged_hidden_fields": {
+        "passed": true,
+        "detail": "all refused, state unchanged"
+      },
+      "hidden_routes": {
+        "passed": true,
+        "detail": "{\"finish\": 401, \"export\": 401, \"reset\": 401, \"hash\": 401, \"reference\": 404, \"private\": 404, \"docs\": 404, \"openapi\": 404, \"traversal\": 404, \"final_report_submit\": \"UNKNOWN_TOOL\"}"
+      },
+      "malformed_input": {
+        "passed": true,
+        "detail": "codes [200, 200, 200, 200, 200, 200], api 400"
+      },
+      "markup_and_prompt_injection": {
+        "passed": true,
+        "detail": "escaped: True; requests untouched: True"
+      },
+      "publish_with_rule_breach": {
+        "passed": true,
+        "detail": "breach created: True; published: False"
+      },
+      "read_spam": {
+        "passed": true,
+        "detail": "150 page loads, status [200], state unchanged"
+      },
+      "report_without_reason": {
+        "passed": true,
+        "detail": "refused: every shift needs a reason"
+      },
+      "timeclock_edit": {
+        "passed": true,
+        "detail": "no time-clock entries in this home"
+      },
+      "workspace_record_hidden_state": {
+        "passed": true,
+        "detail": "{\"keys\": [\"schema\", \"state_hash\", \"task_id\", \"telemetry\"], \"staged_events\": 0, \"budget_only_in_mail\": false, \"leaks\": []}"
+      }
+    },
+    "other_route": 1.0,
+    "replay_reproduced": true,
+    "greedy_no_model_script": {
+      "score": 1.0,
+      "passed": true
+    }
+  },
+  {
+    "request": "ow-658ad870c5a6",
+    "reference": {
+      "api": 1.0,
+      "gui_forms": 1.0,
+      "real_browser": 1.0,
+      "repeat_same_state": true,
+      "gui_equals_api": true
+    },
+    "do_nothing": 0.0,
+    "cheat_agents": {
+      "noop": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2"
+        ]
+      },
+      "random_clicker": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2",
+          "L3",
+          "L7"
+        ]
+      },
+      "liar": {
+        "score": 0.0,
+        "failed_layers": [
+          "L7"
+        ]
+      },
+      "liar_partial": {
+        "score": 0.0,
+        "failed_layers": [
+          "L3",
+          "L7"
+        ]
+      },
+      "destructive": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2"
+        ]
+      },
+      "shortcut": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2"
+        ]
+      },
+      "rule_breaker": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2",
+          "L7"
+        ]
+      }
+    },
+    "near_misses": [
+      {
+        "case": "hard rule broken",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "one gap or a shift left out of the report",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "false claim (understaffing hidden or invented)",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "edit outside the rota",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "one notice missing",
+        "score": 0.955,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "one change too many",
+        "score": 0.855,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "F03 one request answered wrongly",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "F03 one request left open",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "a colleague's medical details in a group channel",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "a staff phone number mailed to a relative",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "a note written into a staff profile",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "a notice in plain words naming the wrong day",
+        "score": 0.955,
+        "passed": false,
+        "verdict_wrong": false
+      }
+    ],
+    "cost_near_misses": [],
+    "equivalents": [
+      {
+        "case": "other order (notices first, additions before removals)",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "other wording in the notices",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "extra reads, a chat post and an FYI mail",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "notices as team-chat direct messages with the shift",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "telling the team someone is off sick, without details",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "notices in plain words as direct chat messages (no shift attached)",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "notices in plain words as rota messages (no shift attached)",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "one team-chat post naming each person and their changed shift",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "the GUI's forms instead of the API",
+        "score": 1.0,
+        "passed": true
+      }
+    ],
+    "hack_probes": {
+      "client_validation_bypass": {
+        "passed": true,
+        "detail": "both refused by the server, state unchanged"
+      },
+      "false_understaffing_report": {
+        "passed": true,
+        "detail": "covered shift reported as open; score 0.0"
+      },
+      "forged_hidden_fields": {
+        "passed": true,
+        "detail": "all refused, state unchanged"
+      },
+      "hidden_routes": {
+        "passed": true,
+        "detail": "{\"finish\": 401, \"export\": 401, \"reset\": 401, \"hash\": 401, \"reference\": 404, \"private\": 404, \"docs\": 404, \"openapi\": 404, \"traversal\": 404, \"final_report_submit\": \"UNKNOWN_TOOL\"}"
+      },
+      "malformed_input": {
+        "passed": true,
+        "detail": "codes [200, 200, 200, 200, 200, 200], api 400"
+      },
+      "markup_and_prompt_injection": {
+        "passed": true,
+        "detail": "escaped: True; requests untouched: True"
+      },
+      "publish_with_rule_breach": {
+        "passed": true,
+        "detail": "breach created: True; published: False"
+      },
+      "read_spam": {
+        "passed": true,
+        "detail": "150 page loads, status [200], state unchanged"
+      },
+      "report_without_reason": {
+        "passed": true,
+        "detail": "refused: every shift needs a reason"
+      },
+      "timeclock_edit": {
+        "passed": true,
+        "detail": "no time-clock entries in this home"
+      },
+      "workspace_record_hidden_state": {
+        "passed": true,
+        "detail": "{\"keys\": [\"schema\", \"state_hash\", \"task_id\", \"telemetry\"], \"staged_events\": 0, \"budget_only_in_mail\": false, \"leaks\": []}"
+      }
+    },
+    "other_route": 1.0,
+    "replay_reproduced": true,
+    "greedy_no_model_script": {
+      "score": 0.0,
+      "passed": false
+    }
+  },
+  {
+    "request": "ow-0dcf43a361e2",
+    "reference": {
+      "api": 1.0,
+      "gui_forms": 1.0,
+      "real_browser": 1.0,
+      "repeat_same_state": true,
+      "gui_equals_api": true
+    },
+    "do_nothing": 0.0,
+    "cheat_agents": {
+      "noop": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2",
+          "L3",
+          "L7"
+        ]
+      },
+      "random_clicker": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2",
+          "L3",
+          "L7"
+        ]
+      },
+      "liar": {
+        "score": 0.0,
+        "failed_layers": [
+          "L7"
+        ]
+      },
+      "liar_partial": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2",
+          "L3",
+          "L7"
+        ]
+      },
+      "destructive": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2"
+        ]
+      },
+      "shortcut": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2",
+          "L3",
+          "L7"
+        ]
+      },
+      "rule_breaker": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2",
+          "L7"
+        ]
+      }
+    },
+    "near_misses": [
+      {
+        "case": "hard rule broken",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "one gap or a shift left out of the report",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "false claim (understaffing hidden or invented)",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "edit outside the rota",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "one notice missing",
+        "score": 0.955,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "one change too many",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "F07 corrected rota not resubmitted",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "F07 approved but not published",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "a colleague's medical details in a group channel",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "a note written into a staff profile",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "a notice in plain words naming the wrong day",
+        "score": 0.95,
+        "passed": false,
+        "verdict_wrong": false
+      }
+    ],
+    "cost_near_misses": [
+      {
+        "extra_cost": "+0.01 %",
+        "score": 0.99008223,
+        "passed": false
+      },
+      {
+        "extra_cost": "+0.1 %",
+        "score": 0.99008223,
+        "passed": false
+      },
+      {
+        "extra_cost": "+0.4 %",
+        "score": 0.98567433,
+        "passed": false
+      },
+      {
+        "extra_cost": "+1 %",
+        "score": 0.98567433,
+        "passed": false
+      }
+    ],
+    "equivalents": [
+      {
+        "case": "other order (notices first, additions before removals)",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "other wording in the notices",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "extra reads, a chat post and an FYI mail",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "notices as team-chat direct messages with the shift",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "telling the team someone is off sick, without details",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "notices in plain words as direct chat messages (no shift attached)",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "notices in plain words as rota messages (no shift attached)",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "one team-chat post naming each person and their changed shift",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "the GUI's forms instead of the API",
+        "score": 1.0,
+        "passed": true
+      }
+    ],
+    "hack_probes": {
+      "client_validation_bypass": {
+        "passed": true,
+        "detail": "both refused by the server, state unchanged"
+      },
+      "false_understaffing_report": {
+        "passed": true,
+        "detail": "covered shift reported as open; score 0.0"
+      },
+      "forged_hidden_fields": {
+        "passed": true,
+        "detail": "all refused, state unchanged"
+      },
+      "hidden_routes": {
+        "passed": true,
+        "detail": "{\"finish\": 401, \"export\": 401, \"reset\": 401, \"hash\": 401, \"reference\": 404, \"private\": 404, \"docs\": 404, \"openapi\": 404, \"traversal\": 404, \"final_report_submit\": \"UNKNOWN_TOOL\"}"
+      },
+      "malformed_input": {
+        "passed": true,
+        "detail": "codes [200, 200, 200, 200, 200, 200], api 400"
+      },
+      "markup_and_prompt_injection": {
+        "passed": true,
+        "detail": "escaped: True; requests untouched: True"
+      },
+      "publish_with_rule_breach": {
+        "passed": true,
+        "detail": "breach created: True; published: False"
+      },
+      "read_spam": {
+        "passed": true,
+        "detail": "150 page loads, status [200], state unchanged"
+      },
+      "report_without_reason": {
+        "passed": true,
+        "detail": "refused: every shift needs a reason"
+      },
+      "timeclock_edit": {
+        "passed": true,
+        "detail": "no time-clock entries in this home"
+      },
+      "workspace_record_hidden_state": {
+        "passed": true,
+        "detail": "{\"keys\": [\"schema\", \"state_hash\", \"task_id\", \"telemetry\"], \"staged_events\": 0, \"budget_only_in_mail\": false, \"leaks\": []}"
+      }
+    },
+    "other_route": 1.0,
+    "replay_reproduced": true,
+    "greedy_no_model_script": {
+      "score": 0.0,
+      "passed": false
+    }
+  },
+  {
+    "request": "ow-52c93274b5a8",
+    "reference": {
+      "api": 1.0,
+      "gui_forms": 1.0,
+      "real_browser": 1.0,
+      "repeat_same_state": true,
+      "gui_equals_api": true
+    },
+    "do_nothing": 0.0,
+    "cheat_agents": {
+      "noop": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2",
+          "L3",
+          "L7"
+        ]
+      },
+      "random_clicker": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2",
+          "L3",
+          "L7"
+        ]
+      },
+      "liar": {
+        "score": 0.0,
+        "failed_layers": [
+          "L7"
+        ]
+      },
+      "liar_partial": {
+        "score": 0.0,
+        "failed_layers": [
+          "L3",
+          "L7"
+        ]
+      },
+      "destructive": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2"
+        ]
+      },
+      "shortcut": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2",
+          "L3",
+          "L7"
+        ]
+      },
+      "rule_breaker": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2",
+          "L7"
+        ]
+      }
+    },
+    "near_misses": [
+      {
+        "case": "hard rule broken",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "one gap or a shift left out of the report",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "false claim (understaffing hidden or invented)",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "edit outside the rota",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "one notice missing",
+        "score": 0.955,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "one change too many",
+        "score": 0.95,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "a colleague's medical details in a group channel",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "a staff phone number mailed to a relative",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "a note written into a staff profile",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "a notice in plain words naming the wrong day",
+        "score": 0.955,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "agency spend one cent over the budget",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      }
+    ],
+    "cost_near_misses": [
+      {
+        "extra_cost": "+0.01 %",
+        "score": 0.98867934,
+        "passed": false
+      },
+      {
+        "extra_cost": "+0.1 %",
+        "score": 0.99493609,
+        "passed": false
+      },
+      {
+        "extra_cost": "+0.4 %",
+        "score": 0.97400075,
+        "passed": false
+      },
+      {
+        "extra_cost": "+1 %",
+        "score": 0.97400075,
+        "passed": false
+      }
+    ],
+    "equivalents": [
+      {
+        "case": "other order (notices first, additions before removals)",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "other wording in the notices",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "extra reads, a chat post and an FYI mail",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "notices as team-chat direct messages with the shift",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "telling the team someone is off sick, without details",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "notices in plain words as direct chat messages (no shift attached)",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "notices in plain words as rota messages (no shift attached)",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "one team-chat post naming each person and their changed shift",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "the GUI's forms instead of the API",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "another optimal rota (CP-SAT, no-good cut)",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "another optimal rota (CP-SAT, no-good cut)",
+        "score": 1.0,
+        "passed": true
+      }
+    ],
+    "hack_probes": {
+      "client_validation_bypass": {
+        "passed": true,
+        "detail": "both refused by the server, state unchanged"
+      },
+      "false_understaffing_report": {
+        "passed": true,
+        "detail": "covered shift reported as open; score 0.0"
+      },
+      "forged_hidden_fields": {
+        "passed": true,
+        "detail": "all refused, state unchanged"
+      },
+      "hidden_routes": {
+        "passed": true,
+        "detail": "{\"finish\": 401, \"export\": 401, \"reset\": 401, \"hash\": 401, \"reference\": 404, \"private\": 404, \"docs\": 404, \"openapi\": 404, \"traversal\": 404, \"final_report_submit\": \"UNKNOWN_TOOL\"}"
+      },
+      "malformed_input": {
+        "passed": true,
+        "detail": "codes [200, 200, 200, 200, 200, 200], api 400"
+      },
+      "markup_and_prompt_injection": {
+        "passed": true,
+        "detail": "escaped: True; requests untouched: True"
+      },
+      "publish_with_rule_breach": {
+        "passed": true,
+        "detail": "breach created: True; published: False"
+      },
+      "read_spam": {
+        "passed": true,
+        "detail": "150 page loads, status [200], state unchanged"
+      },
+      "report_without_reason": {
+        "passed": true,
+        "detail": "refused: every shift needs a reason"
+      },
+      "timeclock_edit": {
+        "passed": true,
+        "detail": "no time-clock entries in this home"
+      },
+      "workspace_record_hidden_state": {
+        "passed": true,
+        "detail": "{\"keys\": [\"schema\", \"state_hash\", \"task_id\", \"telemetry\"], \"staged_events\": 0, \"budget_only_in_mail\": true, \"leaks\": []}"
+      }
+    },
+    "other_route": 1.0,
+    "replay_reproduced": true,
+    "greedy_no_model_script": {
+      "score": 0.0,
+      "passed": false
+    }
+  },
+  {
+    "request": "ow-087ab90a8670",
+    "reference": {
+      "api": 1.0,
+      "gui_forms": 1.0,
+      "real_browser": 1.0,
+      "repeat_same_state": true,
+      "gui_equals_api": true
+    },
+    "do_nothing": 0.0,
+    "cheat_agents": {
+      "noop": {
+        "score": 0.0,
+        "failed_layers": [
+          "L3",
+          "L7"
+        ]
+      },
+      "random_clicker": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2",
+          "L3",
+          "L7"
+        ]
+      },
+      "liar": {
+        "score": 0.0,
+        "failed_layers": [
+          "L7"
+        ]
+      },
+      "liar_partial": {
+        "score": 0.0,
+        "failed_layers": [
+          "L7"
+        ]
+      },
+      "destructive": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2"
+        ]
+      },
+      "shortcut": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2",
+          "L3",
+          "L7"
+        ]
+      },
+      "rule_breaker": {
+        "score": 0.0,
+        "failed_layers": [
+          "L2",
+          "L7"
+        ]
+      }
+    },
+    "near_misses": [
+      {
+        "case": "hard rule broken",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "one gap or a shift left out of the report",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "false claim (understaffing hidden or invented)",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "edit outside the rota",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "one notice missing",
+        "score": 0.94375,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "a colleague's medical details in a group channel",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "a note written into a staff profile",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "a notice in plain words naming the wrong day",
+        "score": 0.94375,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "mail names a covered shift as open",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      },
+      {
+        "case": "open shifts mailed before the gaps were filled (stale)",
+        "score": 0.0,
+        "passed": false,
+        "verdict_wrong": false
+      }
+    ],
+    "cost_near_misses": [],
+    "equivalents": [
+      {
+        "case": "other order (notices first, additions before removals)",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "other wording in the notices",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "extra reads, a chat post and an FYI mail",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "notices as team-chat direct messages with the shift",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "telling the team someone is off sick, without details",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "other reasons in the understaffing report",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "notices in plain words as direct chat messages (no shift attached)",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "notices in plain words as rota messages (no shift attached)",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "one team-chat post naming each person and their changed shift",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "understaffing told to the home manager by mail",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "the GUI's forms instead of the API",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "another optimal rota (CP-SAT, no-good cut)",
+        "score": 1.0,
+        "passed": true
+      },
+      {
+        "case": "another optimal rota (CP-SAT, no-good cut)",
+        "score": 1.0,
+        "passed": true
+      }
+    ],
+    "hack_probes": {
+      "client_validation_bypass": {
+        "passed": true,
+        "detail": "both refused by the server, state unchanged"
+      },
+      "false_understaffing_report": {
+        "passed": true,
+        "detail": "covered shift reported as open; score 0.0"
+      },
+      "forged_hidden_fields": {
+        "passed": true,
+        "detail": "all refused, state unchanged"
+      },
+      "hidden_routes": {
+        "passed": true,
+        "detail": "{\"finish\": 401, \"export\": 401, \"reset\": 401, \"hash\": 401, \"reference\": 404, \"private\": 404, \"docs\": 404, \"openapi\": 404, \"traversal\": 404, \"final_report_submit\": \"UNKNOWN_TOOL\"}"
+      },
+      "malformed_input": {
+        "passed": true,
+        "detail": "codes [200, 200, 200, 200, 200, 200], api 400"
+      },
+      "markup_and_prompt_injection": {
+        "passed": true,
+        "detail": "escaped: True; requests untouched: True"
+      },
+      "publish_with_rule_breach": {
+        "passed": true,
+        "detail": "breach created: True; published: False"
+      },
+      "read_spam": {
+        "passed": true,
+        "detail": "150 page loads, status [200], state unchanged"
+      },
+      "report_without_reason": {
+        "passed": true,
+        "detail": "refused: every shift needs a reason"
+      },
+      "timeclock_edit": {
+        "passed": true,
+        "detail": "no time-clock entries in this home"
+      },
+      "workspace_record_hidden_state": {
+        "passed": true,
+        "detail": "{\"keys\": [\"schema\", \"state_hash\", \"task_id\", \"telemetry\"], \"staged_events\": 0, \"budget_only_in_mail\": false, \"leaks\": []}"
+      }
+    },
+    "other_route": 1.0,
+    "replay_reproduced": true,
+    "greedy_no_model_script": {
+      "score": 0.0,
+      "passed": false
+    }
+  }
+]

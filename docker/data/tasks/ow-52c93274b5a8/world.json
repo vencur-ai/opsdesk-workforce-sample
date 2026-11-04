@@ -1,0 +1,1838 @@
+{
+  "absences": [
+    {
+      "absence_id": "holiday-0001",
+      "absence_type": "holiday",
+      "employee_id": "staff-0017",
+      "end_date": "2026-01-13",
+      "start_date": "2026-01-11"
+    },
+    {
+      "absence_id": "holiday-0002",
+      "absence_type": "holiday",
+      "employee_id": "staff-0013",
+      "end_date": "2026-01-04",
+      "start_date": "2026-01-02"
+    },
+    {
+      "absence_id": "training-0002",
+      "absence_type": "other",
+      "employee_id": "staff-0002",
+      "end_date": "2026-01-02",
+      "start_date": "2026-01-02"
+    },
+    {
+      "absence_id": "training-0004",
+      "absence_type": "other",
+      "employee_id": "staff-0004",
+      "end_date": "2026-01-02",
+      "start_date": "2026-01-02"
+    },
+    {
+      "absence_id": "training-0005",
+      "absence_type": "other",
+      "employee_id": "staff-0005",
+      "end_date": "2026-01-02",
+      "start_date": "2026-01-02"
+    },
+    {
+      "absence_id": "training-0007",
+      "absence_type": "other",
+      "employee_id": "staff-0007",
+      "end_date": "2026-01-02",
+      "start_date": "2026-01-02"
+    }
+  ],
+  "action_log": [],
+  "agency_budget": "431.25",
+  "agency_offers": [
+    {
+      "agency_id": "agency-north",
+      "agency_name": "Northstar Care Staffing",
+      "available_from": "2026-01-02",
+      "available_until": "2026-01-15",
+      "hourly_rate": "46.0",
+      "lead_time_days": 0,
+      "max_staff": 1,
+      "offer_id": "agency-rn-001",
+      "qualification": "registered_nurse"
+    },
+    {
+      "agency_id": "agency-south",
+      "agency_name": "Brightwell Nursing Agency",
+      "available_from": "2026-01-02",
+      "available_until": "2026-01-15",
+      "hourly_rate": "48.5",
+      "lead_time_days": 1,
+      "max_staff": 1,
+      "offer_id": "agency-rn-002",
+      "qualification": "registered_nurse"
+    },
+    {
+      "agency_id": "agency-west",
+      "agency_name": "Harbourside Care Recruitment",
+      "available_from": "2026-01-02",
+      "available_until": "2026-01-15",
+      "hourly_rate": "43.0",
+      "lead_time_days": 1,
+      "max_staff": 1,
+      "offer_id": "agency-rn-003",
+      "qualification": "registered_nurse"
+    }
+  ],
+  "agency_requests": [],
+  "care_rest_exception_enabled": false,
+  "council_submissions": [],
+  "demand_slots": [
+    {
+      "date": "2026-01-02",
+      "min_headcount": 4,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 2
+      },
+      "shift_type": "early",
+      "slot_id": "slot-001-ward-01-early",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-02",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 1,
+        "registered_nurse": 2
+      },
+      "shift_type": "late",
+      "slot_id": "slot-001-ward-01-late",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-02",
+      "min_headcount": 1,
+      "min_qualifications": {
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-001-ward-01-night",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-03",
+      "min_headcount": 4,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 2
+      },
+      "shift_type": "early",
+      "slot_id": "slot-002-ward-01-early",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-03",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 1,
+        "registered_nurse": 2
+      },
+      "shift_type": "late",
+      "slot_id": "slot-002-ward-01-late",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-03",
+      "min_headcount": 1,
+      "min_qualifications": {
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-002-ward-01-night",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-04",
+      "min_headcount": 4,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 2
+      },
+      "shift_type": "early",
+      "slot_id": "slot-003-ward-01-early",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-04",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 1,
+        "registered_nurse": 2
+      },
+      "shift_type": "late",
+      "slot_id": "slot-003-ward-01-late",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-04",
+      "min_headcount": 1,
+      "min_qualifications": {
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-003-ward-01-night",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-05",
+      "min_headcount": 4,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 2
+      },
+      "shift_type": "early",
+      "slot_id": "slot-004-ward-01-early",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-05",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 1,
+        "registered_nurse": 2
+      },
+      "shift_type": "late",
+      "slot_id": "slot-004-ward-01-late",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-05",
+      "min_headcount": 1,
+      "min_qualifications": {
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-004-ward-01-night",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-06",
+      "min_headcount": 4,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 2
+      },
+      "shift_type": "early",
+      "slot_id": "slot-005-ward-01-early",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-06",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 1,
+        "registered_nurse": 2
+      },
+      "shift_type": "late",
+      "slot_id": "slot-005-ward-01-late",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-06",
+      "min_headcount": 1,
+      "min_qualifications": {
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-005-ward-01-night",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-07",
+      "min_headcount": 4,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 2
+      },
+      "shift_type": "early",
+      "slot_id": "slot-006-ward-01-early",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-07",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 1,
+        "registered_nurse": 2
+      },
+      "shift_type": "late",
+      "slot_id": "slot-006-ward-01-late",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-07",
+      "min_headcount": 1,
+      "min_qualifications": {
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-006-ward-01-night",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-08",
+      "min_headcount": 4,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 2
+      },
+      "shift_type": "early",
+      "slot_id": "slot-007-ward-01-early",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-08",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 1,
+        "registered_nurse": 2
+      },
+      "shift_type": "late",
+      "slot_id": "slot-007-ward-01-late",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-08",
+      "min_headcount": 1,
+      "min_qualifications": {
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-007-ward-01-night",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-09",
+      "min_headcount": 4,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 2
+      },
+      "shift_type": "early",
+      "slot_id": "slot-008-ward-01-early",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-09",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 1,
+        "registered_nurse": 2
+      },
+      "shift_type": "late",
+      "slot_id": "slot-008-ward-01-late",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-09",
+      "min_headcount": 1,
+      "min_qualifications": {
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-008-ward-01-night",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-10",
+      "min_headcount": 4,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 2
+      },
+      "shift_type": "early",
+      "slot_id": "slot-009-ward-01-early",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-10",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 1,
+        "registered_nurse": 2
+      },
+      "shift_type": "late",
+      "slot_id": "slot-009-ward-01-late",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-10",
+      "min_headcount": 1,
+      "min_qualifications": {
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-009-ward-01-night",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-11",
+      "min_headcount": 4,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 2
+      },
+      "shift_type": "early",
+      "slot_id": "slot-010-ward-01-early",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-11",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 1,
+        "registered_nurse": 2
+      },
+      "shift_type": "late",
+      "slot_id": "slot-010-ward-01-late",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-11",
+      "min_headcount": 1,
+      "min_qualifications": {
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-010-ward-01-night",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-12",
+      "min_headcount": 4,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 2
+      },
+      "shift_type": "early",
+      "slot_id": "slot-011-ward-01-early",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-12",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 1,
+        "registered_nurse": 2
+      },
+      "shift_type": "late",
+      "slot_id": "slot-011-ward-01-late",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-12",
+      "min_headcount": 1,
+      "min_qualifications": {
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-011-ward-01-night",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-13",
+      "min_headcount": 4,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 2
+      },
+      "shift_type": "early",
+      "slot_id": "slot-012-ward-01-early",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-13",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 1,
+        "registered_nurse": 2
+      },
+      "shift_type": "late",
+      "slot_id": "slot-012-ward-01-late",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-13",
+      "min_headcount": 1,
+      "min_qualifications": {
+        "care_assistant": 0,
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-012-ward-01-night",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-14",
+      "min_headcount": 4,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 2
+      },
+      "shift_type": "early",
+      "slot_id": "slot-013-ward-01-early",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-14",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 1,
+        "registered_nurse": 2
+      },
+      "shift_type": "late",
+      "slot_id": "slot-013-ward-01-late",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-14",
+      "min_headcount": 1,
+      "min_qualifications": {
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-013-ward-01-night",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-15",
+      "min_headcount": 4,
+      "min_qualifications": {
+        "care_assistant": 2,
+        "registered_nurse": 2
+      },
+      "shift_type": "early",
+      "slot_id": "slot-014-ward-01-early",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-15",
+      "min_headcount": 3,
+      "min_qualifications": {
+        "care_assistant": 1,
+        "registered_nurse": 2
+      },
+      "shift_type": "late",
+      "slot_id": "slot-014-ward-01-late",
+      "ward_id": "ward-01"
+    },
+    {
+      "date": "2026-01-15",
+      "min_headcount": 1,
+      "min_qualifications": {
+        "care_assistant": 0,
+        "registered_nurse": 1
+      },
+      "shift_type": "night",
+      "slot_id": "slot-014-ward-01-night",
+      "ward_id": "ward-01"
+    }
+  ],
+  "documents": [
+    {
+      "body": "## Staffing memo (filed copy)\n\nInterim arrangement during the ground-floor works: handovers take place in the first-floor meeting room. Uniforms can still be collected from the basement store.\n\nWhen the unit is full, up to 3 nights in a row are allowed.",
+      "document_id": "doc-expired-memo",
+      "effective_from": "2025-09-04",
+      "effective_until": "2025-12-03",
+      "source": "expired_memo",
+      "title": "Old staffing memo"
+    },
+    {
+      "body": "## Working time – what every rota must follow\n\n- Weekly hours: no more than 48 hours in any Monday–Sunday week, unless the person has signed the 48-hour opt-out.\n- Daily rest: at least 11 hours off between the end of one shift and the start of the next.\n- Weekly rest: 24 hours off in a row in every 7 days, or 48 hours in every 14 days.\n- Breaks: every shift over six hours has at least 20 minutes' break (already built into our shifts).\n- Night workers: no more than 8 hours' work on average per 24 hours.\n- Staff records are binding: nobody works on a fixed day off, outside a nights-only contract or during a recorded absence (sick calls included).\n- Each staff record shows the maximum number of nights per month for that person.\n- Nights in a row, the nurse minimum per shift, working days in a row, late-to-early and part-time margins: see the current house rules and the signed works agreement.\n- Staffing at night: a nursing home has at least one registered nurse on duty at all times, by night as by day.\n- A course or mandatory training day is working time: it counts as a working day of 7.5 hours for days in a row, the part-time limit and the weekly hours.\n\n## Shift times and breaks\n\n| Shift | Start | End | Break |\n|---|---:|---:|---:|\n| Early | 06:00 | 14:00 | 30 minutes |\n| Late | 14:00 | 22:00 | 30 minutes |\n| Night | 22:00 | 06:00 | 30 minutes |\n\n### Which rule applies?\nIf two written sources disagree, the order is: law, then the signed works agreement, then the current house rules, then memos. An expired memo does not apply. If two valid memos disagree, the newer one applies.",
+      "document_id": "doc-handbook",
+      "effective_from": "2025-10-31",
+      "effective_until": null,
+      "source": "staff_handbook",
+      "title": "Staff handbook (extract): working time"
+    },
+    {
+      "body": "## House rules for the rota\n\n- Minimum staffing per unit (house standard for a unit of 25 residents, care staff only): early 4, late 3, night 1; a dementia unit has 1 more by day (its team leader). Each unit's numbers follow its residents and are in the rota demand.\n- No more than 3 night shifts in a row.\n- At least 2 registered nurses on every early and late shift on every unit. At night one registered nurse is on duty for the whole home; she or he is rostered on Orchard Wing, and the other units' night cover may be a care assistant.\n- No more than 6 working days in a row.\n- No early shift the morning after a late shift.\n- Part-time staff may work at most 10% above their contract hours in a Monday–Sunday week.\n\nWhere the signed agreement or the law says otherwise, that applies (order of sources: see the staff handbook).",
+      "document_id": "doc-house-rules",
+      "effective_from": "2025-10-29",
+      "effective_until": null,
+      "source": "house_rules",
+      "title": "House rules for the rota (current copy)"
+    },
+    {
+      "body": "## Forwarded email\n\nFrom: Operations manager\nTo: Home manager\nSubject: Cover over the next few weeks\n\nHi all, staffing is tight across the region at the moment. Please keep the shifts covered as best you can.\n\n“For this month, 56 hours a week should be fine for everyone if there's no other way.”",
+      "document_id": "doc-manager-email",
+      "effective_from": "2025-12-23",
+      "effective_until": null,
+      "source": "manager_email",
+      "title": "Email from the operations manager (forwarded)"
+    },
+    {
+      "body": "## Unit notes\n\n- Orchard Wing (28 residents): use the qualifications shown in the rota demand; a team leader does not replace a registered nurse.\n\n### Handover reminders\n- If an entry is unclear, check the unit before you message the person.\n- Always use the date as shown on the rota in absence and swap messages.\n- If an entry is unclear, check the unit before you message the person.",
+      "document_id": "doc-ward-notes",
+      "effective_from": "2025-08-21",
+      "effective_until": null,
+      "source": "ward_notes",
+      "title": "Unit notes"
+    },
+    {
+      "body": "## Agreement with staff representatives on rota planning (signed)\n\nBetween the provider and the elected staff representatives. Where it sets a more specific limit than the house rules, the agreement applies; stricter legal rules still apply.\n\nNight shifts: no more than two nights in a row, also across a week boundary. Where the house rules say something else, this agreement applies.",
+      "document_id": "doc-works-agreement",
+      "effective_from": "2025-02-05",
+      "effective_until": null,
+      "source": "works_agreement",
+      "title": "Staff representatives agreement (rota planning)"
+    }
+  ],
+  "employees": [
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0001",
+      "fixed_days_off": [],
+      "hourly_rate": "21.1",
+      "is_night_worker": false,
+      "max_nights_per_month": 8,
+      "name": "Sophie Wright",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 16.0
+      },
+      "employee_id": "staff-0002",
+      "fixed_days_off": [],
+      "hourly_rate": "19.8",
+      "is_night_worker": true,
+      "max_nights_per_month": 10,
+      "name": "Olivia Thompson",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0003",
+      "fixed_days_off": [],
+      "hourly_rate": "21.1",
+      "is_night_worker": true,
+      "max_nights_per_month": 10,
+      "name": "Mark Hughes",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0004",
+      "fixed_days_off": [],
+      "hourly_rate": "24.4",
+      "is_night_worker": true,
+      "max_nights_per_month": 10,
+      "name": "Amelia Bennett",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0005",
+      "fixed_days_off": [],
+      "hourly_rate": "22.6",
+      "is_night_worker": true,
+      "max_nights_per_month": 12,
+      "name": "James Mensah",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0006",
+      "fixed_days_off": [],
+      "hourly_rate": "21.1",
+      "is_night_worker": false,
+      "max_nights_per_month": 12,
+      "name": "Isla Thompson",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 16.0
+      },
+      "employee_id": "staff-0007",
+      "fixed_days_off": [],
+      "hourly_rate": "24.4",
+      "is_night_worker": true,
+      "max_nights_per_month": 14,
+      "name": "Harry Clarke",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0008",
+      "fixed_days_off": [],
+      "hourly_rate": "24.4",
+      "is_night_worker": false,
+      "max_nights_per_month": 14,
+      "name": "Gareth Shaw",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "registered_nurse"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 28.0
+      },
+      "employee_id": "staff-0009",
+      "fixed_days_off": [],
+      "hourly_rate": "15.9",
+      "is_night_worker": false,
+      "max_nights_per_month": 10,
+      "name": "Chloe Jones",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "team_lead"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0010",
+      "fixed_days_off": [],
+      "hourly_rate": "16.8",
+      "is_night_worker": true,
+      "max_nights_per_month": 8,
+      "name": "Kwame Wilson",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant",
+        "team_lead"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0011",
+      "fixed_days_off": [],
+      "hourly_rate": "13.4",
+      "is_night_worker": false,
+      "max_nights_per_month": 8,
+      "name": "Ella Begum",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "part_time",
+        "hours_per_week": 28.0
+      },
+      "employee_id": "staff-0012",
+      "fixed_days_off": [],
+      "hourly_rate": "13.95",
+      "is_night_worker": false,
+      "max_nights_per_month": 14,
+      "name": "Megan Moore",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0013",
+      "fixed_days_off": [],
+      "hourly_rate": "13.4",
+      "is_night_worker": true,
+      "max_nights_per_month": 10,
+      "name": "Sophia Evans",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0014",
+      "fixed_days_off": [],
+      "hourly_rate": "13.4",
+      "is_night_worker": false,
+      "max_nights_per_month": 10,
+      "name": "Rhys Brown",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 40.0
+      },
+      "employee_id": "staff-0015",
+      "fixed_days_off": [],
+      "hourly_rate": "14.6",
+      "is_night_worker": true,
+      "max_nights_per_month": 14,
+      "name": "Sophie Johnson",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 35.0
+      },
+      "employee_id": "staff-0016",
+      "fixed_days_off": [],
+      "hourly_rate": "13.4",
+      "is_night_worker": false,
+      "max_nights_per_month": 12,
+      "name": "Maricel Clark",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    },
+    {
+      "contract": {
+        "employment_type": "full_time",
+        "hours_per_week": 37.5
+      },
+      "employee_id": "staff-0017",
+      "fixed_days_off": [],
+      "hourly_rate": "14.6",
+      "is_night_worker": false,
+      "max_nights_per_month": 10,
+      "name": "Oliver Jones",
+      "night_only": false,
+      "qualifications": [
+        "care_assistant"
+      ],
+      "weekly_hours_opt_out": false
+    }
+  ],
+  "events": [
+    {
+      "event_id": "event-0001",
+      "event_type": "sick_call",
+      "occurs_on": "2026-01-06",
+      "payload": {
+        "employee_id": "staff-0015",
+        "end_date": "2026-01-06"
+      },
+      "processed": false
+    },
+    {
+      "event_id": "event-0002",
+      "event_type": "demand_spike",
+      "occurs_on": "2026-01-15",
+      "payload": {
+        "delta": 1,
+        "slot_id": "slot-014-ward-01-night"
+      },
+      "processed": false
+    },
+    {
+      "event_id": "event-0003",
+      "event_type": "sick_call",
+      "occurs_on": "2026-01-07",
+      "payload": {
+        "employee_id": "staff-0010",
+        "end_date": "2026-01-07"
+      },
+      "processed": false
+    },
+    {
+      "event_id": "event-0004",
+      "event_type": "demand_spike",
+      "occurs_on": "2026-01-13",
+      "payload": {
+        "delta": 1,
+        "slot_id": "slot-012-ward-01-night"
+      },
+      "processed": false
+    }
+  ],
+  "home_id": "home-1bedd06f",
+  "home_name": "Cedarwood Court",
+  "horizon_days": 14,
+  "jurisdiction": "uk",
+  "messages": [],
+  "payroll_exports": [],
+  "roster": {
+    "assignments": [
+      {
+        "assignment_id": "initial-000001",
+        "break_minutes": null,
+        "date": "2026-01-02",
+        "employee_id": "staff-0011",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000002",
+        "break_minutes": null,
+        "date": "2026-01-02",
+        "employee_id": "staff-0014",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000003",
+        "break_minutes": null,
+        "date": "2026-01-02",
+        "employee_id": "staff-0003",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000004",
+        "break_minutes": null,
+        "date": "2026-01-02",
+        "employee_id": "staff-0006",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000005",
+        "break_minutes": null,
+        "date": "2026-01-02",
+        "employee_id": "staff-0016",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000006",
+        "break_minutes": null,
+        "date": "2026-01-02",
+        "employee_id": "staff-0001",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000007",
+        "break_minutes": null,
+        "date": "2026-01-02",
+        "employee_id": "staff-0008",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000008",
+        "break_minutes": null,
+        "date": "2026-01-03",
+        "employee_id": "staff-0011",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000009",
+        "break_minutes": null,
+        "date": "2026-01-03",
+        "employee_id": "staff-0014",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000010",
+        "break_minutes": null,
+        "date": "2026-01-03",
+        "employee_id": "staff-0002",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000011",
+        "break_minutes": null,
+        "date": "2026-01-03",
+        "employee_id": "staff-0006",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000012",
+        "break_minutes": null,
+        "date": "2026-01-03",
+        "employee_id": "staff-0016",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000013",
+        "break_minutes": null,
+        "date": "2026-01-03",
+        "employee_id": "staff-0001",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000014",
+        "break_minutes": null,
+        "date": "2026-01-03",
+        "employee_id": "staff-0003",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000015",
+        "break_minutes": null,
+        "date": "2026-01-03",
+        "employee_id": "staff-0005",
+        "shift_type": "night",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000016",
+        "break_minutes": null,
+        "date": "2026-01-04",
+        "employee_id": "staff-0011",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000017",
+        "break_minutes": null,
+        "date": "2026-01-04",
+        "employee_id": "staff-0014",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000018",
+        "break_minutes": null,
+        "date": "2026-01-04",
+        "employee_id": "staff-0002",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000019",
+        "break_minutes": null,
+        "date": "2026-01-04",
+        "employee_id": "staff-0006",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000020",
+        "break_minutes": null,
+        "date": "2026-01-04",
+        "employee_id": "staff-0016",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000021",
+        "break_minutes": null,
+        "date": "2026-01-04",
+        "employee_id": "staff-0001",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000022",
+        "break_minutes": null,
+        "date": "2026-01-04",
+        "employee_id": "staff-0003",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000023",
+        "break_minutes": null,
+        "date": "2026-01-04",
+        "employee_id": "staff-0005",
+        "shift_type": "night",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000024",
+        "break_minutes": null,
+        "date": "2026-01-05",
+        "employee_id": "staff-0013",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000025",
+        "break_minutes": null,
+        "date": "2026-01-05",
+        "employee_id": "staff-0012",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000026",
+        "break_minutes": null,
+        "date": "2026-01-05",
+        "employee_id": "staff-0004",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000027",
+        "break_minutes": null,
+        "date": "2026-01-05",
+        "employee_id": "staff-0007",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000028",
+        "break_minutes": null,
+        "date": "2026-01-05",
+        "employee_id": "staff-0015",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000029",
+        "break_minutes": null,
+        "date": "2026-01-05",
+        "employee_id": "staff-0008",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000030",
+        "break_minutes": null,
+        "date": "2026-01-05",
+        "employee_id": "staff-0002",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000031",
+        "break_minutes": null,
+        "date": "2026-01-05",
+        "employee_id": "staff-0006",
+        "shift_type": "night",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000032",
+        "break_minutes": null,
+        "date": "2026-01-06",
+        "employee_id": "staff-0013",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000033",
+        "break_minutes": null,
+        "date": "2026-01-06",
+        "employee_id": "staff-0012",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000034",
+        "break_minutes": null,
+        "date": "2026-01-06",
+        "employee_id": "staff-0005",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000035",
+        "break_minutes": null,
+        "date": "2026-01-06",
+        "employee_id": "staff-0004",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000036",
+        "break_minutes": null,
+        "date": "2026-01-06",
+        "employee_id": "staff-0017",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000037",
+        "break_minutes": null,
+        "date": "2026-01-06",
+        "employee_id": "staff-0007",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000038",
+        "break_minutes": null,
+        "date": "2026-01-06",
+        "employee_id": "staff-0008",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000039",
+        "break_minutes": null,
+        "date": "2026-01-06",
+        "employee_id": "staff-0003",
+        "shift_type": "night",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000040",
+        "break_minutes": null,
+        "date": "2026-01-07",
+        "employee_id": "staff-0013",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000041",
+        "break_minutes": null,
+        "date": "2026-01-07",
+        "employee_id": "staff-0015",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000042",
+        "break_minutes": null,
+        "date": "2026-01-07",
+        "employee_id": "staff-0004",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000043",
+        "break_minutes": null,
+        "date": "2026-01-07",
+        "employee_id": "staff-0001",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000044",
+        "break_minutes": null,
+        "date": "2026-01-07",
+        "employee_id": "staff-0017",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000045",
+        "break_minutes": null,
+        "date": "2026-01-07",
+        "employee_id": "staff-0006",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000046",
+        "break_minutes": null,
+        "date": "2026-01-07",
+        "employee_id": "staff-0005",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000047",
+        "break_minutes": null,
+        "date": "2026-01-07",
+        "employee_id": "staff-0003",
+        "shift_type": "night",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000048",
+        "break_minutes": null,
+        "date": "2026-01-08",
+        "employee_id": "staff-0015",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000049",
+        "break_minutes": null,
+        "date": "2026-01-08",
+        "employee_id": "staff-0009",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000050",
+        "break_minutes": null,
+        "date": "2026-01-08",
+        "employee_id": "staff-0001",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000051",
+        "break_minutes": null,
+        "date": "2026-01-08",
+        "employee_id": "staff-0008",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000052",
+        "break_minutes": null,
+        "date": "2026-01-08",
+        "employee_id": "staff-0017",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000053",
+        "break_minutes": null,
+        "date": "2026-01-08",
+        "employee_id": "staff-0005",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000054",
+        "break_minutes": null,
+        "date": "2026-01-08",
+        "employee_id": "staff-0004",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000055",
+        "break_minutes": null,
+        "date": "2026-01-08",
+        "employee_id": "staff-0002",
+        "shift_type": "night",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000056",
+        "break_minutes": null,
+        "date": "2026-01-09",
+        "employee_id": "staff-0009",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000057",
+        "break_minutes": null,
+        "date": "2026-01-09",
+        "employee_id": "staff-0010",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000058",
+        "break_minutes": null,
+        "date": "2026-01-09",
+        "employee_id": "staff-0003",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000059",
+        "break_minutes": null,
+        "date": "2026-01-09",
+        "employee_id": "staff-0008",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000060",
+        "break_minutes": null,
+        "date": "2026-01-09",
+        "employee_id": "staff-0013",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000061",
+        "break_minutes": null,
+        "date": "2026-01-09",
+        "employee_id": "staff-0005",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000062",
+        "break_minutes": null,
+        "date": "2026-01-09",
+        "employee_id": "staff-0004",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000063",
+        "break_minutes": null,
+        "date": "2026-01-09",
+        "employee_id": "staff-0001",
+        "shift_type": "night",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000064",
+        "break_minutes": null,
+        "date": "2026-01-10",
+        "employee_id": "staff-0010",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000065",
+        "break_minutes": null,
+        "date": "2026-01-10",
+        "employee_id": "staff-0016",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000066",
+        "break_minutes": null,
+        "date": "2026-01-10",
+        "employee_id": "staff-0003",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000067",
+        "break_minutes": null,
+        "date": "2026-01-10",
+        "employee_id": "staff-0006",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000068",
+        "break_minutes": null,
+        "date": "2026-01-10",
+        "employee_id": "staff-0013",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000069",
+        "break_minutes": null,
+        "date": "2026-01-10",
+        "employee_id": "staff-0005",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000070",
+        "break_minutes": null,
+        "date": "2026-01-10",
+        "employee_id": "staff-0004",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000071",
+        "break_minutes": null,
+        "date": "2026-01-10",
+        "employee_id": "staff-0001",
+        "shift_type": "night",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000072",
+        "break_minutes": null,
+        "date": "2026-01-11",
+        "employee_id": "staff-0010",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000073",
+        "break_minutes": null,
+        "date": "2026-01-11",
+        "employee_id": "staff-0011",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000074",
+        "break_minutes": null,
+        "date": "2026-01-11",
+        "employee_id": "staff-0003",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000075",
+        "break_minutes": null,
+        "date": "2026-01-11",
+        "employee_id": "staff-0006",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000076",
+        "break_minutes": null,
+        "date": "2026-01-11",
+        "employee_id": "staff-0014",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000077",
+        "break_minutes": null,
+        "date": "2026-01-11",
+        "employee_id": "staff-0005",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000078",
+        "break_minutes": null,
+        "date": "2026-01-11",
+        "employee_id": "staff-0008",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000079",
+        "break_minutes": null,
+        "date": "2026-01-12",
+        "employee_id": "staff-0016",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000080",
+        "break_minutes": null,
+        "date": "2026-01-12",
+        "employee_id": "staff-0011",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000081",
+        "break_minutes": null,
+        "date": "2026-01-12",
+        "employee_id": "staff-0007",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000082",
+        "break_minutes": null,
+        "date": "2026-01-12",
+        "employee_id": "staff-0006",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000083",
+        "break_minutes": null,
+        "date": "2026-01-12",
+        "employee_id": "staff-0014",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000084",
+        "break_minutes": null,
+        "date": "2026-01-12",
+        "employee_id": "staff-0004",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000085",
+        "break_minutes": null,
+        "date": "2026-01-12",
+        "employee_id": "staff-0008",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000086",
+        "break_minutes": null,
+        "date": "2026-01-12",
+        "employee_id": "staff-0002",
+        "shift_type": "night",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000087",
+        "break_minutes": null,
+        "date": "2026-01-13",
+        "employee_id": "staff-0011",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000088",
+        "break_minutes": null,
+        "date": "2026-01-13",
+        "employee_id": "staff-0012",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000089",
+        "break_minutes": null,
+        "date": "2026-01-13",
+        "employee_id": "staff-0007",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000090",
+        "break_minutes": null,
+        "date": "2026-01-13",
+        "employee_id": "staff-0001",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000091",
+        "break_minutes": null,
+        "date": "2026-01-13",
+        "employee_id": "staff-0015",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000092",
+        "break_minutes": null,
+        "date": "2026-01-13",
+        "employee_id": "staff-0004",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000093",
+        "break_minutes": null,
+        "date": "2026-01-13",
+        "employee_id": "staff-0008",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000094",
+        "break_minutes": null,
+        "date": "2026-01-13",
+        "employee_id": "staff-0003",
+        "shift_type": "night",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000095",
+        "break_minutes": null,
+        "date": "2026-01-14",
+        "employee_id": "staff-0012",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000096",
+        "break_minutes": null,
+        "date": "2026-01-14",
+        "employee_id": "staff-0017",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000097",
+        "break_minutes": null,
+        "date": "2026-01-14",
+        "employee_id": "staff-0006",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000098",
+        "break_minutes": null,
+        "date": "2026-01-14",
+        "employee_id": "staff-0001",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000099",
+        "break_minutes": null,
+        "date": "2026-01-14",
+        "employee_id": "staff-0015",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000100",
+        "break_minutes": null,
+        "date": "2026-01-14",
+        "employee_id": "staff-0005",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000101",
+        "break_minutes": null,
+        "date": "2026-01-14",
+        "employee_id": "staff-0008",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000102",
+        "break_minutes": null,
+        "date": "2026-01-14",
+        "employee_id": "staff-0003",
+        "shift_type": "night",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000103",
+        "break_minutes": null,
+        "date": "2026-01-15",
+        "employee_id": "staff-0017",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000104",
+        "break_minutes": null,
+        "date": "2026-01-15",
+        "employee_id": "staff-0009",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000105",
+        "break_minutes": null,
+        "date": "2026-01-15",
+        "employee_id": "staff-0006",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000106",
+        "break_minutes": null,
+        "date": "2026-01-15",
+        "employee_id": "staff-0001",
+        "shift_type": "early",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000107",
+        "break_minutes": null,
+        "date": "2026-01-15",
+        "employee_id": "staff-0015",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000108",
+        "break_minutes": null,
+        "date": "2026-01-15",
+        "employee_id": "staff-0005",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000109",
+        "break_minutes": null,
+        "date": "2026-01-15",
+        "employee_id": "staff-0004",
+        "shift_type": "late",
+        "ward_id": "ward-01"
+      },
+      {
+        "assignment_id": "initial-000110",
+        "break_minutes": null,
+        "date": "2026-01-15",
+        "employee_id": "staff-0008",
+        "shift_type": "night",
+        "ward_id": "ward-01"
+      }
+    ],
+    "published": false
+  },
+  "seed": 46000003,
+  "sim_clock": {
+    "day_index": 0,
+    "horizon_days": 14,
+    "start_date": "2026-01-02"
+  },
+  "start_date": "2026-01-02",
+  "timeclock_entries": [],
+  "wards": [
+    {
+      "name": "Orchard Wing",
+      "residents": 28,
+      "ward_id": "ward-01"
+    }
+  ],
+  "works_council_required": false
+}

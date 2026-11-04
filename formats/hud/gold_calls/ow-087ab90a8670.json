@@ -1,0 +1,199 @@
+[
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0009",
+   "date": "2026-02-08",
+   "ward_id": "ward-01",
+   "shift_type": "late"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0010",
+   "date": "2026-02-08",
+   "ward_id": "ward-01",
+   "shift_type": "late"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0011",
+   "date": "2026-02-10",
+   "ward_id": "ward-01",
+   "shift_type": "night"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0012",
+   "date": "2026-02-08",
+   "ward_id": "ward-01",
+   "shift_type": "early"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0013",
+   "date": "2026-02-09",
+   "ward_id": "ward-01",
+   "shift_type": "early"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0015",
+   "date": "2026-02-08",
+   "ward_id": "ward-01",
+   "shift_type": "early"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0015",
+   "date": "2026-02-17",
+   "ward_id": "ward-01",
+   "shift_type": "late"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0016",
+   "date": "2026-02-08",
+   "ward_id": "ward-01",
+   "shift_type": "night"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0017",
+   "date": "2026-02-15",
+   "ward_id": "ward-01",
+   "shift_type": "early"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0009",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-02-08",
+   "shift_type": "late",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0010",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-02-08",
+   "shift_type": "late",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0011",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-02-10",
+   "shift_type": "night",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0012",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-02-08",
+   "shift_type": "early",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0013",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-02-09",
+   "shift_type": "early",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0015",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-02-08",
+   "shift_type": "early",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0016",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-02-08",
+   "shift_type": "night",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0017",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-02-15",
+   "shift_type": "early",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "reports.understaffing",
+  "args": {
+   "shifts": [
+    {
+     "date": "2026-02-08",
+     "ward_id": "ward-01",
+     "shift_type": "early",
+     "missing": "registered_nurse",
+     "reason": "Keine qualifizierte Person mehr verfügbar, ohne Ruhezeit oder Hausordnung zu verletzen."
+    },
+    {
+     "date": "2026-02-08",
+     "ward_id": "ward-01",
+     "shift_type": "late",
+     "missing": "registered_nurse",
+     "reason": "Keine qualifizierte Person mehr verfügbar, ohne Ruhezeit oder Hausordnung zu verletzen."
+    },
+    {
+     "date": "2026-02-08",
+     "ward_id": "ward-01",
+     "shift_type": "night",
+     "missing": "registered_nurse",
+     "reason": "Keine qualifizierte Person mehr verfügbar, ohne Ruhezeit oder Hausordnung zu verletzen."
+    }
+   ]
+  }
+ }
+]

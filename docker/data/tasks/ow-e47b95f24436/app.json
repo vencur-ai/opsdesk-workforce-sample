@@ -1,0 +1,1130 @@
+{
+  "absence_meta": [
+    {
+      "absence_id": "absence-event-0001",
+      "channel": "phone",
+      "entered_by": "Swetlana Hartmann",
+      "entered_on": "2026-10-20",
+      "note": "Krankmeldung telefonisch"
+    },
+    {
+      "absence_id": "absence-event-0002",
+      "channel": "phone",
+      "entered_by": "Swetlana Hartmann",
+      "entered_on": "2026-10-20",
+      "note": "Krankmeldung telefonisch"
+    },
+    {
+      "absence_id": "holiday-0001",
+      "channel": "planned",
+      "entered_by": "Lukas Schneider",
+      "entered_on": "2026-09-07",
+      "note": ""
+    },
+    {
+      "absence_id": "holiday-0002",
+      "channel": "planned",
+      "entered_by": "Lukas Schneider",
+      "entered_on": "2026-10-01",
+      "note": ""
+    }
+  ],
+  "budget_in_mail": false,
+  "calendar": [
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0009"
+      ],
+      "created_by": "Lukas Schneider",
+      "end": "2026-10-23 23:59",
+      "event_id": "event-0001",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-10-21 00:00",
+      "title": "Urlaub: Anna Keller"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Lukas Schneider",
+      "end": "2026-10-22 12:30",
+      "event_id": "event-0002",
+      "kind": "meeting",
+      "location": "alle Wohnbereiche",
+      "notes": "",
+      "start": "2026-10-22 11:00",
+      "title": "Hausarztvisite"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Lukas Schneider",
+      "end": "2026-10-23 10:30",
+      "event_id": "event-0003",
+      "kind": "other",
+      "location": "Seniorenresidenz Am Schlosspark",
+      "notes": "",
+      "start": "2026-10-23 10:00",
+      "title": "Probealarm Brandmeldeanlage"
+    },
+    {
+      "all_day": false,
+      "attendees": [
+        "staff-0009"
+      ],
+      "created_by": "Anna Keller",
+      "end": "2026-10-24 15:30",
+      "event_id": "event-0004",
+      "kind": "council",
+      "location": "Besprechungsraum",
+      "notes": "Dienstpläne, Überstunden, Fortbildungen.",
+      "start": "2026-10-24 14:00",
+      "title": "Betriebsratssitzung"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Lukas Schneider",
+      "end": "2026-10-25 14:15",
+      "event_id": "event-0005",
+      "kind": "meeting",
+      "location": "Pausenraum",
+      "notes": "",
+      "start": "2026-10-25 13:30",
+      "title": "Teambesprechung Wohnbereich Lindenhof"
+    },
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0003"
+      ],
+      "created_by": "Lukas Schneider",
+      "end": "2026-10-26 23:59",
+      "event_id": "event-0006",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-10-26 00:00",
+      "title": "Urlaub: Anna Frank"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Lukas Schneider",
+      "end": "2026-11-17 15:00",
+      "event_id": "event-0007",
+      "kind": "inspection",
+      "location": "Seniorenresidenz Am Schlosspark",
+      "notes": "Pflegedokumentation und Dienstpläne der letzten drei Monate.",
+      "start": "2026-11-17 09:00",
+      "title": "Begehung Heimaufsicht (angekündigt)"
+    }
+  ],
+  "chat_channels": [
+    {
+      "channel_id": "chat-all",
+      "kind": "group",
+      "members": [
+        "me",
+        "manager",
+        "staff-0001",
+        "staff-0002",
+        "staff-0003",
+        "staff-0004",
+        "staff-0005",
+        "staff-0006",
+        "staff-0007",
+        "staff-0008",
+        "staff-0009",
+        "staff-0010",
+        "staff-0011",
+        "staff-0012",
+        "staff-0013",
+        "staff-0014",
+        "staff-0015",
+        "staff-0016",
+        "staff-0017",
+        "staff-0018",
+        "staff-0019"
+      ],
+      "name": "Alle Mitarbeitenden",
+      "topic": "Infos für das ganze Haus"
+    },
+    {
+      "channel_id": "chat-ward-01",
+      "kind": "group",
+      "members": [
+        "me",
+        "staff-0001",
+        "staff-0002",
+        "staff-0003",
+        "staff-0004",
+        "staff-0005",
+        "staff-0006",
+        "staff-0007",
+        "staff-0008",
+        "staff-0009",
+        "staff-0010",
+        "staff-0011",
+        "staff-0013",
+        "staff-0014",
+        "staff-0015",
+        "staff-0016",
+        "staff-0017",
+        "staff-0018",
+        "staff-0019"
+      ],
+      "name": "Team Wohnbereich Lindenhof",
+      "topic": "Übergaben und Dienstfragen"
+    },
+    {
+      "channel_id": "chat-nights",
+      "kind": "group",
+      "members": [
+        "me",
+        "staff-0002",
+        "staff-0006",
+        "staff-0008",
+        "staff-0010",
+        "staff-0011",
+        "staff-0012",
+        "staff-0013",
+        "staff-0016",
+        "staff-0017"
+      ],
+      "name": "Nachtdienst",
+      "topic": "Nachtteam"
+    },
+    {
+      "channel_id": "dm-staff-0019",
+      "kind": "direct",
+      "members": [
+        "me",
+        "staff-0019"
+      ],
+      "name": "Andreas Weber",
+      "topic": ""
+    },
+    {
+      "channel_id": "dm-staff-0001",
+      "kind": "direct",
+      "members": [
+        "me",
+        "staff-0001"
+      ],
+      "name": "Birgit Köhler",
+      "topic": ""
+    }
+  ],
+  "chat_messages": [
+    {
+      "ask": false,
+      "channel_id": "chat-ward-01",
+      "chat_id": "chat-0001",
+      "reply_to": null,
+      "sender_id": "staff-0004",
+      "sent_at": "2026-10-11 21:10",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Neue Handschuhe Größe M sind im Schrank am Aufzug.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "dm-staff-0001",
+      "chat_id": "chat-0002",
+      "reply_to": null,
+      "sender_id": "staff-0001",
+      "sent_at": "2026-10-12 11:10",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Hallo Michael, könnte ich nächsten Monat am 14. frei haben? Das Wochenende davor arbeite ich gern.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "dm-staff-0001",
+      "chat_id": "chat-0003",
+      "reply_to": null,
+      "sender_id": "me",
+      "sent_at": "2026-10-12 20:10",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Danke – ich schaue nach und melde mich.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "dm-staff-0019",
+      "chat_id": "chat-0004",
+      "reply_to": null,
+      "sender_id": "staff-0019",
+      "sent_at": "2026-10-13 15:21",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Guten Morgen! Ich wollte nur sichergehen, dass ich Samstag Früh habe – auf dem Ausdruck im Büro steht Spät.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0005",
+      "reply_to": null,
+      "sender_id": "staff-0003",
+      "sent_at": "2026-10-13 19:13",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Erinnerung: neue Liftertücher liegen im Lager, die alten bitte in die Wäsche.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "dm-staff-0019",
+      "chat_id": "chat-0006",
+      "reply_to": null,
+      "sender_id": "me",
+      "sent_at": "2026-10-13 20:15",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Danke – ich schaue nach und melde mich.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-ward-01",
+      "chat_id": "chat-0007",
+      "reply_to": null,
+      "sender_id": "staff-0004",
+      "sent_at": "2026-10-14 08:22",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Die Hausarztvisite ist diese Woche auf Donnerstag 11 Uhr verschoben.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-nights",
+      "chat_id": "chat-0008",
+      "reply_to": null,
+      "sender_id": "staff-0002",
+      "sent_at": "2026-10-14 19:09",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Bitte jede Schicht die Kühlschranktemperatur eintragen.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-nights",
+      "chat_id": "chat-0009",
+      "reply_to": null,
+      "sender_id": "staff-0007",
+      "sent_at": "2026-10-14 19:28",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Wer hat den Schlüssel fürs Medikamentenzimmer? Er ist nicht im Kasten.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0010",
+      "reply_to": null,
+      "sender_id": "staff-0017",
+      "sent_at": "2026-10-15 07:14",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Kuchen im Pausenraum – bedient euch.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-nights",
+      "chat_id": "chat-0011",
+      "reply_to": null,
+      "sender_id": "staff-0008",
+      "sent_at": "2026-10-17 07:56",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Danke fürs Bleiben gestern Nacht!",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-ward-01",
+      "chat_id": "chat-0012",
+      "reply_to": null,
+      "sender_id": "staff-0017",
+      "sent_at": "2026-10-17 19:38",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Der Aufzug im ersten Stock geht wieder.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-ward-01",
+      "chat_id": "chat-0013",
+      "reply_to": null,
+      "sender_id": "staff-0013",
+      "sent_at": "2026-10-20 06:52",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Hab ihn – lag in der Übergabemappe.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0014",
+      "reply_to": null,
+      "sender_id": "staff-0001",
+      "sent_at": "2026-10-20 07:44",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Kann der Spätdienst morgen die Speisekarten in die Küche bringen?",
+      "ward_id": null
+    }
+  ],
+  "contacts": [
+    {
+      "address": "lukas.schneider@seniorenresidenz-am-schlosspark-steinach-am-wald.de",
+      "contact_id": "contact-manager",
+      "name": "Lukas Schneider",
+      "organisation": "Seniorenresidenz Am Schlosspark",
+      "role": "Pflegedienstleitung"
+    },
+    {
+      "address": "florian.nowak@steinach-am-wald-pflegeverbund.de",
+      "contact_id": "contact-ops",
+      "name": "Florian Nowak",
+      "organisation": "Regionalbüro",
+      "role": "Regionalleitung"
+    },
+    {
+      "address": "paul.lange@kessler-lohnbuero-steinach-am-wald.de",
+      "contact_id": "contact-payroll",
+      "name": "Paul Lange",
+      "organisation": "Lohnbüro Kessler & Partner",
+      "role": "Lohnabrechnung"
+    },
+    {
+      "address": "uwe.frank@bildungswerk-pflegesued-steinach-am-wald.de",
+      "contact_id": "contact-training",
+      "name": "Uwe Frank",
+      "organisation": "Bildungswerk Pflege Süd",
+      "role": "Fortbildungsträger"
+    },
+    {
+      "address": "einsatz@pflegepool-nord-steinach-am-wald.de",
+      "contact_id": "contact-agency-1",
+      "name": "Monika Hartmann",
+      "organisation": "Pflegepool Nord GmbH",
+      "role": "Disposition"
+    },
+    {
+      "address": "einsatz@personaldienst-altenhilfe-sued-steinach-am-wald.de",
+      "contact_id": "contact-agency-2",
+      "name": "Paul Roth",
+      "organisation": "Personaldienst Altenhilfe Süd",
+      "role": "Disposition"
+    },
+    {
+      "address": "einsatz@curaflex-zeitarbeit-steinach-am-wald.de",
+      "contact_id": "contact-agency-3",
+      "name": "Andreas Yılmaz",
+      "organisation": "CuraFlex Zeitarbeit",
+      "role": "Disposition"
+    },
+    {
+      "address": "anna.keller@seniorenresidenz-am-schlosspark-steinach-am-wald.de",
+      "contact_id": "contact-rep",
+      "name": "Anna Keller",
+      "organisation": "Betriebsrat",
+      "role": "Vorsitz Betriebsrat"
+    },
+    {
+      "address": "anne.weber@steinach-am-wald-post.de",
+      "contact_id": "contact-family-1",
+      "name": "Anne Weber",
+      "organisation": "Angehörige/r",
+      "role": "Angehörige/r von Frau Yıldız"
+    },
+    {
+      "address": "marek.lange@steinach-am-wald-post.de",
+      "contact_id": "contact-family-2",
+      "name": "Marek Lange",
+      "organisation": "Angehörige/r",
+      "role": "Angehörige/r von Herrn Wenger"
+    },
+    {
+      "address": "fatma.frank@steinach-am-wald-post.de",
+      "contact_id": "contact-family-3",
+      "name": "Fatma Frank",
+      "organisation": "Angehörige/r",
+      "role": "Angehörige/r von Frau Brandl"
+    }
+  ],
+  "history": [
+    {
+      "action": "Abwesenheit erfasst",
+      "after": "Urlaub 21.10.2026–23.10.2026",
+      "at": "2026-09-07 09:23",
+      "before": "",
+      "object": "Anna Keller",
+      "user": "Lukas Schneider"
+    },
+    {
+      "action": "Dienstplan veröffentlicht",
+      "after": "",
+      "at": "2026-09-22 16:10",
+      "before": "",
+      "object": "Woche 39",
+      "user": "Lukas Schneider"
+    },
+    {
+      "action": "Dienstmitteilung gesendet",
+      "after": "",
+      "at": "2026-09-23 16:55",
+      "before": "",
+      "object": "Kerstin Schäfer",
+      "user": "Michael Schmitt"
+    },
+    {
+      "action": "Dienst geändert",
+      "after": "Nacht",
+      "at": "2026-09-24 07:29",
+      "before": "Mi. 30.09. Spät",
+      "object": "Anna Keller",
+      "user": "Michael Schmitt"
+    },
+    {
+      "action": "Krankmeldung erfasst",
+      "after": "24.09.2026",
+      "at": "2026-09-24 17:27",
+      "before": "",
+      "object": "Anne Müller",
+      "user": "Swetlana Hartmann"
+    },
+    {
+      "action": "Dienstplan veröffentlicht",
+      "after": "",
+      "at": "2026-09-29 16:17",
+      "before": "",
+      "object": "Woche 40",
+      "user": "Lukas Schneider"
+    },
+    {
+      "action": "Dienstmitteilung gesendet",
+      "after": "",
+      "at": "2026-09-30 17:09",
+      "before": "",
+      "object": "Anne Müller",
+      "user": "Michael Schmitt"
+    },
+    {
+      "action": "Abwesenheit erfasst",
+      "after": "Urlaub 26.10.2026–26.10.2026",
+      "at": "2026-10-01 09:35",
+      "before": "",
+      "object": "Anna Frank",
+      "user": "Lukas Schneider"
+    },
+    {
+      "action": "Krankmeldung erfasst",
+      "after": "01.10.2026",
+      "at": "2026-10-01 14:42",
+      "before": "",
+      "object": "Anna Frank",
+      "user": "Swetlana Hartmann"
+    },
+    {
+      "action": "Dienst geändert",
+      "after": "Spät",
+      "at": "2026-10-04 08:55",
+      "before": "Do. 08.10. Früh",
+      "object": "Anne Müller",
+      "user": "Michael Schmitt"
+    },
+    {
+      "action": "Dienstplan veröffentlicht",
+      "after": "",
+      "at": "2026-10-06 16:24",
+      "before": "",
+      "object": "Woche 41",
+      "user": "Lukas Schneider"
+    },
+    {
+      "action": "Dienst geändert",
+      "after": "Nacht",
+      "at": "2026-10-08 09:29",
+      "before": "Mo. 12.10. Früh",
+      "object": "Felix Winkler",
+      "user": "Michael Schmitt"
+    },
+    {
+      "action": "Dienst geändert",
+      "after": "Nacht",
+      "at": "2026-10-10 11:04",
+      "before": "Mo. 12.10. Früh",
+      "object": "Birgit Köhler",
+      "user": "Michael Schmitt"
+    },
+    {
+      "action": "Zeitarbeit gebucht",
+      "after": "Do. 15.10. Nacht",
+      "at": "2026-10-10 18:38",
+      "before": "",
+      "object": "CuraFlex Zeitarbeit",
+      "user": "Lukas Schneider"
+    },
+    {
+      "action": "Dienstplan veröffentlicht",
+      "after": "",
+      "at": "2026-10-13 16:31",
+      "before": "",
+      "object": "Woche 42",
+      "user": "Lukas Schneider"
+    },
+    {
+      "action": "Dienst geändert",
+      "after": "Früh",
+      "at": "2026-10-18 14:40",
+      "before": "Do. 22.10. Spät",
+      "object": "Petra Fischer",
+      "user": "Lukas Schneider"
+    }
+  ],
+  "home": {
+    "address": "Am Sonnenhang 21, 84371 Steinach am Wald",
+    "manager_name": "Lukas Schneider",
+    "manager_title": "Pflegedienstleitung",
+    "night_lead_name": "Swetlana Hartmann",
+    "user_name": "Michael Schmitt",
+    "user_title": "Assistenz der Pflegedienstleitung"
+  },
+  "locale": "de-DE",
+  "mail_address": "michael.schmitt@seniorenresidenz-am-schlosspark-steinach-am-wald.de",
+  "mails": [
+    {
+      "attachments": [
+        {
+          "attachment_id": "att-0002-preislistepd",
+          "content": "Pflegepool Nord GmbH\nPreisliste – gültig ab dem 1. dieses Monats\n\nPflegefachkraft: auf Anfrage\nPflegehilfskraft: auf Anfrage\n\nEin Stundensatz für alle Dienste, auch nachts und am Wochenende.\nMindesteinsatz 6 Stunden. Kostenfreie Stornierung bis 24 Stunden vor Dienstbeginn, danach voller Satz.\nVorlauf: wie im Buchungsportal je Angebot angegeben.",
+          "filename": "preisliste.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
+      "body": "Guten Tag,\n\nanbei unsere aktuelle Preisliste. Für bereits bestätigte Einsätze ändert sich nichts. Bitte wie gewohnt über das Portal buchen, damit alle Dienstdaten vollständig sind.\n\nFreundliche Grüße\nMonika Hartmann\nPflegepool Nord GmbH",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0002",
+      "sender": "einsatz@pflegepool-nord-steinach-am-wald.de",
+      "sender_name": "Monika Hartmann",
+      "sent_at": "2026-10-06 11:57",
+      "subject": "Neue Preisliste",
+      "thread_id": "thread-0002",
+      "to": [
+        "michael.schmitt@seniorenresidenz-am-schlosspark-steinach-am-wald.de"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Liebe Kolleginnen und Kollegen,\n\ndanke für die Zahlen des letzten Monats. In der Region sind die Überstunden wieder gestiegen. Künftig frage ich bei jedem Haus kurz nach, wenn ein Planungszeitraum über den Vertragsstunden endet. Heute ist nichts zu tun.\n\nViele Grüße\nFlorian Nowak",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0009",
+      "sender": "florian.nowak@steinach-am-wald-pflegeverbund.de",
+      "sender_name": "Florian Nowak",
+      "sent_at": "2026-10-10 16:52",
+      "subject": "Stundenbericht Region",
+      "thread_id": "thread-0009",
+      "to": [
+        "lukas.schneider@seniorenresidenz-am-schlosspark-steinach-am-wald.de",
+        "michael.schmitt@seniorenresidenz-am-schlosspark-steinach-am-wald.de"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hallo zusammen,\n\ndie nächste Sitzung des Betriebsrats ist am Sa., 24.10.2026 um 14:00 Uhr im Besprechungsraum. Tagesordnung: Dienstpläne der kommenden Wochen, Überstunden, Fortbildungen. Dienstplanentwürfe bitte wie in der Betriebsvereinbarung vereinbart vorher zur Zustimmung einreichen.\n\nViele Grüße\nAnna Keller",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0004",
+      "sender": "anna.keller@seniorenresidenz-am-schlosspark-steinach-am-wald.de",
+      "sender_name": "Anna Keller",
+      "sent_at": "2026-10-14 13:52",
+      "subject": "Einladung Betriebsratssitzung",
+      "thread_id": "thread-0004",
+      "to": [
+        "michael.schmitt@seniorenresidenz-am-schlosspark-steinach-am-wald.de",
+        "lukas.schneider@seniorenresidenz-am-schlosspark-steinach-am-wald.de"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Guten Tag,\n\nzur Info: Herr Wenger hat am So. 01.11. um 10:30 Uhr einen ambulanten Termin. Ich begleite ihn selbst, eine Begleitung durch das Haus ist also nicht nötig.\n\nViele Grüße\nMarek Lange",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0006",
+      "sender": "marek.lange@steinach-am-wald-post.de",
+      "sender_name": "Marek Lange",
+      "sent_at": "2026-10-14 15:16",
+      "subject": "Termin im Krankenhaus",
+      "thread_id": "thread-0006",
+      "to": [
+        "michael.schmitt@seniorenresidenz-am-schlosspark-steinach-am-wald.de"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Guten Tag,\n\ndanke für die Übernahme des Spätdienstes letzte Woche. Könnten Sie mir die Vorgangsnummer für die Rechnung schicken?\n\nMichael Schmitt\nAssistenz der Pflegedienstleitung, Seniorenresidenz Am Schlosspark",
+      "cc": [],
+      "folder": "sent",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0010",
+      "sender": "michael.schmitt@seniorenresidenz-am-schlosspark-steinach-am-wald.de",
+      "sender_name": "Michael Schmitt",
+      "sent_at": "2026-10-15 10:16",
+      "subject": "Buchungsanfrage – Vorgangsnummer",
+      "thread_id": "thread-0010",
+      "to": [
+        "einsatz@pflegepool-nord-steinach-am-wald.de"
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "attachment_id": "att-0001-stunden20260",
+          "content": "personalnr;name;vertrag_std_woche;geleistet_std;plus_minus_std\nPN-2007;Birgit Köhler;24,00;105,92;2,00\nPN-2014;Swetlana Hartmann;37,50;166,37;4,00\nPN-2021;Anna Frank;37,50;168,37;6,00\nPN-2028;Anne Müller;28,00;119,23;-2,00\nPN-2035;Kerstin Schäfer;24,00;109,92;6,00\nPN-2042;Sarah Schwarz;37,50;167,37;5,00\nPN-2049;Birgit Schäfer;37,50;164,87;2,50\nPN-2056;Lukas Werner;40,00;176,70;3,50\nPN-2063;Anna Keller;40,00;169,70;-3,50\nPN-2070;Petra Fischer;40,00;169,70;-3,50\nPN-2077;Mehmet Frank;40,00;169,20;-4,00\nPN-2084;Ayşe Hartmann;37,50;163,87;1,50\nPN-2091;Ahmet Sommer;35,00;148,05;-3,50\nPN-2098;Elif Schmidt;35,00;148,55;-3,00\nPN-2105;Felix Winkler;40,00;171,20;-2,00\nPN-2112;Sabine Krause;35,00;152,05;0,50\nPN-2119;Dmitri Wolf;35,00;153,55;2,00\nPN-2126;Agnieszka Klein;24,00;104,42;0,50\nPN-2133;Andreas Weber;35,00;154,05;2,50\n",
+          "filename": "stunden_2026_09.csv",
+          "media_type": "text/csv"
+        }
+      ],
+      "body": "Guten Tag,\n\nanbei die abgerechneten Stunden für 09/2026. Änderungen an Vertragsstunden, Ein- und Austritte für den nächsten Lauf brauchen wir bis Do., 29.10.2026. Plus- und Minusstunden gehen auf das Stundenkonto und werden über Zeitausgleich ausgeglichen; ausgezahlt wird nur nach Freigabe durch die Pflegedienstleitung.\n\nWenn eine Zahl nicht stimmt, antworten Sie bitte mit Personalnummer und korrigierten Stunden – bitte die Datei nicht ändern.\n\nMit freundlichen Grüßen\nPaul Lange\nLohnbüro Kessler & Partner",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0001",
+      "sender": "paul.lange@kessler-lohnbuero-steinach-am-wald.de",
+      "sender_name": "Paul Lange",
+      "sent_at": "2026-10-16 09:22",
+      "subject": "Abrechnungsschluss und Stundenübersicht 09/2026",
+      "thread_id": "thread-0001",
+      "to": [
+        "michael.schmitt@seniorenresidenz-am-schlosspark-steinach-am-wald.de"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Guten Tag,\n\nwir würden Frau Yıldız gern am Sonntagnachmittag mit den Enkeln besuchen. Gibt es derzeit etwas bei den Besuchszeiten zu beachten? Und könnte uns jemand sagen, wie es mit dem Schlafen geht?\n\nVielen Dank\nAnne Weber",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0005",
+      "sender": "anne.weber@steinach-am-wald-post.de",
+      "sender_name": "Anne Weber",
+      "sent_at": "2026-10-16 11:51",
+      "subject": "Besuch am Sonntag",
+      "thread_id": "thread-0005",
+      "to": [
+        "michael.schmitt@seniorenresidenz-am-schlosspark-steinach-am-wald.de"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hallo Lukas,\n\nder Dienstplan ab Di. 20.10. ist veröffentlicht. Offene Punkte stehen wie immer im Plan.\n\nMichael Schmitt\nAssistenz der Pflegedienstleitung, Seniorenresidenz Am Schlosspark",
+      "cc": [],
+      "folder": "sent",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0011",
+      "sender": "michael.schmitt@seniorenresidenz-am-schlosspark-steinach-am-wald.de",
+      "sender_name": "Michael Schmitt",
+      "sent_at": "2026-10-17 15:59",
+      "subject": "Dienstplan veröffentlicht",
+      "thread_id": "thread-0011",
+      "to": [
+        "lukas.schneider@seniorenresidenz-am-schlosspark-steinach-am-wald.de"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hallo zusammen,\n\nam Fr., 23.10.2026 zwischen 10:00 und 10:30 Uhr gibt es einen Probealarm der Brandmeldeanlage. Bitte die Bewohnerinnen und Bewohner vorher beruhigen. Keine Räumung.\n\nLukas",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0008",
+      "sender": "lukas.schneider@seniorenresidenz-am-schlosspark-steinach-am-wald.de",
+      "sender_name": "Lukas Schneider",
+      "sent_at": "2026-10-18 08:12",
+      "subject": "Probealarm am Fr. 23.10.",
+      "thread_id": "thread-0008",
+      "to": [
+        "michael.schmitt@seniorenresidenz-am-schlosspark-steinach-am-wald.de"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hallo,\n\nich glaube, Frau Brandl hat die neue Brille am Dienstag im Speisesaal liegen lassen. Könnte bitte jemand nachsehen? Die Ersatzbrille kann ich am Freitag vorbeibringen.\n\nDanke\nFatma Frank",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0007",
+      "sender": "fatma.frank@steinach-am-wald-post.de",
+      "sender_name": "Fatma Frank",
+      "sent_at": "2026-10-18 19:13",
+      "subject": "Brille",
+      "thread_id": "thread-0007",
+      "to": [
+        "michael.schmitt@seniorenresidenz-am-schlosspark-steinach-am-wald.de"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hallo Michael,\n\nein paar Punkte für die nächsten Tage:\n- Überstunden nur, wo es wirklich nötig ist – die Regionalleitung schaut gerade genau auf die Stunden\n- bitte allen Bescheid geben, deren Dienst sich ändert\n\nIch bin morgen Vormittag fast durchgehend in Terminen; wenn etwas nicht warten kann, schreib mir im Chat.\n\nLukas",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0003",
+      "sender": "lukas.schneider@seniorenresidenz-am-schlosspark-steinach-am-wald.de",
+      "sender_name": "Lukas Schneider",
+      "sent_at": "2026-10-19 17:20",
+      "subject": "Diese Woche – ein paar Punkte",
+      "thread_id": "thread-0003",
+      "to": [
+        "michael.schmitt@seniorenresidenz-am-schlosspark-steinach-am-wald.de"
+      ]
+    }
+  ],
+  "message_meta": [
+    {
+      "channel": "phone",
+      "message_id": "message-event-event-0002",
+      "sender_label": "Swetlana Hartmann"
+    },
+    {
+      "channel": "phone",
+      "message_id": "message-event-event-0001",
+      "sender_label": "Swetlana Hartmann"
+    }
+  ],
+  "message_texts": {
+    "message-event-event-0001": {
+      "body": "Swetlana Hartmann hat um 05:47 angerufen: Krankschreibung liegt vor (Sa. 24.10.). Im System eingetragen. Aufgenommen von Swetlana Hartmann (Nachtdienst).",
+      "subject": "Krankmeldung Swetlana Hartmann"
+    },
+    "message-event-event-0002": {
+      "body": "Agnieszka Klein hat um 06:12 angerufen: Krankschreibung liegt vor (Do. 22.10.). Im System eingetragen. Aufgenommen von Swetlana Hartmann (Nachtdienst).",
+      "subject": "Krankmeldung Agnieszka Klein"
+    }
+  },
+  "open_at_start": 0,
+  "profiles": [
+    {
+      "employee_id": "staff-0001",
+      "hire_date": "2015-11-26",
+      "hours_balance_minutes": 120,
+      "notes": "",
+      "phone": "intern 201",
+      "previous_period_minutes": 6355,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2027-10-06",
+        "Brandschutzunterweisung": "2027-03-22",
+        "Erste-Hilfe-Kurs": "2028-05-02"
+      },
+      "staff_number": "PN-2007",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0002",
+      "hire_date": "2015-01-29",
+      "hours_balance_minutes": 240,
+      "notes": "",
+      "phone": "intern 202",
+      "previous_period_minutes": 9982,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2028-03-17",
+        "Brandschutzunterweisung": "2027-12-01",
+        "Expertenstandard Sturzprophylaxe": "2027-03-13"
+      },
+      "staff_number": "PN-2014",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0003",
+      "hire_date": "2022-02-18",
+      "hours_balance_minutes": 360,
+      "notes": "Bitte erst nach 10 Uhr anrufen.",
+      "phone": "intern 203",
+      "previous_period_minutes": 10102,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2028-03-13",
+        "Brandschutzunterweisung": "2028-08-31",
+        "Expertenstandard Sturzprophylaxe": "2028-09-05"
+      },
+      "staff_number": "PN-2021",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0004",
+      "hire_date": "2010-08-21",
+      "hours_balance_minutes": -120,
+      "notes": "",
+      "phone": "intern 204",
+      "previous_period_minutes": 7154,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2028-03-13",
+        "Brandschutzunterweisung": "2029-02-09",
+        "Expertenstandard Sturzprophylaxe": "2028-10-15"
+      },
+      "staff_number": "PN-2028",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0005",
+      "hire_date": "2022-09-25",
+      "hours_balance_minutes": 360,
+      "notes": "",
+      "phone": "intern 205",
+      "previous_period_minutes": 6595,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2028-09-25",
+        "Brandschutzunterweisung": "2028-07-11",
+        "Expertenstandard Sturzprophylaxe": "2027-09-01"
+      },
+      "staff_number": "PN-2035",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0006",
+      "hire_date": "2026-01-21",
+      "hours_balance_minutes": 300,
+      "notes": "",
+      "phone": "intern 206",
+      "previous_period_minutes": 10042,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2027-07-22",
+        "Brandschutzunterweisung": "2028-12-29",
+        "Hygieneschulung": "2028-08-23"
+      },
+      "staff_number": "PN-2042",
+      "wishes": [
+        "Möchte am liebsten Spätdienste"
+      ]
+    },
+    {
+      "employee_id": "staff-0007",
+      "hire_date": "2019-11-04",
+      "hours_balance_minutes": 150,
+      "notes": "",
+      "phone": "intern 207",
+      "previous_period_minutes": 9892,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2029-03-10",
+        "Brandschutzunterweisung": "2029-01-29",
+        "Hygieneschulung": "2028-03-01"
+      },
+      "staff_number": "PN-2049",
+      "wishes": [
+        "Möchte am liebsten Nachtdienste"
+      ]
+    },
+    {
+      "employee_id": "staff-0008",
+      "hire_date": "2012-06-29",
+      "hours_balance_minutes": 210,
+      "notes": "",
+      "phone": "intern 208",
+      "previous_period_minutes": 10602,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2028-08-23",
+        "Brandschutzunterweisung": "2027-07-03",
+        "Expertenstandard Sturzprophylaxe": "2028-10-08"
+      },
+      "staff_number": "PN-2056",
+      "wishes": [
+        "Möchte am liebsten Nachtdienste"
+      ]
+    },
+    {
+      "employee_id": "staff-0009",
+      "hire_date": "2010-05-17",
+      "hours_balance_minutes": -210,
+      "notes": "",
+      "phone": "intern 209",
+      "previous_period_minutes": 10182,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2029-06-22",
+        "Erste-Hilfe-Kurs": "2028-03-29",
+        "Hygieneschulung": "2027-11-10"
+      },
+      "staff_number": "PN-2063",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0010",
+      "hire_date": "2012-07-27",
+      "hours_balance_minutes": -210,
+      "notes": "",
+      "phone": "intern 210",
+      "previous_period_minutes": 10182,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2027-03-24",
+        "Erste-Hilfe-Kurs": "2028-05-13"
+      },
+      "staff_number": "PN-2070",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0011",
+      "hire_date": "2021-08-09",
+      "hours_balance_minutes": -240,
+      "notes": "",
+      "phone": "intern 211",
+      "previous_period_minutes": 10152,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2028-06-22",
+        "Expertenstandard Sturzprophylaxe": "2028-12-12"
+      },
+      "staff_number": "PN-2077",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0012",
+      "hire_date": "2012-06-23",
+      "hours_balance_minutes": 90,
+      "notes": "Stufenweise Wiedereingliederung nach Knie-OP (abgeschlossen 03/2025).",
+      "phone": "intern 212",
+      "previous_period_minutes": 9832,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2028-07-05",
+        "Expertenstandard Sturzprophylaxe": "2027-05-30"
+      },
+      "staff_number": "PN-2084",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0013",
+      "hire_date": "2018-11-23",
+      "hours_balance_minutes": -210,
+      "notes": "",
+      "phone": "intern 213",
+      "previous_period_minutes": 8883,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2028-05-03",
+        "Expertenstandard Sturzprophylaxe": "2029-02-02"
+      },
+      "staff_number": "PN-2091",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0014",
+      "hire_date": "2011-09-08",
+      "hours_balance_minutes": -180,
+      "notes": "",
+      "phone": "intern 214",
+      "previous_period_minutes": 8913,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2028-09-13",
+        "Hygieneschulung": "2028-12-01"
+      },
+      "staff_number": "PN-2098",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0015",
+      "hire_date": "2012-09-25",
+      "hours_balance_minutes": -120,
+      "notes": "",
+      "phone": "intern 215",
+      "previous_period_minutes": 10272,
+      "qualification_valid_until": {
+        "Expertenstandard Sturzprophylaxe": "2027-12-17",
+        "Hygieneschulung": "2027-12-17"
+      },
+      "staff_number": "PN-2105",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0016",
+      "hire_date": "2020-10-29",
+      "hours_balance_minutes": 30,
+      "notes": "",
+      "phone": "intern 216",
+      "previous_period_minutes": 9123,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2027-11-22",
+        "Hygieneschulung": "2027-02-09"
+      },
+      "staff_number": "PN-2112",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0017",
+      "hire_date": "2019-07-03",
+      "hours_balance_minutes": 120,
+      "notes": "",
+      "phone": "intern 217",
+      "previous_period_minutes": 9213,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2028-11-23",
+        "Expertenstandard Sturzprophylaxe": "2027-03-09"
+      },
+      "staff_number": "PN-2119",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0018",
+      "hire_date": "2018-06-16",
+      "hours_balance_minutes": 30,
+      "notes": "",
+      "phone": "intern 218",
+      "previous_period_minutes": 6265,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2027-11-15",
+        "Expertenstandard Sturzprophylaxe": "2029-03-13"
+      },
+      "staff_number": "PN-2126",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0019",
+      "hire_date": "2025-07-13",
+      "hours_balance_minutes": 150,
+      "notes": "Stufenweise Wiedereingliederung nach Knie-OP (abgeschlossen 03/2025).",
+      "phone": "intern 219",
+      "previous_period_minutes": 9243,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2027-09-11",
+        "Erste-Hilfe-Kurs": "2027-06-07"
+      },
+      "staff_number": "PN-2133",
+      "wishes": []
+    }
+  ],
+  "publications": [],
+  "reports": [],
+  "requests": [],
+  "schema_version": "workforce-app/v2",
+  "session_log": [],
+  "staged": [],
+  "unit_names": {
+    "ward-01": "Wohnbereich Lindenhof"
+  }
+}

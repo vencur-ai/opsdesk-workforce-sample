@@ -1,0 +1,37 @@
+{
+  "app_sha256": "03bf3f70af4dc890be67b73e3a2cf6a3bdd56c710205e2824b1b988fa22c1792",
+  "baseline": {
+    "greedy_passed": false,
+    "greedy_score": 0.0
+  },
+  "difficulty": "hard",
+  "document_ids": [
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "family": "F09_agency_budget",
+  "horizon_days": 14,
+  "instruction": "We had sick calls overnight – they're in the messages. Please fill the gaps on the rota. See Zofia Taylor's email: the shifts listed there need more people now. Have a look at the mail first, a few things came in this morning. The agency budget is in my mail. Fill it as far as the rules allow. Watch the rules – rest periods, nights in a row, the lot. Cheapest sensible option, please. Please message everyone you move. Cheers, Rosalie",
+  "jurisdiction": "uk",
+  "start_date": "2026-01-02",
+  "surface": "workforce",
+  "task_id": "ow-52c93274b5a8",
+  "workforce": {
+    "apps": [
+      "mail",
+      "rota"
+    ],
+    "estimate_basis": "gold actions × fixed times (see taskgen.human_estimate); not measured",
+    "estimated_human_minutes": 16,
+    "gold_actions": 13,
+    "locale": "en-GB",
+    "staff": 17,
+    "units": 1,
+    "variant": "inbox"
+  },
+  "world_file": "world.json"
+}

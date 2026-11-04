@@ -1,0 +1,3 @@
+We had sick calls overnight – they're in the messages. Please fill the gaps on the rota. See Zofia Taylor's email: the shifts listed there need more people now. Have a look at the mail first, a few things came in this morning. The agency budget is in my mail. Fill it as far as the rules allow. Watch the rules – rest periods, nights in a row, the lot. Cheapest sensible option, please. Please message everyone you move. Cheers, Rosalie
+
+OpsDesk Workforce is open in the browser at http://app:8080. Tools for programs: GET http://app:8080/api/tools, POST http://app:8080/api/step with {"tool": ..., "args": {...}}.

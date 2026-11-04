@@ -1,0 +1,2036 @@
+{
+  "absence_meta": [
+    {
+      "absence_id": "holiday-0001",
+      "channel": "planned",
+      "entered_by": "Ella Williams",
+      "entered_on": "2026-08-18",
+      "note": ""
+    },
+    {
+      "absence_id": "holiday-0002",
+      "channel": "planned",
+      "entered_by": "Ella Williams",
+      "entered_on": "2026-08-04",
+      "note": ""
+    },
+    {
+      "absence_id": "holiday-0003",
+      "channel": "planned",
+      "entered_by": "Ella Williams",
+      "entered_on": "2026-08-14",
+      "note": ""
+    },
+    {
+      "absence_id": "holiday-0004",
+      "channel": "planned",
+      "entered_by": "Ella Williams",
+      "entered_on": "2026-09-03",
+      "note": ""
+    },
+    {
+      "absence_id": "holiday-0005",
+      "channel": "planned",
+      "entered_by": "Ella Williams",
+      "entered_on": "2026-08-18",
+      "note": ""
+    }
+  ],
+  "budget_in_mail": false,
+  "calendar": [
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0019"
+      ],
+      "created_by": "Ella Williams",
+      "end": "2026-09-16 23:59",
+      "event_id": "event-0001",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-09-14 00:00",
+      "title": "Leave: Kwame Wright"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Ella Williams",
+      "end": "2026-09-15 14:15",
+      "event_id": "event-0002",
+      "kind": "meeting",
+      "location": "Staff room",
+      "notes": "",
+      "start": "2026-09-15 13:30",
+      "title": "Team meeting Maple Wing"
+    },
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0025"
+      ],
+      "created_by": "Ella Williams",
+      "end": "2026-09-18 23:59",
+      "event_id": "event-0003",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-09-17 00:00",
+      "title": "Leave: Jack Kowalski"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Ella Williams",
+      "end": "2026-09-17 12:30",
+      "event_id": "event-0004",
+      "kind": "meeting",
+      "location": "all units",
+      "notes": "",
+      "start": "2026-09-17 11:00",
+      "title": "GP round"
+    },
+    {
+      "all_day": false,
+      "attendees": [
+        "staff-0020"
+      ],
+      "created_by": "Emily Wood",
+      "end": "2026-09-17 15:00",
+      "event_id": "event-0005",
+      "kind": "meeting",
+      "location": "Training room",
+      "notes": "",
+      "start": "2026-09-17 14:00",
+      "title": "Staff forum"
+    },
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0036"
+      ],
+      "created_by": "Ella Williams",
+      "end": "2026-09-19 23:59",
+      "event_id": "event-0006",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-09-18 00:00",
+      "title": "Leave: Oliver King"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Ella Williams",
+      "end": "2026-09-18 10:30",
+      "event_id": "event-0007",
+      "kind": "other",
+      "location": "Laurel House",
+      "notes": "",
+      "start": "2026-09-18 10:00",
+      "title": "Fire alarm check"
+    },
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0050"
+      ],
+      "created_by": "Ella Williams",
+      "end": "2026-09-19 23:59",
+      "event_id": "event-0008",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-09-19 00:00",
+      "title": "Leave: Sophie Jackson"
+    },
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0041"
+      ],
+      "created_by": "Ella Williams",
+      "end": "2026-09-19 23:59",
+      "event_id": "event-0009",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-09-19 00:00",
+      "title": "Leave: Harry Hill"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Ella Williams",
+      "end": "2026-10-12 15:00",
+      "event_id": "event-0010",
+      "kind": "inspection",
+      "location": "Laurel House",
+      "notes": "Care records and staffing records for the last three months.",
+      "start": "2026-10-12 09:00",
+      "title": "Inspection visit (announced)"
+    }
+  ],
+  "chat_channels": [
+    {
+      "channel_id": "chat-all",
+      "kind": "group",
+      "members": [
+        "me",
+        "manager",
+        "staff-0001",
+        "staff-0002",
+        "staff-0003",
+        "staff-0004",
+        "staff-0005",
+        "staff-0006",
+        "staff-0007",
+        "staff-0008",
+        "staff-0009",
+        "staff-0010",
+        "staff-0011",
+        "staff-0012",
+        "staff-0013",
+        "staff-0014",
+        "staff-0015",
+        "staff-0016",
+        "staff-0017",
+        "staff-0018",
+        "staff-0019",
+        "staff-0020",
+        "staff-0021",
+        "staff-0022",
+        "staff-0023",
+        "staff-0024",
+        "staff-0025",
+        "staff-0026",
+        "staff-0027",
+        "staff-0028",
+        "staff-0029",
+        "staff-0030",
+        "staff-0031",
+        "staff-0032",
+        "staff-0033",
+        "staff-0034",
+        "staff-0035",
+        "staff-0036",
+        "staff-0037",
+        "staff-0038",
+        "staff-0039",
+        "staff-0040",
+        "staff-0041",
+        "staff-0042",
+        "staff-0043",
+        "staff-0044",
+        "staff-0045",
+        "staff-0046",
+        "staff-0047",
+        "staff-0048",
+        "staff-0049",
+        "staff-0050",
+        "staff-0051",
+        "staff-0052",
+        "staff-0053",
+        "staff-0054",
+        "staff-0055",
+        "staff-0056",
+        "staff-0057",
+        "staff-0058",
+        "staff-0059",
+        "staff-0060",
+        "staff-0061",
+        "staff-0062",
+        "staff-0063",
+        "staff-0064"
+      ],
+      "name": "All staff",
+      "topic": "Notices for the whole home"
+    },
+    {
+      "channel_id": "chat-ward-01",
+      "kind": "group",
+      "members": [
+        "me",
+        "staff-0001",
+        "staff-0002",
+        "staff-0003",
+        "staff-0004",
+        "staff-0005",
+        "staff-0006",
+        "staff-0007",
+        "staff-0008",
+        "staff-0009",
+        "staff-0010",
+        "staff-0011",
+        "staff-0016",
+        "staff-0019",
+        "staff-0020",
+        "staff-0022",
+        "staff-0023",
+        "staff-0024",
+        "staff-0026",
+        "staff-0028",
+        "staff-0029",
+        "staff-0032",
+        "staff-0034",
+        "staff-0035",
+        "staff-0038",
+        "staff-0039",
+        "staff-0040",
+        "staff-0042",
+        "staff-0044",
+        "staff-0045",
+        "staff-0047",
+        "staff-0052",
+        "staff-0053",
+        "staff-0054",
+        "staff-0055",
+        "staff-0057",
+        "staff-0060",
+        "staff-0062",
+        "staff-0063",
+        "staff-0064"
+      ],
+      "name": "Maple Wing team",
+      "topic": "Handover and shift questions"
+    },
+    {
+      "channel_id": "chat-ward-02",
+      "kind": "group",
+      "members": [
+        "me",
+        "staff-0001",
+        "staff-0002",
+        "staff-0003",
+        "staff-0004",
+        "staff-0005",
+        "staff-0006",
+        "staff-0007",
+        "staff-0008",
+        "staff-0009",
+        "staff-0010",
+        "staff-0011",
+        "staff-0019",
+        "staff-0021",
+        "staff-0023",
+        "staff-0025",
+        "staff-0026",
+        "staff-0027",
+        "staff-0028",
+        "staff-0030",
+        "staff-0031",
+        "staff-0032",
+        "staff-0033",
+        "staff-0035",
+        "staff-0036",
+        "staff-0037",
+        "staff-0038",
+        "staff-0039",
+        "staff-0040",
+        "staff-0042",
+        "staff-0043",
+        "staff-0045",
+        "staff-0046",
+        "staff-0047",
+        "staff-0048",
+        "staff-0049",
+        "staff-0051",
+        "staff-0056",
+        "staff-0058",
+        "staff-0059",
+        "staff-0060",
+        "staff-0061",
+        "staff-0062",
+        "staff-0064"
+      ],
+      "name": "Harbour View team",
+      "topic": "Handover and shift questions"
+    },
+    {
+      "channel_id": "chat-nights",
+      "kind": "group",
+      "members": [
+        "me",
+        "staff-0001",
+        "staff-0008",
+        "staff-0009",
+        "staff-0012",
+        "staff-0013",
+        "staff-0014",
+        "staff-0018",
+        "staff-0019",
+        "staff-0020",
+        "staff-0021",
+        "staff-0022",
+        "staff-0027",
+        "staff-0032",
+        "staff-0044",
+        "staff-0046",
+        "staff-0048",
+        "staff-0050",
+        "staff-0060",
+        "staff-0062"
+      ],
+      "name": "Nights",
+      "topic": "Night team"
+    },
+    {
+      "channel_id": "dm-staff-0036",
+      "kind": "direct",
+      "members": [
+        "me",
+        "staff-0036"
+      ],
+      "name": "Oliver King",
+      "topic": ""
+    },
+    {
+      "channel_id": "dm-staff-0029",
+      "kind": "direct",
+      "members": [
+        "me",
+        "staff-0029"
+      ],
+      "name": "Maricel Walker",
+      "topic": ""
+    }
+  ],
+  "chat_messages": [
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0001",
+      "reply_to": null,
+      "sender_id": "staff-0008",
+      "sent_at": "2026-09-05 17:37",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Who has the key for the clinic room? It's not in the box.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0002",
+      "reply_to": null,
+      "sender_id": "staff-0006",
+      "sent_at": "2026-09-07 09:02",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Found it – it was in the handover folder.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-nights",
+      "chat_id": "chat-0003",
+      "reply_to": null,
+      "sender_id": "staff-0005",
+      "sent_at": "2026-09-08 10:06",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "New gloves size M are in the cupboard by the lift.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "dm-staff-0029",
+      "chat_id": "chat-0004",
+      "reply_to": null,
+      "sender_id": "staff-0029",
+      "sent_at": "2026-09-08 15:33",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Hi, my training certificate is renewed – where should I send the copy?",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0005",
+      "reply_to": null,
+      "sender_id": "staff-0013",
+      "sent_at": "2026-09-08 18:35",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Please sign the fridge temperature sheet every shift.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "dm-staff-0036",
+      "chat_id": "chat-0006",
+      "reply_to": null,
+      "sender_id": "staff-0036",
+      "sent_at": "2026-09-08 18:49",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Morning! Just checking I'm on early on Saturday, the printout in the office says late.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "dm-staff-0029",
+      "chat_id": "chat-0007",
+      "reply_to": null,
+      "sender_id": "me",
+      "sent_at": "2026-09-08 20:19",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Thanks – I'll check and come back to you.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "dm-staff-0036",
+      "chat_id": "chat-0008",
+      "reply_to": null,
+      "sender_id": "me",
+      "sent_at": "2026-09-08 20:23",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Thanks – I'll check and come back to you.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-nights",
+      "chat_id": "chat-0009",
+      "reply_to": null,
+      "sender_id": "staff-0028",
+      "sent_at": "2026-09-10 15:26",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Birthday cake in the staff room – help yourselves.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-ward-02",
+      "chat_id": "chat-0010",
+      "reply_to": null,
+      "sender_id": "staff-0030",
+      "sent_at": "2026-09-10 17:09",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Thanks for staying on last night!",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0011",
+      "reply_to": null,
+      "sender_id": "staff-0032",
+      "sent_at": "2026-09-12 08:35",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Reminder: the new hoist slings are in the store room, old ones go back to the laundry.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0012",
+      "reply_to": null,
+      "sender_id": "staff-0056",
+      "sent_at": "2026-09-12 09:09",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Lift on the first floor is working again.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0013",
+      "reply_to": null,
+      "sender_id": "staff-0022",
+      "sent_at": "2026-09-12 12:12",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Is anyone driving past the pharmacy today?",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0014",
+      "reply_to": null,
+      "sender_id": "staff-0039",
+      "sent_at": "2026-09-13 07:38",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "The GP round is moved to Thursday 11:00 this week.",
+      "ward_id": null
+    }
+  ],
+  "contacts": [
+    {
+      "address": "ella.williams@laurel-house-hollinsford.co.uk",
+      "contact_id": "contact-manager",
+      "name": "Ella Williams",
+      "organisation": "Laurel House",
+      "role": "Home Manager"
+    },
+    {
+      "address": "ben.murphy@hollinsford-caregroup.co.uk",
+      "contact_id": "contact-ops",
+      "name": "Ben Murphy",
+      "organisation": "Regional office",
+      "role": "Operations manager"
+    },
+    {
+      "address": "ella.clarke@hartwell-payroll-hollinsford.co.uk",
+      "contact_id": "contact-payroll",
+      "name": "Ella Clarke",
+      "organisation": "Hartwell Payroll Bureau",
+      "role": "Payroll services"
+    },
+    {
+      "address": "joanne.davies@northgate-caretraining-hollinsford.co.uk",
+      "contact_id": "contact-training",
+      "name": "Joanne Davies",
+      "organisation": "Northgate Care Training",
+      "role": "Training provider"
+    },
+    {
+      "address": "bookings@northstar-care-staffing-hollinsford.co.uk",
+      "contact_id": "contact-agency-1",
+      "name": "Sophie Mensah",
+      "organisation": "Northstar Care Staffing",
+      "role": "Bookings desk"
+    },
+    {
+      "address": "bookings@brightwell-nursing-agency-hollinsford.co.uk",
+      "contact_id": "contact-agency-2",
+      "name": "Kwame Morgan",
+      "organisation": "Brightwell Nursing Agency",
+      "role": "Bookings desk"
+    },
+    {
+      "address": "bookings@harbourside-care-recruitment-hollinsford.co.uk",
+      "contact_id": "contact-agency-3",
+      "name": "Blessing Reyes",
+      "organisation": "Harbourside Care Recruitment",
+      "role": "Bookings desk"
+    },
+    {
+      "address": "emily.wood@laurel-house-hollinsford.co.uk",
+      "contact_id": "contact-rep",
+      "name": "Emily Wood",
+      "organisation": "Staff forum",
+      "role": "Staff representative"
+    },
+    {
+      "address": "rhys.james@hollinsford-mail.co.uk",
+      "contact_id": "contact-family-1",
+      "name": "Rhys James",
+      "organisation": "Relative",
+      "role": "Family of Mrs Okafor"
+    },
+    {
+      "address": "isla.johnson@hollinsford-mail.co.uk",
+      "contact_id": "contact-family-2",
+      "name": "Isla Johnson",
+      "organisation": "Relative",
+      "role": "Family of Mr Doyle"
+    },
+    {
+      "address": "tomasz.brown@hollinsford-mail.co.uk",
+      "contact_id": "contact-family-3",
+      "name": "Tomasz Brown",
+      "organisation": "Relative",
+      "role": "Family of Mrs Harding"
+    }
+  ],
+  "history": [
+    {
+      "action": "Absence recorded",
+      "after": "Holiday 17 Sep 2026–18 Sep 2026",
+      "at": "2026-08-04 09:12",
+      "before": "",
+      "object": "Jack Kowalski",
+      "user": "Ella Williams"
+    },
+    {
+      "action": "Absence recorded",
+      "after": "Holiday 18 Sep 2026–19 Sep 2026",
+      "at": "2026-08-14 09:13",
+      "before": "",
+      "object": "Oliver King",
+      "user": "Ella Williams"
+    },
+    {
+      "action": "Rota published",
+      "after": "",
+      "at": "2026-08-16 16:10",
+      "before": "",
+      "object": "Week 33",
+      "user": "Ella Williams"
+    },
+    {
+      "action": "Absence recorded",
+      "after": "Holiday 19 Sep 2026–19 Sep 2026",
+      "at": "2026-08-18 09:12",
+      "before": "",
+      "object": "Harry Hill",
+      "user": "Ella Williams"
+    },
+    {
+      "action": "Absence recorded",
+      "after": "Holiday 14 Sep 2026–16 Sep 2026",
+      "at": "2026-08-18 09:51",
+      "before": "",
+      "object": "Kwame Wright",
+      "user": "Ella Williams"
+    },
+    {
+      "action": "Contact details updated",
+      "after": "Phone number",
+      "at": "2026-08-19 18:40",
+      "before": "",
+      "object": "Ben Hill",
+      "user": "Mohammed King"
+    },
+    {
+      "action": "Swap approved",
+      "after": "",
+      "at": "2026-08-20 13:30",
+      "before": "",
+      "object": "Lucy Mensah ↔ Fatima Davies",
+      "user": "Mohammed King"
+    },
+    {
+      "action": "Rota published",
+      "after": "",
+      "at": "2026-08-23 16:17",
+      "before": "",
+      "object": "Week 34",
+      "user": "Ella Williams"
+    },
+    {
+      "action": "Shift changed",
+      "after": "Night",
+      "at": "2026-08-24 11:12",
+      "before": "Thu 27 Aug Early",
+      "object": "Jack Kowalski",
+      "user": "Ruth Clarke"
+    },
+    {
+      "action": "Shift changed",
+      "after": "Night",
+      "at": "2026-08-25 15:44",
+      "before": "Sat 29 Aug Early",
+      "object": "Mary Kaur",
+      "user": "Ruth Clarke"
+    },
+    {
+      "action": "Rota published",
+      "after": "",
+      "at": "2026-08-30 16:24",
+      "before": "",
+      "object": "Week 35",
+      "user": "Ella Williams"
+    },
+    {
+      "action": "Shift changed",
+      "after": "Early",
+      "at": "2026-08-31 16:52",
+      "before": "Fri 4 Sep Late",
+      "object": "Harry Edwards",
+      "user": "Mohammed King"
+    },
+    {
+      "action": "Shift changed",
+      "after": "Early",
+      "at": "2026-09-02 09:54",
+      "before": "Sun 6 Sep Night",
+      "object": "Tomasz Watson",
+      "user": "Ruth Clarke"
+    },
+    {
+      "action": "Absence recorded",
+      "after": "Holiday 19 Sep 2026–19 Sep 2026",
+      "at": "2026-09-03 09:24",
+      "before": "",
+      "object": "Sophie Jackson",
+      "user": "Ella Williams"
+    },
+    {
+      "action": "Swap approved",
+      "after": "",
+      "at": "2026-09-03 10:04",
+      "before": "",
+      "object": "Rhys Mensah ↔ Chiamaka Thompson",
+      "user": "Mohammed King"
+    },
+    {
+      "action": "Shift changed",
+      "after": "Late",
+      "at": "2026-09-03 15:31",
+      "before": "Sat 5 Sep Night",
+      "object": "Ade Shaw",
+      "user": "Mohammed King"
+    },
+    {
+      "action": "Rota published",
+      "after": "",
+      "at": "2026-09-06 16:31",
+      "before": "",
+      "object": "Week 36",
+      "user": "Ella Williams"
+    },
+    {
+      "action": "Shift notice sent",
+      "after": "",
+      "at": "2026-09-07 17:52",
+      "before": "",
+      "object": "Agnieszka Walker",
+      "user": "Mohammed King"
+    }
+  ],
+  "home": {
+    "address": "40 Green Lane, Hollinsford",
+    "manager_name": "Ella Williams",
+    "manager_title": "Home Manager",
+    "night_lead_name": "Amelia James",
+    "user_name": "Mohammed King",
+    "user_title": "Rota coordinator"
+  },
+  "locale": "en-GB",
+  "mail_address": "mohammed.king@laurel-house-hollinsford.co.uk",
+  "mails": [
+    {
+      "attachments": [
+        {
+          "attachment_id": "att-0002-ratecardpdf",
+          "content": "Northstar Care Staffing\nRate card – from 1st of this month\n\nRegistered nurse: on request\nCare assistant: on request\n\nOne hourly rate for every shift, nights and weekends included.\nMinimum booking 6 hours. Cancellation free of charge up to 24 hours before the shift; later cancellations are charged in full.\nLead time: as stated in the booking portal for each offer.",
+          "filename": "rate_card.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
+      "body": "Hello,\n\nAttached is our updated rate card. Nothing changes for bookings already confirmed. As always, please book through the portal so the shift details are complete.\n\nBest wishes\nSophie Mensah\nNorthstar Care Staffing",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0002",
+      "sender": "bookings@northstar-care-staffing-hollinsford.co.uk",
+      "sender_name": "Sophie Mensah",
+      "sent_at": "2026-09-02 11:20",
+      "subject": "Updated rate card",
+      "thread_id": "thread-0002",
+      "to": [
+        "mohammed.king@laurel-house-hollinsford.co.uk"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Dear all,\n\nThank you for the last month's figures. Across the region overtime went up again. From now on I'll ask each home for a short reason when a planning period ends above the contracted hours. No action needed today.\n\nBest regards\nBen Murphy",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0009",
+      "sender": "ben.murphy@hollinsford-caregroup.co.uk",
+      "sender_name": "Ben Murphy",
+      "sent_at": "2026-09-03 16:57",
+      "subject": "Hours report for the region",
+      "thread_id": "thread-0009",
+      "to": [
+        "ella.williams@laurel-house-hollinsford.co.uk",
+        "mohammed.king@laurel-house-hollinsford.co.uk"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hello,\n\nThank you for covering last week's late shift. Could you send me the booking number for the invoice?\n\nMohammed King\nRota coordinator, Laurel House",
+      "cc": [],
+      "folder": "sent",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0010",
+      "sender": "mohammed.king@laurel-house-hollinsford.co.uk",
+      "sender_name": "Mohammed King",
+      "sent_at": "2026-09-06 10:05",
+      "subject": "Booking number for last week",
+      "thread_id": "thread-0010",
+      "to": [
+        "bookings@northstar-care-staffing-hollinsford.co.uk"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hello,\n\nJust to let you know that Mr Doyle has an outpatient appointment on Wed 16 Sep 2026 at 10:30. I will take him myself, so no escort is needed.\n\nBest wishes\nIsla Johnson",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0006",
+      "sender": "isla.johnson@hollinsford-mail.co.uk",
+      "sender_name": "Isla Johnson",
+      "sent_at": "2026-09-08 14:38",
+      "subject": "Hospital appointment",
+      "thread_id": "thread-0006",
+      "to": [
+        "mohammed.king@laurel-house-hollinsford.co.uk"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hello,\n\nWe would like to visit Mrs Okafor on Sunday afternoon with the grandchildren. Is there anything we should know about visiting times at the moment? And could someone let us know how she has been sleeping?\n\nMany thanks\nRhys James",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0005",
+      "sender": "rhys.james@hollinsford-mail.co.uk",
+      "sender_name": "Rhys James",
+      "sent_at": "2026-09-08 15:34",
+      "subject": "Visiting on Sunday",
+      "thread_id": "thread-0005",
+      "to": [
+        "mohammed.king@laurel-house-hollinsford.co.uk"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hi all,\n\nThe next staff forum is on Thu 17 Sep 2026 at 2pm in the training room. On the agenda: rotas for the coming weeks, overtime and training. Please send me any points beforehand.\n\nThanks\nEmily Wood",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0004",
+      "sender": "emily.wood@laurel-house-hollinsford.co.uk",
+      "sender_name": "Emily Wood",
+      "sent_at": "2026-09-10 13:27",
+      "subject": "Staff forum – date for your diary",
+      "thread_id": "thread-0004",
+      "to": [
+        "mohammed.king@laurel-house-hollinsford.co.uk",
+        "ella.williams@laurel-house-hollinsford.co.uk"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hi Ella,\n\nThe rota from Sun 13 Sep is published. Open points are in the rota as usual.\n\nMohammed King\nRota coordinator, Laurel House",
+      "cc": [],
+      "folder": "sent",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0011",
+      "sender": "mohammed.king@laurel-house-hollinsford.co.uk",
+      "sender_name": "Mohammed King",
+      "sent_at": "2026-09-10 15:34",
+      "subject": "Rota published",
+      "thread_id": "thread-0011",
+      "to": [
+        "ella.williams@laurel-house-hollinsford.co.uk"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hi all,\n\nThe fire alarm will be checked on Fri 18 Sep 2026 between 10:00 and 10:30. Please reassure residents beforehand. No evacuation.\n\nElla",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0008",
+      "sender": "ella.williams@laurel-house-hollinsford.co.uk",
+      "sender_name": "Ella Williams",
+      "sent_at": "2026-09-11 08:38",
+      "subject": "Fire alarm check on Fri 18 Sep",
+      "thread_id": "thread-0008",
+      "to": [
+        "mohammed.king@laurel-house-hollinsford.co.uk"
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "attachment_id": "att-0001-hours202608c",
+          "content": "staff_no,name,contract_hours_week,worked_hours,plus_minus_hours\nE2007,Amelia James,35.00,149.05,-2.50\nE2014,Joanne Harris,16.00,71.27,2.00\nE2021,Ryan Harris,37.50,166.87,4.50\nE2028,Rhys Nair,16.00,69.27,0.00\nE2035,Imran Fernandes,28.00,126.73,5.50\nE2042,Ade Shaw,35.00,151.05,-0.50\nE2049,Ben Patel,16.00,71.27,2.00\nE2056,Ryan Martin,37.50,159.87,-2.50\nE2063,Zofia Clark,28.00,123.73,2.50\nE2070,Blessing Murphy,20.00,88.60,2.00\nE2077,Anil Foster,40.00,178.70,5.50\nE2084,Ben Hill,35.00,154.55,3.00\nE2091,Lucy Mensah,28.00,124.23,3.00\nE2098,Chiamaka Thompson,37.50,158.87,-3.50\nE2105,Samuel Nowak,40.00,172.20,-1.00\nE2112,Ella Martin,37.50,160.37,-2.00\nE2119,Sophia Fernandes,40.00,173.70,0.50\nE2126,Chiamaka Green,37.50,164.87,2.50\nE2133,Kwame Wright,40.00,178.70,5.50\nE2140,Emily Wood,16.00,74.77,5.50\nE2147,Amelia Williams,16.00,74.27,5.00\nE2154,Amelia Murphy,28.00,119.23,-2.00\nE2161,Karen Okafor,35.00,148.05,-3.50\nE2168,Tomasz Evans,37.50,166.87,4.50\nE2175,Jack Kowalski,40.00,174.20,1.00\nE2182,Tomasz Watson,35.00,156.55,5.00\nE2189,Paul Bennett,20.00,86.10,-0.50\nE2196,Agnieszka Fernandes,40.00,172.20,-1.00\nE2203,Maricel Walker,35.00,150.55,-1.00\nE2210,Zofia Moore,37.50,166.87,4.50\nE2217,Blessing Thompson,16.00,66.77,-2.50\nE2224,Hannah Hughes,40.00,175.70,2.50\nE2231,Samuel Evans,35.00,149.05,-2.50\nE2238,Megan Bennett,24.00,101.42,-2.50\nE2245,Harry Roberts,40.00,178.20,5.00\nE2252,Oliver King,40.00,176.70,3.50\nE2259,Maricel James,35.00,155.55,4.00\nE2266,Fatima Davies,40.00,171.20,-2.00\nE2273,Agnieszka Lewis,40.00,173.70,0.50\nE2280,Joanne Okafor,37.50,164.37,2.00\nE2287,Harry Hill,20.00,83.60,-3.00\nE2294,Samuel Cooper,37.50,162.37,0.00\nE2301,Joanne Shaw,35.00,153.05,1.50\nE2308,Emily Green,24.00,103.42,-0.50\nE2315,Aisha Morgan,35.00,152.05,0.50\nE2322,Charlotte Watson,40.00,177.20,4.00\nE2329,Isla Hughes,37.50,161.87,-0.50\nE2336,Ruth Reyes,37.50,161.37,-1.00\nE2343,Ben Lewis,37.50,166.87,4.50\nE2350,Sophie Jackson,37.50,165.37,3.00\nE2357,Jack Wood,37.50,163.87,1.50\nE2364,Harry Edwards,37.50,158.87,-3.50\nE2371,Rhys Mensah,35.00,157.05,5.50\nE2378,Gareth Roberts,40.00,171.20,-2.00\nE2385,Imran Santos,35.00,149.05,-2.50\nE2392,Grace Thomas,35.00,151.05,-0.50\nE2399,Samuel Kowalski,35.00,152.05,0.50\nE2406,Amelia White,20.00,88.60,2.00\nE2413,Samuel Lee,40.00,175.70,2.50\nE2420,Amelia Patel,37.50,166.37,4.00\nE2427,Agnieszka Walker,40.00,171.20,-2.00\nE2434,Tomasz Kaur,37.50,162.37,0.00\nE2441,Mary Kaur,20.00,91.60,5.00\nE2448,Joanne Jones,37.50,160.87,-1.50\n",
+          "filename": "hours_2026_08.csv",
+          "media_type": "text/csv"
+        }
+      ],
+      "body": "Dear Mohammed,\n\nPlease find attached the hours we processed for August 2026. For the next run we need any changes to contracted hours, new starters and leavers by Sun 20 Sep 2026. Hours above or below contract go to each person's hours account and are balanced with time off; overtime is paid out only when the home manager approves it.\n\nIf any of the figures look wrong, reply to this mail with the staff number and the corrected hours – please do not edit the file.\n\nKind regards\nElla Clarke\nHartwell Payroll Bureau",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0001",
+      "sender": "ella.clarke@hartwell-payroll-hollinsford.co.uk",
+      "sender_name": "Ella Clarke",
+      "sent_at": "2026-09-11 09:22",
+      "subject": "Payroll cut-off for August and next run",
+      "thread_id": "thread-0001",
+      "to": [
+        "mohammed.king@laurel-house-hollinsford.co.uk"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hello,\n\nI think Mrs Harding left the new glasses in the dining room on Tuesday. Could someone have a look? I can bring the spare pair on Friday.\n\nThank you\nTomasz Brown",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0007",
+      "sender": "tomasz.brown@hollinsford-mail.co.uk",
+      "sender_name": "Tomasz Brown",
+      "sent_at": "2026-09-12 14:30",
+      "subject": "Glasses",
+      "thread_id": "thread-0007",
+      "to": [
+        "mohammed.king@laurel-house-hollinsford.co.uk"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hi Mohammed,\n\nA few things for the coming days:\n- overtime only where it is really needed – the regional office is watching hours closely\n- please make sure everyone who is moved gets a shift message\n\nI'm in meetings most of tomorrow morning; message me in the chat if something can't wait.\n\nElla",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0003",
+      "sender": "ella.williams@laurel-house-hollinsford.co.uk",
+      "sender_name": "Ella Williams",
+      "sent_at": "2026-09-12 17:24",
+      "subject": "This week – a few things",
+      "thread_id": "thread-0003",
+      "to": [
+        "mohammed.king@laurel-house-hollinsford.co.uk"
+      ]
+    }
+  ],
+  "message_meta": [
+    {
+      "channel": "app",
+      "message_id": "message-01133a8b50",
+      "sender_label": "Harry Edwards"
+    },
+    {
+      "channel": "app",
+      "message_id": "message-0eb01147fb",
+      "sender_label": "Samuel Kowalski"
+    },
+    {
+      "channel": "app",
+      "message_id": "message-2cd225051c",
+      "sender_label": "Fatima Davies"
+    },
+    {
+      "channel": "app",
+      "message_id": "message-551c4adfec",
+      "sender_label": "Amelia Murphy"
+    },
+    {
+      "channel": "app",
+      "message_id": "message-ab668f53d1",
+      "sender_label": "Hannah Hughes"
+    }
+  ],
+  "message_texts": {},
+  "open_at_start": 0,
+  "profiles": [
+    {
+      "employee_id": "staff-0001",
+      "hire_date": "2011-03-12",
+      "hours_balance_minutes": -150,
+      "notes": "",
+      "phone": "07700 900119",
+      "previous_period_minutes": 8943,
+      "qualification_valid_until": {
+        "Fire safety": "2026-12-27",
+        "Moving and handling": "2028-01-24",
+        "NMC registration": "2028-08-11"
+      },
+      "staff_number": "E2007",
+      "wishes": [
+        "Not taking extra shifts at the moment",
+        "Does not swap shifts"
+      ]
+    },
+    {
+      "employee_id": "staff-0002",
+      "hire_date": "2023-08-15",
+      "hours_balance_minutes": 120,
+      "notes": "",
+      "phone": "07700 900212",
+      "previous_period_minutes": 4276,
+      "qualification_valid_until": {
+        "First aid": "2028-07-15",
+        "NMC registration": "2027-03-28",
+        "Safeguarding adults": "2028-12-26"
+      },
+      "staff_number": "E2014",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0003",
+      "hire_date": "2025-02-16",
+      "hours_balance_minutes": 270,
+      "notes": "",
+      "phone": "07700 900030",
+      "previous_period_minutes": 10012,
+      "qualification_valid_until": {
+        "First aid": "2026-11-20",
+        "NMC registration": "2027-08-07",
+        "Safeguarding adults": "2027-05-18"
+      },
+      "staff_number": "E2021",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0004",
+      "hire_date": "2012-11-27",
+      "hours_balance_minutes": 0,
+      "notes": "Phased return after knee surgery (finished March 2025).",
+      "phone": "07700 900806",
+      "previous_period_minutes": 4156,
+      "qualification_valid_until": {
+        "First aid": "2029-01-15",
+        "Moving and handling": "2028-12-17",
+        "NMC registration": "2029-04-24"
+      },
+      "staff_number": "E2028",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0005",
+      "hire_date": "2022-06-07",
+      "hours_balance_minutes": 330,
+      "notes": "",
+      "phone": "07700 900513",
+      "previous_period_minutes": 7604,
+      "qualification_valid_until": {
+        "Moving and handling": "2027-04-21",
+        "NMC registration": "2028-07-08",
+        "Safeguarding adults": "2028-11-15"
+      },
+      "staff_number": "E2035",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0006",
+      "hire_date": "2016-04-19",
+      "hours_balance_minutes": -30,
+      "notes": "",
+      "phone": "07700 900035",
+      "previous_period_minutes": 9063,
+      "qualification_valid_until": {
+        "Fire safety": "2027-11-18",
+        "Moving and handling": "2027-03-16",
+        "NMC registration": "2029-03-26"
+      },
+      "staff_number": "E2042",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0007",
+      "hire_date": "2023-10-02",
+      "hours_balance_minutes": 120,
+      "notes": "",
+      "phone": "07700 900081",
+      "previous_period_minutes": 4276,
+      "qualification_valid_until": {
+        "Fire safety": "2027-07-03",
+        "Moving and handling": "2027-07-20",
+        "NMC registration": "2028-10-15"
+      },
+      "staff_number": "E2049",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0008",
+      "hire_date": "2012-01-27",
+      "hours_balance_minutes": -150,
+      "notes": "",
+      "phone": "07700 900698",
+      "previous_period_minutes": 9592,
+      "qualification_valid_until": {
+        "Moving and handling": "2028-04-09",
+        "NMC registration": "2028-09-07",
+        "Safeguarding adults": "2028-06-02"
+      },
+      "staff_number": "E2056",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0009",
+      "hire_date": "2024-04-23",
+      "hours_balance_minutes": 150,
+      "notes": "Please call after 10am if possible.",
+      "phone": "07700 900367",
+      "previous_period_minutes": 7424,
+      "qualification_valid_until": {
+        "Moving and handling": "2028-05-24",
+        "NMC registration": "2029-05-05",
+        "Safeguarding adults": "2027-06-11"
+      },
+      "staff_number": "E2063",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0010",
+      "hire_date": "2024-05-05",
+      "hours_balance_minutes": 120,
+      "notes": "",
+      "phone": "07700 900750",
+      "previous_period_minutes": 5316,
+      "qualification_valid_until": {
+        "Fire safety": "2028-02-25",
+        "First aid": "2028-05-30",
+        "NMC registration": "2028-03-22"
+      },
+      "staff_number": "E2070",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0011",
+      "hire_date": "2014-06-12",
+      "hours_balance_minutes": 330,
+      "notes": "",
+      "phone": "07700 900976",
+      "previous_period_minutes": 10722,
+      "qualification_valid_until": {
+        "First aid": "2028-02-13",
+        "NMC registration": "2029-05-31",
+        "Safeguarding adults": "2027-01-09"
+      },
+      "staff_number": "E2077",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0012",
+      "hire_date": "2023-07-01",
+      "hours_balance_minutes": 180,
+      "notes": "",
+      "phone": "07700 900397",
+      "previous_period_minutes": 9273,
+      "qualification_valid_until": {
+        "Fire safety": "2028-06-12",
+        "Moving and handling": "2027-01-21"
+      },
+      "staff_number": "E2084",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0013",
+      "hire_date": "2012-11-26",
+      "hours_balance_minutes": 180,
+      "notes": "Please call after 10am if possible.",
+      "phone": "07700 900019",
+      "previous_period_minutes": 7454,
+      "qualification_valid_until": {
+        "Moving and handling": "2027-09-19",
+        "Safeguarding adults": "2027-07-14"
+      },
+      "staff_number": "E2091",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0014",
+      "hire_date": "2015-07-10",
+      "hours_balance_minutes": -210,
+      "notes": "",
+      "phone": "07700 900674",
+      "previous_period_minutes": 9532,
+      "qualification_valid_until": {
+        "Moving and handling": "2027-09-28",
+        "Safeguarding adults": "2028-10-30"
+      },
+      "staff_number": "E2098",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0015",
+      "hire_date": "2017-10-17",
+      "hours_balance_minutes": -60,
+      "notes": "",
+      "phone": "07700 900708",
+      "previous_period_minutes": 10332,
+      "qualification_valid_until": {
+        "Fire safety": "2028-09-05",
+        "Moving and handling": "2026-12-16"
+      },
+      "staff_number": "E2105",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0016",
+      "hire_date": "2010-06-02",
+      "hours_balance_minutes": -120,
+      "notes": "",
+      "phone": "07700 900074",
+      "previous_period_minutes": 9622,
+      "qualification_valid_until": {
+        "First aid": "2028-03-01",
+        "Moving and handling": "2027-05-18"
+      },
+      "staff_number": "E2112",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0017",
+      "hire_date": "2011-09-11",
+      "hours_balance_minutes": 30,
+      "notes": "",
+      "phone": "07700 900981",
+      "previous_period_minutes": 10422,
+      "qualification_valid_until": {
+        "Fire safety": "2028-08-06",
+        "Moving and handling": "2028-04-02"
+      },
+      "staff_number": "E2119",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0018",
+      "hire_date": "2019-07-27",
+      "hours_balance_minutes": 150,
+      "notes": "",
+      "phone": "07700 900732",
+      "previous_period_minutes": 9892,
+      "qualification_valid_until": {
+        "Fire safety": "2028-06-14",
+        "First aid": "2027-03-20"
+      },
+      "staff_number": "E2126",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0019",
+      "hire_date": "2013-08-19",
+      "hours_balance_minutes": 330,
+      "notes": "",
+      "phone": "07700 900355",
+      "previous_period_minutes": 10722,
+      "qualification_valid_until": {
+        "Fire safety": "2027-02-17",
+        "Moving and handling": "2026-11-20"
+      },
+      "staff_number": "E2133",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0020",
+      "hire_date": "2022-01-04",
+      "hours_balance_minutes": 330,
+      "notes": "",
+      "phone": "07700 900049",
+      "previous_period_minutes": 4486,
+      "qualification_valid_until": {
+        "Fire safety": "2028-10-01",
+        "First aid": "2028-11-24"
+      },
+      "staff_number": "E2140",
+      "wishes": [
+        "Prefers night shifts"
+      ]
+    },
+    {
+      "employee_id": "staff-0021",
+      "hire_date": "2025-03-27",
+      "hours_balance_minutes": 300,
+      "notes": "",
+      "phone": "07700 900708",
+      "previous_period_minutes": 4456,
+      "qualification_valid_until": {
+        "Fire safety": "2027-09-06",
+        "Moving and handling": "2028-12-19"
+      },
+      "staff_number": "E2147",
+      "wishes": [
+        "Not taking extra shifts at the moment"
+      ]
+    },
+    {
+      "employee_id": "staff-0022",
+      "hire_date": "2010-10-27",
+      "hours_balance_minutes": -120,
+      "notes": "",
+      "phone": "07700 900818",
+      "previous_period_minutes": 7154,
+      "qualification_valid_until": {
+        "First aid": "2029-02-03",
+        "Moving and handling": "2027-02-21"
+      },
+      "staff_number": "E2154",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0023",
+      "hire_date": "2022-02-13",
+      "hours_balance_minutes": -210,
+      "notes": "",
+      "phone": "07700 900734",
+      "previous_period_minutes": 8883,
+      "qualification_valid_until": {
+        "Fire safety": "2027-12-23",
+        "Safeguarding adults": "2027-02-24"
+      },
+      "staff_number": "E2161",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0024",
+      "hire_date": "2016-09-25",
+      "hours_balance_minutes": 270,
+      "notes": "",
+      "phone": "07700 900980",
+      "previous_period_minutes": 10012,
+      "qualification_valid_until": {
+        "Fire safety": "2028-02-09",
+        "Moving and handling": "2027-12-11"
+      },
+      "staff_number": "E2168",
+      "wishes": [
+        "Prefers late shifts"
+      ]
+    },
+    {
+      "employee_id": "staff-0025",
+      "hire_date": "2017-02-09",
+      "hours_balance_minutes": 60,
+      "notes": "",
+      "phone": "07700 900392",
+      "previous_period_minutes": 10452,
+      "qualification_valid_until": {
+        "Fire safety": "2027-09-06",
+        "Moving and handling": "2027-05-26"
+      },
+      "staff_number": "E2175",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0026",
+      "hire_date": "2022-05-11",
+      "hours_balance_minutes": 300,
+      "notes": "",
+      "phone": "07700 900413",
+      "previous_period_minutes": 9393,
+      "qualification_valid_until": {
+        "First aid": "2028-07-06",
+        "Moving and handling": "2027-01-13"
+      },
+      "staff_number": "E2182",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0027",
+      "hire_date": "2017-08-01",
+      "hours_balance_minutes": -30,
+      "notes": "",
+      "phone": "07700 900965",
+      "previous_period_minutes": 5166,
+      "qualification_valid_until": {
+        "Moving and handling": "2027-04-17",
+        "Safeguarding adults": "2027-07-19"
+      },
+      "staff_number": "E2189",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0028",
+      "hire_date": "2021-08-30",
+      "hours_balance_minutes": -60,
+      "notes": "",
+      "phone": "07700 900550",
+      "previous_period_minutes": 10332,
+      "qualification_valid_until": {
+        "Fire safety": "2027-06-24",
+        "Safeguarding adults": "2027-10-04"
+      },
+      "staff_number": "E2196",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0029",
+      "hire_date": "2021-07-14",
+      "hours_balance_minutes": -60,
+      "notes": "",
+      "phone": "07700 900173",
+      "previous_period_minutes": 9033,
+      "qualification_valid_until": {
+        "Fire safety": "2028-09-30",
+        "Moving and handling": "2027-03-24"
+      },
+      "staff_number": "E2203",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0030",
+      "hire_date": "2012-11-08",
+      "hours_balance_minutes": 270,
+      "notes": "",
+      "phone": "07700 900148",
+      "previous_period_minutes": 10012,
+      "qualification_valid_until": {
+        "Moving and handling": "2028-08-02",
+        "Safeguarding adults": "2028-01-15"
+      },
+      "staff_number": "E2210",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0031",
+      "hire_date": "2024-06-20",
+      "hours_balance_minutes": -150,
+      "notes": "",
+      "phone": "07700 900289",
+      "previous_period_minutes": 4006,
+      "qualification_valid_until": {
+        "Moving and handling": "2027-02-14",
+        "Safeguarding adults": "2027-04-12"
+      },
+      "staff_number": "E2217",
+      "wishes": [
+        "Does not swap shifts"
+      ]
+    },
+    {
+      "employee_id": "staff-0032",
+      "hire_date": "2021-11-24",
+      "hours_balance_minutes": 150,
+      "notes": "",
+      "phone": "07700 900317",
+      "previous_period_minutes": 10542,
+      "qualification_valid_until": {
+        "Moving and handling": "2027-01-15",
+        "Safeguarding adults": "2027-11-19"
+      },
+      "staff_number": "E2224",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0033",
+      "hire_date": "2021-04-28",
+      "hours_balance_minutes": -150,
+      "notes": "",
+      "phone": "07700 900816",
+      "previous_period_minutes": 8943,
+      "qualification_valid_until": {
+        "First aid": "2028-08-24",
+        "Safeguarding adults": "2027-07-14"
+      },
+      "staff_number": "E2231",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0034",
+      "hire_date": "2012-10-29",
+      "hours_balance_minutes": -150,
+      "notes": "",
+      "phone": "07700 900692",
+      "previous_period_minutes": 6085,
+      "qualification_valid_until": {
+        "Fire safety": "2028-01-07",
+        "Moving and handling": "2028-09-18"
+      },
+      "staff_number": "E2238",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0035",
+      "hire_date": "2021-03-22",
+      "hours_balance_minutes": 300,
+      "notes": "",
+      "phone": "07700 900655",
+      "previous_period_minutes": 10692,
+      "qualification_valid_until": {
+        "Fire safety": "2028-05-14",
+        "Moving and handling": "2027-01-13"
+      },
+      "staff_number": "E2245",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0036",
+      "hire_date": "2019-10-16",
+      "hours_balance_minutes": 210,
+      "notes": "",
+      "phone": "07700 900015",
+      "previous_period_minutes": 10602,
+      "qualification_valid_until": {
+        "Fire safety": "2027-12-27",
+        "First aid": "2028-11-30"
+      },
+      "staff_number": "E2252",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0037",
+      "hire_date": "2013-10-27",
+      "hours_balance_minutes": 240,
+      "notes": "Please call after 10am if possible.",
+      "phone": "07700 900023",
+      "previous_period_minutes": 9333,
+      "qualification_valid_until": {
+        "Moving and handling": "2027-09-20",
+        "Safeguarding adults": "2027-10-02"
+      },
+      "staff_number": "E2259",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0038",
+      "hire_date": "2019-10-05",
+      "hours_balance_minutes": -120,
+      "notes": "",
+      "phone": "07700 900388",
+      "previous_period_minutes": 10272,
+      "qualification_valid_until": {
+        "Fire safety": "2027-08-20",
+        "Moving and handling": "2027-05-31"
+      },
+      "staff_number": "E2266",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0039",
+      "hire_date": "2014-10-15",
+      "hours_balance_minutes": 30,
+      "notes": "",
+      "phone": "07700 900913",
+      "previous_period_minutes": 10422,
+      "qualification_valid_until": {
+        "First aid": "2028-05-10",
+        "Moving and handling": "2027-02-21"
+      },
+      "staff_number": "E2273",
+      "wishes": [
+        "Does not swap shifts"
+      ]
+    },
+    {
+      "employee_id": "staff-0040",
+      "hire_date": "2016-12-31",
+      "hours_balance_minutes": 120,
+      "notes": "",
+      "phone": "07700 900909",
+      "previous_period_minutes": 9862,
+      "qualification_valid_until": {
+        "Fire safety": "2029-02-21",
+        "First aid": "2028-05-06"
+      },
+      "staff_number": "E2280",
+      "wishes": [
+        "Prefers early shifts"
+      ]
+    },
+    {
+      "employee_id": "staff-0041",
+      "hire_date": "2015-01-08",
+      "hours_balance_minutes": -180,
+      "notes": "",
+      "phone": "07700 900491",
+      "previous_period_minutes": 5016,
+      "qualification_valid_until": {
+        "Fire safety": "2027-11-15",
+        "First aid": "2029-02-03"
+      },
+      "staff_number": "E2287",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0042",
+      "hire_date": "2023-01-19",
+      "hours_balance_minutes": 0,
+      "notes": "",
+      "phone": "07700 900832",
+      "previous_period_minutes": 9742,
+      "qualification_valid_until": {
+        "Fire safety": "2027-06-13",
+        "Moving and handling": "2027-03-30"
+      },
+      "staff_number": "E2294",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0043",
+      "hire_date": "2015-07-25",
+      "hours_balance_minutes": 90,
+      "notes": "Phased return after knee surgery (finished March 2025).",
+      "phone": "07700 900844",
+      "previous_period_minutes": 9183,
+      "qualification_valid_until": {
+        "Moving and handling": "2029-01-29",
+        "Safeguarding adults": "2028-07-20"
+      },
+      "staff_number": "E2301",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0044",
+      "hire_date": "2012-12-26",
+      "hours_balance_minutes": -30,
+      "notes": "",
+      "phone": "07700 900180",
+      "previous_period_minutes": 6205,
+      "qualification_valid_until": {
+        "First aid": "2026-11-13",
+        "Safeguarding adults": "2027-02-13"
+      },
+      "staff_number": "E2308",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0045",
+      "hire_date": "2012-05-04",
+      "hours_balance_minutes": 30,
+      "notes": "",
+      "phone": "07700 900167",
+      "previous_period_minutes": 9123,
+      "qualification_valid_until": {
+        "First aid": "2028-09-21",
+        "Moving and handling": "2026-12-24"
+      },
+      "staff_number": "E2315",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0046",
+      "hire_date": "2023-04-14",
+      "hours_balance_minutes": 240,
+      "notes": "",
+      "phone": "07700 900492",
+      "previous_period_minutes": 10632,
+      "qualification_valid_until": {
+        "Fire safety": "2029-01-02",
+        "Moving and handling": "2027-05-11"
+      },
+      "staff_number": "E2322",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0047",
+      "hire_date": "2012-07-08",
+      "hours_balance_minutes": -30,
+      "notes": "",
+      "phone": "07700 900229",
+      "previous_period_minutes": 9712,
+      "qualification_valid_until": {
+        "Fire safety": "2028-08-09",
+        "Safeguarding adults": "2028-09-11"
+      },
+      "staff_number": "E2329",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0048",
+      "hire_date": "2017-07-20",
+      "hours_balance_minutes": -60,
+      "notes": "",
+      "phone": "07700 900135",
+      "previous_period_minutes": 9682,
+      "qualification_valid_until": {
+        "Fire safety": "2028-06-12",
+        "First aid": "2029-02-27"
+      },
+      "staff_number": "E2336",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0049",
+      "hire_date": "2021-11-06",
+      "hours_balance_minutes": 270,
+      "notes": "",
+      "phone": "07700 900025",
+      "previous_period_minutes": 10012,
+      "qualification_valid_until": {
+        "Moving and handling": "2027-06-03",
+        "Safeguarding adults": "2027-01-19"
+      },
+      "staff_number": "E2343",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0050",
+      "hire_date": "2011-05-11",
+      "hours_balance_minutes": 180,
+      "notes": "",
+      "phone": "07700 900052",
+      "previous_period_minutes": 9922,
+      "qualification_valid_until": {
+        "First aid": "2027-06-06",
+        "Safeguarding adults": "2027-01-07"
+      },
+      "staff_number": "E2350",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0051",
+      "hire_date": "2025-08-01",
+      "hours_balance_minutes": 90,
+      "notes": "Please call after 10am if possible.",
+      "phone": "07700 900034",
+      "previous_period_minutes": 9832,
+      "qualification_valid_until": {
+        "Fire safety": "2029-02-27",
+        "First aid": "2027-11-18"
+      },
+      "staff_number": "E2357",
+      "wishes": [
+        "Does not swap shifts"
+      ]
+    },
+    {
+      "employee_id": "staff-0052",
+      "hire_date": "2023-10-23",
+      "hours_balance_minutes": -210,
+      "notes": "",
+      "phone": "07700 900991",
+      "previous_period_minutes": 9532,
+      "qualification_valid_until": {
+        "First aid": "2028-07-10",
+        "Safeguarding adults": "2028-01-17"
+      },
+      "staff_number": "E2364",
+      "wishes": [
+        "Prefers early shifts"
+      ]
+    },
+    {
+      "employee_id": "staff-0053",
+      "hire_date": "2016-12-09",
+      "hours_balance_minutes": 330,
+      "notes": "",
+      "phone": "07700 900585",
+      "previous_period_minutes": 9423,
+      "qualification_valid_until": {
+        "Moving and handling": "2026-12-22",
+        "Safeguarding adults": "2027-09-18"
+      },
+      "staff_number": "E2371",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0054",
+      "hire_date": "2018-02-26",
+      "hours_balance_minutes": -120,
+      "notes": "",
+      "phone": "07700 900912",
+      "previous_period_minutes": 10272,
+      "qualification_valid_until": {
+        "First aid": "2027-09-14",
+        "Moving and handling": "2028-11-07"
+      },
+      "staff_number": "E2378",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0055",
+      "hire_date": "2019-09-03",
+      "hours_balance_minutes": -150,
+      "notes": "",
+      "phone": "07700 900609",
+      "previous_period_minutes": 8943,
+      "qualification_valid_until": {
+        "First aid": "2027-12-24",
+        "Moving and handling": "2028-02-29"
+      },
+      "staff_number": "E2385",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0056",
+      "hire_date": "2014-09-01",
+      "hours_balance_minutes": -30,
+      "notes": "",
+      "phone": "07700 900256",
+      "previous_period_minutes": 9063,
+      "qualification_valid_until": {
+        "Fire safety": "2029-01-21",
+        "Moving and handling": "2027-01-17"
+      },
+      "staff_number": "E2392",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0057",
+      "hire_date": "2015-06-01",
+      "hours_balance_minutes": 30,
+      "notes": "",
+      "phone": "07700 900821",
+      "previous_period_minutes": 9123,
+      "qualification_valid_until": {
+        "First aid": "2027-01-17",
+        "Safeguarding adults": "2029-02-18"
+      },
+      "staff_number": "E2399",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0058",
+      "hire_date": "2020-05-24",
+      "hours_balance_minutes": 120,
+      "notes": "Phased return after knee surgery (finished March 2025).",
+      "phone": "07700 900483",
+      "previous_period_minutes": 5316,
+      "qualification_valid_until": {
+        "Fire safety": "2029-02-19",
+        "Moving and handling": "2028-04-15"
+      },
+      "staff_number": "E2406",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0059",
+      "hire_date": "2018-09-23",
+      "hours_balance_minutes": 150,
+      "notes": "",
+      "phone": "07700 900874",
+      "previous_period_minutes": 10542,
+      "qualification_valid_until": {
+        "Fire safety": "2028-01-02",
+        "Moving and handling": "2028-12-08"
+      },
+      "staff_number": "E2413",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0060",
+      "hire_date": "2024-10-03",
+      "hours_balance_minutes": 240,
+      "notes": "Please call after 10am if possible.",
+      "phone": "07700 900759",
+      "previous_period_minutes": 9982,
+      "qualification_valid_until": {
+        "Fire safety": "2028-09-03",
+        "First aid": "2028-11-21"
+      },
+      "staff_number": "E2420",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0061",
+      "hire_date": "2015-11-26",
+      "hours_balance_minutes": -120,
+      "notes": "",
+      "phone": "07700 900380",
+      "previous_period_minutes": 10272,
+      "qualification_valid_until": {
+        "Fire safety": "2027-09-27",
+        "First aid": "2027-10-20"
+      },
+      "staff_number": "E2427",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0062",
+      "hire_date": "2012-01-03",
+      "hours_balance_minutes": 0,
+      "notes": "",
+      "phone": "07700 900142",
+      "previous_period_minutes": 9742,
+      "qualification_valid_until": {
+        "Fire safety": "2027-04-15",
+        "Moving and handling": "2027-03-08"
+      },
+      "staff_number": "E2434",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0063",
+      "hire_date": "2017-12-28",
+      "hours_balance_minutes": 300,
+      "notes": "",
+      "phone": "07700 900015",
+      "previous_period_minutes": 5496,
+      "qualification_valid_until": {
+        "Fire safety": "2029-01-03",
+        "First aid": "2028-09-11"
+      },
+      "staff_number": "E2441",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0064",
+      "hire_date": "2019-02-16",
+      "hours_balance_minutes": -90,
+      "notes": "",
+      "phone": "07700 900935",
+      "previous_period_minutes": 9652,
+      "qualification_valid_until": {
+        "First aid": "2027-04-18",
+        "Safeguarding adults": "2028-07-05"
+      },
+      "staff_number": "E2448",
+      "wishes": []
+    }
+  ],
+  "publications": [],
+  "reports": [],
+  "requests": [
+    {
+      "decided_on": null,
+      "first_assignment_id": "initial-000018",
+      "message_id": "message-01133a8b50",
+      "partner_confirmed": true,
+      "partner_id": "staff-0036",
+      "reason": "",
+      "request_id": "request-0001",
+      "requester_id": "staff-0052",
+      "second_assignment_id": "initial-000021",
+      "status": "open"
+    },
+    {
+      "decided_on": null,
+      "first_assignment_id": "initial-000034",
+      "message_id": "message-0eb01147fb",
+      "partner_confirmed": false,
+      "partner_id": "staff-0051",
+      "reason": "",
+      "request_id": "request-0002",
+      "requester_id": "staff-0057",
+      "second_assignment_id": "initial-000039",
+      "status": "open"
+    },
+    {
+      "decided_on": null,
+      "first_assignment_id": "initial-000073",
+      "message_id": "message-2cd225051c",
+      "partner_confirmed": false,
+      "partner_id": "staff-0039",
+      "reason": "",
+      "request_id": "request-0003",
+      "requester_id": "staff-0038",
+      "second_assignment_id": "initial-000076",
+      "status": "open"
+    },
+    {
+      "decided_on": null,
+      "first_assignment_id": "initial-000099",
+      "message_id": "message-551c4adfec",
+      "partner_confirmed": false,
+      "partner_id": "staff-0059",
+      "reason": "",
+      "request_id": "request-0004",
+      "requester_id": "staff-0022",
+      "second_assignment_id": "initial-000103",
+      "status": "open"
+    },
+    {
+      "decided_on": null,
+      "first_assignment_id": "initial-000041",
+      "message_id": "message-ab668f53d1",
+      "partner_confirmed": true,
+      "partner_id": "staff-0062",
+      "reason": "",
+      "request_id": "request-0005",
+      "requester_id": "staff-0032",
+      "second_assignment_id": "initial-000045",
+      "status": "open"
+    }
+  ],
+  "schema_version": "workforce-app/v2",
+  "session_log": [],
+  "staged": [],
+  "unit_names": {
+    "ward-01": "Maple Wing",
+    "ward-02": "Harbour View"
+  }
+}

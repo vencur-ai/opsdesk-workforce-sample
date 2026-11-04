@@ -1,0 +1,37 @@
+{
+  "requests": 5,
+  "reference_1_0": {
+    "api": 5,
+    "gui_forms": 5,
+    "real_browser": 5
+  },
+  "do_nothing_0": 5,
+  "cheat_runs": 35,
+  "cheat_runs_scoring_0": 35,
+  "near_misses": 52,
+  "near_misses_passed": 0,
+  "near_miss_highest_score": 0.955,
+  "cost_near_misses": 12,
+  "cost_near_misses_passed": 0,
+  "cost_near_miss_highest_score": 0.99816468,
+  "cost_bands": [
+    "+0.01 %",
+    "+0.1 %",
+    "+0.4 %",
+    "+1 %"
+  ],
+  "equivalents": 51,
+  "equivalents_passed": 51,
+  "hack_probes": 55,
+  "hack_probes_passed": 55,
+  "other_route_1_0": 5,
+  "gui_equals_api": 5,
+  "replay_reproduced": 5,
+  "greedy_no_model_script_passed": 1,
+  "lint": "5 tasks linted, 0 hits",
+  "product": "OpsDesk Workforce",
+  "version": "3.2.0",
+  "release_commit": "51e23b0",
+  "date": "2026-11-04",
+  "scripted_agents_only": true
+}
