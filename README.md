@@ -49,6 +49,39 @@ Your own agent, the browser, MCP and Harbor: [`QUICKSTART.md`](QUICKSTART.md).
 
 Details, every cheat agent and every near miss: [`PROOF_REPORT.md`](PROOF_REPORT.md) (data in `proofs/`).
 
+## How a frontier model does
+
+| Run | Model | Result |
+|---|---|---|
+| First 7 of 20 pre-registered Workforce 3.2 requests, one attempt each, tool API | Claude Opus 5.5 | 3 of 7 fully solved |
+| Previous release, 10 requests, one attempt each | Claude Opus 5.5 | 1 of 10 fully solved, 4 of 10 accepted |
+
+Where it fails: it leaves shifts open that could be covered, mishandles swap requests, builds rotas a few percent
+dearer than needed and forgets to tell everyone whose shift changed. *Fully solved* is `passed: true` (every gate and
+a total of at least 0.999); *accepted* means everything is right and the cost is at most 0.5 % above the reference.
+The 5 requests in this sample have not been run on a model; the full run with several models follows in November 2026.
+
+## The full environment
+
+| | This sample | OpsDesk Workforce 3.2 |
+|---|---|---|
+| Verified requests | 5 | 1,000 |
+| Request families | 5 | 10, easy to expert |
+| Editions | UK, DE | UK, DE |
+| Period and staff | 7–14 days, 17–64 staff | 7–30 days, 19–74 staff (301-request evaluation set) |
+| Longest reference solution | 18 actions | 452 actions; a long-horizon tier of 36 requests needs 143–452 |
+| Reference needs two or more apps | – | 148 of 301 |
+| References proven optimal | – | 278 of 301 |
+| Cheating agents | 35/35 runs score 0 | 7 kinds score 0 on every request |
+| Near misses | 0 of 52 pass | none of 616 reaches 0.995 |
+| Equivalent solutions | 51/51 accepted | all 636 score 1.0 |
+| No-model greedy script | passes 1 of 5 | passes 23 of 301 |
+| Licence | evaluation only | evaluation, training, exclusive on request |
+
+Requests in sold sets come from fresh seed blocks and never appear in a public sample. Care standards and staffing
+rules were set or confirmed by a practising head of nursing in long-term residential care (35 years in nursing, 17 as
+head of nursing).
+
 ## How scoring works
 
 - The verifier judges the **final workspace**, not the transcript: rota, requests, messages, mails, chat posts,
