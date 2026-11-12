@@ -6,7 +6,7 @@ chat and a calendar on one clock; colleagues answer by fixed rules. Computer-use
 agents call the same functions over HTTP or MCP, and both change one shared workspace. A deterministic verifier
 scores the final workspace – no LLM judge.
 
-**Custom RL environments that can't be gamed: built in days, proven against reward hacking, difficulty calibrated on real models.**
+**RL environments that can't be gamed: proven against reward hacking, difficulty calibrated on real models.**
 
 ![The reference solution of the agency-budget request, clicked through the screens](demo.gif)
 
@@ -59,7 +59,8 @@ Details, every cheat agent and every near miss: [`PROOF_REPORT.md`](PROOF_REPORT
 Where it fails: it leaves shifts open that could be covered, mishandles swap requests, builds rotas a few percent
 dearer than needed and forgets to tell everyone whose shift changed. *Fully solved* is `passed: true` (every gate and
 a total of at least 0.999); *accepted* means everything is right and the cost is at most 0.5 % above the reference.
-The 5 requests in this sample have not been run on a model; the full run with several models follows in November 2026.
+The 5 requests in this sample have not been run on a model. We share calibration across models, with several
+attempts per request, under NDA.
 
 ## The full environment
 
@@ -79,8 +80,9 @@ The 5 requests in this sample have not been run on a model; the full run with se
 | Licence | evaluation only | evaluation, training, exclusive on request |
 
 Requests in sold sets come from fresh seed blocks and never appear in a public sample. Care standards and staffing
-rules were set or confirmed by a practising head of nursing in long-term residential care (35 years in nursing, 17 as
-head of nursing).
+rules were designed and reviewed, in several rounds, with a practising head of nursing in long-term residential care
+(35 years in nursing, 17 as head of nursing). Statutory limits follow the UK Working Time Regulations and the German
+Arbeitszeitgesetz as written in each edition.
 
 ## How scoring works
 
