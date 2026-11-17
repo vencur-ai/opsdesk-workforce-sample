@@ -1,73 +1,77 @@
 {
   "product": "OpsDesk Workforce",
-  "version": "3.2.0",
-  "image": "opsdesk-workforce-sample:3.2.0",
-  "licence": "evaluation only (LICENSE.md)",
-  "delivery": null,
+  "version": "3.9.3",
+  "package": "evaluation",
+  "image": "opsdesk-workforce:3.9.3-reviewer-sample",
+  "licence": "evaluation",
+  "delivery": "reviewer sample",
+  "verifier_in_app_image": false,
+  "generator_seed_in_app_image": false,
   "scoring": {
-    "image": "opsdesk-workforce-sample:3.2.0",
-    "reward": "the deterministic score (0–1) and passed, in every format",
-    "references": "the sample's own, in its images"
+    "image": "opsdesk-workforce-scoring:3.9.3-reviewer-sample",
+    "sealed": "the verifier and the references are only inside this image; with --seal it is saved in images/",
+    "reward": "the deterministic score (0-1) and passed: Harbor's separate verifier, OpenEnv and HTTP run the scoring image",
+    "acceptance": "docker run --rm <scoring image> python -m opsdesk.workforce.acceptance",
+    "references": "none in plain text in this delivery (no reference file, no reference call)"
   },
-  "references_included": "these 5 requests only (data/private/references/)",
-  "formats": [
-    "docker",
-    "http",
-    "mcp",
-    "harbor",
-    "hud",
-    "openenv",
-    "verifiers"
-  ],
-  "name": "opsdesk-workforce-sample",
-  "built": "2026-11-04",
-  "requests": [
+  "tasks": [
     {
-      "request": "ow-658ad870c5a6",
-      "family": "F03_swap_requests",
-      "difficulty": "easy",
-      "edition": "UK",
-      "period_days": 7,
-      "staff": 64,
-      "reference_actions": 16
-    },
-    {
-      "request": "ow-e47b95f24436",
-      "family": "F02_sick_call_repair",
-      "difficulty": "medium",
-      "edition": "DE",
-      "period_days": 7,
-      "staff": 19,
-      "reference_actions": 4
-    },
-    {
-      "request": "ow-0dcf43a361e2",
-      "family": "F07_works_council_rejection",
-      "difficulty": "medium",
-      "edition": "DE",
-      "period_days": 7,
-      "staff": 20,
-      "reference_actions": 6
-    },
-    {
-      "request": "ow-52c93274b5a8",
-      "family": "F09_agency_budget",
-      "difficulty": "hard",
-      "edition": "UK",
-      "period_days": 14,
-      "staff": 17,
-      "reference_actions": 13
-    },
-    {
-      "request": "ow-087ab90a8670",
-      "family": "F10_infeasible_month",
+      "task_id": "ow-1e3d8f52898d",
+      "family": "F01_build_roster",
+      "jurisdiction": "de",
       "difficulty": "expert",
-      "edition": "DE",
-      "period_days": 14,
-      "staff": 17,
-      "reference_actions": 18
+      "horizon_days": 21,
+      "staff": 72
+    },
+    {
+      "task_id": "ow-1e17253c0d81",
+      "family": "F08_document_conflicts",
+      "jurisdiction": "de",
+      "difficulty": "expert",
+      "horizon_days": 21,
+      "staff": 72
+    },
+    {
+      "task_id": "ow-7687d3080a92",
+      "family": "F08_document_conflicts",
+      "jurisdiction": "de",
+      "difficulty": "expert",
+      "horizon_days": 21,
+      "staff": 75
+    },
+    {
+      "task_id": "ow-89d72381a9ec",
+      "family": "F09_agency_budget",
+      "jurisdiction": "de",
+      "difficulty": "expert",
+      "horizon_days": 28,
+      "staff": 81
+    },
+    {
+      "task_id": "ow-8e5b5092599c",
+      "family": "F09_agency_budget",
+      "jurisdiction": "de",
+      "difficulty": "expert",
+      "horizon_days": 21,
+      "staff": 79
     }
   ],
-  "solver_included": false,
-  "generator_included": false
+  "references_included": false,
+  "formats": [
+    "http",
+    "mcp",
+    "harbor"
+  ],
+  "images": {
+    "opsdesk-workforce:3.9.3-reviewer-sample": {
+      "id": "sha256:a949cbdc0aaa278339ef86dc4ed1f25aa9a573c72b9982d12444df2048b27bdd",
+      "file": "release asset: opsdesk-workforce_3.9.3-reviewer-sample.tar.gz",
+      "sha256": "fc4005d196b717891d8f69868f61372e2c443b4be6a8f51fff29e7186ab6ea6a"
+    },
+    "opsdesk-workforce-scoring:3.9.3-reviewer-sample": {
+      "id": "sha256:fa8873eeaea15cf2f6defd35db35938f394f3fe9e8f47e3b4a1f1e81cfaddf12",
+      "file": "release asset: opsdesk-workforce-scoring_3.9.3-reviewer-sample.tar.gz",
+      "sha256": "8ea1360c970b0b5c48f93c1299e2ebcc6a234996a04f5cfb6c02f5257527249c"
+    }
+  }
 }

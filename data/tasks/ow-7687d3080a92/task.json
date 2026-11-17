@@ -1,0 +1,48 @@
+{
+  "app_sha256": "662c68bed37229e493e2f85e82f58a4c3ae27bb3d2a8bc6b70fdcf48149822c1",
+  "baseline": {
+    "greedy_passed": false,
+    "greedy_score": 0.0
+  },
+  "difficulty": "expert",
+  "document_ids": [
+    "doc-current-memo",
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "family": "F08_document_conflicts",
+  "horizon_days": 21,
+  "instruction": "Julia: In diesem Zeitraum steht ein Kurstag im Kalender. Wer angemeldet ist, weiß unsere Praxisanleitung Maria Werner – bitte im Chat nachfragen; wer angemeldet ist, kann an dem Tag nicht arbeiten. Kannst du bitte den Plan für Mi. 21.01. bis Di. 10.02. für alle Wohnbereiche erstellen? Es ist noch nichts eingeplant. Achtung, nicht alle Dokumente sind aktuell; im Mitarbeiterhandbuch steht, welche Regel vorgeht. Überstunden bitte nur, wenn es wirklich nötig ist. Alles muss regelkonform bleiben. Wer umgeplant wird, muss eine Nachricht bekommen.",
+  "jurisdiction": "de",
+  "start_date": "2026-01-21",
+  "surface": "workforce",
+  "task_id": "ow-7687d3080a92",
+  "workforce": {
+    "apps": [
+      "calendar",
+      "rota"
+    ],
+    "estimate_basis": "gold actions × fixed times (see taskgen.human_estimate); not measured",
+    "estimated_human_minutes": 410,
+    "eval_type": "F08_37",
+    "gold_actions": 558,
+    "hard_type": "F08_37",
+    "levers": [
+      "chat_leave",
+      "council",
+      "course_ask",
+      "course_fix",
+      "rtw"
+    ],
+    "locale": "de-DE",
+    "staff": 75,
+    "tier": "evaluation",
+    "units": 3,
+    "variant": "long"
+  },
+  "world_file": "world.json"
+}

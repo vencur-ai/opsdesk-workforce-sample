@@ -1,123 +1,98 @@
-# OpsDesk Workforce – public reviewer sample
+# OpsDesk Workforce 3.9 – sample
 
-OpsDesk Workforce is a self-hosted replica of care-home rota and staffing software (UK and German editions), built as
-a verified reinforcement-learning environment for agents. Next to the rota the workspace has a mail client, a team
-chat and a calendar on one clock; colleagues answer by fixed rules. Computer-use agents work in the browser, tool-use
-agents call the same functions over HTTP or MCP, and both change one shared workspace. A deterministic verifier
-scores the final workspace – no LLM judge.
+A verified workforce-operations environment: the HR and staffing back office of a shift-based employer under German labour law.
 
-**RL environments that can't be gamed: proven against reward hacking, difficulty calibrated on real models.**
+The first world is the staff office of a residential care provider. The agent works as the duty manager: it plans and
+repairs the rota, answers swap and leave requests, handles sick calls and agency staff, and tells everyone whose shift
+changed. Next to the rota the workspace has a mail client, a team chat and a calendar on one clock; colleagues answer
+by fixed rules. Computer-use agents work in the browser; tool-use agents call the same functions over HTTP or MCP.
+Both change one shared workspace. A deterministic verifier scores the end state – no language model judges.
 
-![The reference solution of the agency-budget request, clicked through the screens](demo.gif)
+The 5 requests in this sample have not been run on a model.
 
-This repository holds **5 requests with their reference solutions** (public on purpose, so you can score your own
-agent), the app image's build context with the runtime and the verifier, and the proof report for exactly these 5
-requests. They were generated for this sample from a fresh seed block and are in no sold, training or evaluation set.
+## Controls
 
-| Request | Workflow | Difficulty | Edition | Period | Staff | Reference actions | What the home manager asks |
-|---|---|---|---|---|---:|---:|---|
-| `ow-658ad870c5a6` | Swap requests | easy | UK | 7 days | 64 | 16 | five shift-swap requests: approve what the rules allow, decline the rest with a reason, tell both people in each request |
-| `ow-e47b95f24436` | Sick-call repair | medium | DE | 7 days | 19 | 4 | two sick calls, the first from someone on a night shift: close the gaps with as few changes as possible, a notice to everyone moved |
-| `ow-0dcf43a361e2` | Works-council rejection | medium | DE | 7 days | 20 | 6 | the works council sent the draft back: fix its points, resubmit, publish, and cover a shift that was still open |
-| `ow-52c93274b5a8` | Agency budget | hard | UK | 14 days | 17 | 13 | sick calls in the messages, extra demand and the agency budget only in the mail: cover within the budget, as cheaply as the rules allow |
-| `ow-087ab90a8670` | Period that cannot be fully covered | expert | DE | 14 days | 17 | 18 | a two-week period that cannot be fully covered: cover the legal maximum and report the rest as understaffing, with reasons |
-
-## Run it in 5 minutes
-
-Needs Docker, curl and Python 3. In this folder:
-
-```bash
-./quickstart.sh
-```
-
-It builds the image `opsdesk-workforce-sample:3.2.0` from `docker/`, starts request `ow-52c93274b5a8`, scores the empty workspace (**0**),
-replays the reference solution through the tool API and scores again (**1.0, passed**), then removes the container.
-Another request: `./quickstart.sh <request> [port]`. Measured here (Apple M4, macOS 27.0.1, Docker 29.9.2, 2026-11-04): the image built from zero in 14 s (Python base image already downloaded); then each request took about 1 s – empty workspace 0.0, reference 1.0 passed on all 5 (`CHECK.json`).
-
-Your own agent, the browser, MCP and Harbor: [`QUICKSTART.md`](QUICKSTART.md).
-
-## Proven on these 5 requests
-
-| Check | Result |
+| Control (on every one of the 5 requests) | Result |
 |---|---|
-| Reference solution (API / GUI forms / real browser) | 5/5 · 5/5 · 5/5 score 1.0 |
-| Doing nothing | 5/5 score 0 |
-| Cheat agents (7 kinds) | 35/35 runs score 0 |
-| Near misses (one thing wrong) | 52/52 rejected (highest 0.9550) |
-| Equivalent solutions | 51/51 accepted |
+| Reference solution – API, GUI forms, real browser | 5/5 · 5/5 · 5/5 score 1.0 |
+| Reference solution in Docker – Harbor, plain HTTP | 5/5 · 5/5 score 1.0 |
+| Doing nothing (host, Harbor, HTTP) | 5/5 score 0 |
+| Liar: the same work, a false report (host, Harbor, HTTP) | 5/5 score 0 |
+| Near misses: one rule broken · one coverable shift open · one change too many | 5/5 · 5/5 · 2/2 do not pass (an extra change is scored on the full-week repairs only – see CHECKS) |
+| All near misses | 56/56 do not pass |
+| Equivalent other solutions | 67/67 accepted (false accepts and false rejects: 0) |
 | Hack probes | 55/55 passed |
+| Greedy script, no model | 0/5 pass |
 
-Details, every cheat agent and every near miss: [`PROOF_REPORT.md`](PROOF_REPORT.md) (data in `proofs/`).
+Every number per request: [`CONTROLS.md`](CONTROLS.md). What the verifier checks: [`CHECKS.md`](CHECKS.md).
 
-## How a frontier model does
+## The 5 requests
 
-| Run | Model | Result |
-|---|---|---|
-| First 7 of 20 pre-registered Workforce 3.2 requests, one attempt each, tool API | Claude Opus 5.5 | 3 of 7 fully solved |
-| Previous release, 10 requests, one attempt each | Claude Opus 5.5 | 1 of 10 fully solved, 4 of 10 accepted |
+All 5 use German labour law (working-time act, works council). They were generated for this sample from fresh seeds
+and are in no other set.
 
-Where it fails: it leaves shifts open that could be covered, mishandles swap requests, builds rotas a few percent
-dearer than needed and forgets to tell everyone whose shift changed. *Fully solved* is `passed: true` (every gate and
-a total of at least 0.999); *accepted* means everything is right and the cost is at most 0.5 % above the reference.
-The 5 requests in this sample have not been run on a model. We share calibration across models, with several
-attempts per request, under NDA.
+| | Request id | Workflow | Law | Period | Staff | What the agent has to do |
+|---|---|---|---|---|---:|---|
+| R1 | `ow-89d72381a9ec` | Full week | German law | 28 days from 2026-10-23 | 81 | A week of incoming work in one go: sick calls (one arrives during the work), swap requests (one taken back later in the chat), an agency cancellation, a budget that is only given on request, a right-to-work reminder from HR, leave approved in the team chat. Keep the rota legal, covered and cheap, answer every request, tell everyone affected. |
+| R2 | `ow-8e5b5092599c` | Full week | German law | 21 days from 2026-04-13 | 79 | A week of incoming work in one go: sick calls (one arrives during the work), swap requests (one taken back later in the chat), an agency cancellation, a budget that is only given on request, a right-to-work reminder from HR, leave approved in the team chat. Keep the rota legal, covered and cheap, answer every request, tell everyone affected. |
+| R3 | `ow-1e3d8f52898d` | Build a rota | German law | 21 days from 2026-04-03 | 72 | Build the rota for the period from an empty plan: staff file, contracts, leave (one approval only in the team chat), a course day from the course list (with colleagues' spellings and a later correction), a right-to-work date, the works council's rules. |
+| R4 | `ow-1e17253c0d81` | Document conflicts | German law | 21 days from 2026-10-13 | 72 | Bring the rota in line with documents that disagree: the course list and its correction, the staff file against an out-of-date HR reminder, leave approved only in the team chat. |
+| R5 | `ow-7687d3080a92` | Document conflicts | German law | 21 days from 2026-01-21 | 75 | Bring the rota in line with documents that disagree: the course list and its correction, the staff file against an out-of-date HR reminder, leave approved only in the team chat. |
 
-## The full environment
+## Quick start (a few minutes, needs Docker)
 
-| | This sample | OpsDesk Workforce 3.2 |
-|---|---|---|
-| Verified requests | 5 | 1,000 |
-| Request families | 5 | 10, easy to expert |
-| Editions | UK, DE | UK, DE |
-| Period and staff | 7–14 days, 17–64 staff | 7–30 days, 19–74 staff (301-request evaluation set) |
-| Longest reference solution | 18 actions | 452 actions; a long-horizon tier of 36 requests needs 143–452 |
-| Reference needs two or more apps | – | 148 of 301 |
-| References proven optimal | – | 278 of 301 |
-| Cheating agents | 35/35 runs score 0 | 7 kinds score 0 on every request |
-| Near misses | 0 of 52 pass | none of 616 reaches 0.995 |
-| Equivalent solutions | 51/51 accepted | all 636 score 1.0 |
-| No-model greedy script | passes 1 of 5 | passes 23 of 301 |
-| Licence | evaluation only | evaluation, training, exclusive on request |
+1. Download the two images from this repository's release page and load them (app: 60 MB, sealed scoring image: 60 MB):
 
-Requests in sold sets come from fresh seed blocks and never appear in a public sample. Care standards and staffing
-rules were designed and reviewed, in several rounds, with a practising head of nursing in long-term residential care
-(35 years in nursing, 17 as head of nursing). Statutory limits follow the UK Working Time Regulations and the German
-Arbeitszeitgesetz as written in each edition.
+   ```bash
+   docker load -i opsdesk-workforce_3.9.3-reviewer-sample.tar.gz
+   docker load -i opsdesk-workforce-scoring_3.9.3-reviewer-sample.tar.gz
+   ```
 
-## How scoring works
+2. Start one workspace (one container per request; if port 8080 is taken on your machine, use another host port):
 
-- The verifier judges the **final workspace**, not the transcript: rota, requests, messages, mails, chat posts,
-  calendar entries and reports. The same checks run whether the agent used the screens or the tools.
-- **Gates (any fail → 0):** a valid result; no working-time or house rule broken and nothing changed that the
-  request did not ask for; every shift covered (or the proven maximum where full cover is impossible); the agent's
-  own statements in the app are true; no harmful side effects (medical details in group channels, staff data sent
-  outside); the workflow's deliverable exists.
-- **Then weighted layers:** cost against a solver reference, stability (few changes), a notice to everyone whose
-  shift changed, honesty. **Pass = `passed: true`** (every gate and a total of at least 0.999).
-- Code: `docker/runtime/opsdesk/verifiers/` and `docker/runtime/opsdesk/workforce/score_workspace.py`.
+   ```bash
+   docker volume create opsdesk-run
+   docker run -d --name opsdesk -p 8080:8080 -e OPSDESK_TASK=ow-89d72381a9ec \
+     -e OPSDESK_WORKSPACE_OUT=/workspace-out -v opsdesk-run:/workspace-out opsdesk-workforce:3.9.3-reviewer-sample
+   until curl -sf http://127.0.0.1:8080/api/tools > /dev/null; do sleep 1; done
+   ```
 
-## In this repository
+   Your agent works on `http://127.0.0.1:8080`: the app in a browser at `/`, or the tools – `GET /api/tools` lists
+   them, `POST /api/step` with `{"tool": "requests.list", "args": {}}` calls one. MCP: `formats/mcp/README.md`. The
+   request text is `instruction` in `data/tasks/ow-89d72381a9ec/task.json` (also `formats/harbor/ow-89d72381a9ec/instruction.md`).
+
+3. Score it. Scoring ends the run (the container is stopped; a new run needs a new container and volume):
+
+   ```bash
+   docker stop opsdesk
+   docker run --rm -v opsdesk-run:/in:ro opsdesk-workforce-scoring:3.9.3-reviewer-sample sh -c "python -m opsdesk.workforce.score_workspace \
+     --tasks /srv/data/tasks --workspace /in/workspace.json --task ow-89d72381a9ec --out /tmp/s > /dev/null \
+     && cat /tmp/s/reward.json /tmp/s/result.json"
+   docker rm opsdesk && docker volume rm opsdesk-run
+   ```
+
+   `reward.json` (first line) is the score; `result.json` gives every layer and the reasons. An empty workspace scores
+   `{"reward": 0.0, "passed": false, ...}`.
+
+**Harbor:** `harbor run -p formats/harbor -a <your agent> --artifact /workspace-out/workspace.json`. The agent runs in its own
+container without app code, task data or keys; the verifier runs in a separate container from the sealed scoring image.
+
+**Acceptance check of the scoring image** (reference ≥ 0.999 and empty workspace 0 on all 5, without showing a solution):
+`docker run --rm opsdesk-workforce-scoring:3.9.3-reviewer-sample python -m opsdesk.workforce.acceptance --tasks /srv/data/tasks`
+
+## What is in this package
 
 | Path | What |
 |---|---|
-| `quickstart.sh`, `QUICKSTART.md` | One-command check; running your own agent |
-| `docker/` | Build context of the app image: runtime (app, tool API, MCP, verifier) and the 5 workspaces |
-| `data/tasks/`, `data/host_data/` | The 5 workspaces (request text in `task.json` → `instruction`) |
-| `data/private/references/` | The reference solutions of these 5 requests (public in this sample only) |
-| `formats/` | Harbor (one task per request), HUD (computer use + MCP), OpenEnv, verifiers-style list, HTTP, MCP |
-| `PROOF_REPORT.md`, `proofs/` | The proof report for these 5 requests and its data |
-| `replay_gold.py` | Replays a request's reference calls against a running app (standard library only) |
-| `demo.gif` | The reference solution of `ow-52c93274b5a8`, clicked through the screens (scored 1.0) |
-| `CHECK.json` | The quickstart run on all 5 requests, measured |
-| `manifest.json`, `SHA256SUMS` | Contents and checksums of every file |
+| release page | the app image (no scoring code, no reference, no generator seed; it does hold the app's own logic, including the events it plays out during the work and the colleagues' rules) and the scoring image (the verifier and the reference solutions) |
+| `data/tasks/` | the 5 requests as the app loads them |
+| `formats/harbor`, `formats/http`, `formats/mcp` | Harbor tasks; HTTP and MCP notes |
+| `manifest.json`, `SHA256SUMS` | contents and checksums |
 
-Not in this repository: the task generator and the solver model that computed the references. Evaluation sets
-never ship their references (you send the exported workspaces, they are scored with the same verifier); a training
-licence seals them into a scoring image.
+**About the scoring image.** It holds the verifier and the reference solutions of these 5 requests, so anyone with
+Docker can read them; the licence forbids it. For a blind evaluation on unseen requests the scoring stays with
+Vencur: your agent runs on your side, you send the workspace records, Vencur returns the scores.
 
-Licence: **evaluation only** ([`LICENSE.md`](LICENSE.md)) – no training, no redistribution. All homes, people and
-records are fictional.
+## Licence
 
----
-
-Need one for your domain? [getvencur.com](https://getvencur.com) · [info@getvencur.com](mailto:info@getvencur.com)
+Evaluation only – see [`LICENSE.md`](LICENSE.md). No training, no redistribution. Contact: info@getvencur.com

@@ -1,0 +1,48 @@
+{
+  "app_sha256": "df863062e63ca7580b487a34c7fc35ac4c516ebd39d1ae61bc928ea9e77bbae7",
+  "baseline": {
+    "greedy_passed": false,
+    "greedy_score": 0.0
+  },
+  "difficulty": "expert",
+  "document_ids": [
+    "doc-current-memo",
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "family": "F08_document_conflicts",
+  "horizon_days": 21,
+  "instruction": "Kurz: In diesem Zeitraum steht ein Kurstag im Kalender. Wer angemeldet ist, weiß unsere Praxisanleitung Finn Schwarz – bitte im Chat nachfragen; wer angemeldet ist, kann an dem Tag nicht arbeiten. Kannst du bitte den Plan für Di. 13.10. bis Mo. 02.11. für alle Wohnbereiche erstellen? Es ist noch nichts eingeplant. Achtung, nicht alle Dokumente sind aktuell; im Mitarbeiterhandbuch steht, welche Regel vorgeht. Wenn etwas offen bleibt, bitte über „Unterbesetzung melden“ mit Grund. Wer umgeplant wird, muss eine Nachricht bekommen. Alles muss regelkonform bleiben. Möglichst günstig, bitte – keine unnötigen Überstunden. Danke dir, Mehmet",
+  "jurisdiction": "de",
+  "start_date": "2026-10-13",
+  "surface": "workforce",
+  "task_id": "ow-1e17253c0d81",
+  "workforce": {
+    "apps": [
+      "calendar",
+      "rota"
+    ],
+    "estimate_basis": "gold actions × fixed times (see taskgen.human_estimate); not measured",
+    "estimated_human_minutes": 411,
+    "eval_type": "F08_37",
+    "gold_actions": 561,
+    "hard_type": "F08_37",
+    "levers": [
+      "chat_leave",
+      "council",
+      "course_ask",
+      "course_fix",
+      "rtw"
+    ],
+    "locale": "de-DE",
+    "staff": 72,
+    "tier": "evaluation",
+    "units": 3,
+    "variant": "long"
+  },
+  "world_file": "world.json"
+}

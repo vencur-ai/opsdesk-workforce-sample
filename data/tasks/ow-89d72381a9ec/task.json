@@ -1,0 +1,47 @@
+{
+  "app_sha256": "63422bf3af3592a81220422050d0be12f0e0b79a8259b883e76a3e750be092ea",
+  "baseline": {
+    "greedy_passed": false,
+    "greedy_score": 0.0
+  },
+  "difficulty": "expert",
+  "document_ids": [
+    "doc-current-memo",
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "family": "F09_agency_budget",
+  "horizon_days": 28,
+  "instruction": "Hallo Swetlana,\n\nHeute früh kam eine Krankmeldung rein – steht in den Nachrichten. Kannst du die Dienste bitte neu besetzen? Stefan Winkler hat geschrieben, dass wir mehr Personal brauchen – bitte einplanen. Über Nacht ist einiges im Postfach eingegangen – bitte durchgehen und den Plan entsprechend anpassen. Das Zeitarbeitsbudget ist noch nicht freigegeben – frag mich per Mail, bevor du buchst. Bitte nicht mehr umwerfen als nötig. Schick den Betroffenen bitte eine Dienstmitteilung. Bitte das Zeitarbeitsbudget nicht sprengen. Alles muss regelkonform bleiben. Diese Woche kommt alles zusammen: In der Liste der Anfragen liegen auch Tauschwünsche. Bitte alles in der Reihenfolge der Hausordnung abarbeiten.\n\nDanke und Gruß, Jonas Neumann",
+  "jurisdiction": "de",
+  "start_date": "2026-10-23",
+  "surface": "workforce",
+  "task_id": "ow-89d72381a9ec",
+  "workforce": {
+    "apps": [
+      "rota"
+    ],
+    "estimate_basis": "gold actions × fixed times (see taskgen.human_estimate); not measured",
+    "estimated_human_minutes": 71,
+    "eval_type": "full_week_37",
+    "gold_actions": 101,
+    "hard_type": "full_week_37",
+    "levers": [
+      "agency_cancel",
+      "budget_ask",
+      "chat_leave",
+      "late_withdraw",
+      "rtw"
+    ],
+    "locale": "de-DE",
+    "staff": 81,
+    "tier": "evaluation",
+    "units": 3,
+    "variant": "full_week"
+  },
+  "world_file": "world.json"
+}

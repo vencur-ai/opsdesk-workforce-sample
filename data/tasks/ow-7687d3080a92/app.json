@@ -1,0 +1,2331 @@
+{
+  "absence_meta": [
+    {
+      "absence_id": "absence-event-0001",
+      "channel": "phone",
+      "entered_by": "Ahmet Meyer",
+      "entered_on": "2026-01-21",
+      "note": "Krankmeldung telefonisch"
+    },
+    {
+      "absence_id": "absence-event-0003",
+      "channel": "phone",
+      "entered_by": "Ahmet Meyer",
+      "entered_on": "2026-01-21",
+      "note": "Krankmeldung telefonisch"
+    },
+    {
+      "absence_id": "absence-event-0005",
+      "channel": "phone",
+      "entered_by": "Ahmet Meyer",
+      "entered_on": "2026-01-21",
+      "note": "Krankmeldung telefonisch"
+    },
+    {
+      "absence_id": "holiday-0001",
+      "channel": "planned",
+      "entered_by": "Ioana Lehmann",
+      "entered_on": "2025-12-29",
+      "note": ""
+    },
+    {
+      "absence_id": "holiday-0002",
+      "channel": "planned",
+      "entered_by": "Ioana Lehmann",
+      "entered_on": "2025-12-03",
+      "note": ""
+    },
+    {
+      "absence_id": "holiday-0003",
+      "channel": "planned",
+      "entered_by": "Ioana Lehmann",
+      "entered_on": "2026-01-05",
+      "note": ""
+    },
+    {
+      "absence_id": "holiday-0004",
+      "channel": "planned",
+      "entered_by": "Ioana Lehmann",
+      "entered_on": "2025-12-31",
+      "note": ""
+    },
+    {
+      "absence_id": "holiday-0005",
+      "channel": "planned",
+      "entered_by": "Ioana Lehmann",
+      "entered_on": "2026-01-08",
+      "note": ""
+    },
+    {
+      "absence_id": "holiday-0006",
+      "channel": "planned",
+      "entered_by": "Ioana Lehmann",
+      "entered_on": "2025-12-09",
+      "note": ""
+    }
+  ],
+  "budget_in_mail": false,
+  "calendar": [
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Ioana Lehmann",
+      "end": "2026-01-22 10:30",
+      "event_id": "event-0001",
+      "kind": "other",
+      "location": "Pflegezentrum Sonnenwiese",
+      "notes": "",
+      "start": "2026-01-22 10:00",
+      "title": "Probealarm Brandmeldeanlage"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Ioana Lehmann",
+      "end": "2026-01-22 12:30",
+      "event_id": "event-0002",
+      "kind": "meeting",
+      "location": "alle Wohnbereiche",
+      "notes": "",
+      "start": "2026-01-22 11:00",
+      "title": "Hausarztvisite"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Ioana Lehmann",
+      "end": "2026-01-23 14:15",
+      "event_id": "event-0003",
+      "kind": "meeting",
+      "location": "Pausenraum",
+      "notes": "",
+      "start": "2026-01-23 13:30",
+      "title": "Teambesprechung Wohnbereich Lindenhof"
+    },
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0029"
+      ],
+      "created_by": "Ioana Lehmann",
+      "end": "2026-01-26 23:59",
+      "event_id": "event-0004",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-01-24 00:00",
+      "title": "Urlaub: Daniel Vogel"
+    },
+    {
+      "all_day": true,
+      "attendees": [],
+      "created_by": "Ioana Lehmann",
+      "end": "2026-01-24 16:00",
+      "event_id": "event-0015",
+      "kind": "training",
+      "location": "Bildungswerk Torlund",
+      "notes": "Die Teilnehmenden meldet die Praxisanleitung (Maria Werner); an diesem Tag sind sie vom Dienst freigestellt.",
+      "start": "2026-01-24 08:30",
+      "title": "Kinästhetik-Kurs (Praxistag)"
+    },
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0033"
+      ],
+      "created_by": "Ioana Lehmann",
+      "end": "2026-01-25 23:59",
+      "event_id": "event-0005",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-01-25 00:00",
+      "title": "Urlaub: Swetlana Beck"
+    },
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0002"
+      ],
+      "created_by": "Ioana Lehmann",
+      "end": "2026-01-27 23:59",
+      "event_id": "event-0006",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-01-26 00:00",
+      "title": "Urlaub: Ahmet Meyer"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Ioana Lehmann",
+      "end": "2026-01-29 12:30",
+      "event_id": "event-0007",
+      "kind": "meeting",
+      "location": "alle Wohnbereiche",
+      "notes": "",
+      "start": "2026-01-29 11:00",
+      "title": "Hausarztvisite"
+    },
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0043"
+      ],
+      "created_by": "Ioana Lehmann",
+      "end": "2026-01-31 23:59",
+      "event_id": "event-0008",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-01-31 00:00",
+      "title": "Urlaub: Dmitri Wolf"
+    },
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0039"
+      ],
+      "created_by": "Ioana Lehmann",
+      "end": "2026-02-01 23:59",
+      "event_id": "event-0009",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-02-01 00:00",
+      "title": "Urlaub: Sarah Becker"
+    },
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0003"
+      ],
+      "created_by": "Ioana Lehmann",
+      "end": "2026-02-03 23:59",
+      "event_id": "event-0010",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-02-02 00:00",
+      "title": "Urlaub: Dmitri Weber"
+    },
+    {
+      "all_day": false,
+      "attendees": [
+        "staff-0055"
+      ],
+      "created_by": "Lena Frank",
+      "end": "2026-02-02 15:30",
+      "event_id": "event-0011",
+      "kind": "council",
+      "location": "Besprechungsraum",
+      "notes": "Dienstpläne, Überstunden, Fortbildungen.",
+      "start": "2026-02-02 14:00",
+      "title": "Betriebsratssitzung"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Ioana Lehmann",
+      "end": "2026-02-05 12:30",
+      "event_id": "event-0012",
+      "kind": "meeting",
+      "location": "alle Wohnbereiche",
+      "notes": "",
+      "start": "2026-02-05 11:00",
+      "title": "Hausarztvisite"
+    },
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0034"
+      ],
+      "created_by": "Ioana Lehmann",
+      "end": "2026-02-09 23:59",
+      "event_id": "event-0013",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-02-09 00:00",
+      "title": "Urlaub: Anne Schwarz"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Ioana Lehmann",
+      "end": "2026-03-03 15:00",
+      "event_id": "event-0014",
+      "kind": "inspection",
+      "location": "Pflegezentrum Sonnenwiese",
+      "notes": "Pflegedokumentation und Dienstpläne der letzten drei Monate.",
+      "start": "2026-03-03 09:00",
+      "title": "Begehung Heimaufsicht (angekündigt)"
+    }
+  ],
+  "chat_channels": [
+    {
+      "channel_id": "chat-all",
+      "kind": "group",
+      "members": [
+        "me",
+        "manager",
+        "staff-0001",
+        "staff-0002",
+        "staff-0003",
+        "staff-0004",
+        "staff-0005",
+        "staff-0006",
+        "staff-0007",
+        "staff-0008",
+        "staff-0009",
+        "staff-0010",
+        "staff-0011",
+        "staff-0012",
+        "staff-0013",
+        "staff-0014",
+        "staff-0015",
+        "staff-0016",
+        "staff-0017",
+        "staff-0018",
+        "staff-0019",
+        "staff-0020",
+        "staff-0021",
+        "staff-0022",
+        "staff-0023",
+        "staff-0024",
+        "staff-0025",
+        "staff-0026",
+        "staff-0027",
+        "staff-0028",
+        "staff-0029",
+        "staff-0030",
+        "staff-0031",
+        "staff-0032",
+        "staff-0033",
+        "staff-0034",
+        "staff-0035",
+        "staff-0036",
+        "staff-0037",
+        "staff-0038",
+        "staff-0039",
+        "staff-0040",
+        "staff-0041",
+        "staff-0042",
+        "staff-0043",
+        "staff-0044",
+        "staff-0045",
+        "staff-0046",
+        "staff-0047",
+        "staff-0048",
+        "staff-0049",
+        "staff-0050",
+        "staff-0051",
+        "staff-0052",
+        "staff-0053",
+        "staff-0054",
+        "staff-0055",
+        "staff-0056",
+        "staff-0057",
+        "staff-0058",
+        "staff-0059",
+        "staff-0060",
+        "staff-0061",
+        "staff-0062",
+        "staff-0063",
+        "staff-0064",
+        "staff-0065",
+        "staff-0066",
+        "staff-0067",
+        "staff-0068",
+        "staff-0069",
+        "staff-0070",
+        "staff-0071",
+        "staff-0072",
+        "staff-0073",
+        "staff-0074",
+        "staff-0075"
+      ],
+      "name": "Alle Mitarbeitenden",
+      "topic": "Infos für das ganze Haus"
+    },
+    {
+      "channel_id": "chat-ward-01",
+      "kind": "group",
+      "members": [
+        "me"
+      ],
+      "name": "Team Wohnbereich Lindenhof",
+      "topic": "Übergaben und Dienstfragen"
+    },
+    {
+      "channel_id": "chat-ward-02",
+      "kind": "group",
+      "members": [
+        "me"
+      ],
+      "name": "Team Wohnbereich Kastanie",
+      "topic": "Übergaben und Dienstfragen"
+    },
+    {
+      "channel_id": "chat-ward-03",
+      "kind": "group",
+      "members": [
+        "me"
+      ],
+      "name": "Team Wohnbereich Wiesengrund",
+      "topic": "Übergaben und Dienstfragen"
+    },
+    {
+      "channel_id": "chat-nights",
+      "kind": "group",
+      "members": [
+        "me",
+        "staff-0002",
+        "staff-0004",
+        "staff-0006",
+        "staff-0012",
+        "staff-0013",
+        "staff-0015",
+        "staff-0017",
+        "staff-0018",
+        "staff-0020",
+        "staff-0025",
+        "staff-0026",
+        "staff-0031",
+        "staff-0033",
+        "staff-0040",
+        "staff-0044",
+        "staff-0045",
+        "staff-0052",
+        "staff-0056",
+        "staff-0059",
+        "staff-0060",
+        "staff-0068",
+        "staff-0069",
+        "staff-0070",
+        "staff-0071",
+        "staff-0074"
+      ],
+      "name": "Nachtdienst",
+      "topic": "Nachtteam"
+    },
+    {
+      "channel_id": "dm-staff-0037",
+      "kind": "direct",
+      "members": [
+        "me",
+        "staff-0037"
+      ],
+      "name": "Claudia Krüger",
+      "topic": ""
+    },
+    {
+      "channel_id": "dm-staff-0024",
+      "kind": "direct",
+      "members": [
+        "me",
+        "staff-0024"
+      ],
+      "name": "Tobias Frank",
+      "topic": ""
+    }
+  ],
+  "chat_messages": [
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0001",
+      "reply_to": null,
+      "sender_id": "staff-0042",
+      "sent_at": "2026-01-12 18:22",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Fährt heute jemand an der Apotheke vorbei?",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0002",
+      "reply_to": null,
+      "sender_id": "staff-0031",
+      "sent_at": "2026-01-13 18:17",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Kuchen im Pausenraum – bedient euch.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-nights",
+      "chat_id": "chat-0003",
+      "reply_to": null,
+      "sender_id": "staff-0023",
+      "sent_at": "2026-01-13 18:26",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Die Hausarztvisite ist diese Woche auf Donnerstag 11 Uhr verschoben.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-ward-01",
+      "chat_id": "chat-0004",
+      "reply_to": null,
+      "sender_id": "staff-0026",
+      "sent_at": "2026-01-13 19:34",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Kann der Spätdienst morgen die Speisekarten in die Küche bringen?",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "dm-staff-0037",
+      "chat_id": "chat-0005",
+      "reply_to": null,
+      "sender_id": "staff-0037",
+      "sent_at": "2026-01-14 08:27",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Hallo Julia, könnte ich nächsten Monat am 28. frei haben? Das Wochenende davor arbeite ich gern.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "dm-staff-0037",
+      "chat_id": "chat-0006",
+      "reply_to": null,
+      "sender_id": "me",
+      "sent_at": "2026-01-14 20:10",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Danke – ich schaue nach und melde mich.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-ward-01",
+      "chat_id": "chat-0007",
+      "reply_to": null,
+      "sender_id": "staff-0034",
+      "sent_at": "2026-01-17 20:32",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Hab ihn – lag in der Übergabemappe.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0008",
+      "reply_to": null,
+      "sender_id": "staff-0039",
+      "sent_at": "2026-01-17 21:12",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Frage an die Leitung: Ich bräuchte den Sonntag, 01.02. frei, Hochzeit in der Familie. Geht das?",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0009",
+      "reply_to": null,
+      "sender_id": "manager",
+      "sent_at": "2026-01-18 07:48",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Hallo Sarah, ja, das geht klar – genehmigt. Ich trag's nur noch nicht ein, das macht die Planung.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "dm-staff-0024",
+      "chat_id": "chat-0010",
+      "reply_to": null,
+      "sender_id": "staff-0024",
+      "sent_at": "2026-01-18 09:42",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Hallo, mein Fortbildungsnachweis ist erneuert – wohin soll ich die Kopie schicken?",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-ward-02",
+      "chat_id": "chat-0011",
+      "reply_to": null,
+      "sender_id": "staff-0071",
+      "sent_at": "2026-01-18 14:14",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Danke fürs Bleiben gestern Nacht!",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-ward-01",
+      "chat_id": "chat-0012",
+      "reply_to": null,
+      "sender_id": "staff-0069",
+      "sent_at": "2026-01-18 18:58",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Neue Handschuhe Größe M sind im Schrank am Aufzug.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "dm-staff-0024",
+      "chat_id": "chat-0013",
+      "reply_to": null,
+      "sender_id": "me",
+      "sent_at": "2026-01-18 20:26",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Danke – ich schaue nach und melde mich.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-ward-01",
+      "chat_id": "chat-0014",
+      "reply_to": null,
+      "sender_id": "staff-0041",
+      "sent_at": "2026-01-21 06:39",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Ich bin am Sa. 24.01. beim Kinästhetik-Kurs, stehe aber noch im Plan (Dienst). Kann das jemand ändern?",
+      "ward_id": null
+    }
+  ],
+  "contacts": [
+    {
+      "address": "ioana.lehmann@pflegezentrum-sonnenwiese-eichenschwand.example",
+      "contact_id": "contact-manager",
+      "name": "Ioana Lehmann",
+      "organisation": "Pflegezentrum Sonnenwiese",
+      "role": "Pflegedienstleitung"
+    },
+    {
+      "address": "leon.becker@eichenschwand-pflegeverbund.example",
+      "contact_id": "contact-ops",
+      "name": "Leon Becker",
+      "organisation": "Regionalbüro",
+      "role": "Regionalleitung"
+    },
+    {
+      "address": "swetlana.bauer@sorantis-lohnbuero-eichenschwand.example",
+      "contact_id": "contact-payroll",
+      "name": "Swetlana Bauer",
+      "organisation": "Lohnbüro Sorantis",
+      "role": "Lohnabrechnung"
+    },
+    {
+      "address": "jonas.schmitt@bildungswerk-torlund-eichenschwand.example",
+      "contact_id": "contact-training",
+      "name": "Jonas Schmitt",
+      "organisation": "Bildungswerk Torlund",
+      "role": "Fortbildungsträger"
+    },
+    {
+      "address": "einsatz@mirenta-pflegepersonal-eichenschwand.example",
+      "contact_id": "contact-agency-1",
+      "name": "Mia Nowak",
+      "organisation": "Mirenta Pflegepersonal",
+      "role": "Disposition"
+    },
+    {
+      "address": "einsatz@tavelo-personalservice-eichenschwand.example",
+      "contact_id": "contact-agency-2",
+      "name": "Laura Richter",
+      "organisation": "Tavelo Personalservice",
+      "role": "Disposition"
+    },
+    {
+      "address": "einsatz@kurandis-zeitarbeit-eichenschwand.example",
+      "contact_id": "contact-agency-3",
+      "name": "Jürgen Beck",
+      "organisation": "Kurandis Zeitarbeit",
+      "role": "Disposition"
+    },
+    {
+      "address": "lena.frank@pflegezentrum-sonnenwiese-eichenschwand.example",
+      "contact_id": "contact-rep",
+      "name": "Lena Frank",
+      "organisation": "Betriebsrat",
+      "role": "Vorsitz Betriebsrat"
+    },
+    {
+      "address": "marek.weber@eichenschwand-post.example",
+      "contact_id": "contact-family-1",
+      "name": "Marek Weber",
+      "organisation": "Angehörige/r",
+      "role": "Angehörige/r von Frau Albers"
+    },
+    {
+      "address": "stefan.braun@eichenschwand-post.example",
+      "contact_id": "contact-family-2",
+      "name": "Stefan Braun",
+      "organisation": "Angehörige/r",
+      "role": "Angehörige/r von Frau Brandl"
+    },
+    {
+      "address": "anna.weber@eichenschwand-post.example",
+      "contact_id": "contact-family-3",
+      "name": "Anna Weber",
+      "organisation": "Angehörige/r",
+      "role": "Angehörige/r von Herrn Steiner"
+    },
+    {
+      "address": "uwe.yilmaz@pflegezentrum-sonnenwiese-eichenschwand.example",
+      "contact_id": "contact-clinical",
+      "name": "Uwe Yılmaz",
+      "organisation": "Pflegezentrum Sonnenwiese",
+      "role": "Wohnbereichsleitung"
+    },
+    {
+      "address": "personal@pflegezentrum-sonnenwiese-eichenschwand.example",
+      "contact_id": "contact-hr",
+      "name": "Dirk Hollmann",
+      "organisation": "Pflegezentrum Sonnenwiese",
+      "role": "Personalabteilung"
+    }
+  ],
+  "history": [
+    {
+      "action": "Abwesenheit erfasst",
+      "after": "Urlaub 26.01.2026–27.01.2026",
+      "at": "2025-12-03 09:42",
+      "before": "",
+      "object": "Ahmet Meyer",
+      "user": "Ioana Lehmann"
+    },
+    {
+      "action": "Abwesenheit erfasst",
+      "after": "Urlaub 24.01.2026–26.01.2026",
+      "at": "2025-12-09 09:50",
+      "before": "",
+      "object": "Daniel Vogel",
+      "user": "Ioana Lehmann"
+    },
+    {
+      "action": "Dienstplan veröffentlicht",
+      "after": "",
+      "at": "2025-12-24 16:10",
+      "before": "",
+      "object": "Woche 52",
+      "user": "Ioana Lehmann"
+    },
+    {
+      "action": "Tausch genehmigt",
+      "after": "",
+      "at": "2025-12-25 14:15",
+      "before": "",
+      "object": "Dmitri Lorenz ↔ Mihaela Zimmermann",
+      "user": "Julia Schneider"
+    },
+    {
+      "action": "Dienst geändert",
+      "after": "Spät",
+      "at": "2025-12-28 17:55",
+      "before": "Do. 01.01. Früh",
+      "object": "Markus Kaya",
+      "user": "Uwe Yılmaz"
+    },
+    {
+      "action": "Abwesenheit erfasst",
+      "after": "Urlaub 02.02.2026–03.02.2026",
+      "at": "2025-12-29 09:16",
+      "before": "",
+      "object": "Dmitri Weber",
+      "user": "Ioana Lehmann"
+    },
+    {
+      "action": "Krankmeldung erfasst",
+      "after": "30.12.2025",
+      "at": "2025-12-30 11:14",
+      "before": "",
+      "object": "Andreas Bauer",
+      "user": "Ahmet Meyer"
+    },
+    {
+      "action": "Abwesenheit erfasst",
+      "after": "Urlaub 25.01.2026–25.01.2026",
+      "at": "2025-12-31 09:43",
+      "before": "",
+      "object": "Swetlana Beck",
+      "user": "Ioana Lehmann"
+    },
+    {
+      "action": "Dienstplan veröffentlicht",
+      "after": "",
+      "at": "2025-12-31 16:17",
+      "before": "",
+      "object": "Woche 1",
+      "user": "Ioana Lehmann"
+    },
+    {
+      "action": "Kontaktdaten geändert",
+      "after": "Telefonnummer",
+      "at": "2026-01-02 16:11",
+      "before": "",
+      "object": "Uwe Schmitt",
+      "user": "Julia Schneider"
+    },
+    {
+      "action": "Dienst geändert",
+      "after": "Früh",
+      "at": "2026-01-03 14:01",
+      "before": "Fr. 09.01. Nacht",
+      "object": "Nicole Petrović",
+      "user": "Julia Schneider"
+    },
+    {
+      "action": "Abwesenheit erfasst",
+      "after": "Urlaub 09.02.2026–09.02.2026",
+      "at": "2026-01-05 09:29",
+      "before": "",
+      "object": "Anne Schwarz",
+      "user": "Ioana Lehmann"
+    },
+    {
+      "action": "Dienstplan veröffentlicht",
+      "after": "",
+      "at": "2026-01-07 16:24",
+      "before": "",
+      "object": "Woche 2",
+      "user": "Ioana Lehmann"
+    },
+    {
+      "action": "Abwesenheit erfasst",
+      "after": "Urlaub 31.01.2026–31.01.2026",
+      "at": "2026-01-08 09:55",
+      "before": "",
+      "object": "Dmitri Wolf",
+      "user": "Ioana Lehmann"
+    },
+    {
+      "action": "Dienst geändert",
+      "after": "Früh",
+      "at": "2026-01-08 18:12",
+      "before": "Di. 13.01. Spät",
+      "object": "Lukas Yılmaz",
+      "user": "Ioana Lehmann"
+    },
+    {
+      "action": "Zeitarbeit gebucht",
+      "after": "Mo. 12.01. Nacht",
+      "at": "2026-01-09 09:14",
+      "before": "",
+      "object": "Mirenta Pflegepersonal",
+      "user": "Ioana Lehmann"
+    },
+    {
+      "action": "Dienst geändert",
+      "after": "Spät",
+      "at": "2026-01-13 15:33",
+      "before": "Fr. 16.01. Nacht",
+      "object": "Mehmet Schröder",
+      "user": "Uwe Yılmaz"
+    },
+    {
+      "action": "Dienstplan veröffentlicht",
+      "after": "",
+      "at": "2026-01-14 16:31",
+      "before": "",
+      "object": "Woche 3",
+      "user": "Ioana Lehmann"
+    },
+    {
+      "action": "Dienst geändert",
+      "after": "Früh",
+      "at": "2026-01-14 17:17",
+      "before": "Mo. 19.01. Nacht",
+      "object": "Daniel Vogel",
+      "user": "Ioana Lehmann"
+    }
+  ],
+  "home": {
+    "address": "Eichengrund 2, 79843 Eichenschwand",
+    "manager_name": "Ioana Lehmann",
+    "manager_title": "Pflegedienstleitung",
+    "night_lead_name": "Ahmet Meyer",
+    "user_name": "Julia Schneider",
+    "user_title": "Assistenz der Pflegedienstleitung"
+  },
+  "locale": "de-DE",
+  "mail_address": "julia.schneider@pflegezentrum-sonnenwiese-eichenschwand.example",
+  "mails": [
+    {
+      "attachments": [
+        {
+          "attachment_id": "att-0002-preislistepd",
+          "content": "Mirenta Pflegepersonal\nPreisliste – gültig ab dem 1. dieses Monats\n\nPflegefachkraft: auf Anfrage\nPflegehilfskraft: auf Anfrage\n\nEin Stundensatz für alle Dienste, auch nachts und am Wochenende.\nMindesteinsatz 6 Stunden. Kostenfreie Stornierung bis 24 Stunden vor Dienstbeginn, danach voller Satz.\nVorlauf: wie im Buchungsportal je Angebot angegeben.",
+          "filename": "preisliste.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
+      "body": "Guten Tag,\n\nanbei unsere aktuelle Preisliste. Für bereits bestätigte Einsätze ändert sich nichts. Bitte wie gewohnt über das Portal buchen, damit alle Dienstdaten vollständig sind.\n\nFreundliche Grüße\nMia Nowak\nMirenta Pflegepersonal",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0002",
+      "sender": "einsatz@mirenta-pflegepersonal-eichenschwand.example",
+      "sender_name": "Mia Nowak",
+      "sent_at": "2026-01-08 11:42",
+      "subject": "Neue Preisliste",
+      "thread_id": "thread-0002",
+      "to": [
+        "julia.schneider@pflegezentrum-sonnenwiese-eichenschwand.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Liebe Kolleginnen und Kollegen,\n\ndanke für die Zahlen des letzten Monats. In der Region sind die Überstunden wieder gestiegen. Künftig frage ich bei jedem Haus kurz nach, wenn ein Planungszeitraum über den Vertragsstunden endet. Heute ist nichts zu tun.\n\nViele Grüße\nLeon Becker",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0010",
+      "sender": "leon.becker@eichenschwand-pflegeverbund.example",
+      "sender_name": "Leon Becker",
+      "sent_at": "2026-01-10 16:53",
+      "subject": "Stundenbericht Region",
+      "thread_id": "thread-0010",
+      "to": [
+        "ioana.lehmann@pflegezentrum-sonnenwiese-eichenschwand.example",
+        "julia.schneider@pflegezentrum-sonnenwiese-eichenschwand.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Guten Tag,\n\ndanke für die Übernahme des Spätdienstes letzte Woche. Könnten Sie mir die Vorgangsnummer für die Rechnung schicken?\n\nJulia Schneider\nAssistenz der Pflegedienstleitung, Pflegezentrum Sonnenwiese",
+      "cc": [],
+      "folder": "sent",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0011",
+      "sender": "julia.schneider@pflegezentrum-sonnenwiese-eichenschwand.example",
+      "sender_name": "Julia Schneider",
+      "sent_at": "2026-01-13 10:25",
+      "subject": "Buchungsanfrage – Vorgangsnummer",
+      "thread_id": "thread-0011",
+      "to": [
+        "einsatz@mirenta-pflegepersonal-eichenschwand.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hallo zusammen,\n\ndie nächste Sitzung des Betriebsrats ist am Mo., 02.02.2026 um 14:00 Uhr im Besprechungsraum. Tagesordnung: Dienstpläne der kommenden Wochen, Überstunden, Fortbildungen. Dienstplanentwürfe bitte wie in der Betriebsvereinbarung vereinbart vorher zur Zustimmung einreichen.\n\nViele Grüße\nLena Frank",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0005",
+      "sender": "lena.frank@pflegezentrum-sonnenwiese-eichenschwand.example",
+      "sender_name": "Lena Frank",
+      "sent_at": "2026-01-16 13:46",
+      "subject": "Einladung Betriebsratssitzung",
+      "thread_id": "thread-0005",
+      "to": [
+        "julia.schneider@pflegezentrum-sonnenwiese-eichenschwand.example",
+        "ioana.lehmann@pflegezentrum-sonnenwiese-eichenschwand.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hallo,\n\nich glaube, Frau Albers hat die neue Brille am Dienstag im Speisesaal liegen lassen. Könnte bitte jemand nachsehen? Die Ersatzbrille kann ich am Freitag vorbeibringen.\n\nDanke\nMarek Weber",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0006",
+      "sender": "marek.weber@eichenschwand-post.example",
+      "sender_name": "Marek Weber",
+      "sent_at": "2026-01-17 13:29",
+      "subject": "Brille",
+      "thread_id": "thread-0006",
+      "to": [
+        "julia.schneider@pflegezentrum-sonnenwiese-eichenschwand.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Guten Tag,\n\nwir würden Frau Brandl gern am Sonntagnachmittag mit den Enkeln besuchen. Gibt es derzeit etwas bei den Besuchszeiten zu beachten? Und könnte uns jemand sagen, wie es mit dem Schlafen geht?\n\nVielen Dank\nStefan Braun",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0007",
+      "sender": "stefan.braun@eichenschwand-post.example",
+      "sender_name": "Stefan Braun",
+      "sent_at": "2026-01-18 08:05",
+      "subject": "Besuch am Sonntag",
+      "thread_id": "thread-0007",
+      "to": [
+        "julia.schneider@pflegezentrum-sonnenwiese-eichenschwand.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hallo zusammen,\n\nam Do., 22.01.2026 zwischen 10:00 und 10:30 Uhr gibt es einen Probealarm der Brandmeldeanlage. Bitte die Bewohnerinnen und Bewohner vorher beruhigen. Keine Räumung.\n\nIoana Lehmann",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0009",
+      "sender": "ioana.lehmann@pflegezentrum-sonnenwiese-eichenschwand.example",
+      "sender_name": "Ioana Lehmann",
+      "sent_at": "2026-01-18 08:37",
+      "subject": "Probealarm am Do. 22.01.",
+      "thread_id": "thread-0009",
+      "to": [
+        "julia.schneider@pflegezentrum-sonnenwiese-eichenschwand.example"
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "attachment_id": "att-0001-stunden20251",
+          "content": "personalnr;name;vertrag_std_woche;geleistet_std;plus_minus_std\nPN-2007;Petra Fischer;35,00;157,55;6,00\nPN-2014;Ahmet Meyer;35,00;152,05;0,50\nPN-2021;Dmitri Weber;35,00;150,55;-1,00\nPN-2028;Ewa Lorenz;40,00;178,70;5,50\nPN-2035;Maria Werner;37,50;167,87;5,50\nPN-2042;Dmitri Roth;40,00;173,20;0,00\nPN-2049;Mihaela Zimmermann;35,00;157,55;6,00\nPN-2056;Katharina Hoffmann;40,00;174,70;1,50\nPN-2063;Laura Schneider;37,50;165,87;3,50\nPN-2070;Agnieszka Fischer;24,00;101,92;-2,00\nPN-2077;Monika Braun;35,00;150,55;-1,00\nPN-2084;Swetlana Wagner;37,50;161,37;-1,00\nPN-2091;Hannah Krüger;40,00;174,70;1,50\nPN-2098;Claudia Petrović;20,00;85,10;-1,50\nPN-2105;Mihaela Richter;40,00;169,70;-3,50\nPN-2112;Marek Schäfer;40,00;176,20;3,00\nPN-2119;Anna Winkler;37,50;162,37;0,00\nPN-2126;Katharina Zimmermann;40,00;171,70;-1,50\nPN-2133;Sabine Beck;24,00;103,92;0,00\nPN-2140;Jana Müller;35,00;156,05;4,50\nPN-2147;Jonas Demir;40,00;174,20;1,00\nPN-2154;Agnieszka Lange;35,00;151,55;0,00\nPN-2161;Mehmet Schröder;37,50;162,87;0,50\nPN-2168;Tobias Frank;35,00;148,05;-3,50\nPN-2175;Lukas Yılmaz;35,00;157,55;6,00\nPN-2182;Nicole Petrović;24,00;106,92;3,00\nPN-2189;Nicole Krause;35,00;153,05;1,50\nPN-2196;Birgit Sommer;40,00;176,20;3,00\nPN-2203;Daniel Vogel;35,00;150,55;-1,00\nPN-2210;Anna Kaya;37,50;164,37;2,00\nPN-2217;Thomas Winkler;37,50;164,37;2,00\nPN-2224;Dmitri Nowak;35,00;155,05;3,50\nPN-2231;Swetlana Beck;35,00;152,05;0,50\nPN-2238;Anne Schwarz;37,50;163,37;1,00\nPN-2245;Ioana Vogel;40,00;175,20;2,00\nPN-2252;Anna Lehmann;40,00;169,70;-3,50\nPN-2259;Claudia Krüger;28,00;117,73;-3,50\nPN-2266;Tobias Lehmann;35,00;155,05;3,50\nPN-2273;Sarah Becker;16,00;69,27;0,00\nPN-2280;Felix Fuchs;37,50;163,37;1,00\nPN-2287;Tobias Köhler;37,50;161,87;-0,50\nPN-2294;Agnieszka Haas;16,00;70,77;1,50\nPN-2301;Dmitri Wolf;37,50;161,37;-1,00\nPN-2308;Sarah Lange;37,50;164,37;2,00\nPN-2315;Mihaela Neumann;24,00;105,92;2,00\nPN-2322;Sabine Werner;24,00;108,42;4,50\nPN-2329;Markus Kaya;35,00;153,05;1,50\nPN-2336;Ayşe Schwarz;40,00;174,20;1,00\nPN-2343;Mihaela Hartmann;35,00;149,05;-2,50\nPN-2350;Mehmet Bauer;24,00;106,42;2,50\nPN-2357;Uwe Schmitt;37,50;167,37;5,00\nPN-2364;Sarah Popescu;16,00;65,77;-3,50\nPN-2371;Jonas Haas;37,50;167,37;5,00\nPN-2378;Jürgen Schulz;40,00;171,70;-1,50\nPN-2385;Lena Frank;20,00;82,60;-4,00\nPN-2392;Agnieszka Schröder;37,50;162,37;0,00\nPN-2399;Florian Vogel;35,00;149,55;-2,00\nPN-2406;Elif Klein;40,00;174,70;1,50\nPN-2413;Petra Keller;37,50;166,37;4,00\nPN-2420;Thomas Schulz;35,00;154,55;3,00\nPN-2427;Daniel Winkler;35,00;147,55;-4,00\nPN-2434;Ahmet Sommer;35,00;152,05;0,50\nPN-2441;Elif Krause;20,00;91,60;5,00\nPN-2448;Hannah Roth;16,00;67,27;-2,00\nPN-2455;Andreas Bauer;40,00;175,20;2,00\nPN-2462;Dmitri Lorenz;24,00;104,92;1,00\nPN-2469;Ahmet Weber;37,50;165,87;3,50\nPN-2476;Ayşe Schmidt;40,00;171,70;-1,50\nPN-2483;Dmitri Berger;37,50;161,37;-1,00\nPN-2490;Lea Keller;28,00;122,73;1,50\nPN-2497;Mihaela Nowak;40,00;174,20;1,00\nPN-2504;Ahmet Richter;37,50;160,37;-2,00\nPN-2511;Jana Hartmann;20,00;86,10;-0,50\nPN-2518;Kai Köhler;35,00;152,05;0,50\nPN-2525;Ewa Braun;37,50;165,37;3,00\n",
+          "filename": "stunden_2025_12.csv",
+          "media_type": "text/csv"
+        }
+      ],
+      "body": "Guten Tag,\n\nanbei die abgerechneten Stunden für 12/2025. Änderungen an Vertragsstunden, Ein- und Austritte für den nächsten Lauf brauchen wir bis So., 01.02.2026. Plus- und Minusstunden gehen auf das Stundenkonto und werden über Zeitausgleich ausgeglichen; ausgezahlt wird nur nach Freigabe durch die Pflegedienstleitung.\n\nWenn eine Zahl nicht stimmt, antworten Sie bitte mit Personalnummer und korrigierten Stunden – bitte die Datei nicht ändern.\n\nMit freundlichen Grüßen\nSwetlana Bauer\nLohnbüro Sorantis",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0001",
+      "sender": "swetlana.bauer@sorantis-lohnbuero-eichenschwand.example",
+      "sender_name": "Swetlana Bauer",
+      "sent_at": "2026-01-18 09:46",
+      "subject": "Abrechnungsschluss und Stundenübersicht 12/2025",
+      "thread_id": "thread-0001",
+      "to": [
+        "julia.schneider@pflegezentrum-sonnenwiese-eichenschwand.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hallo Ioana,\n\nder Dienstplan ab Mi. 21.01. ist veröffentlicht. Offene Punkte stehen wie immer im Plan.\n\nJulia Schneider\nAssistenz der Pflegedienstleitung, Pflegezentrum Sonnenwiese",
+      "cc": [],
+      "folder": "sent",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0012",
+      "sender": "julia.schneider@pflegezentrum-sonnenwiese-eichenschwand.example",
+      "sender_name": "Julia Schneider",
+      "sent_at": "2026-01-18 15:27",
+      "subject": "Dienstplan veröffentlicht",
+      "thread_id": "thread-0012",
+      "to": [
+        "ioana.lehmann@pflegezentrum-sonnenwiese-eichenschwand.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Guten Tag,\n\nwir haben 2 Plätze für den Kurs „Kinästhetik und rückenschonendes Arbeiten (Praxistag)“ am Sa., 24.01.2026 (08:30–16:00 Uhr) bestätigt. Die Namen der Teilnehmenden hat uns Ihre Praxisanleitung, Maria Werner, gemeldet; bei Fragen zur Liste bitte an Maria Werner wenden. Wie mit Ihrer Pflegedienstleitung besprochen, sind die Teilnehmenden an diesem Tag vom Dienst freigestellt.\n\nMit freundlichen Grüßen\nJonas Schmitt\nBildungswerk Torlund",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": false,
+      "mail_id": "mail-0003",
+      "sender": "jonas.schmitt@bildungswerk-torlund-eichenschwand.example",
+      "sender_name": "Jonas Schmitt",
+      "sent_at": "2026-01-20 15:25",
+      "subject": "Bestätigt: Kinästhetik und rückenschonendes Arbeiten (Praxistag) am Sa. 24.01.",
+      "thread_id": "thread-0003",
+      "to": [
+        "julia.schneider@pflegezentrum-sonnenwiese-eichenschwand.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hallo Julia,\n\nein paar Punkte für die nächsten Tage:\n- Überstunden nur, wo es wirklich nötig ist – die Regionalleitung schaut gerade genau auf die Stunden\n- bitte allen Bescheid geben, deren Dienst sich ändert\n\nIch bin morgen Vormittag fast durchgehend in Terminen; wenn etwas nicht warten kann, schreib mir im Chat.\n\nIoana Lehmann",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0004",
+      "sender": "ioana.lehmann@pflegezentrum-sonnenwiese-eichenschwand.example",
+      "sender_name": "Ioana Lehmann",
+      "sent_at": "2026-01-20 17:28",
+      "subject": "Diese Woche – ein paar Punkte",
+      "thread_id": "thread-0004",
+      "to": [
+        "julia.schneider@pflegezentrum-sonnenwiese-eichenschwand.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Guten Tag,\n\nzur Info: Herr Steiner hat am Mo. 26.01. um 10:30 Uhr einen ambulanten Termin. Ich begleite ihn selbst, eine Begleitung durch das Haus ist also nicht nötig.\n\nViele Grüße\nAnna Weber",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": false,
+      "mail_id": "mail-0008",
+      "sender": "anna.weber@eichenschwand-post.example",
+      "sender_name": "Anna Weber",
+      "sent_at": "2026-01-21 06:06",
+      "subject": "Termin im Krankenhaus",
+      "thread_id": "thread-0008",
+      "to": [
+        "julia.schneider@pflegezentrum-sonnenwiese-eichenschwand.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Eine Bewohnerin braucht ab sofort eine engere Begleitung. Wir brauchen in diesem Dienst 1 zusätzliche Person:\n- Mo. 09.02., Wohnbereich Kastanie, Spät\nGruß, Uwe Yılmaz",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": false,
+      "mail_id": "mail-0013",
+      "sender": "uwe.yilmaz@pflegezentrum-sonnenwiese-eichenschwand.example",
+      "sender_name": "Uwe Yılmaz",
+      "sent_at": "2026-01-21 06:52",
+      "subject": "Bitte mehr Personal (Palliativbegleitung)",
+      "thread_id": "thread-0013",
+      "to": [
+        "julia.schneider@pflegezentrum-sonnenwiese-eichenschwand.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Wir bekommen eine Neuaufnahme mit hohem Pflegebedarf. Wir brauchen in diesem Dienst 1 zusätzliche Person:\n- Mo. 02.02., Wohnbereich Wiesengrund, Früh\nGruß, Uwe Yılmaz",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": false,
+      "mail_id": "mail-0014",
+      "sender": "uwe.yilmaz@pflegezentrum-sonnenwiese-eichenschwand.example",
+      "sender_name": "Uwe Yılmaz",
+      "sent_at": "2026-01-21 06:53",
+      "subject": "Neuaufnahme – zusätzliche Besetzung",
+      "thread_id": "thread-0014",
+      "to": [
+        "julia.schneider@pflegezentrum-sonnenwiese-eichenschwand.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Zwei Bewohner sind deutlich pflegeaufwändiger geworden. Wir brauchen in diesem Dienst 1 zusätzliche Person:\n- Mo. 26.01., Wohnbereich Lindenhof, Spät\nGruß, Uwe Yılmaz",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": false,
+      "mail_id": "mail-0015",
+      "sender": "uwe.yilmaz@pflegezentrum-sonnenwiese-eichenschwand.example",
+      "sender_name": "Uwe Yılmaz",
+      "sent_at": "2026-01-21 06:54",
+      "subject": "Mehr Personal nötig",
+      "thread_id": "thread-0015",
+      "to": [
+        "julia.schneider@pflegezentrum-sonnenwiese-eichenschwand.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hallo,\n\nautomatische Erinnerung aus der Personalverwaltung (Stand Monatsanfang): Im Planungszeitraum laufen diese Nachweise ab:\n- Uwe Schmitt: Aufenthaltstitel gültig bis 23.01.2026\n- Andreas Bauer: Aufenthaltstitel gültig bis 25.01.2026\n\nBitte vor der Planung den aktuellen Stand in der Personalakte prüfen.\n\nDirk Hollmann\nPersonalabteilung",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": false,
+      "mail_id": "mail-0016",
+      "sender": "personal@pflegezentrum-sonnenwiese-eichenschwand.example",
+      "sender_name": "Dirk Hollmann",
+      "sent_at": "2026-01-15 08:15",
+      "subject": "Ablaufende Nachweise im Planungszeitraum",
+      "thread_id": "thread-mail-0016",
+      "to": [
+        "julia.schneider@pflegezentrum-sonnenwiese-eichenschwand.example"
+      ]
+    }
+  ],
+  "message_meta": [
+    {
+      "channel": "phone",
+      "message_id": "message-event-event-0005",
+      "sender_label": "Ahmet Meyer"
+    },
+    {
+      "channel": "email",
+      "message_id": "message-event-event-0006",
+      "sender_label": "Uwe Yılmaz"
+    },
+    {
+      "channel": "email",
+      "message_id": "message-event-event-0004",
+      "sender_label": "Uwe Yılmaz"
+    },
+    {
+      "channel": "phone",
+      "message_id": "message-event-event-0001",
+      "sender_label": "Ahmet Meyer"
+    },
+    {
+      "channel": "email",
+      "message_id": "message-event-event-0002",
+      "sender_label": "Uwe Yılmaz"
+    },
+    {
+      "channel": "phone",
+      "message_id": "message-event-event-0003",
+      "sender_label": "Ahmet Meyer"
+    }
+  ],
+  "message_texts": {
+    "message-event-event-0001": {
+      "body": "Dmitri Lorenz hat um 06:03 angerufen: Krankschreibung liegt vor (Fr. 06.02.). Im System eingetragen. Aufgenommen von Ahmet Meyer (Nachtdienst).",
+      "subject": "Krankmeldung Dmitri Lorenz"
+    },
+    "message-event-event-0002": {
+      "body": "Eine Bewohnerin braucht ab sofort eine engere Begleitung. Wir brauchen in diesem Dienst 1 zusätzliche Person:\n- Mo. 09.02., Wohnbereich Kastanie, Spät\nGruß, Uwe Yılmaz",
+      "subject": "Bitte mehr Personal (Palliativbegleitung)"
+    },
+    "message-event-event-0003": {
+      "body": "Lukas Yılmaz hat um 05:26 angerufen: Krankschreibung liegt vor (Mo. 09.02.). Im System eingetragen. Aufgenommen von Ahmet Meyer (Nachtdienst).",
+      "subject": "Krankmeldung Lukas Yılmaz"
+    },
+    "message-event-event-0004": {
+      "body": "Wir bekommen eine Neuaufnahme mit hohem Pflegebedarf. Wir brauchen in diesem Dienst 1 zusätzliche Person:\n- Mo. 02.02., Wohnbereich Wiesengrund, Früh\nGruß, Uwe Yılmaz",
+      "subject": "Neuaufnahme – zusätzliche Besetzung"
+    },
+    "message-event-event-0005": {
+      "body": "Anna Kaya hat um 05:06 angerufen: Krankschreibung liegt vor (Do. 22.01.). Im System eingetragen. Aufgenommen von Ahmet Meyer (Nachtdienst).",
+      "subject": "Krankmeldung Anna Kaya"
+    },
+    "message-event-event-0006": {
+      "body": "Zwei Bewohner sind deutlich pflegeaufwändiger geworden. Wir brauchen in diesem Dienst 1 zusätzliche Person:\n- Mo. 26.01., Wohnbereich Lindenhof, Spät\nGruß, Uwe Yılmaz",
+      "subject": "Mehr Personal nötig"
+    }
+  },
+  "open_at_start": 0,
+  "profiles": [
+    {
+      "employee_id": "staff-0001",
+      "hire_date": "2009-09-07",
+      "hours_balance_minutes": 360,
+      "notes": "",
+      "phone": "intern 201",
+      "previous_period_minutes": 9453,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2026-06-09",
+        "Erste-Hilfe-Kurs": "2027-06-18",
+        "Hygieneschulung": "2026-05-28"
+      },
+      "staff_number": "PN-2007",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0002",
+      "hire_date": "2022-04-29",
+      "hours_balance_minutes": 30,
+      "notes": "Stufenweise Wiedereingliederung nach Knie-OP (abgeschlossen 03/2025).",
+      "phone": "intern 202",
+      "previous_period_minutes": 9123,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2026-05-22",
+        "Brandschutzunterweisung": "2026-07-21",
+        "Erste-Hilfe-Kurs": "2026-05-26"
+      },
+      "staff_number": "PN-2014",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0003",
+      "hire_date": "2012-06-28",
+      "hours_balance_minutes": -60,
+      "notes": "",
+      "phone": "intern 203",
+      "previous_period_minutes": 9033,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2026-10-06",
+        "Brandschutzunterweisung": "2027-05-02",
+        "Schulung Sturzvorbeugung": "2027-04-05"
+      },
+      "staff_number": "PN-2021",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0004",
+      "hire_date": "2021-08-23",
+      "hours_balance_minutes": 330,
+      "notes": "",
+      "phone": "intern 204",
+      "previous_period_minutes": 10722,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2028-05-27",
+        "Hygieneschulung": "2027-11-05",
+        "Schulung Sturzvorbeugung": "2027-02-05"
+      },
+      "staff_number": "PN-2028",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0005",
+      "hire_date": "2025-06-16",
+      "hours_balance_minutes": 330,
+      "notes": "Stufenweise Wiedereingliederung nach Knie-OP (abgeschlossen 03/2025).",
+      "phone": "intern 205",
+      "previous_period_minutes": 10072,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2026-12-20",
+        "Erste-Hilfe-Kurs": "2027-05-26",
+        "Hygieneschulung": "2026-12-11"
+      },
+      "staff_number": "PN-2035",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0006",
+      "hire_date": "2024-04-07",
+      "hours_balance_minutes": 0,
+      "notes": "Bitte erst nach 10 Uhr anrufen.",
+      "phone": "intern 206",
+      "previous_period_minutes": 10392,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2027-10-24",
+        "Brandschutzunterweisung": "2028-01-31",
+        "Schulung Sturzvorbeugung": "2026-12-08"
+      },
+      "staff_number": "PN-2042",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0007",
+      "hire_date": "2010-05-03",
+      "hours_balance_minutes": 360,
+      "notes": "Stufenweise Wiedereingliederung nach Knie-OP (abgeschlossen 03/2025).",
+      "phone": "intern 207",
+      "previous_period_minutes": 9453,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2027-06-07",
+        "Erste-Hilfe-Kurs": "2027-01-22",
+        "Hygieneschulung": "2027-04-24"
+      },
+      "staff_number": "PN-2049",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0008",
+      "hire_date": "2023-10-22",
+      "hours_balance_minutes": 90,
+      "notes": "",
+      "phone": "intern 208",
+      "previous_period_minutes": 10482,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2026-07-08",
+        "Brandschutzunterweisung": "2027-04-22",
+        "Schulung Sturzvorbeugung": "2026-08-17"
+      },
+      "staff_number": "PN-2056",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0009",
+      "hire_date": "2018-08-21",
+      "hours_balance_minutes": 210,
+      "notes": "",
+      "phone": "intern 209",
+      "previous_period_minutes": 9952,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2028-03-31",
+        "Erste-Hilfe-Kurs": "2027-06-17",
+        "Hygieneschulung": "2027-10-23"
+      },
+      "staff_number": "PN-2063",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0010",
+      "hire_date": "2017-07-23",
+      "hours_balance_minutes": -120,
+      "notes": "",
+      "phone": "intern 210",
+      "previous_period_minutes": 6115,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2026-07-28",
+        "Brandschutzunterweisung": "2027-07-28",
+        "Hygieneschulung": "2027-12-02"
+      },
+      "staff_number": "PN-2070",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0011",
+      "hire_date": "2019-04-20",
+      "hours_balance_minutes": -60,
+      "notes": "",
+      "phone": "intern 211",
+      "previous_period_minutes": 9033,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2026-12-05",
+        "Brandschutzunterweisung": "2028-02-15",
+        "Schulung Sturzvorbeugung": "2026-11-02"
+      },
+      "staff_number": "PN-2077",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0012",
+      "hire_date": "2011-01-31",
+      "hours_balance_minutes": -60,
+      "notes": "",
+      "phone": "intern 212",
+      "previous_period_minutes": 9682,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2028-05-26",
+        "Brandschutzunterweisung": "2028-03-20",
+        "Erste-Hilfe-Kurs": "2026-04-01"
+      },
+      "staff_number": "PN-2084",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0013",
+      "hire_date": "2023-01-25",
+      "hours_balance_minutes": 90,
+      "notes": "Bitte erst nach 10 Uhr anrufen.",
+      "phone": "intern 213",
+      "previous_period_minutes": 10482,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2026-09-03",
+        "Hygieneschulung": "2028-07-05",
+        "Schulung Sturzvorbeugung": "2027-12-08"
+      },
+      "staff_number": "PN-2091",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0014",
+      "hire_date": "2014-04-20",
+      "hours_balance_minutes": -90,
+      "notes": "",
+      "phone": "intern 214",
+      "previous_period_minutes": 5106,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2027-12-29",
+        "Brandschutzunterweisung": "2026-12-04",
+        "Hygieneschulung": "2028-02-20"
+      },
+      "staff_number": "PN-2098",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0015",
+      "hire_date": "2010-01-01",
+      "hours_balance_minutes": -210,
+      "notes": "",
+      "phone": "intern 215",
+      "previous_period_minutes": 10182,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2027-07-08",
+        "Brandschutzunterweisung": "2026-05-29",
+        "Erste-Hilfe-Kurs": "2026-10-22"
+      },
+      "staff_number": "PN-2105",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0016",
+      "hire_date": "2012-11-18",
+      "hours_balance_minutes": 180,
+      "notes": "Bitte erst nach 10 Uhr anrufen.",
+      "phone": "intern 216",
+      "previous_period_minutes": 10572,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2026-06-07",
+        "Brandschutzunterweisung": "2028-06-25",
+        "Hygieneschulung": "2026-04-16"
+      },
+      "staff_number": "PN-2112",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0017",
+      "hire_date": "2012-05-30",
+      "hours_balance_minutes": 0,
+      "notes": "Bitte erst nach 10 Uhr anrufen.",
+      "phone": "intern 217",
+      "previous_period_minutes": 9742,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2027-02-26",
+        "Erste-Hilfe-Kurs": "2026-11-08",
+        "Schulung Sturzvorbeugung": "2027-03-26"
+      },
+      "staff_number": "PN-2119",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0018",
+      "hire_date": "2015-03-13",
+      "hours_balance_minutes": -90,
+      "notes": "",
+      "phone": "intern 218",
+      "previous_period_minutes": 10302,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2028-04-11",
+        "Erste-Hilfe-Kurs": "2026-06-20",
+        "Hygieneschulung": "2026-06-09"
+      },
+      "staff_number": "PN-2126",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0019",
+      "hire_date": "2011-01-06",
+      "hours_balance_minutes": 0,
+      "notes": "Stufenweise Wiedereingliederung nach Knie-OP (abgeschlossen 03/2025).",
+      "phone": "intern 219",
+      "previous_period_minutes": 6235,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2026-12-27",
+        "Brandschutzunterweisung": "2027-02-20",
+        "Erste-Hilfe-Kurs": "2028-03-10"
+      },
+      "staff_number": "PN-2133",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0020",
+      "hire_date": "2011-01-16",
+      "hours_balance_minutes": 270,
+      "notes": "",
+      "phone": "intern 220",
+      "previous_period_minutes": 9363,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2027-10-06",
+        "Brandschutzunterweisung": "2028-06-18",
+        "Schulung Sturzvorbeugung": "2028-04-21"
+      },
+      "staff_number": "PN-2140",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0021",
+      "hire_date": "2018-11-28",
+      "hours_balance_minutes": 60,
+      "notes": "",
+      "phone": "intern 221",
+      "previous_period_minutes": 10452,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2027-12-09",
+        "Brandschutzunterweisung": "2026-04-24",
+        "Schulung Sturzvorbeugung": "2027-04-26"
+      },
+      "staff_number": "PN-2147",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0022",
+      "hire_date": "2012-09-21",
+      "hours_balance_minutes": 0,
+      "notes": "",
+      "phone": "intern 222",
+      "previous_period_minutes": 9093,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2028-06-05",
+        "Brandschutzunterweisung": "2027-08-16",
+        "Hygieneschulung": "2027-12-18"
+      },
+      "staff_number": "PN-2154",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0023",
+      "hire_date": "2024-11-15",
+      "hours_balance_minutes": 30,
+      "notes": "",
+      "phone": "intern 223",
+      "previous_period_minutes": 9772,
+      "qualification_valid_until": {
+        "Berufsurkunde Pflegefachkraft": "2027-06-03",
+        "Brandschutzunterweisung": "2028-06-03",
+        "Hygieneschulung": "2026-06-14"
+      },
+      "staff_number": "PN-2161",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0024",
+      "hire_date": "2024-08-17",
+      "hours_balance_minutes": -210,
+      "notes": "Bitte erst nach 10 Uhr anrufen.",
+      "phone": "intern 224",
+      "previous_period_minutes": 8883,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2026-10-26",
+        "Hygieneschulung": "2026-09-23"
+      },
+      "staff_number": "PN-2168",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0025",
+      "hire_date": "2024-09-24",
+      "hours_balance_minutes": 360,
+      "notes": "",
+      "phone": "intern 225",
+      "previous_period_minutes": 9453,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2026-10-10",
+        "Schulung Sturzvorbeugung": "2027-08-22"
+      },
+      "staff_number": "PN-2175",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0026",
+      "hire_date": "2011-02-08",
+      "hours_balance_minutes": 180,
+      "notes": "Bitte erst nach 10 Uhr anrufen.",
+      "phone": "intern 226",
+      "previous_period_minutes": 6415,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2026-04-01",
+        "Schulung Sturzvorbeugung": "2027-11-16"
+      },
+      "staff_number": "PN-2182",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0027",
+      "hire_date": "2021-05-12",
+      "hours_balance_minutes": 90,
+      "notes": "",
+      "phone": "intern 227",
+      "previous_period_minutes": 9183,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2027-11-03",
+        "Hygieneschulung": "2026-07-25"
+      },
+      "staff_number": "PN-2189",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0028",
+      "hire_date": "2010-06-14",
+      "hours_balance_minutes": 180,
+      "notes": "",
+      "phone": "intern 228",
+      "previous_period_minutes": 10572,
+      "qualification_valid_until": {
+        "Hygieneschulung": "2027-04-22",
+        "Schulung Sturzvorbeugung": "2026-09-18"
+      },
+      "staff_number": "PN-2196",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0029",
+      "hire_date": "2022-03-28",
+      "hours_balance_minutes": -60,
+      "notes": "",
+      "phone": "intern 229",
+      "previous_period_minutes": 9033,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2027-07-03",
+        "Hygieneschulung": "2026-05-02"
+      },
+      "staff_number": "PN-2203",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0030",
+      "hire_date": "2024-12-30",
+      "hours_balance_minutes": 120,
+      "notes": "",
+      "phone": "intern 230",
+      "previous_period_minutes": 9862,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2027-10-05",
+        "Hygieneschulung": "2028-01-09"
+      },
+      "staff_number": "PN-2210",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0031",
+      "hire_date": "2022-12-13",
+      "hours_balance_minutes": 120,
+      "notes": "",
+      "phone": "intern 231",
+      "previous_period_minutes": 9862,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2026-10-25",
+        "Schulung Sturzvorbeugung": "2026-05-24"
+      },
+      "staff_number": "PN-2217",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0032",
+      "hire_date": "2014-11-30",
+      "hours_balance_minutes": 210,
+      "notes": "",
+      "phone": "intern 232",
+      "previous_period_minutes": 9303,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2027-10-09",
+        "Erste-Hilfe-Kurs": "2028-01-21"
+      },
+      "staff_number": "PN-2224",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0033",
+      "hire_date": "2020-02-15",
+      "hours_balance_minutes": 30,
+      "notes": "Stufenweise Wiedereingliederung nach Knie-OP (abgeschlossen 03/2025).",
+      "phone": "intern 233",
+      "previous_period_minutes": 9123,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2027-08-21",
+        "Erste-Hilfe-Kurs": "2028-07-07"
+      },
+      "staff_number": "PN-2231",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0034",
+      "hire_date": "2020-11-17",
+      "hours_balance_minutes": 60,
+      "notes": "",
+      "phone": "intern 234",
+      "previous_period_minutes": 9802,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2026-04-16",
+        "Hygieneschulung": "2027-10-06"
+      },
+      "staff_number": "PN-2238",
+      "wishes": [
+        "Möchte am liebsten Spätdienste"
+      ]
+    },
+    {
+      "employee_id": "staff-0035",
+      "hire_date": "2017-04-13",
+      "hours_balance_minutes": 120,
+      "notes": "",
+      "phone": "intern 235",
+      "previous_period_minutes": 10512,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2026-08-31",
+        "Hygieneschulung": "2026-09-20"
+      },
+      "staff_number": "PN-2245",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0036",
+      "hire_date": "2014-08-16",
+      "hours_balance_minutes": -210,
+      "notes": "",
+      "phone": "intern 236",
+      "previous_period_minutes": 10182,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2027-09-15",
+        "Schulung Sturzvorbeugung": "2027-07-01"
+      },
+      "staff_number": "PN-2252",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0037",
+      "hire_date": "2014-07-19",
+      "hours_balance_minutes": -210,
+      "notes": "",
+      "phone": "intern 237",
+      "previous_period_minutes": 7064,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2026-10-01",
+        "Schulung Sturzvorbeugung": "2026-09-24"
+      },
+      "staff_number": "PN-2259",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0038",
+      "hire_date": "2011-01-26",
+      "hours_balance_minutes": 210,
+      "notes": "",
+      "phone": "intern 238",
+      "previous_period_minutes": 9303,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2027-06-29",
+        "Hygieneschulung": "2028-04-05"
+      },
+      "staff_number": "PN-2266",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0039",
+      "hire_date": "2017-04-29",
+      "hours_balance_minutes": 0,
+      "notes": "",
+      "phone": "intern 239",
+      "previous_period_minutes": 4156,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2027-07-25",
+        "Hygieneschulung": "2026-06-04"
+      },
+      "staff_number": "PN-2273",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0040",
+      "hire_date": "2024-01-23",
+      "hours_balance_minutes": 60,
+      "notes": "",
+      "phone": "intern 240",
+      "previous_period_minutes": 9802,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2027-02-04",
+        "Erste-Hilfe-Kurs": "2027-09-30"
+      },
+      "staff_number": "PN-2280",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0041",
+      "hire_date": "2018-03-08",
+      "hours_balance_minutes": -30,
+      "notes": "",
+      "phone": "intern 241",
+      "previous_period_minutes": 9712,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2028-05-18",
+        "Schulung Sturzvorbeugung": "2027-04-22"
+      },
+      "staff_number": "PN-2287",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0042",
+      "hire_date": "2013-01-29",
+      "hours_balance_minutes": 90,
+      "notes": "",
+      "phone": "intern 242",
+      "previous_period_minutes": 4246,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2027-03-30",
+        "Hygieneschulung": "2026-11-06"
+      },
+      "staff_number": "PN-2294",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0043",
+      "hire_date": "2020-12-09",
+      "hours_balance_minutes": -60,
+      "notes": "",
+      "phone": "intern 243",
+      "previous_period_minutes": 9682,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2026-11-07",
+        "Hygieneschulung": "2027-01-31"
+      },
+      "staff_number": "PN-2301",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0044",
+      "hire_date": "2015-09-19",
+      "hours_balance_minutes": 120,
+      "notes": "",
+      "phone": "intern 244",
+      "previous_period_minutes": 9862,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2026-09-13",
+        "Schulung Sturzvorbeugung": "2027-02-21"
+      },
+      "staff_number": "PN-2308",
+      "wishes": [
+        "Tauscht keine Dienste"
+      ]
+    },
+    {
+      "employee_id": "staff-0045",
+      "hire_date": "2012-08-28",
+      "hours_balance_minutes": 120,
+      "notes": "",
+      "phone": "intern 245",
+      "previous_period_minutes": 6355,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2026-07-12",
+        "Schulung Sturzvorbeugung": "2026-07-22"
+      },
+      "staff_number": "PN-2315",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0046",
+      "hire_date": "2012-02-17",
+      "hours_balance_minutes": 270,
+      "notes": "",
+      "phone": "intern 246",
+      "previous_period_minutes": 6505,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2028-03-12",
+        "Hygieneschulung": "2027-02-19"
+      },
+      "staff_number": "PN-2322",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0047",
+      "hire_date": "2020-01-21",
+      "hours_balance_minutes": 90,
+      "notes": "Stufenweise Wiedereingliederung nach Knie-OP (abgeschlossen 03/2025).",
+      "phone": "intern 247",
+      "previous_period_minutes": 9183,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2027-04-17",
+        "Hygieneschulung": "2026-06-16"
+      },
+      "staff_number": "PN-2329",
+      "wishes": [
+        "Möchte am liebsten Frühdienste"
+      ]
+    },
+    {
+      "employee_id": "staff-0048",
+      "hire_date": "2025-06-15",
+      "hours_balance_minutes": 60,
+      "notes": "Stufenweise Wiedereingliederung nach Knie-OP (abgeschlossen 03/2025).",
+      "phone": "intern 248",
+      "previous_period_minutes": 10452,
+      "qualification_valid_until": {
+        "Hygieneschulung": "2028-01-06",
+        "Schulung Sturzvorbeugung": "2027-10-19"
+      },
+      "staff_number": "PN-2336",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0049",
+      "hire_date": "2022-02-02",
+      "hours_balance_minutes": -150,
+      "notes": "",
+      "phone": "intern 249",
+      "previous_period_minutes": 8943,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2027-05-03",
+        "Schulung Sturzvorbeugung": "2027-08-11"
+      },
+      "staff_number": "PN-2343",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0050",
+      "hire_date": "2014-02-16",
+      "hours_balance_minutes": 150,
+      "notes": "Bitte erst nach 10 Uhr anrufen.",
+      "phone": "intern 250",
+      "previous_period_minutes": 6385,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2026-06-13",
+        "Hygieneschulung": "2026-11-10"
+      },
+      "staff_number": "PN-2350",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0051",
+      "hire_date": "2022-05-15",
+      "hours_balance_minutes": 300,
+      "notes": "Nicht verwechseln mit Ayşe Schmidt. Arbeitserlaubnis: Aufenthaltstitel verlängert, gültig bis 10.02.2028 (Nachweis liegt vor).",
+      "phone": "intern 251",
+      "previous_period_minutes": 10042,
+      "qualification_valid_until": {
+        "Hygieneschulung": "2026-05-04",
+        "Schulung Sturzvorbeugung": "2027-09-29"
+      },
+      "staff_number": "PN-2357",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0052",
+      "hire_date": "2014-03-20",
+      "hours_balance_minutes": -210,
+      "notes": "",
+      "phone": "intern 252",
+      "previous_period_minutes": 3946,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2028-03-24",
+        "Hygieneschulung": "2028-02-12"
+      },
+      "staff_number": "PN-2364",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0053",
+      "hire_date": "2022-07-18",
+      "hours_balance_minutes": 300,
+      "notes": "",
+      "phone": "intern 253",
+      "previous_period_minutes": 10042,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2026-09-29",
+        "Hygieneschulung": "2026-12-16"
+      },
+      "staff_number": "PN-2371",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0054",
+      "hire_date": "2013-06-05",
+      "hours_balance_minutes": -90,
+      "notes": "Bitte erst nach 10 Uhr anrufen.",
+      "phone": "intern 254",
+      "previous_period_minutes": 10302,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2028-05-02",
+        "Hygieneschulung": "2027-11-06"
+      },
+      "staff_number": "PN-2378",
+      "wishes": [
+        "Tauscht keine Dienste"
+      ]
+    },
+    {
+      "employee_id": "staff-0055",
+      "hire_date": "2009-09-11",
+      "hours_balance_minutes": -240,
+      "notes": "",
+      "phone": "intern 255",
+      "previous_period_minutes": 4956,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2028-05-22",
+        "Schulung Sturzvorbeugung": "2027-11-22"
+      },
+      "staff_number": "PN-2385",
+      "wishes": [
+        "Möchte am liebsten Spätdienste"
+      ]
+    },
+    {
+      "employee_id": "staff-0056",
+      "hire_date": "2012-06-14",
+      "hours_balance_minutes": 0,
+      "notes": "",
+      "phone": "intern 256",
+      "previous_period_minutes": 9742,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2028-06-06",
+        "Hygieneschulung": "2027-07-09"
+      },
+      "staff_number": "PN-2392",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0057",
+      "hire_date": "2022-04-08",
+      "hours_balance_minutes": -120,
+      "notes": "",
+      "phone": "intern 257",
+      "previous_period_minutes": 8973,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2026-07-18",
+        "Schulung Sturzvorbeugung": "2026-09-17"
+      },
+      "staff_number": "PN-2399",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0058",
+      "hire_date": "2018-06-10",
+      "hours_balance_minutes": 90,
+      "notes": "",
+      "phone": "intern 258",
+      "previous_period_minutes": 10482,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2028-05-04",
+        "Hygieneschulung": "2026-08-18"
+      },
+      "staff_number": "PN-2406",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0059",
+      "hire_date": "2009-09-11",
+      "hours_balance_minutes": 240,
+      "notes": "",
+      "phone": "intern 259",
+      "previous_period_minutes": 9982,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2028-04-01",
+        "Schulung Sturzvorbeugung": "2026-07-13"
+      },
+      "staff_number": "PN-2413",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0060",
+      "hire_date": "2017-08-15",
+      "hours_balance_minutes": 180,
+      "notes": "",
+      "phone": "intern 260",
+      "previous_period_minutes": 9273,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2028-04-23",
+        "Schulung Sturzvorbeugung": "2027-06-09"
+      },
+      "staff_number": "PN-2420",
+      "wishes": [
+        "Tauscht keine Dienste"
+      ]
+    },
+    {
+      "employee_id": "staff-0061",
+      "hire_date": "2010-03-16",
+      "hours_balance_minutes": -240,
+      "notes": "",
+      "phone": "intern 261",
+      "previous_period_minutes": 8853,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2027-06-03",
+        "Hygieneschulung": "2027-05-16"
+      },
+      "staff_number": "PN-2427",
+      "wishes": [
+        "Möchte sonntags nicht arbeiten"
+      ]
+    },
+    {
+      "employee_id": "staff-0062",
+      "hire_date": "2016-10-28",
+      "hours_balance_minutes": 30,
+      "notes": "",
+      "phone": "intern 262",
+      "previous_period_minutes": 9123,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2027-11-05",
+        "Schulung Sturzvorbeugung": "2028-03-02"
+      },
+      "staff_number": "PN-2434",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0063",
+      "hire_date": "2013-06-04",
+      "hours_balance_minutes": 300,
+      "notes": "",
+      "phone": "intern 263",
+      "previous_period_minutes": 5496,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2026-06-02",
+        "Schulung Sturzvorbeugung": "2027-06-08"
+      },
+      "staff_number": "PN-2441",
+      "wishes": [
+        "Möchte am liebsten Nachtdienste"
+      ]
+    },
+    {
+      "employee_id": "staff-0064",
+      "hire_date": "2013-08-11",
+      "hours_balance_minutes": -120,
+      "notes": "",
+      "phone": "intern 264",
+      "previous_period_minutes": 4036,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2027-02-13",
+        "Erste-Hilfe-Kurs": "2026-09-08"
+      },
+      "staff_number": "PN-2448",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0065",
+      "hire_date": "2012-10-10",
+      "hours_balance_minutes": 120,
+      "notes": "Arbeitserlaubnis: Aufenthaltstitel gültig bis 25.01.2026; Verlängerung beantragt, neuer Nachweis liegt noch nicht vor.",
+      "phone": "intern 265",
+      "previous_period_minutes": 10512,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2028-01-27",
+        "Schulung Sturzvorbeugung": "2027-03-05"
+      },
+      "staff_number": "PN-2455",
+      "wishes": [
+        "Tauscht keine Dienste"
+      ]
+    },
+    {
+      "employee_id": "staff-0066",
+      "hire_date": "2023-01-22",
+      "hours_balance_minutes": 60,
+      "notes": "",
+      "phone": "intern 266",
+      "previous_period_minutes": 6295,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2027-03-27",
+        "Schulung Sturzvorbeugung": "2027-05-27"
+      },
+      "staff_number": "PN-2462",
+      "wishes": [
+        "Tauscht keine Dienste"
+      ]
+    },
+    {
+      "employee_id": "staff-0067",
+      "hire_date": "2015-02-27",
+      "hours_balance_minutes": 210,
+      "notes": "",
+      "phone": "intern 267",
+      "previous_period_minutes": 9952,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2026-10-28",
+        "Schulung Sturzvorbeugung": "2027-12-31"
+      },
+      "staff_number": "PN-2469",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0068",
+      "hire_date": "2015-12-16",
+      "hours_balance_minutes": -90,
+      "notes": "",
+      "phone": "intern 268",
+      "previous_period_minutes": 10302,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2026-07-17",
+        "Schulung Sturzvorbeugung": "2027-09-12"
+      },
+      "staff_number": "PN-2476",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0069",
+      "hire_date": "2012-04-17",
+      "hours_balance_minutes": -60,
+      "notes": "",
+      "phone": "intern 269",
+      "previous_period_minutes": 9682,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2027-03-02",
+        "Hygieneschulung": "2028-03-25"
+      },
+      "staff_number": "PN-2483",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0070",
+      "hire_date": "2010-06-29",
+      "hours_balance_minutes": 90,
+      "notes": "",
+      "phone": "intern 270",
+      "previous_period_minutes": 7364,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2026-08-07",
+        "Erste-Hilfe-Kurs": "2026-05-07"
+      },
+      "staff_number": "PN-2490",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0071",
+      "hire_date": "2017-01-14",
+      "hours_balance_minutes": 60,
+      "notes": "",
+      "phone": "intern 271",
+      "previous_period_minutes": 10452,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2026-10-01",
+        "Erste-Hilfe-Kurs": "2027-02-12"
+      },
+      "staff_number": "PN-2497",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0072",
+      "hire_date": "2010-12-03",
+      "hours_balance_minutes": -120,
+      "notes": "",
+      "phone": "intern 272",
+      "previous_period_minutes": 9622,
+      "qualification_valid_until": {
+        "Brandschutzunterweisung": "2027-07-23",
+        "Erste-Hilfe-Kurs": "2027-09-12"
+      },
+      "staff_number": "PN-2504",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0073",
+      "hire_date": "2024-08-18",
+      "hours_balance_minutes": -30,
+      "notes": "",
+      "phone": "intern 273",
+      "previous_period_minutes": 5166,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2027-04-14",
+        "Schulung Sturzvorbeugung": "2026-12-26"
+      },
+      "staff_number": "PN-2511",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0074",
+      "hire_date": "2019-10-27",
+      "hours_balance_minutes": 30,
+      "notes": "",
+      "phone": "intern 274",
+      "previous_period_minutes": 9123,
+      "qualification_valid_until": {
+        "Erste-Hilfe-Kurs": "2026-06-30",
+        "Hygieneschulung": "2027-11-28"
+      },
+      "staff_number": "PN-2518",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0075",
+      "hire_date": "2013-01-23",
+      "hours_balance_minutes": 180,
+      "notes": "",
+      "phone": "intern 275",
+      "previous_period_minutes": 9922,
+      "qualification_valid_until": {
+        "Hygieneschulung": "2026-10-31",
+        "Schulung Sturzvorbeugung": "2026-05-23"
+      },
+      "staff_number": "PN-2525",
+      "wishes": []
+    }
+  ],
+  "publications": [],
+  "reports": [],
+  "requests": [],
+  "schema_version": "workforce-app/v2",
+  "session_log": [],
+  "staged": [
+    {
+      "after_changes": 1,
+      "fired_at": null,
+      "kind": "course_list",
+      "payload": {
+        "attendees": "staff-0041,staff-0051",
+        "date": "2026-01-24",
+        "instructor": "staff-0005",
+        "swap_for": "staff-0051",
+        "wrong": "staff-0017"
+      },
+      "staged_id": "course-0001",
+      "trigger": "asked"
+    }
+  ],
+  "unit_names": {
+    "ward-01": "Wohnbereich Lindenhof",
+    "ward-02": "Wohnbereich Kastanie",
+    "ward-03": "Wohnbereich Wiesengrund"
+  }
+}

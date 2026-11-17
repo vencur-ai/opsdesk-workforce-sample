@@ -1,15 +1,17 @@
-# Licence – evaluation only
+# OpsDesk Workforce reviewer sample – licence
 
-Copyright (c) 2026 Vencur. All rights reserved, except as set out here.
+Copyright © 2026 Vencur. All rights reserved.
 
-You may download, run, inspect and score the five sample requests in this repository, with your own agents, to
-evaluate OpsDesk Workforce. You may publish your own scores on these requests if you name the source.
+You may use this sample **only to evaluate OpsDesk Workforce** inside your own organisation: run agents on it and look
+at the scores.
 
-You may not, without a written licence from Vencur:
-- use any file of this repository (requests, references, workspaces, screens, code) to train, fine-tune or distill a
-  model, or to build a dataset;
-- redistribute the files, or offer them as part of a product or service;
-- use them commercially beyond your own evaluation.
+You may **not**:
 
-All homes, people, records and letters are fictional. Provided "as is", without warranty of any kind.
-Questions and licences: info@getvencur.com
+1. **Train.** Use any part of the sample, or episodes, scores or outputs produced with it, to train, fine-tune or
+   distil a model, to build a reward model, or as reinforcement-learning reward.
+2. **Pass it on.** Redistribute, publish, sell, sublicense or share the sample or any part of it.
+3. **Take the scoring image apart.** Extract, copy or publish the contents of the sealed scoring image (verifier and
+   reference solutions), or use them other than through the scoring commands in the README.
+
+The sample is provided "as is", without any warranty. Vencur is not liable for any damage arising from its use, as far
+as the law allows. Paid packs come with a separate written agreement. Questions and licences: **info@getvencur.com**.

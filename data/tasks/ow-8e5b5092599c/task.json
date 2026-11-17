@@ -1,0 +1,48 @@
+{
+  "app_sha256": "70c3c191569c123503e7d0d0164ff5d50bc412a070c77fcd805e85a1e632ba57",
+  "baseline": {
+    "greedy_passed": false,
+    "greedy_score": 0.0
+  },
+  "difficulty": "expert",
+  "document_ids": [
+    "doc-current-memo",
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "family": "F09_agency_budget",
+  "horizon_days": 21,
+  "instruction": "Michael hat sich krank gemeldet (Mi. 29.04. bis So. 03.05.). Kriegst du das bitte wieder besetzt? Thomas Wolf hat geschrieben, dass wir mehr Personal brauchen – bitte einplanen. Schau bitte zuerst in die Mails, da ist heute früh einiges gekommen. Das Zeitarbeitsbudget ist noch nicht freigegeben – frag mich per Mail, bevor du buchst. Achte auf Ruhezeiten und Hausordnung. Bitte nicht mehr umwerfen als nötig. Was sich nicht besetzen lässt, meldest du mir bitte als Unterbesetzung mit Begründung. Bitte die kostengünstigste vernünftige Lösung. Wer umgeplant wird, muss eine Nachricht bekommen. Diese Woche kommt alles zusammen: In der Liste der Anfragen liegen auch Tauschwünsche. Bitte alles in der Reihenfolge der Hausordnung abarbeiten. Danke dir, Lea Becker",
+  "jurisdiction": "de",
+  "start_date": "2026-04-13",
+  "surface": "workforce",
+  "task_id": "ow-8e5b5092599c",
+  "workforce": {
+    "apps": [
+      "rota"
+    ],
+    "estimate_basis": "gold actions × fixed times (see taskgen.human_estimate); not measured",
+    "estimated_human_minutes": 56,
+    "eval_type": "full_week_21_37",
+    "gold_actions": 78,
+    "hard_type": "full_week_21_37",
+    "levers": [
+      "agency_cancel",
+      "budget_ask",
+      "chat_leave",
+      "council",
+      "late_withdraw",
+      "rtw"
+    ],
+    "locale": "de-DE",
+    "staff": 79,
+    "tier": "evaluation",
+    "units": 3,
+    "variant": "full_week"
+  },
+  "world_file": "world.json"
+}
