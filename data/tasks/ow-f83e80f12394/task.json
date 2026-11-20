@@ -1,0 +1,32 @@
+{
+  "app_sha256": "d9b7998dcefe8f4d84ecd1546196ff03e9f6b03f0e2c3cf86fb8d1ed4699371e",
+  "difficulty": "expert",
+  "document_ids": [
+    "doc-current-memo",
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "family": "F01_build_roster",
+  "horizon_days": 21,
+  "instruction": "There's a course day in the calendar this period. Our practice instructor, Jonas Roth, knows who is booked on it – please ask in the chat; whoever is booked can't work that day. Could you finish the rota for Sun 5 Jul to Sat 25 Jul (all units)? The first days are in the draft already; please check them and only change what really needs changing. Anything that stays open – report it to me as understaffing, with why. Mind the rest times and the house rules. Please finish with the final status report (Reports → Status report); every field must match the end state. Please message everyone you move. Keep the cost down – no unnecessary overtime. Thanks, Uwe Hartmann",
+  "jurisdiction": "de",
+  "start_date": "2026-07-05",
+  "surface": "workforce",
+  "task_id": "ow-f83e80f12394",
+  "workforce": {
+    "apps": [
+      "calendar",
+      "rota"
+    ],
+    "estimated_human_minutes": 242,
+    "locale": "en-DE",
+    "staff": 72,
+    "tier": "evaluation",
+    "units": 3
+  },
+  "world_file": "world.json"
+}

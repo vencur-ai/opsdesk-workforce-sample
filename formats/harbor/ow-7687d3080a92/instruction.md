@@ -1,3 +1,0 @@
-Julia: In diesem Zeitraum steht ein Kurstag im Kalender. Wer angemeldet ist, weiß unsere Praxisanleitung Maria Werner – bitte im Chat nachfragen; wer angemeldet ist, kann an dem Tag nicht arbeiten. Kannst du bitte den Plan für Mi. 21.01. bis Di. 10.02. für alle Wohnbereiche erstellen? Es ist noch nichts eingeplant. Achtung, nicht alle Dokumente sind aktuell; im Mitarbeiterhandbuch steht, welche Regel vorgeht. Überstunden bitte nur, wenn es wirklich nötig ist. Alles muss regelkonform bleiben. Wer umgeplant wird, muss eine Nachricht bekommen.
-
-OpsDesk Workforce ist im Browser unter http://app:8080 geöffnet. Werkzeuge für Programme: GET http://app:8080/api/tools, POST http://app:8080/api/step mit {"tool": ..., "args": {...}}.

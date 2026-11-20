@@ -1,0 +1,33 @@
+# main: where the agent runs (no app code, no task data, no key). app: the OpsDesk Workforce workspace.
+# The app writes its record to workspace-out; main can only read it. The record is the call log and the state hash –
+# no state (no staged event, no budget that is only in a mail); the verifier replays the calls and checks the hash.
+services:
+  main:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ["sleep", "infinity"]
+    environment:
+      OPSDESK_URL: http://app:8080
+    volumes:
+      - workspace-out:/workspace-out:ro
+    networks: [workspace, default]
+    depends_on:
+      - app
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.app
+    environment:
+      OPSDESK_TASK: ow-fb16b3f31e5d
+      OPSDESK_WORKSPACE_OUT: /workspace-out
+    volumes:
+      - workspace-out:/workspace-out
+    networks: [workspace]
+volumes:
+  workspace-out:
+# The app is only on an internal network – no way out; main reaches it there and keeps the
+# default network for the model API. Restrict main's own egress in your harness if your agent must not browse.
+networks:
+  workspace:
+    internal: true

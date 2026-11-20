@@ -1,0 +1,22 @@
+# OpenEnv: the agent's environment runs in the app image (no References); at finish it sends the
+# workspace record to the sealed scoring service, which is only on an internal network.
+services:
+  env:
+    image: opsdesk-workforce:3.12.4-sample-312en
+    command: ["sh", "-c", "exec python -m uvicorn opsdesk.workforce.openenv_server:app --host 0.0.0.0 --port 8000"]
+    environment:
+      OPSDESK_TASK: ${OPSDESK_TASK}
+      OPSDESK_HOST_KEY: ${OPSDESK_HOST_KEY}
+      OPSDESK_SCORER_URL: http://scorer:9000
+    ports:
+      - "127.0.0.1:8000:8000"
+    networks: [default, scoring]
+  scorer:
+    image: opsdesk-workforce-scoring:3.12.4-sample-312en
+    command: ["sh", "-c", "exec python -m uvicorn opsdesk.workforce.score_service:app --host 0.0.0.0 --port 9000"]
+    environment:
+      OPSDESK_TASK: ${OPSDESK_TASK}
+    networks: [scoring]
+networks:
+  scoring:
+    internal: true

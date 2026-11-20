@@ -1,0 +1,31 @@
+{
+  "app_sha256": "7487dff01f18e55facc43c45ddaf218ebc2ebb8dd03f42786c74e120eb3b6397",
+  "difficulty": "expert",
+  "document_ids": [
+    "doc-current-memo",
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "family": "F09_agency_budget",
+  "horizon_days": 21,
+  "instruction": "Quick one – There was a sick call overnight – it's in the messages. Can you sort out the cover? See Mehmet Lange's email: the shifts listed there need more people now. Have a look at the mail first, a few things came in this morning. The agency budget isn't signed off yet – ask me by mail before you book. Fill it as far as the rules allow. At the end, send me the final status report (Reports → Status report) – every field has to match the finished rota. Please message everyone you move. Mind the rest times and the house rules. Don't reshuffle more than you have to. Keep the cost down – overtime and agency only if there's no other way. It's one of those weeks: there are swap requests in the requests list too. Please go through everything in the order the house rules give. Thanks, Thomas Vogel",
+  "jurisdiction": "de",
+  "start_date": "2026-10-08",
+  "surface": "workforce",
+  "task_id": "ow-e1b2788d36a4",
+  "workforce": {
+    "apps": [
+      "rota"
+    ],
+    "estimated_human_minutes": 48,
+    "locale": "en-DE",
+    "staff": 80,
+    "tier": "evaluation",
+    "units": 3
+  },
+  "world_file": "world.json"
+}

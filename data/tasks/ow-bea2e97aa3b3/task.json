@@ -1,0 +1,31 @@
+{
+  "app_sha256": "1e49b7d7f7efb850f371bab3bc4b8541f4d635d54f28f53fef82365ca28dee44",
+  "difficulty": "expert",
+  "document_ids": [
+    "doc-current-memo",
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "family": "F09_agency_budget",
+  "horizon_days": 28,
+  "instruction": "Agnieszka Schäfer rang in sick (Fri 25 Sep to Thu 1 Oct). Could you get those shifts covered again? Kai Bauer emailed – we need extra staff on the shifts listed. Please get that on the rota. Have a look at the mail first, a few things came in this morning. The agency budget isn't signed off yet – ask me by mail before you book. Fill it as far as the rules allow. Please message everyone you move. Cheapest sensible option, please. Watch the rules – rest periods, nights in a row, the lot. At the end, send me the final status report (Reports → Status report) – every field has to match the finished rota. Don't reshuffle more than you have to. It's one of those weeks: there are swap requests in the requests list too. Please go through everything in the order the house rules give. Marek Meyer",
+  "jurisdiction": "de",
+  "start_date": "2026-09-14",
+  "surface": "workforce",
+  "task_id": "ow-bea2e97aa3b3",
+  "workforce": {
+    "apps": [
+      "rota"
+    ],
+    "estimated_human_minutes": 74,
+    "locale": "en-DE",
+    "staff": 79,
+    "tier": "evaluation",
+    "units": 3
+  },
+  "world_file": "world.json"
+}

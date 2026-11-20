@@ -1,22 +1,23 @@
 {
   "product": "OpsDesk Workforce",
-  "version": "3.9.3",
+  "version": "3.12.4",
   "package": "evaluation",
-  "image": "opsdesk-workforce:3.9.3-reviewer-sample",
-  "licence": "evaluation",
-  "delivery": "reviewer sample",
+  "image": "opsdesk-workforce:3.12.4-sample-312en",
+  "delivery": "sample-312en",
+  "licence_use": "evaluation",
+  "licence_note": "Evaluation Use: running models on the Tasks to measure them, without updating any model on the Tasks, References or Verifier output. Training Use (training or fine-tuning models on the Tasks, References or Verifier output, including reinforcement learning) needs a licence for Training Use.",
   "verifier_in_app_image": false,
   "generator_seed_in_app_image": false,
   "scoring": {
-    "image": "opsdesk-workforce-scoring:3.9.3-reviewer-sample",
-    "sealed": "the verifier and the references are only inside this image; with --seal it is saved in images/",
+    "image": "opsdesk-workforce-scoring:3.12.4-sample-312en",
+    "sealed": "the Verifier and the References are only inside this image; the saved image is in images/",
     "reward": "the deterministic score (0-1) and passed: Harbor's separate verifier, OpenEnv and HTTP run the scoring image",
     "acceptance": "docker run --rm <scoring image> python -m opsdesk.workforce.acceptance",
-    "references": "none in plain text in this delivery (no reference file, no reference call)"
+    "references": "no reference in plain text anywhere else in this package; none reachable from the app image or the agent"
   },
   "tasks": [
     {
-      "task_id": "ow-1e3d8f52898d",
+      "task_id": "ow-f83e80f12394",
       "family": "F01_build_roster",
       "jurisdiction": "de",
       "difficulty": "expert",
@@ -24,54 +25,83 @@
       "staff": 72
     },
     {
-      "task_id": "ow-1e17253c0d81",
-      "family": "F08_document_conflicts",
+      "task_id": "ow-fb16b3f31e5d",
+      "family": "F04_demand_spike",
       "jurisdiction": "de",
       "difficulty": "expert",
-      "horizon_days": 21,
-      "staff": 72
-    },
-    {
-      "task_id": "ow-7687d3080a92",
-      "family": "F08_document_conflicts",
-      "jurisdiction": "de",
-      "difficulty": "expert",
-      "horizon_days": 21,
+      "horizon_days": 14,
       "staff": 75
     },
     {
-      "task_id": "ow-89d72381a9ec",
+      "task_id": "ow-ba4d0d736522",
+      "family": "F08_document_conflicts",
+      "jurisdiction": "de",
+      "difficulty": "expert",
+      "horizon_days": 21,
+      "staff": 70
+    },
+    {
+      "task_id": "ow-bea2e97aa3b3",
       "family": "F09_agency_budget",
       "jurisdiction": "de",
       "difficulty": "expert",
       "horizon_days": 28,
-      "staff": 81
+      "staff": 79
     },
     {
-      "task_id": "ow-8e5b5092599c",
+      "task_id": "ow-e1b2788d36a4",
       "family": "F09_agency_budget",
       "jurisdiction": "de",
       "difficulty": "expert",
       "horizon_days": 21,
-      "staff": 79
+      "staff": 80
     }
   ],
-  "references_included": false,
+  "references_included": true,
+  "references": "sealed inside the scoring image (opsdesk-workforce-scoring:3.12.4-sample-312en); used only for scoring and the acceptance checks; protected by the licence",
+  "demo": {
+    "task_id": "ow-cbddad055d16",
+    "reference_calls": "demo/reference_calls.json",
+    "run": "demo/run_demo.sh",
+    "readme": "demo/README.md",
+    "note": "a public request outside this set, with its reference calls, to check app -> record -> score 1.0 yourself"
+  },
   "formats": [
+    "docker",
     "http",
     "mcp",
-    "harbor"
+    "harbor",
+    "openenv"
   ],
   "images": {
-    "opsdesk-workforce:3.9.3-reviewer-sample": {
-      "id": "sha256:a949cbdc0aaa278339ef86dc4ed1f25aa9a573c72b9982d12444df2048b27bdd",
-      "file": "release asset: opsdesk-workforce_3.9.3-reviewer-sample.tar.gz",
-      "sha256": "fc4005d196b717891d8f69868f61372e2c443b4be6a8f51fff29e7186ab6ea6a"
+    "opsdesk-workforce:3.12.4-sample-312en": {
+      "linux/amd64": {
+        "id": "sha256:2cab8115259d0f7c8e724a66109ee10c7de2cce45e7304d8b2fd56425bfba31e",
+        "file": "images/opsdesk-workforce_3.12.4-sample-312en_amd64.tar",
+        "sha256": "7426baeb4e05afe0f75d2b8c3a395a326a87791003a80445323d33681d0ad22e"
+      },
+      "linux/arm64": {
+        "id": "sha256:e15b41d74af7793798e8e4a1390241c29168b73ebadcec7236df98bc864add16",
+        "file": "images/opsdesk-workforce_3.12.4-sample-312en_arm64.tar",
+        "sha256": "350a327a34a4dd67a66d76030ba357bdf7901db3b3661e90a936cda754f3851e"
+      }
     },
-    "opsdesk-workforce-scoring:3.9.3-reviewer-sample": {
-      "id": "sha256:fa8873eeaea15cf2f6defd35db35938f394f3fe9e8f47e3b4a1f1e81cfaddf12",
-      "file": "release asset: opsdesk-workforce-scoring_3.9.3-reviewer-sample.tar.gz",
-      "sha256": "8ea1360c970b0b5c48f93c1299e2ebcc6a234996a04f5cfb6c02f5257527249c"
+    "opsdesk-workforce-scoring:3.12.4-sample-312en": {
+      "linux/amd64": {
+        "id": "sha256:c28f6771bd783247ea489e946f22bff975f995c2d4b1e08fe15c905768850818",
+        "file": "images/opsdesk-workforce-scoring_3.12.4-sample-312en_amd64.tar",
+        "sha256": "3b9e234cc7e9cece13d728b6993dfadb82737f29e2083f0edf36d96226fc7759"
+      },
+      "linux/arm64": {
+        "id": "sha256:9c46b66cfe4be76e3b5e0a90b7827f99ca3f06ba3ba549f5cbb68981f9f4131a",
+        "file": "images/opsdesk-workforce-scoring_3.12.4-sample-312en_arm64.tar",
+        "sha256": "1b180c17e4475c42945d4dd20b588499ffdcb41e8d812db06265da6ee068cb09"
+      }
     }
-  }
+  },
+  "architectures": [
+    "linux/amd64",
+    "linux/arm64"
+  ],
+  "base_image": "python:3.12-slim@sha256:aa943ce411423c7582288f18707ff66eddcbaeb510502d747a72aeb34f30d159"
 }

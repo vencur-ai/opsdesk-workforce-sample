@@ -1,3 +1,0 @@
-Anne: In diesem Zeitraum steht ein Kurstag im Kalender. Wer angemeldet ist, weiß unsere Praxisanleitung Dmitri Schäfer – bitte im Chat nachfragen; wer angemeldet ist, kann an dem Tag nicht arbeiten. Kannst du bitte den Plan für Fr. 03.04. bis Do. 23.04. für alle Wohnbereiche erstellen? Es ist noch nichts eingeplant. Sag bitte allen Bescheid, deren Dienst sich ändert. Bitte die kostengünstigste vernünftige Lösung. Alles muss regelkonform bleiben.
-
-OpsDesk Workforce ist im Browser unter http://app:8080 geöffnet. Werkzeuge für Programme: GET http://app:8080/api/tools, POST http://app:8080/api/step mit {"tool": ..., "args": {...}}.
