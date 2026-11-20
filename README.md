@@ -1,5 +1,8 @@
 # OpsDesk Workforce 3.12.5 – sample
 
+**English edition.** Requests, documents, mail, team chat, app texts and colleagues' answers are in English. The
+employer is German: German law (ArbZG, works council), German names, places and euros.
+
 A verified workforce-operations environment: the HR and staffing back office of a shift-based employer under German
 labour law. The agent works as the duty manager of a care home. It plans and repairs the rota, answers swap and leave
 requests, handles sick calls and agency staff, and tells everyone whose shift changed. Next to the rota the workspace
@@ -7,11 +10,57 @@ has mail, team chat and a calendar on one clock, and colleagues answer by fixed 
 browser; tool-use agents call the same functions over HTTP or MCP. A deterministic verifier scores the end state. No
 language model judges.
 
-Every text is in English – requests, documents, mail, chat, app texts and colleagues' answers. The employer is German: German law (ArbZG, works council), German names, places and euros.
+**[Request a pilot](https://getvencur.com)** – private evaluation sets at harder levels, or a custom scope on your own
+software stack.
 
-The 5 requests in this sample have not been run on a model. The Expert tier is used: the agent starts from a
-flawed draft or must ask first, and it ends with a final status report whose every field must match the finished
-workspace.
+## Quick start (one command)
+
+```bash
+git clone https://github.com/vencur-ai/opsdesk-workforce-sample && cd opsdesk-workforce-sample && sh quickstart.sh
+```
+
+Needs Docker, curl and about 250 MB of free disk. The script downloads the app image and the scoring image for your
+machine (amd64 or arm64, about 120 MB) from the release, checks their SHA-256, loads them and runs the demo: the demo
+request scores 1.0 with its reference calls and 0 with no call.
+
+## What's inside
+
+| Path | What it is |
+|---|---|
+| `data/tasks/` | The 5 requests and the demo request: request text, world and app state. No reference solutions. |
+| `demo/` | The demo request's reference calls and `run_demo.sh` (app → workspace record → score). |
+| `formats/` | The same requests for Harbor, OpenEnv, HTTP and MCP. |
+| `CONTROLS.md` | The quality controls of this release and the command that recomputes each number. |
+| `PROVENANCE.md`, `manifest.json` | Version, build and contents. `SHA256SUMS` covers every file. |
+| `quickstart.sh` | The one-command quick start above. |
+| Release assets | App image and sealed scoring image for linux/amd64 and linux/arm64, with `SHA256SUMS_RELEASE`. |
+
+The verifier and the references live only in the scoring image. The agent's container never sees them.
+
+## Results on frontier models (German edition)
+
+These numbers come from the **German edition** of this environment, measured on 13 Nov 2026 with private request
+sets at five difficulty levels (12 requests per level; the sets mix German and UK working-time rules). They are not
+runs of the 5 requests in this repository. **The English edition has not been measured yet.**
+
+Three current models of one frontier model family (large, mid-size, small), tool use over the same interface.
+Each cell: accepted / valid attempts, with passed (strict) in brackets.
+
+| Level | Large model | Mid-size model | Small model |
+|---|---|---|---|
+| 3.4 hard | 23/24 (10/24) | 6/11 (1/11) | – |
+| 3.5 evaluation | 20/23¹ (12/23) | 5/12 (1/12) | – |
+| 3.6 evaluation+ | 21/24¹ (11/24¹) | 11/24 (1/24) | 2/24 (0/24) |
+| 3.7 expert | 2/20 (0/20) | 5/24 (0/24) | 0/12 (0/12) |
+| 3.8 expert+ | 5/12 (1/12) | – | – |
+
+- **Accepted:** every gate holds and the plan costs at most 0.5 % more than the proven optimum. **Passed (strict):**
+  every gate holds and the total score is at least 0.999.
+- ¹ After fixing an error in our own verifier that the runs revealed. The runs themselves are unchanged.
+- 3.8 is a first reading: one attempt per request. "–" = not measured.
+- The 5 requests in this sample have not been run on a model. They use the Expert tier: the agent starts from a
+  flawed draft or must ask first, and it ends with a final status report whose every field must match the finished
+  workspace.
 
 ## Controls
 
@@ -42,7 +91,9 @@ recomputes it ([`CONTROLS.md`](CONTROLS.md)).
 The request text is `instruction` in `data/tasks/<id>/task.json`. A public demo request with its reference calls is
 in `demo/` (`ow-cbddad055d16`); it is not one of the 5.
 
-## Quick start (needs Docker)
+## Step by step (needs Docker)
+
+`quickstart.sh` does steps 1 and 2 for you.
 
 1. Download the two images for your machine from the release page and load them. On x86-64 (Intel/AMD):
 
