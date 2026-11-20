@@ -1,19 +1,19 @@
 # Proof Report – OpsDesk Workforce – private set sample-312en
 
-Release 3.12.4 · 5 requests and one public demo request · deterministic verifier, no language-model judge.
+Release 3.12.5 · 5 requests and one public demo request · deterministic verifier, no language-model judge.
 
 ## Identity
 
 | | |
 |---|---|
-| Version | 3.12.4 |
-| Source tag | v3.12.4 |
-| Source commit | 14170df1740c4dde57467be40eb612167b67a248 |
-| SHA-256 of the source at the tag (git archive, tar) | 7e0874d34d1f2984335a91967e489981c879f4bde15d90f88da4455f7ceaabe3 |
-| Image opsdesk-workforce-scoring:3.12.4-sample-312en (linux/amd64) | sha256:c28f6771bd783247ea489e946f22bff975f995c2d4b1e08fe15c905768850818 |
-| Image opsdesk-workforce-scoring:3.12.4-sample-312en (linux/arm64) | sha256:9c46b66cfe4be76e3b5e0a90b7827f99ca3f06ba3ba549f5cbb68981f9f4131a |
-| Image opsdesk-workforce:3.12.4-sample-312en (linux/amd64) | sha256:2cab8115259d0f7c8e724a66109ee10c7de2cce45e7304d8b2fd56425bfba31e |
-| Image opsdesk-workforce:3.12.4-sample-312en (linux/arm64) | sha256:e15b41d74af7793798e8e4a1390241c29168b73ebadcec7236df98bc864add16 |
+| Version | 3.12.5 |
+| Source tag | v3.12.5 |
+| Source commit | fff58b49626fe3e57110db09b541d7232113a485 |
+| SHA-256 of the source at the tag (git archive, tar) | a3867f03bf9e4abbb19bba0febc512f77fc79496b34a01ac9f27812aa18ced76 |
+| Image opsdesk-workforce-scoring:3.12.5-sample-312en (linux/amd64) | sha256:0a87a8298b6b786c4db5edaf832267b4778ac2f5efa449a015d5a1ca73131f67 |
+| Image opsdesk-workforce-scoring:3.12.5-sample-312en (linux/arm64) | sha256:73c38f0f69d7901caa2b97066a333f4eb5471f45b645ebc932166b0fe5bebcac |
+| Image opsdesk-workforce:3.12.5-sample-312en (linux/amd64) | sha256:e407d4b56597d92daa101a335c55f8eab8fc99204e9e6f5b1f088d10b23eae42 |
+| Image opsdesk-workforce:3.12.5-sample-312en (linux/arm64) | sha256:f6f46c4a04f84283bc10c1869c4275f9ea79b5167619a7c5e7d81e4b3153d0b8 |
 
 The SHA-256 of every file of the package is in `SHA256SUMS`; `docker image inspect` shows each image's ID.
 

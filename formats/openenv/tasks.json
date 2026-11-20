@@ -1,7 +1,7 @@
 {
   "environment": "opsdesk-workforce",
-  "version": "3.12.4",
-  "image": "opsdesk-workforce:3.12.4-sample-312en",
+  "version": "3.12.5",
+  "image": "opsdesk-workforce:3.12.5-sample-312en",
   "server": "python -m uvicorn opsdesk.workforce.openenv_server:app (port 8000)",
   "reset": "POST /reset {task_id}, header x-opsdesk-host-key = OPSDESK_HOST_KEY (harness only)",
   "action": "POST /step {action: {tool, args}}",

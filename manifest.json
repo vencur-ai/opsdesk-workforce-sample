@@ -1,15 +1,15 @@
 {
   "product": "OpsDesk Workforce",
-  "version": "3.12.4",
+  "version": "3.12.5",
   "package": "evaluation",
-  "image": "opsdesk-workforce:3.12.4-sample-312en",
+  "image": "opsdesk-workforce:3.12.5-sample-312en",
   "delivery": "sample-312en",
   "licence_use": "evaluation",
   "licence_note": "Evaluation Use: running models on the Tasks to measure them, without updating any model on the Tasks, References or Verifier output. Training Use (training or fine-tuning models on the Tasks, References or Verifier output, including reinforcement learning) needs a licence for Training Use.",
   "verifier_in_app_image": false,
   "generator_seed_in_app_image": false,
   "scoring": {
-    "image": "opsdesk-workforce-scoring:3.12.4-sample-312en",
+    "image": "opsdesk-workforce-scoring:3.12.5-sample-312en",
     "sealed": "the Verifier and the References are only inside this image; the saved image is in images/",
     "reward": "the deterministic score (0-1) and passed: Harbor's separate verifier, OpenEnv and HTTP run the scoring image",
     "acceptance": "docker run --rm <scoring image> python -m opsdesk.workforce.acceptance",
@@ -58,7 +58,7 @@
     }
   ],
   "references_included": true,
-  "references": "sealed inside the scoring image (opsdesk-workforce-scoring:3.12.4-sample-312en); used only for scoring and the acceptance checks; protected by the licence",
+  "references": "sealed inside the scoring image (opsdesk-workforce-scoring:3.12.5-sample-312en); used only for scoring and the acceptance checks; protected by the licence",
   "demo": {
     "task_id": "ow-cbddad055d16",
     "reference_calls": "demo/reference_calls.json",
@@ -74,28 +74,28 @@
     "openenv"
   ],
   "images": {
-    "opsdesk-workforce:3.12.4-sample-312en": {
+    "opsdesk-workforce:3.12.5-sample-312en": {
       "linux/amd64": {
-        "id": "sha256:2cab8115259d0f7c8e724a66109ee10c7de2cce45e7304d8b2fd56425bfba31e",
-        "file": "images/opsdesk-workforce_3.12.4-sample-312en_amd64.tar",
-        "sha256": "7426baeb4e05afe0f75d2b8c3a395a326a87791003a80445323d33681d0ad22e"
+        "id": "sha256:e407d4b56597d92daa101a335c55f8eab8fc99204e9e6f5b1f088d10b23eae42",
+        "file": "images/opsdesk-workforce_3.12.5-sample-312en_amd64.tar",
+        "sha256": "79f4a26d02c24da55d162039dc03d55e6488e5595d9ac8053ee46baeb0d48403"
       },
       "linux/arm64": {
-        "id": "sha256:e15b41d74af7793798e8e4a1390241c29168b73ebadcec7236df98bc864add16",
-        "file": "images/opsdesk-workforce_3.12.4-sample-312en_arm64.tar",
-        "sha256": "350a327a34a4dd67a66d76030ba357bdf7901db3b3661e90a936cda754f3851e"
+        "id": "sha256:f6f46c4a04f84283bc10c1869c4275f9ea79b5167619a7c5e7d81e4b3153d0b8",
+        "file": "images/opsdesk-workforce_3.12.5-sample-312en_arm64.tar",
+        "sha256": "657dac98e9436f142cce6e417096a24e1b6dae2c1a1b07a7cbc9045c873e2756"
       }
     },
-    "opsdesk-workforce-scoring:3.12.4-sample-312en": {
+    "opsdesk-workforce-scoring:3.12.5-sample-312en": {
       "linux/amd64": {
-        "id": "sha256:c28f6771bd783247ea489e946f22bff975f995c2d4b1e08fe15c905768850818",
-        "file": "images/opsdesk-workforce-scoring_3.12.4-sample-312en_amd64.tar",
-        "sha256": "3b9e234cc7e9cece13d728b6993dfadb82737f29e2083f0edf36d96226fc7759"
+        "id": "sha256:0a87a8298b6b786c4db5edaf832267b4778ac2f5efa449a015d5a1ca73131f67",
+        "file": "images/opsdesk-workforce-scoring_3.12.5-sample-312en_amd64.tar",
+        "sha256": "1e5a11a2f4d727cfea55b11b8d4328b1829e69bc85f0e169eae17cf5acf6bd9a"
       },
       "linux/arm64": {
-        "id": "sha256:9c46b66cfe4be76e3b5e0a90b7827f99ca3f06ba3ba549f5cbb68981f9f4131a",
-        "file": "images/opsdesk-workforce-scoring_3.12.4-sample-312en_arm64.tar",
-        "sha256": "1b180c17e4475c42945d4dd20b588499ffdcb41e8d812db06265da6ee068cb09"
+        "id": "sha256:73c38f0f69d7901caa2b97066a333f4eb5471f45b645ebc932166b0fe5bebcac",
+        "file": "images/opsdesk-workforce-scoring_3.12.5-sample-312en_arm64.tar",
+        "sha256": "e2f4f828e17f937cf786b2ce756022d5a21521244d4e74c204b9bbaa2c4fc3b3"
       }
     }
   },

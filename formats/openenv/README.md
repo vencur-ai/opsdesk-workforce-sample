@@ -13,6 +13,9 @@ result. Neither the agent nor the environment ever sees a Reference.
 
 - reset (harness only): `{"task_id": "<task id>"}` with the header `x-opsdesk-host-key: <secret>` → the request
   (`prompt`), the observation and the tools. Without the key the server refuses, so an agent cannot start a request again.
+  Each reset starts a new workspace from the request's untouched files: the same state, mail and tool answers as a
+  freshly started container, also after a finished run or another request (tested). One `env` container may therefore
+  serve one attempt after another; one attempt at a time per container.
 - step: `{"action": {"tool": "<tool name>", "args": {...}}}` → the tool's result
 - finish: `{"action": {"tool": "finish"}}` → `reward` (0–1), `done: true`, `observation.passed` (= accepted),
   `accepted`, `strict` and per verifier layer passed and in full. No reference value is ever shown.

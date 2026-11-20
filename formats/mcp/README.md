@@ -9,4 +9,4 @@ python3 opsdesk_mcp_bridge.py --server http://127.0.0.1:8080
 
 Calls go to the same `/api/step` as the GUI, so GUI and MCP agents change the same state. Each tool's `inputSchema` is
 `{"args": <the tool's schema>}`; arguments outside `args` are refused, and a call the app refuses comes back with
-`isError: true`. Image of the app: `opsdesk-workforce:3.12.4-sample-312en`.
+`isError: true`. Image of the app: `opsdesk-workforce:3.12.5-sample-312en`.
