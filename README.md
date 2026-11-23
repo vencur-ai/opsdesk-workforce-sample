@@ -43,10 +43,9 @@ These numbers come from the **German edition** of this environment, measured on 
 sets at five difficulty levels (12 requests per level; the sets mix German and UK working-time rules). They are not
 runs of the 5 requests in this repository. **The English edition has not been measured yet.**
 
-Three current models of one frontier model family (large, mid-size, small), tool use over the same interface.
 Each cell: accepted / valid attempts, with passed (strict) in brackets.
 
-| Level | Large model | Mid-size model | Small model |
+| Level | Claude Opus 5.5 | Claude Sonnet 5.5 | Claude Haiku 5.5 |
 |---|---|---|---|
 | 3.4 hard | 23/24 (10/24) | 6/11 (1/11) | – |
 | 3.5 evaluation | 20/23¹ (12/23) | 5/12 (1/12) | – |
