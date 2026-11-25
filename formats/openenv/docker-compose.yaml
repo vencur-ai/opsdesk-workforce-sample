@@ -2,7 +2,7 @@
 # workspace record to the sealed scoring service, which is only on an internal network.
 services:
   env:
-    image: opsdesk-workforce:3.12.5-sample-312en
+    image: opsdesk-workforce:3.13.1-sample-313en
     command: ["sh", "-c", "exec python -m uvicorn opsdesk.workforce.openenv_server:app --host 0.0.0.0 --port 8000"]
     environment:
       OPSDESK_TASK: ${OPSDESK_TASK}
@@ -12,7 +12,7 @@ services:
       - "127.0.0.1:8000:8000"
     networks: [default, scoring]
   scorer:
-    image: opsdesk-workforce-scoring:3.12.5-sample-312en
+    image: opsdesk-workforce-scoring:3.13.1-sample-313en
     command: ["sh", "-c", "exec python -m uvicorn opsdesk.workforce.score_service:app --host 0.0.0.0 --port 9000"]
     environment:
       OPSDESK_TASK: ${OPSDESK_TASK}

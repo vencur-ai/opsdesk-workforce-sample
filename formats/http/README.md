@@ -7,7 +7,7 @@ The app image has no verifier and no reference; the sealed scoring image scores 
    ```
    docker volume create opsdesk-run
    docker run -d --name opsdesk -p 127.0.0.1:8080:8080 -e OPSDESK_TASK=<task id> \
-     -e OPSDESK_WORKSPACE_OUT=/workspace-out -v opsdesk-run:/workspace-out opsdesk-workforce:3.12.5-sample-312en
+     -e OPSDESK_WORKSPACE_OUT=/workspace-out -v opsdesk-run:/workspace-out opsdesk-workforce:3.13.1-sample-313en
    ```
 
 2. Your agent works on `http://127.0.0.1:8080`:
@@ -23,7 +23,7 @@ The app image has no verifier and no reference; the sealed scoring image scores 
 
    ```
    docker stop opsdesk
-   docker run --rm -v opsdesk-run:/in:ro opsdesk-workforce-scoring:3.12.5-sample-312en sh -c "python -m opsdesk.workforce.score_workspace \
+   docker run --rm -v opsdesk-run:/in:ro opsdesk-workforce-scoring:3.13.1-sample-313en sh -c "python -m opsdesk.workforce.score_workspace \
      --tasks /srv/data/tasks --workspace /in/workspace.json --task <task id> --out /tmp/score > /dev/null; \
      rc=\$?; cat /tmp/score/reward.json /tmp/score/result.json; exit \$rc"
    ```

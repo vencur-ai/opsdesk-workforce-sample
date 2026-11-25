@@ -1,0 +1,32 @@
+{
+  "app_sha256": "6b81240e04b5c97135c0ce47876d4b183f19f67f408fb9d8509b3699c5031be3",
+  "difficulty": "expert",
+  "document_ids": [
+    "doc-current-memo",
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "family": "F08_document_conflicts",
+  "horizon_days": 21,
+  "instruction": "Hello Maximilian,\n\nThere's a course day in the calendar this period. Our practice instructor, Fatma Haas, knows who is booked on it – please ask in the chat; whoever is booked can't work that day. Please check the draft for Sun 9 Aug to Sat 29 Aug (all units) against the current documents and put it right. Whatever fits stays as it is. The documents contradict each other in places – the staff handbook says which source counts. Mind the rest times and the house rules. Please message everyone you move. At the end, send me the final status report (Reports → Status report) – every field has to match the finished rota. If you can't fill something, tell me properly through the understaffing report. Please keep overtime to what's really needed.\n\nThank you, Julia Werner",
+  "jurisdiction": "de",
+  "start_date": "2026-08-09",
+  "surface": "workforce",
+  "task_id": "ow-6bd71e1633c3",
+  "workforce": {
+    "apps": [
+      "calendar",
+      "rota"
+    ],
+    "estimated_human_minutes": 54,
+    "locale": "en-DE",
+    "staff": 75,
+    "tier": "evaluation",
+    "units": 3
+  },
+  "world_file": "world.json"
+}

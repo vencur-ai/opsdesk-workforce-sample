@@ -6,116 +6,110 @@
  {
   "tool": "roster.unassign",
   "args": {
-   "assignment_id": "initial-000107"
+   "assignment_id": "initial-000022"
   }
  },
  {
   "tool": "roster.unassign",
   "args": {
-   "assignment_id": "initial-000141"
+   "assignment_id": "initial-000183"
   }
  },
  {
   "tool": "roster.unassign",
   "args": {
-   "assignment_id": "initial-000177"
+   "assignment_id": "initial-000185"
   }
  },
  {
   "tool": "roster.unassign",
   "args": {
-   "assignment_id": "initial-000181"
+   "assignment_id": "initial-000186"
   }
  },
  {
   "tool": "roster.unassign",
   "args": {
-   "assignment_id": "initial-000184"
+   "assignment_id": "initial-000214"
   }
  },
  {
   "tool": "roster.unassign",
   "args": {
-   "assignment_id": "initial-000379"
+   "assignment_id": "initial-000224"
   }
  },
  {
   "tool": "roster.unassign",
   "args": {
-   "assignment_id": "initial-000417"
+   "assignment_id": "initial-000236"
   }
  },
  {
   "tool": "roster.unassign",
   "args": {
-   "assignment_id": "initial-000437"
+   "assignment_id": "initial-000238"
   }
  },
  {
   "tool": "roster.unassign",
   "args": {
-   "assignment_id": "initial-000458"
+   "assignment_id": "initial-000247"
+  }
+ },
+ {
+  "tool": "roster.unassign",
+  "args": {
+   "assignment_id": "initial-000276"
+  }
+ },
+ {
+  "tool": "roster.unassign",
+  "args": {
+   "assignment_id": "initial-000329"
+  }
+ },
+ {
+  "tool": "roster.unassign",
+  "args": {
+   "assignment_id": "initial-000381"
+  }
+ },
+ {
+  "tool": "roster.unassign",
+  "args": {
+   "assignment_id": "initial-000385"
+  }
+ },
+ {
+  "tool": "roster.unassign",
+  "args": {
+   "assignment_id": "initial-000394"
+  }
+ },
+ {
+  "tool": "roster.unassign",
+  "args": {
+   "assignment_id": "initial-000398"
+  }
+ },
+ {
+  "tool": "roster.unassign",
+  "args": {
+   "assignment_id": "initial-000460"
+  }
+ },
+ {
+  "tool": "roster.unassign",
+  "args": {
+   "assignment_id": "initial-000487"
   }
  },
  {
   "tool": "roster.assign",
   "args": {
-   "employee_id": "staff-0002",
-   "date": "2026-01-10",
-   "ward_id": "ward-03",
-   "shift_type": "early"
-  }
- },
- {
-  "tool": "roster.assign",
-  "args": {
-   "employee_id": "staff-0005",
-   "date": "2026-01-11",
-   "ward_id": "ward-03",
-   "shift_type": "late"
-  }
- },
- {
-  "tool": "roster.assign",
-  "args": {
-   "employee_id": "staff-0011",
-   "date": "2026-01-25",
-   "ward_id": "ward-03",
-   "shift_type": "late"
-  }
- },
- {
-  "tool": "roster.assign",
-  "args": {
-   "employee_id": "staff-0051",
-   "date": "2026-01-08",
-   "ward_id": "ward-02",
-   "shift_type": "early"
-  }
- },
- {
-  "tool": "roster.assign",
-  "args": {
-   "employee_id": "staff-0052",
-   "date": "2026-01-13",
-   "ward_id": "ward-01",
-   "shift_type": "late"
-  }
- },
- {
-  "tool": "roster.assign",
-  "args": {
-   "employee_id": "staff-0052",
-   "date": "2026-01-21",
-   "ward_id": "ward-03",
-   "shift_type": "late"
-  }
- },
- {
-  "tool": "roster.assign",
-  "args": {
-   "employee_id": "staff-0057",
-   "date": "2026-01-19",
+   "employee_id": "staff-0003",
+   "date": "2026-08-23",
    "ward_id": "ward-01",
    "shift_type": "night"
   }
@@ -123,44 +117,17 @@
  {
   "tool": "roster.assign",
   "args": {
-   "employee_id": "staff-0065",
-   "date": "2026-01-23",
-   "ward_id": "ward-01",
+   "employee_id": "staff-0004",
+   "date": "2026-08-23",
+   "ward_id": "ward-03",
    "shift_type": "late"
   }
  },
  {
   "tool": "roster.assign",
   "args": {
-   "employee_id": "staff-0068",
-   "date": "2026-01-23",
-   "ward_id": "ward-03",
-   "shift_type": "early"
-  }
- },
- {
-  "tool": "roster.assign",
-  "args": {
-   "employee_id": "staff-0068",
-   "date": "2026-01-24",
-   "ward_id": "ward-02",
-   "shift_type": "early"
-  }
- },
- {
-  "tool": "roster.assign",
-  "args": {
-   "employee_id": "staff-0069",
-   "date": "2026-01-13",
-   "ward_id": "ward-03",
-   "shift_type": "early"
-  }
- },
- {
-  "tool": "roster.assign",
-  "args": {
-   "employee_id": "staff-0070",
-   "date": "2026-01-13",
+   "employee_id": "staff-0006",
+   "date": "2026-08-23",
    "ward_id": "ward-02",
    "shift_type": "late"
   }
@@ -168,19 +135,244 @@
  {
   "tool": "roster.assign",
   "args": {
-   "employee_id": "staff-0070",
-   "date": "2026-01-25",
+   "employee_id": "staff-0008",
+   "date": "2026-08-16",
    "ward_id": "ward-01",
+   "shift_type": "late"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0012",
+   "date": "2026-08-22",
+   "ward_id": "ward-02",
+   "shift_type": "late"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0012",
+   "date": "2026-08-23",
+   "ward_id": "ward-03",
+   "shift_type": "late"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0014",
+   "date": "2026-08-09",
+   "ward_id": "ward-01",
+   "shift_type": "night"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0014",
+   "date": "2026-08-16",
+   "ward_id": "ward-02",
+   "shift_type": "late"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0015",
+   "date": "2026-08-16",
+   "ward_id": "ward-02",
+   "shift_type": "late"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0015",
+   "date": "2026-08-23",
+   "ward_id": "ward-02",
+   "shift_type": "late"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0016",
+   "date": "2026-08-23",
+   "ward_id": "ward-02",
    "shift_type": "early"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0017",
+   "date": "2026-08-20",
+   "ward_id": "ward-03",
+   "shift_type": "early"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0018",
+   "date": "2026-08-18",
+   "ward_id": "ward-02",
+   "shift_type": "early"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0018",
+   "date": "2026-08-19",
+   "ward_id": "ward-02",
+   "shift_type": "early"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0020",
+   "date": "2026-08-17",
+   "ward_id": "ward-01",
+   "shift_type": "night"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0020",
+   "date": "2026-08-23",
+   "ward_id": "ward-03",
+   "shift_type": "early"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0021",
+   "date": "2026-08-18",
+   "ward_id": "ward-01",
+   "shift_type": "night"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0022",
+   "date": "2026-08-23",
+   "ward_id": "ward-01",
+   "shift_type": "late"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0023",
+   "date": "2026-08-18",
+   "ward_id": "ward-03",
+   "shift_type": "late"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0023",
+   "date": "2026-08-23",
+   "ward_id": "ward-03",
+   "shift_type": "early"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0033",
+   "date": "2026-08-25",
+   "ward_id": "ward-02",
+   "shift_type": "early"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0038",
+   "date": "2026-08-23",
+   "ward_id": "ward-02",
+   "shift_type": "late"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0048",
+   "date": "2026-08-25",
+   "ward_id": "ward-02",
+   "shift_type": "night"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0064",
+   "date": "2026-08-23",
+   "ward_id": "ward-03",
+   "shift_type": "early"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0064",
+   "date": "2026-08-25",
+   "ward_id": "ward-03",
+   "shift_type": "late"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0067",
+   "date": "2026-08-29",
+   "ward_id": "ward-02",
+   "shift_type": "late"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0071",
+   "date": "2026-08-21",
+   "ward_id": "ward-01",
+   "shift_type": "night"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0071",
+   "date": "2026-08-25",
+   "ward_id": "ward-03",
+   "shift_type": "early"
+  }
+ },
+ {
+  "tool": "roster.assign",
+  "args": {
+   "employee_id": "staff-0073",
+   "date": "2026-08-28",
+   "ward_id": "ward-01",
+   "shift_type": "late"
   }
  },
  {
   "tool": "messaging.send",
   "args": {
-   "recipient_id": "staff-0002",
+   "recipient_id": "staff-0003",
    "subject": "Roster change",
    "body": "Your shifts changed.",
-   "shift_date": "2026-01-10",
+   "shift_date": "2026-08-20",
    "shift_type": "early",
    "ward_id": "ward-03"
   }
@@ -191,62 +383,18 @@
    "recipient_id": "staff-0004",
    "subject": "Roster change",
    "body": "Your shifts changed.",
-   "shift_date": "2026-01-10",
-   "shift_type": "early",
-   "ward_id": "ward-03"
-  }
- },
- {
-  "tool": "messaging.send",
-  "args": {
-   "recipient_id": "staff-0005",
-   "subject": "Roster change",
-   "body": "Your shifts changed.",
-   "shift_date": "2026-01-11",
-   "shift_type": "late",
-   "ward_id": "ward-03"
-  }
- },
- {
-  "tool": "messaging.send",
-  "args": {
-   "recipient_id": "staff-0011",
-   "subject": "Roster change",
-   "body": "Your shifts changed.",
-   "shift_date": "2026-01-11",
-   "shift_type": "late",
-   "ward_id": "ward-03"
-  }
- },
- {
-  "tool": "messaging.send",
-  "args": {
-   "recipient_id": "staff-0035",
-   "subject": "Roster change",
-   "body": "Your shifts changed.",
-   "shift_date": "2026-01-13",
-   "shift_type": "early",
-   "ward_id": "ward-03"
-  }
- },
- {
-  "tool": "messaging.send",
-  "args": {
-   "recipient_id": "staff-0041",
-   "subject": "Roster change",
-   "body": "Your shifts changed.",
-   "shift_date": "2026-01-13",
-   "shift_type": "late",
+   "shift_date": "2026-08-09",
+   "shift_type": "night",
    "ward_id": "ward-01"
   }
  },
  {
   "tool": "messaging.send",
   "args": {
-   "recipient_id": "staff-0051",
+   "recipient_id": "staff-0006",
    "subject": "Roster change",
    "body": "Your shifts changed.",
-   "shift_date": "2026-01-08",
+   "shift_date": "2026-08-18",
    "shift_type": "early",
    "ward_id": "ward-02"
   }
@@ -254,10 +402,10 @@
  {
   "tool": "messaging.send",
   "args": {
-   "recipient_id": "staff-0052",
+   "recipient_id": "staff-0008",
    "subject": "Roster change",
    "body": "Your shifts changed.",
-   "shift_date": "2026-01-13",
+   "shift_date": "2026-08-16",
    "shift_type": "late",
    "ward_id": "ward-01"
   }
@@ -265,12 +413,166 @@
  {
   "tool": "messaging.send",
   "args": {
-   "recipient_id": "staff-0057",
+   "recipient_id": "staff-0012",
    "subject": "Roster change",
    "body": "Your shifts changed.",
-   "shift_date": "2026-01-19",
+   "shift_date": "2026-08-17",
    "shift_type": "night",
    "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0014",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-08-09",
+   "shift_type": "night",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0015",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-08-16",
+   "shift_type": "late",
+   "ward_id": "ward-02"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0016",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-08-16",
+   "shift_type": "late",
+   "ward_id": "ward-02"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0017",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-08-20",
+   "shift_type": "early",
+   "ward_id": "ward-03"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0018",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-08-18",
+   "shift_type": "early",
+   "ward_id": "ward-02"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0020",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-08-16",
+   "shift_type": "late",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0021",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-08-18",
+   "shift_type": "night",
+   "ward_id": "ward-01"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0022",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-08-18",
+   "shift_type": "late",
+   "ward_id": "ward-03"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0023",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-08-16",
+   "shift_type": "late",
+   "ward_id": "ward-02"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0033",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-08-25",
+   "shift_type": "early",
+   "ward_id": "ward-02"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0038",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-08-23",
+   "shift_type": "late",
+   "ward_id": "ward-02"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0040",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-08-25",
+   "shift_type": "night",
+   "ward_id": "ward-02"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0048",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-08-25",
+   "shift_type": "night",
+   "ward_id": "ward-02"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0050",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-08-25",
+   "shift_type": "late",
+   "ward_id": "ward-03"
   }
  },
  {
@@ -279,18 +581,7 @@
    "recipient_id": "staff-0059",
    "subject": "Roster change",
    "body": "Your shifts changed.",
-   "shift_date": "2026-01-13",
-   "shift_type": "late",
-   "ward_id": "ward-02"
-  }
- },
- {
-  "tool": "messaging.send",
-  "args": {
-   "recipient_id": "staff-0065",
-   "subject": "Roster change",
-   "body": "Your shifts changed.",
-   "shift_date": "2026-01-23",
+   "shift_date": "2026-08-28",
    "shift_type": "late",
    "ward_id": "ward-01"
   }
@@ -298,10 +589,10 @@
  {
   "tool": "messaging.send",
   "args": {
-   "recipient_id": "staff-0068",
+   "recipient_id": "staff-0064",
    "subject": "Roster change",
    "body": "Your shifts changed.",
-   "shift_date": "2026-01-23",
+   "shift_date": "2026-08-23",
    "shift_type": "early",
    "ward_id": "ward-03"
   }
@@ -309,23 +600,23 @@
  {
   "tool": "messaging.send",
   "args": {
-   "recipient_id": "staff-0069",
+   "recipient_id": "staff-0067",
    "subject": "Roster change",
    "body": "Your shifts changed.",
-   "shift_date": "2026-01-13",
+   "shift_date": "2026-08-25",
    "shift_type": "early",
-   "ward_id": "ward-03"
-  }
- },
- {
-  "tool": "messaging.send",
-  "args": {
-   "recipient_id": "staff-0070",
-   "subject": "Roster change",
-   "body": "Your shifts changed.",
-   "shift_date": "2026-01-13",
-   "shift_type": "late",
    "ward_id": "ward-02"
+  }
+ },
+ {
+  "tool": "messaging.send",
+  "args": {
+   "recipient_id": "staff-0071",
+   "subject": "Roster change",
+   "body": "Your shifts changed.",
+   "shift_date": "2026-08-21",
+   "shift_type": "night",
+   "ward_id": "ward-01"
   }
  },
  {
@@ -334,8 +625,8 @@
    "recipient_id": "staff-0073",
    "subject": "Roster change",
    "body": "Your shifts changed.",
-   "shift_date": "2026-01-21",
-   "shift_type": "late",
+   "shift_date": "2026-08-25",
+   "shift_type": "early",
    "ward_id": "ward-03"
   }
  },
@@ -345,23 +636,32 @@
    "open_positions": 0,
    "rule_breaches": 0,
    "works_council": "not_submitted",
-   "total_cost_eur": 85439.02,
+   "total_cost_eur": 85406.45,
    "agency_spend_eur": 0.0,
    "notified_employee_ids": [
-    "staff-0002",
+    "staff-0003",
     "staff-0004",
-    "staff-0005",
-    "staff-0011",
-    "staff-0035",
-    "staff-0041",
-    "staff-0051",
-    "staff-0052",
-    "staff-0057",
+    "staff-0006",
+    "staff-0008",
+    "staff-0012",
+    "staff-0014",
+    "staff-0015",
+    "staff-0016",
+    "staff-0017",
+    "staff-0018",
+    "staff-0020",
+    "staff-0021",
+    "staff-0022",
+    "staff-0023",
+    "staff-0033",
+    "staff-0038",
+    "staff-0040",
+    "staff-0048",
+    "staff-0050",
     "staff-0059",
-    "staff-0065",
-    "staff-0068",
-    "staff-0069",
-    "staff-0070",
+    "staff-0064",
+    "staff-0067",
+    "staff-0071",
     "staff-0073"
    ]
   }

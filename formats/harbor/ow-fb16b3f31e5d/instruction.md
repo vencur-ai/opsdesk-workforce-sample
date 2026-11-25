@@ -1,3 +1,0 @@
-Mia – See Markus Koch's email: the shifts listed there need more people now. Also, a few shifts were already open before (19 shifts, marked open on the rota) – please fill those too. Don't reshuffle more than you have to. Watch the rules – rest periods, nights in a row, the lot. Keep the cost down – overtime and agency only if there's no other way. At the end, send me the final status report (Reports → Status report) – every field has to match the finished rota. Please message everyone you move.
-
-OpsDesk Workforce is open in the browser at http://app:8080. Tools for programs: GET http://app:8080/api/tools, POST http://app:8080/api/step with {"tool": ..., "args": {...}}.

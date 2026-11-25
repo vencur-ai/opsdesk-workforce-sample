@@ -1,15 +1,15 @@
 {
   "product": "OpsDesk Workforce",
-  "version": "3.12.5",
+  "version": "3.13.1",
   "package": "evaluation",
-  "image": "opsdesk-workforce:3.12.5-sample-312en",
-  "delivery": "sample-312en",
+  "image": "opsdesk-workforce:3.13.1-sample-313en",
+  "delivery": "sample-313en",
   "licence_use": "evaluation",
   "licence_note": "Evaluation Use: running models on the Tasks to measure them, without updating any model on the Tasks, References or Verifier output. Training Use (training or fine-tuning models on the Tasks, References or Verifier output, including reinforcement learning) needs a licence for Training Use.",
   "verifier_in_app_image": false,
   "generator_seed_in_app_image": false,
   "scoring": {
-    "image": "opsdesk-workforce-scoring:3.12.5-sample-312en",
+    "image": "opsdesk-workforce-scoring:3.13.1-sample-313en",
     "sealed": "the Verifier and the References are only inside this image; the saved image is in images/",
     "reward": "the deterministic score (0-1) and passed: Harbor's separate verifier, OpenEnv and HTTP run the scoring image",
     "acceptance": "docker run --rm <scoring image> python -m opsdesk.workforce.acceptance",
@@ -17,31 +17,31 @@
   },
   "tasks": [
     {
-      "task_id": "ow-f83e80f12394",
+      "task_id": "ow-1661190a696e",
       "family": "F01_build_roster",
       "jurisdiction": "de",
       "difficulty": "expert",
       "horizon_days": 21,
-      "staff": 72
+      "staff": 71
     },
     {
-      "task_id": "ow-fb16b3f31e5d",
+      "task_id": "ow-75022d7ffcf5",
       "family": "F04_demand_spike",
       "jurisdiction": "de",
       "difficulty": "expert",
       "horizon_days": 14,
-      "staff": 75
+      "staff": 71
     },
     {
-      "task_id": "ow-ba4d0d736522",
+      "task_id": "ow-f6c5ea86c9fe",
       "family": "F08_document_conflicts",
       "jurisdiction": "de",
       "difficulty": "expert",
       "horizon_days": 21,
-      "staff": 70
+      "staff": 74
     },
     {
-      "task_id": "ow-bea2e97aa3b3",
+      "task_id": "ow-53942db8e465",
       "family": "F09_agency_budget",
       "jurisdiction": "de",
       "difficulty": "expert",
@@ -49,18 +49,18 @@
       "staff": 79
     },
     {
-      "task_id": "ow-e1b2788d36a4",
+      "task_id": "ow-9f45c4c9f12f",
       "family": "F09_agency_budget",
       "jurisdiction": "de",
       "difficulty": "expert",
       "horizon_days": 21,
-      "staff": 80
+      "staff": 79
     }
   ],
   "references_included": true,
-  "references": "sealed inside the scoring image (opsdesk-workforce-scoring:3.12.5-sample-312en); used only for scoring and the acceptance checks; protected by the licence",
+  "references": "sealed inside the scoring image (opsdesk-workforce-scoring:3.13.1-sample-313en); used only for scoring and the acceptance checks; protected by the licence",
   "demo": {
-    "task_id": "ow-cbddad055d16",
+    "task_id": "ow-6bd71e1633c3",
     "reference_calls": "demo/reference_calls.json",
     "run": "demo/run_demo.sh",
     "readme": "demo/README.md",
@@ -74,28 +74,28 @@
     "openenv"
   ],
   "images": {
-    "opsdesk-workforce:3.12.5-sample-312en": {
+    "opsdesk-workforce:3.13.1-sample-313en": {
       "linux/amd64": {
-        "id": "sha256:e407d4b56597d92daa101a335c55f8eab8fc99204e9e6f5b1f088d10b23eae42",
-        "file": "images/opsdesk-workforce_3.12.5-sample-312en_amd64.tar",
-        "sha256": "79f4a26d02c24da55d162039dc03d55e6488e5595d9ac8053ee46baeb0d48403"
+        "id": "sha256:c4a9ef5d2b6abf645751b700ec71cf85c2bf717cc7fa2850dfd6616771a48446",
+        "file": "images/opsdesk-workforce_3.13.1-sample-313en_amd64.tar",
+        "sha256": "12aff5200a2f39760e6b342a30f4226f764f39a73f9cedc7147fa3dd2b3d8867"
       },
       "linux/arm64": {
-        "id": "sha256:f6f46c4a04f84283bc10c1869c4275f9ea79b5167619a7c5e7d81e4b3153d0b8",
-        "file": "images/opsdesk-workforce_3.12.5-sample-312en_arm64.tar",
-        "sha256": "657dac98e9436f142cce6e417096a24e1b6dae2c1a1b07a7cbc9045c873e2756"
+        "id": "sha256:881cba416bb5a3fca70a7e1de256041a233fec4cd10321cd69b232d76ebca6f1",
+        "file": "images/opsdesk-workforce_3.13.1-sample-313en_arm64.tar",
+        "sha256": "6a7dd2122de281471c71e7ed2d4c589aa4f5c4a0c00b627b305df916df412030"
       }
     },
-    "opsdesk-workforce-scoring:3.12.5-sample-312en": {
+    "opsdesk-workforce-scoring:3.13.1-sample-313en": {
       "linux/amd64": {
-        "id": "sha256:0a87a8298b6b786c4db5edaf832267b4778ac2f5efa449a015d5a1ca73131f67",
-        "file": "images/opsdesk-workforce-scoring_3.12.5-sample-312en_amd64.tar",
-        "sha256": "1e5a11a2f4d727cfea55b11b8d4328b1829e69bc85f0e169eae17cf5acf6bd9a"
+        "id": "sha256:98826ca413e15ea1d2dad9536e5ca68e6772d806f59f9b06887edac4293468e9",
+        "file": "images/opsdesk-workforce-scoring_3.13.1-sample-313en_amd64.tar",
+        "sha256": "317ff442ec85b5fec56c1b7716918c2280a43ac0f6bd9aaa9634512c64c08fd4"
       },
       "linux/arm64": {
-        "id": "sha256:73c38f0f69d7901caa2b97066a333f4eb5471f45b645ebc932166b0fe5bebcac",
-        "file": "images/opsdesk-workforce-scoring_3.12.5-sample-312en_arm64.tar",
-        "sha256": "e2f4f828e17f937cf786b2ce756022d5a21521244d4e74c204b9bbaa2c4fc3b3"
+        "id": "sha256:512568e4c489488c499c3bb6e298ffe15ea0753161432a09d18c4437b5866a4c",
+        "file": "images/opsdesk-workforce-scoring_3.13.1-sample-313en_arm64.tar",
+        "sha256": "1813feb57ed9994cd1399ae27fc6b89b709d974fc540c48f78932025a3c2f364"
       }
     }
   },

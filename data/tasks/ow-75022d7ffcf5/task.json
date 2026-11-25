@@ -1,0 +1,31 @@
+{
+  "app_sha256": "8411a0bcac8c3de4b539c937fb44d8da097a353a764414ae20ee595f30f2cfe1",
+  "difficulty": "expert",
+  "document_ids": [
+    "doc-current-memo",
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "family": "F04_demand_spike",
+  "horizon_days": 14,
+  "instruction": "See Mia Fuchs's email: the shifts listed there need more people now. Also, a few shifts were already open before (18 shifts, marked open on the rota) – please fill those too. Cheapest sensible option, please. Everything has to stay within the rules. Don't reshuffle more than you have to. At the end, send me the final status report (Reports → Status report) – every field has to match the finished rota. Make sure the people affected get a shift message. Lena Becker",
+  "jurisdiction": "de",
+  "start_date": "2026-08-04",
+  "surface": "workforce",
+  "task_id": "ow-75022d7ffcf5",
+  "workforce": {
+    "apps": [
+      "rota"
+    ],
+    "estimated_human_minutes": 42,
+    "locale": "en-DE",
+    "staff": 71,
+    "tier": "evaluation",
+    "units": 3
+  },
+  "world_file": "world.json"
+}

@@ -1,0 +1,31 @@
+{
+  "app_sha256": "de5f141be42a75455a65467b4264b111bae306b7da8fc8e494e61974f19b7327",
+  "difficulty": "expert",
+  "document_ids": [
+    "doc-current-memo",
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "family": "F09_agency_budget",
+  "horizon_days": 21,
+  "instruction": "Hello Lea,\n\nKai Klein rang in sick (Fri 27 Mar to Thu 2 Apr). Could you get those shifts covered again? Jonas Richter emailed – we need extra staff on the shifts listed. Please get that on the rota. Have a look at the mail first, a few things came in this morning. The agency budget isn't signed off yet – ask me by mail before you book. If you can't fill something, tell me properly through the understaffing report. Leave the rest of the rota alone as far as possible. Please message everyone you move. Try not to blow the agency budget. At the end, send me the final status report (Reports → Status report) – every field has to match the finished rota. Watch the rules – rest periods, nights in a row, the lot. It's one of those weeks: there are swap requests in the requests list too. Please go through everything in the order the house rules give.\n\nThank you, Nicole Roth",
+  "jurisdiction": "de",
+  "start_date": "2026-03-22",
+  "surface": "workforce",
+  "task_id": "ow-9f45c4c9f12f",
+  "workforce": {
+    "apps": [
+      "rota"
+    ],
+    "estimated_human_minutes": 56,
+    "locale": "en-DE",
+    "staff": 79,
+    "tier": "evaluation",
+    "units": 3
+  },
+  "world_file": "world.json"
+}

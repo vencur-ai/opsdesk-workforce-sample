@@ -1,0 +1,2936 @@
+{
+  "absence_meta": [
+    {
+      "absence_id": "absence-event-0001",
+      "channel": "phone",
+      "entered_by": "Monika Yılmaz",
+      "entered_on": "2026-11-07",
+      "note": "Rang in sick"
+    },
+    {
+      "absence_id": "absence-event-0002",
+      "channel": "phone",
+      "entered_by": "Monika Yılmaz",
+      "entered_on": "2026-11-07",
+      "note": "Rang in sick"
+    },
+    {
+      "absence_id": "holiday-0001",
+      "channel": "planned",
+      "entered_by": "Ayşe Krause",
+      "entered_on": "2026-10-14",
+      "note": ""
+    },
+    {
+      "absence_id": "holiday-0002",
+      "channel": "planned",
+      "entered_by": "Ayşe Krause",
+      "entered_on": "2026-09-27",
+      "note": ""
+    },
+    {
+      "absence_id": "holiday-0003",
+      "channel": "planned",
+      "entered_by": "Ayşe Krause",
+      "entered_on": "2026-09-30",
+      "note": ""
+    },
+    {
+      "absence_id": "holiday-0004",
+      "channel": "planned",
+      "entered_by": "Ayşe Krause",
+      "entered_on": "2026-09-15",
+      "note": ""
+    },
+    {
+      "absence_id": "holiday-0005",
+      "channel": "planned",
+      "entered_by": "Ayşe Krause",
+      "entered_on": "2026-10-15",
+      "note": ""
+    },
+    {
+      "absence_id": "holiday-0006",
+      "channel": "planned",
+      "entered_by": "Ayşe Krause",
+      "entered_on": "2026-09-09",
+      "note": ""
+    },
+    {
+      "absence_id": "training-0002",
+      "channel": "planned",
+      "entered_by": "Ayşe Krause",
+      "entered_on": "2026-09-18",
+      "note": "Mandatory training (registered nurses)"
+    },
+    {
+      "absence_id": "training-0003",
+      "channel": "planned",
+      "entered_by": "Ayşe Krause",
+      "entered_on": "2026-10-17",
+      "note": "Mandatory training (registered nurses)"
+    },
+    {
+      "absence_id": "training-0004",
+      "channel": "planned",
+      "entered_by": "Ayşe Krause",
+      "entered_on": "2026-10-06",
+      "note": "Mandatory training (registered nurses)"
+    },
+    {
+      "absence_id": "training-0005",
+      "channel": "planned",
+      "entered_by": "Ayşe Krause",
+      "entered_on": "2026-10-26",
+      "note": "Mandatory training (registered nurses)"
+    },
+    {
+      "absence_id": "training-0012",
+      "channel": "planned",
+      "entered_by": "Ayşe Krause",
+      "entered_on": "2026-10-04",
+      "note": "Mandatory training (registered nurses)"
+    },
+    {
+      "absence_id": "training-0013",
+      "channel": "planned",
+      "entered_by": "Ayşe Krause",
+      "entered_on": "2026-09-18",
+      "note": "Mandatory training (registered nurses)"
+    },
+    {
+      "absence_id": "training-0016",
+      "channel": "planned",
+      "entered_by": "Ayşe Krause",
+      "entered_on": "2026-10-09",
+      "note": "Mandatory training (registered nurses)"
+    },
+    {
+      "absence_id": "training-0017",
+      "channel": "planned",
+      "entered_by": "Ayşe Krause",
+      "entered_on": "2026-10-24",
+      "note": "Mandatory training (registered nurses)"
+    },
+    {
+      "absence_id": "training-0020",
+      "channel": "planned",
+      "entered_by": "Ayşe Krause",
+      "entered_on": "2026-09-26",
+      "note": "Mandatory training (registered nurses)"
+    },
+    {
+      "absence_id": "training-0021",
+      "channel": "planned",
+      "entered_by": "Ayşe Krause",
+      "entered_on": "2026-09-10",
+      "note": "Mandatory training (registered nurses)"
+    },
+    {
+      "absence_id": "training-0022",
+      "channel": "planned",
+      "entered_by": "Ayşe Krause",
+      "entered_on": "2026-09-13",
+      "note": "Mandatory training (registered nurses)"
+    },
+    {
+      "absence_id": "training-0023",
+      "channel": "planned",
+      "entered_by": "Ayşe Krause",
+      "entered_on": "2026-09-15",
+      "note": "Mandatory training (registered nurses)"
+    }
+  ],
+  "budget_in_mail": true,
+  "calendar": [
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0002",
+        "staff-0003",
+        "staff-0004",
+        "staff-0005",
+        "staff-0012",
+        "staff-0013",
+        "staff-0016",
+        "staff-0017",
+        "staff-0020",
+        "staff-0021",
+        "staff-0022",
+        "staff-0023"
+      ],
+      "created_by": "Ayşe Krause",
+      "end": "2026-11-07 16:30",
+      "event_id": "event-0001",
+      "kind": "training",
+      "location": "Bildungswerk Torlund, Selkenrath",
+      "notes": "12 registered nurses booked. No shifts for attendees on this day.",
+      "start": "2026-11-07 09:00",
+      "title": "Mandatory training: registered nurses"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Ayşe Krause",
+      "end": "2026-11-10 14:15",
+      "event_id": "event-0002",
+      "kind": "meeting",
+      "location": "Staff room",
+      "notes": "",
+      "start": "2026-11-10 13:30",
+      "title": "Team meeting Birke unit"
+    },
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0039"
+      ],
+      "created_by": "Ayşe Krause",
+      "end": "2026-11-11 23:59",
+      "event_id": "event-0003",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-11-11 00:00",
+      "title": "Leave: Paul Becker"
+    },
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0011"
+      ],
+      "created_by": "Ayşe Krause",
+      "end": "2026-11-14 23:59",
+      "event_id": "event-0004",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-11-12 00:00",
+      "title": "Leave: Ioana Fuchs"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Ayşe Krause",
+      "end": "2026-11-12 10:30",
+      "event_id": "event-0005",
+      "kind": "other",
+      "location": "Haus Kastanienhof",
+      "notes": "",
+      "start": "2026-11-12 10:00",
+      "title": "Fire alarm check"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Ayşe Krause",
+      "end": "2026-11-12 12:30",
+      "event_id": "event-0006",
+      "kind": "meeting",
+      "location": "all units",
+      "notes": "",
+      "start": "2026-11-12 11:00",
+      "title": "GP round"
+    },
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0005"
+      ],
+      "created_by": "Ayşe Krause",
+      "end": "2026-11-15 23:59",
+      "event_id": "event-0007",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-11-15 00:00",
+      "title": "Leave: Monika Wolf"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Ayşe Krause",
+      "end": "2026-11-19 12:30",
+      "event_id": "event-0008",
+      "kind": "meeting",
+      "location": "all units",
+      "notes": "",
+      "start": "2026-11-19 11:00",
+      "title": "GP round"
+    },
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0022"
+      ],
+      "created_by": "Ayşe Krause",
+      "end": "2026-11-22 23:59",
+      "event_id": "event-0009",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-11-22 00:00",
+      "title": "Leave: Lea Hoffmann"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Ayşe Krause",
+      "end": "2026-11-26 12:30",
+      "event_id": "event-0010",
+      "kind": "meeting",
+      "location": "all units",
+      "notes": "",
+      "start": "2026-11-26 11:00",
+      "title": "GP round"
+    },
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0001"
+      ],
+      "created_by": "Ayşe Krause",
+      "end": "2026-11-28 23:59",
+      "event_id": "event-0011",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-11-28 00:00",
+      "title": "Leave: Monika Yılmaz"
+    },
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0004"
+      ],
+      "created_by": "Ayşe Krause",
+      "end": "2026-11-30 23:59",
+      "event_id": "event-0012",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-11-29 00:00",
+      "title": "Leave: Anna Winkler"
+    },
+    {
+      "all_day": false,
+      "attendees": [
+        "staff-0047"
+      ],
+      "created_by": "Katharina Schulz",
+      "end": "2026-12-02 15:00",
+      "event_id": "event-0013",
+      "kind": "meeting",
+      "location": "Training room",
+      "notes": "",
+      "start": "2026-12-02 14:00",
+      "title": "Works council (Betriebsrat)"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Ayşe Krause",
+      "end": "2026-12-03 12:30",
+      "event_id": "event-0014",
+      "kind": "meeting",
+      "location": "all units",
+      "notes": "",
+      "start": "2026-12-03 11:00",
+      "title": "GP round"
+    },
+    {
+      "all_day": true,
+      "attendees": [
+        "staff-0038"
+      ],
+      "created_by": "Ayşe Krause",
+      "end": "2026-12-04 23:59",
+      "event_id": "event-0015",
+      "kind": "leave",
+      "location": "",
+      "notes": "",
+      "start": "2026-12-04 00:00",
+      "title": "Leave: Monika Winkler"
+    },
+    {
+      "all_day": false,
+      "attendees": [],
+      "created_by": "Ayşe Krause",
+      "end": "2027-01-03 15:00",
+      "event_id": "event-0016",
+      "kind": "inspection",
+      "location": "Haus Kastanienhof",
+      "notes": "Care records and staffing records for the last three months.",
+      "start": "2027-01-03 09:00",
+      "title": "Inspection visit (announced)"
+    }
+  ],
+  "chat_channels": [
+    {
+      "channel_id": "chat-all",
+      "kind": "group",
+      "members": [
+        "me",
+        "manager",
+        "staff-0001",
+        "staff-0002",
+        "staff-0003",
+        "staff-0004",
+        "staff-0005",
+        "staff-0006",
+        "staff-0007",
+        "staff-0008",
+        "staff-0009",
+        "staff-0010",
+        "staff-0011",
+        "staff-0012",
+        "staff-0013",
+        "staff-0014",
+        "staff-0015",
+        "staff-0016",
+        "staff-0017",
+        "staff-0018",
+        "staff-0019",
+        "staff-0020",
+        "staff-0021",
+        "staff-0022",
+        "staff-0023",
+        "staff-0024",
+        "staff-0025",
+        "staff-0026",
+        "staff-0027",
+        "staff-0028",
+        "staff-0029",
+        "staff-0030",
+        "staff-0031",
+        "staff-0032",
+        "staff-0033",
+        "staff-0034",
+        "staff-0035",
+        "staff-0036",
+        "staff-0037",
+        "staff-0038",
+        "staff-0039",
+        "staff-0040",
+        "staff-0041",
+        "staff-0042",
+        "staff-0043",
+        "staff-0044",
+        "staff-0045",
+        "staff-0046",
+        "staff-0047",
+        "staff-0048",
+        "staff-0049",
+        "staff-0050",
+        "staff-0051",
+        "staff-0052",
+        "staff-0053",
+        "staff-0054",
+        "staff-0055",
+        "staff-0056",
+        "staff-0057",
+        "staff-0058",
+        "staff-0059",
+        "staff-0060",
+        "staff-0061",
+        "staff-0062",
+        "staff-0063",
+        "staff-0064",
+        "staff-0065",
+        "staff-0066",
+        "staff-0067",
+        "staff-0068",
+        "staff-0069",
+        "staff-0070",
+        "staff-0071",
+        "staff-0072",
+        "staff-0073",
+        "staff-0074",
+        "staff-0075",
+        "staff-0076",
+        "staff-0077",
+        "staff-0078",
+        "staff-0079"
+      ],
+      "name": "All staff",
+      "topic": "Notices for the whole home"
+    },
+    {
+      "channel_id": "chat-ward-01",
+      "kind": "group",
+      "members": [
+        "me",
+        "staff-0001",
+        "staff-0002",
+        "staff-0003",
+        "staff-0004",
+        "staff-0005",
+        "staff-0006",
+        "staff-0007",
+        "staff-0008",
+        "staff-0009",
+        "staff-0011",
+        "staff-0012",
+        "staff-0013",
+        "staff-0014",
+        "staff-0015",
+        "staff-0016",
+        "staff-0017",
+        "staff-0018",
+        "staff-0019",
+        "staff-0020",
+        "staff-0021",
+        "staff-0022",
+        "staff-0023",
+        "staff-0024",
+        "staff-0025",
+        "staff-0027",
+        "staff-0028",
+        "staff-0029",
+        "staff-0030",
+        "staff-0031",
+        "staff-0032",
+        "staff-0033",
+        "staff-0036",
+        "staff-0037",
+        "staff-0038",
+        "staff-0039",
+        "staff-0040",
+        "staff-0041",
+        "staff-0042",
+        "staff-0043",
+        "staff-0044",
+        "staff-0045",
+        "staff-0046",
+        "staff-0047",
+        "staff-0049",
+        "staff-0050",
+        "staff-0051",
+        "staff-0052",
+        "staff-0053",
+        "staff-0054",
+        "staff-0055",
+        "staff-0056",
+        "staff-0057",
+        "staff-0059",
+        "staff-0063",
+        "staff-0064",
+        "staff-0065",
+        "staff-0066",
+        "staff-0069",
+        "staff-0070",
+        "staff-0071",
+        "staff-0072",
+        "staff-0076",
+        "staff-0078",
+        "staff-0079"
+      ],
+      "name": "Birke unit team",
+      "topic": "Handover and shift questions"
+    },
+    {
+      "channel_id": "chat-ward-02",
+      "kind": "group",
+      "members": [
+        "me",
+        "staff-0001",
+        "staff-0002",
+        "staff-0003",
+        "staff-0004",
+        "staff-0005",
+        "staff-0006",
+        "staff-0007",
+        "staff-0008",
+        "staff-0009",
+        "staff-0010",
+        "staff-0011",
+        "staff-0012",
+        "staff-0013",
+        "staff-0014",
+        "staff-0015",
+        "staff-0016",
+        "staff-0017",
+        "staff-0018",
+        "staff-0020",
+        "staff-0021",
+        "staff-0022",
+        "staff-0023",
+        "staff-0024",
+        "staff-0025",
+        "staff-0026",
+        "staff-0027",
+        "staff-0028",
+        "staff-0029",
+        "staff-0030",
+        "staff-0031",
+        "staff-0032",
+        "staff-0033",
+        "staff-0035",
+        "staff-0036",
+        "staff-0037",
+        "staff-0038",
+        "staff-0039",
+        "staff-0040",
+        "staff-0041",
+        "staff-0042",
+        "staff-0043",
+        "staff-0044",
+        "staff-0045",
+        "staff-0046",
+        "staff-0047",
+        "staff-0048",
+        "staff-0049",
+        "staff-0050",
+        "staff-0051",
+        "staff-0052",
+        "staff-0053",
+        "staff-0054",
+        "staff-0055",
+        "staff-0056",
+        "staff-0057",
+        "staff-0058",
+        "staff-0059",
+        "staff-0060",
+        "staff-0062",
+        "staff-0064",
+        "staff-0066",
+        "staff-0068",
+        "staff-0069",
+        "staff-0070",
+        "staff-0071",
+        "staff-0072",
+        "staff-0073",
+        "staff-0074",
+        "staff-0075",
+        "staff-0076",
+        "staff-0077",
+        "staff-0078",
+        "staff-0079"
+      ],
+      "name": "Sonnenblick unit team",
+      "topic": "Handover and shift questions"
+    },
+    {
+      "channel_id": "chat-ward-03",
+      "kind": "group",
+      "members": [
+        "me",
+        "staff-0001",
+        "staff-0002",
+        "staff-0003",
+        "staff-0004",
+        "staff-0005",
+        "staff-0006",
+        "staff-0007",
+        "staff-0008",
+        "staff-0009",
+        "staff-0010",
+        "staff-0011",
+        "staff-0012",
+        "staff-0013",
+        "staff-0014",
+        "staff-0015",
+        "staff-0016",
+        "staff-0017",
+        "staff-0018",
+        "staff-0019",
+        "staff-0020",
+        "staff-0021",
+        "staff-0022",
+        "staff-0023",
+        "staff-0024",
+        "staff-0025",
+        "staff-0026",
+        "staff-0027",
+        "staff-0028",
+        "staff-0029",
+        "staff-0031",
+        "staff-0032",
+        "staff-0033",
+        "staff-0035",
+        "staff-0036",
+        "staff-0037",
+        "staff-0038",
+        "staff-0039",
+        "staff-0041",
+        "staff-0042",
+        "staff-0043",
+        "staff-0044",
+        "staff-0045",
+        "staff-0046",
+        "staff-0048",
+        "staff-0049",
+        "staff-0050",
+        "staff-0051",
+        "staff-0052",
+        "staff-0053",
+        "staff-0054",
+        "staff-0055",
+        "staff-0056",
+        "staff-0057",
+        "staff-0058",
+        "staff-0059",
+        "staff-0060",
+        "staff-0062",
+        "staff-0064",
+        "staff-0066",
+        "staff-0067",
+        "staff-0068",
+        "staff-0069",
+        "staff-0070",
+        "staff-0071",
+        "staff-0072",
+        "staff-0073",
+        "staff-0074",
+        "staff-0075",
+        "staff-0076",
+        "staff-0077",
+        "staff-0079"
+      ],
+      "name": "Rosengarten unit team",
+      "topic": "Handover and shift questions"
+    },
+    {
+      "channel_id": "chat-nights",
+      "kind": "group",
+      "members": [
+        "me",
+        "staff-0001",
+        "staff-0006",
+        "staff-0007",
+        "staff-0008",
+        "staff-0009",
+        "staff-0010",
+        "staff-0017",
+        "staff-0018",
+        "staff-0023",
+        "staff-0026",
+        "staff-0027",
+        "staff-0029",
+        "staff-0034",
+        "staff-0038",
+        "staff-0042",
+        "staff-0043",
+        "staff-0045",
+        "staff-0048",
+        "staff-0053",
+        "staff-0059",
+        "staff-0062",
+        "staff-0063",
+        "staff-0064",
+        "staff-0065",
+        "staff-0066",
+        "staff-0069",
+        "staff-0070",
+        "staff-0073",
+        "staff-0074"
+      ],
+      "name": "Nights",
+      "topic": "Night team"
+    },
+    {
+      "channel_id": "dm-staff-0008",
+      "kind": "direct",
+      "members": [
+        "me",
+        "staff-0008"
+      ],
+      "name": "Stefan Demir",
+      "topic": ""
+    },
+    {
+      "channel_id": "dm-staff-0020",
+      "kind": "direct",
+      "members": [
+        "me",
+        "staff-0020"
+      ],
+      "name": "Elif Frank",
+      "topic": ""
+    }
+  ],
+  "chat_messages": [
+    {
+      "ask": false,
+      "channel_id": "chat-ward-03",
+      "chat_id": "chat-0001",
+      "reply_to": null,
+      "sender_id": "staff-0032",
+      "sent_at": "2026-10-29 15:59",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Please sign the fridge temperature sheet every shift.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "dm-staff-0008",
+      "chat_id": "chat-0002",
+      "reply_to": null,
+      "sender_id": "staff-0008",
+      "sent_at": "2026-10-30 10:24",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Hi, my training certificate is renewed – where should I send the copy?",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "dm-staff-0008",
+      "chat_id": "chat-0003",
+      "reply_to": null,
+      "sender_id": "me",
+      "sent_at": "2026-10-30 20:30",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Thanks – I'll check and come back to you.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-ward-01",
+      "chat_id": "chat-0004",
+      "reply_to": null,
+      "sender_id": "staff-0077",
+      "sent_at": "2026-10-31 12:42",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Thanks for staying on last night!",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0005",
+      "reply_to": null,
+      "sender_id": "manager",
+      "sent_at": "2026-11-02 12:54",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Reminder: 12 of our registered nurses are on the mandatory training on Sat 7 Nov 2026 (09:00–16:30). The list is in the office mailbox.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-ward-01",
+      "chat_id": "chat-0006",
+      "reply_to": null,
+      "sender_id": "staff-0040",
+      "sent_at": "2026-11-03 20:07",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "The GP round is moved to Thursday 11:00 this week.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0007",
+      "reply_to": null,
+      "sender_id": "staff-0005",
+      "sent_at": "2026-11-03 21:12",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Hi all, small favour: my sister's getting married on Sunday 15 November. Any chance I could have that day off? 🙈",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0008",
+      "reply_to": null,
+      "sender_id": "manager",
+      "sent_at": "2026-11-04 07:48",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Monika, yes, that's fine – approved. I haven't put it in the system, the rota will take care of it.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-ward-02",
+      "chat_id": "chat-0009",
+      "reply_to": null,
+      "sender_id": "staff-0010",
+      "sent_at": "2026-11-04 18:50",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Lift on the first floor is working again.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "dm-staff-0020",
+      "chat_id": "chat-0010",
+      "reply_to": null,
+      "sender_id": "staff-0020",
+      "sent_at": "2026-11-05 10:41",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Hi, my training certificate is renewed – where should I send the copy?",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-ward-02",
+      "chat_id": "chat-0011",
+      "reply_to": null,
+      "sender_id": "staff-0061",
+      "sent_at": "2026-11-05 19:33",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Can whoever is on late tomorrow bring the menu cards down to the kitchen?",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "dm-staff-0020",
+      "chat_id": "chat-0012",
+      "reply_to": null,
+      "sender_id": "me",
+      "sent_at": "2026-11-05 20:10",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Thanks – I'll check and come back to you.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-ward-03",
+      "chat_id": "chat-0013",
+      "reply_to": null,
+      "sender_id": "staff-0069",
+      "sent_at": "2026-11-06 21:17",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Is anyone driving past the pharmacy today?",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-ward-02",
+      "chat_id": "chat-0014",
+      "reply_to": null,
+      "sender_id": "staff-0007",
+      "sent_at": "2026-11-07 06:28",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Who has the key for the clinic room? It's not in the box.",
+      "ward_id": null
+    },
+    {
+      "ask": false,
+      "channel_id": "chat-all",
+      "chat_id": "chat-0015",
+      "reply_to": null,
+      "sender_id": "staff-0055",
+      "sent_at": "2026-11-07 07:00",
+      "shift_date": null,
+      "shift_type": null,
+      "text": "Birthday cake in the staff room – help yourselves.",
+      "ward_id": null
+    }
+  ],
+  "contacts": [
+    {
+      "address": "ayse.krause@haus-kastanienhof-selkenrath.example",
+      "contact_id": "contact-manager",
+      "name": "Ayşe Krause",
+      "organisation": "Haus Kastanienhof",
+      "role": "Director of Nursing"
+    },
+    {
+      "address": "mehmet.schroeder@selkenrath-pflegeverbund.example",
+      "contact_id": "contact-ops",
+      "name": "Mehmet Schröder",
+      "organisation": "Regional office",
+      "role": "Operations manager"
+    },
+    {
+      "address": "markus.richter@sorantis-lohnbuero-selkenrath.example",
+      "contact_id": "contact-payroll",
+      "name": "Markus Richter",
+      "organisation": "Lohnbüro Sorantis",
+      "role": "Payroll office"
+    },
+    {
+      "address": "jonas.vogel@bildungswerk-torlund-selkenrath.example",
+      "contact_id": "contact-training",
+      "name": "Jonas Vogel",
+      "organisation": "Bildungswerk Torlund",
+      "role": "Training provider"
+    },
+    {
+      "address": "bookings@mirenta-pflegepersonal-selkenrath.example",
+      "contact_id": "contact-agency-1",
+      "name": "Sabine Hoffmann",
+      "organisation": "Mirenta Pflegepersonal",
+      "role": "Bookings desk"
+    },
+    {
+      "address": "bookings@tavelo-personalservice-selkenrath.example",
+      "contact_id": "contact-agency-2",
+      "name": "Agnieszka Müller",
+      "organisation": "Tavelo Personalservice",
+      "role": "Bookings desk"
+    },
+    {
+      "address": "bookings@kurandis-zeitarbeit-selkenrath.example",
+      "contact_id": "contact-agency-3",
+      "name": "Anna Lorenz",
+      "organisation": "Kurandis Zeitarbeit",
+      "role": "Bookings desk"
+    },
+    {
+      "address": "katharina.schulz@haus-kastanienhof-selkenrath.example",
+      "contact_id": "contact-rep",
+      "name": "Katharina Schulz",
+      "organisation": "Works council (Betriebsrat)",
+      "role": "Chair of the works council (Betriebsrat)"
+    },
+    {
+      "address": "maria.lehmann@selkenrath-post.example",
+      "contact_id": "contact-family-1",
+      "name": "Maria Lehmann",
+      "organisation": "Relative",
+      "role": "Family of Mr Steiner"
+    },
+    {
+      "address": "petra.braun@selkenrath-post.example",
+      "contact_id": "contact-family-2",
+      "name": "Petra Braun",
+      "organisation": "Relative",
+      "role": "Family of Mrs Albers"
+    },
+    {
+      "address": "dmitri.zimmermann@selkenrath-post.example",
+      "contact_id": "contact-family-3",
+      "name": "Dmitri Zimmermann",
+      "organisation": "Relative",
+      "role": "Family of Mrs Yıldız"
+    },
+    {
+      "address": "laura.schwarz@haus-kastanienhof-selkenrath.example",
+      "contact_id": "contact-clinical",
+      "name": "Laura Schwarz",
+      "organisation": "Haus Kastanienhof",
+      "role": "Deputy manager (clinical lead)"
+    },
+    {
+      "address": "hr@haus-kastanienhof-selkenrath.example",
+      "contact_id": "contact-hr",
+      "name": "Jana Wiese",
+      "organisation": "Haus Kastanienhof",
+      "role": "HR office"
+    }
+  ],
+  "history": [
+    {
+      "action": "Absence recorded",
+      "after": "Holiday 29 Nov 2026–30 Nov 2026",
+      "at": "2026-09-09 09:59",
+      "before": "",
+      "object": "Anna Winkler",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Absence recorded",
+      "after": "Mandatory training 7 Nov 2026–7 Nov 2026",
+      "at": "2026-09-10 09:54",
+      "before": "",
+      "object": "Tobias Popescu",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Absence recorded",
+      "after": "Mandatory training 7 Nov 2026–7 Nov 2026",
+      "at": "2026-09-13 09:42",
+      "before": "",
+      "object": "Lea Hoffmann",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Absence recorded",
+      "after": "Holiday 4 Dec 2026–4 Dec 2026",
+      "at": "2026-09-15 09:15",
+      "before": "",
+      "object": "Monika Winkler",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Absence recorded",
+      "after": "Mandatory training 7 Nov 2026–7 Nov 2026",
+      "at": "2026-09-15 09:51",
+      "before": "",
+      "object": "Agnieszka Zimmermann",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Absence recorded",
+      "after": "Mandatory training 7 Nov 2026–7 Nov 2026",
+      "at": "2026-09-18 09:14",
+      "before": "",
+      "object": "Petra Nowak",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Absence recorded",
+      "after": "Mandatory training 7 Nov 2026–7 Nov 2026",
+      "at": "2026-09-18 09:45",
+      "before": "",
+      "object": "Michael Braun",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Absence recorded",
+      "after": "Mandatory training 7 Nov 2026–7 Nov 2026",
+      "at": "2026-09-26 09:32",
+      "before": "",
+      "object": "Elif Frank",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Absence recorded",
+      "after": "Holiday 22 Nov 2026–22 Nov 2026",
+      "at": "2026-09-27 09:54",
+      "before": "",
+      "object": "Lea Hoffmann",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Absence recorded",
+      "after": "Holiday 11 Nov 2026–11 Nov 2026",
+      "at": "2026-09-30 09:46",
+      "before": "",
+      "object": "Paul Becker",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Absence recorded",
+      "after": "Mandatory training 7 Nov 2026–7 Nov 2026",
+      "at": "2026-10-04 09:38",
+      "before": "",
+      "object": "Marek Wolf",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Absence recorded",
+      "after": "Mandatory training 7 Nov 2026–7 Nov 2026",
+      "at": "2026-10-06 09:35",
+      "before": "",
+      "object": "Anna Winkler",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Absence recorded",
+      "after": "Mandatory training 7 Nov 2026–7 Nov 2026",
+      "at": "2026-10-09 09:32",
+      "before": "",
+      "object": "Kai Zimmermann",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Rota published",
+      "after": "",
+      "at": "2026-10-10 16:10",
+      "before": "",
+      "object": "Week 41",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Contact details updated",
+      "after": "Phone number",
+      "at": "2026-10-11 13:22",
+      "before": "",
+      "object": "Leon Braun",
+      "user": "Hannah Werner"
+    },
+    {
+      "action": "Agency shift booked",
+      "after": "Thu 15 Oct Late",
+      "at": "2026-10-14 09:19",
+      "before": "",
+      "object": "Kurandis Zeitarbeit",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Absence recorded",
+      "after": "Holiday 28 Nov 2026–28 Nov 2026",
+      "at": "2026-10-14 09:32",
+      "before": "",
+      "object": "Monika Yılmaz",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Absence recorded",
+      "after": "Holiday 12 Nov 2026–14 Nov 2026",
+      "at": "2026-10-15 09:10",
+      "before": "",
+      "object": "Ioana Fuchs",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Absence recorded",
+      "after": "Mandatory training 7 Nov 2026–7 Nov 2026",
+      "at": "2026-10-17 09:42",
+      "before": "",
+      "object": "Maximilian Keller",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Rota published",
+      "after": "",
+      "at": "2026-10-17 16:17",
+      "before": "",
+      "object": "Week 42",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Shift notice sent",
+      "after": "",
+      "at": "2026-10-17 17:02",
+      "before": "",
+      "object": "Lea Haas",
+      "user": "Hannah Werner"
+    },
+    {
+      "action": "Sick leave recorded",
+      "after": "18 Oct 2026",
+      "at": "2026-10-18 12:19",
+      "before": "",
+      "object": "Birgit Bauer",
+      "user": "Monika Yılmaz"
+    },
+    {
+      "action": "Shift changed",
+      "after": "Night",
+      "at": "2026-10-20 09:05",
+      "before": "Mon 26 Oct Early",
+      "object": "Kai Krüger",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Shift changed",
+      "after": "Late",
+      "at": "2026-10-20 11:01",
+      "before": "Fri 23 Oct Night",
+      "object": "Petra Nowak",
+      "user": "Hannah Werner"
+    },
+    {
+      "action": "Sick leave recorded",
+      "after": "22 Oct 2026",
+      "at": "2026-10-22 07:15",
+      "before": "",
+      "object": "Andreas Müller",
+      "user": "Monika Yılmaz"
+    },
+    {
+      "action": "Shift changed",
+      "after": "Early",
+      "at": "2026-10-22 12:29",
+      "before": "Tue 27 Oct Late",
+      "object": "Michael Beck",
+      "user": "Hannah Werner"
+    },
+    {
+      "action": "Shift changed",
+      "after": "Late",
+      "at": "2026-10-22 18:13",
+      "before": "Sat 24 Oct Early",
+      "object": "Sabine Schmidt",
+      "user": "Laura Schwarz"
+    },
+    {
+      "action": "Absence recorded",
+      "after": "Mandatory training 7 Nov 2026–7 Nov 2026",
+      "at": "2026-10-24 09:59",
+      "before": "",
+      "object": "Lea Neumann",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Rota published",
+      "after": "",
+      "at": "2026-10-24 16:24",
+      "before": "",
+      "object": "Week 43",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Absence recorded",
+      "after": "Mandatory training 7 Nov 2026–7 Nov 2026",
+      "at": "2026-10-26 09:49",
+      "before": "",
+      "object": "Monika Wolf",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Shift changed",
+      "after": "Early",
+      "at": "2026-10-28 14:10",
+      "before": "Fri 30 Oct Late",
+      "object": "Tobias Meyer",
+      "user": "Hannah Werner"
+    },
+    {
+      "action": "Shift changed",
+      "after": "Early",
+      "at": "2026-10-31 09:21",
+      "before": "Wed 4 Nov Late",
+      "object": "Lea Keller",
+      "user": "Laura Schwarz"
+    },
+    {
+      "action": "Rota published",
+      "after": "",
+      "at": "2026-10-31 16:31",
+      "before": "",
+      "object": "Week 44",
+      "user": "Ayşe Krause"
+    },
+    {
+      "action": "Swap approved",
+      "after": "",
+      "at": "2026-11-03 07:06",
+      "before": "",
+      "object": "Mia Roth ↔ Nicole Beck",
+      "user": "Hannah Werner"
+    },
+    {
+      "action": "Contact details updated",
+      "after": "Phone number",
+      "at": "2026-11-03 07:29",
+      "before": "",
+      "object": "Maria Weber",
+      "user": "Hannah Werner"
+    },
+    {
+      "action": "Contact details updated",
+      "after": "Phone number",
+      "at": "2026-11-04 07:50",
+      "before": "",
+      "object": "Dmitri Schröder",
+      "user": "Hannah Werner"
+    }
+  ],
+  "home": {
+    "address": "Wiesenweg 44, 54329 Selkenrath",
+    "manager_name": "Ayşe Krause",
+    "manager_title": "Director of Nursing",
+    "night_lead_name": "Monika Yılmaz",
+    "user_name": "Hannah Werner",
+    "user_title": "Assistant to the Director of Nursing"
+  },
+  "locale": "en-DE",
+  "mail_address": "hannah.werner@haus-kastanienhof-selkenrath.example",
+  "mails": [
+    {
+      "attachments": [
+        {
+          "attachment_id": "att-0003-bookingconfi",
+          "content": "Bildungswerk Torlund\nBooking confirmation\n\nCourse: Medicines management and clinical update (mandatory, registered nurses)\nDate: Sat 7 Nov 2026, 09:00–16:30\nVenue: Bildungswerk Torlund, Selkenrath\n\nAttendees:\n- Michael Braun\n- Maximilian Keller\n- Anna Winkler\n- Monika Wolf\n- Marek Wolf\n- Petra Nowak\n- Kai Zimmermann\n- Lea Neumann\n- Elif Frank\n- Tobias Popescu\n- Lea Hoffmann\n- Agnieszka Zimmermann",
+          "filename": "booking_confirmation.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
+      "body": "Dear Ayşe,\n\nThank you for booking 12 of your registered nurses onto the mandatory update on Sat 7 Nov 2026. The day runs from 09:00 to 16:30 including the assessment, so attendees cannot work a shift that day. The attendee list is attached.\n\nKind regards\nJonas Vogel",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0003",
+      "sender": "jonas.vogel@bildungswerk-torlund-selkenrath.example",
+      "sender_name": "Jonas Vogel",
+      "sent_at": "2026-10-18 14:09",
+      "subject": "Booking confirmed: mandatory training Sat 7 Nov",
+      "thread_id": "thread-0003",
+      "to": [
+        "ayse.krause@haus-kastanienhof-selkenrath.example",
+        "hannah.werner@haus-kastanienhof-selkenrath.example"
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "attachment_id": "att-0002-ratecardpdf",
+          "content": "Mirenta Pflegepersonal\nRate card – from 1st of this month\n\nCare assistant: €29.00 per hour\nRegistered nurse: €46.00 per hour\n\nOne hourly rate for every shift, nights and weekends included.\nMinimum booking 6 hours. Cancellation free of charge up to 24 hours before the shift; later cancellations are charged in full.\nLead time: as stated in the booking portal for each offer.",
+          "filename": "rate_card.pdf",
+          "media_type": "application/pdf"
+        }
+      ],
+      "body": "Hello,\n\nAttached is our updated rate card. Nothing changes for bookings already confirmed. As always, please book through the portal so the shift details are complete.\n\nBest wishes\nSabine Hoffmann\nMirenta Pflegepersonal",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0002",
+      "sender": "bookings@mirenta-pflegepersonal-selkenrath.example",
+      "sender_name": "Sabine Hoffmann",
+      "sent_at": "2026-11-01 11:10",
+      "subject": "Updated rate card",
+      "thread_id": "thread-0002",
+      "to": [
+        "hannah.werner@haus-kastanienhof-selkenrath.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hi all,\n\nThe next works council (Betriebsrat) is on Wed 2 Dec 2026 at 2pm in the training room. On the agenda: rotas for the coming weeks, overtime and training. Please send me any points beforehand.\n\nThanks\nKatharina Schulz",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0005",
+      "sender": "katharina.schulz@haus-kastanienhof-selkenrath.example",
+      "sender_name": "Katharina Schulz",
+      "sent_at": "2026-11-01 13:52",
+      "subject": "Works council (Betriebsrat) – date for your diary",
+      "thread_id": "thread-0005",
+      "to": [
+        "hannah.werner@haus-kastanienhof-selkenrath.example",
+        "ayse.krause@haus-kastanienhof-selkenrath.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Dear all,\n\nThank you for the last month's figures. Across the region overtime went up again. From now on I'll ask each home for a short reason when a planning period ends above the contracted hours. No action needed today.\n\nBest regards\nMehmet Schröder",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0009",
+      "sender": "mehmet.schroeder@selkenrath-pflegeverbund.example",
+      "sender_name": "Mehmet Schröder",
+      "sent_at": "2026-11-01 16:13",
+      "subject": "Hours report for the region",
+      "thread_id": "thread-0009",
+      "to": [
+        "ayse.krause@haus-kastanienhof-selkenrath.example",
+        "hannah.werner@haus-kastanienhof-selkenrath.example"
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "attachment_id": "att-0001-hours202610c",
+          "content": "staff_no,name,contract_hours_week,worked_hours,plus_minus_hours\nE2007,Monika Yılmaz,40.00,177.70,4.50\nE2014,Michael Braun,35.00,156.55,5.00\nE2021,Maximilian Keller,20.00,85.10,-1.50\nE2028,Anna Winkler,37.50,162.87,0.50\nE2035,Monika Wolf,35.00,155.05,3.50\nE2042,Anne Demir,40.00,174.20,1.00\nE2049,Sabine Schmidt,35.00,149.55,-2.00\nE2056,Stefan Demir,40.00,170.70,-2.50\nE2063,Jana Vogel,37.50,165.37,3.00\nE2070,Lena Fuchs,35.00,156.55,5.00\nE2077,Ioana Fuchs,40.00,176.20,3.00\nE2084,Marek Wolf,16.00,71.77,2.50\nE2091,Petra Nowak,24.00,109.92,6.00\nE2098,Jürgen Müller,35.00,156.05,4.50\nE2105,Laura Schulz,28.00,118.73,-2.50\nE2112,Kai Zimmermann,24.00,106.92,3.00\nE2119,Lea Neumann,37.50,163.87,1.50\nE2126,Mihaela Yılmaz,37.50,164.87,2.50\nE2133,Thomas Werner,24.00,109.92,6.00\nE2140,Elif Frank,40.00,175.70,2.50\nE2147,Tobias Popescu,20.00,86.10,-0.50\nE2154,Lea Hoffmann,24.00,109.92,6.00\nE2161,Agnieszka Zimmermann,20.00,85.10,-1.50\nE2168,Paul Winkler,20.00,86.60,0.00\nE2175,Nicole Beck,40.00,175.20,2.00\nE2182,Ayşe Lehmann,35.00,147.55,-4.00\nE2189,Dmitri Schneider,37.50,160.87,-1.50\nE2196,Anna Schröder,40.00,177.20,4.00\nE2203,Elif Schäfer,40.00,174.20,1.00\nE2210,Stefan Richter,35.00,152.55,1.00\nE2217,Birgit Beck,37.50,158.37,-4.00\nE2224,Jürgen Fischer,35.00,150.55,-1.00\nE2231,Agnieszka Hartmann,40.00,177.70,4.50\nE2238,Ahmet Petrović,40.00,175.70,2.50\nE2245,Markus Klein,35.00,153.05,1.50\nE2252,Birgit Kaya,40.00,173.20,0.00\nE2259,Kai Krüger,40.00,178.20,5.00\nE2266,Monika Winkler,37.50,158.37,-4.00\nE2273,Paul Becker,35.00,149.05,-2.50\nE2280,Maximilian Lorenz,40.00,169.70,-3.50\nE2287,Michael Beck,24.00,109.42,5.50\nE2294,Leon Braun,40.00,170.70,-2.50\nE2301,Marek Krause,37.50,164.37,2.00\nE2308,Tobias Meyer,24.00,105.42,1.50\nE2315,Lena Sommer,35.00,153.55,2.00\nE2322,Maria Weber,40.00,178.20,5.00\nE2329,Katharina Schulz,40.00,172.20,-1.00\nE2336,Maria Vogel,28.00,126.23,5.00\nE2343,Sabine Hartmann,40.00,178.20,5.00\nE2350,Monika Frank,20.00,85.10,-1.50\nE2357,Paul Lehmann,40.00,176.20,3.00\nE2364,Petra Weber,35.00,155.05,3.50\nE2371,Mia Demir,40.00,172.70,-0.50\nE2378,Anna Schwarz,40.00,176.70,3.50\nE2385,Andreas Müller,37.50,164.87,2.50\nE2392,Uwe Lange,37.50,159.87,-2.50\nE2399,Kerstin Wagner,24.00,106.42,2.50\nE2406,Markus Bauer,35.00,152.55,1.00\nE2413,Fatma Schäfer,37.50,163.87,1.50\nE2420,Hannah Köhler,35.00,152.05,0.50\nE2427,Mia Roth,37.50,161.37,-1.00\nE2434,Leon Popescu,20.00,91.10,4.50\nE2441,Kai Petrović,16.00,74.27,5.00\nE2448,Jürgen Lorenz,40.00,171.70,-1.50\nE2455,Claudia Koch,37.50,165.87,3.50\nE2462,Ewa Koch,40.00,170.20,-3.00\nE2469,Dmitri Schmitt,16.00,68.27,-1.00\nE2476,Birgit Bauer,37.50,159.37,-3.00\nE2483,Daniel Wagner,35.00,157.55,6.00\nE2490,Maximilian Fischer,40.00,172.20,-1.00\nE2497,Lea Keller,40.00,169.20,-4.00\nE2504,Swetlana Köhler,40.00,178.70,5.50\nE2511,Lea Haas,28.00,120.73,-0.50\nE2518,Paul Klein,40.00,173.70,0.50\nE2525,Dmitri Schröder,20.00,91.10,4.50\nE2532,Lukas Hoffmann,24.00,99.92,-4.00\nE2539,Stefan Nowak,35.00,149.55,-2.00\nE2546,Andreas Neumann,40.00,178.70,5.50\nE2553,Laura Kaya,16.00,68.77,-0.50\n",
+          "filename": "hours_2026_10.csv",
+          "media_type": "text/csv"
+        }
+      ],
+      "body": "Dear Hannah,\n\nPlease find attached the hours we processed for October 2026. For the next run we need any changes to contracted hours, new starters and leavers by Fri 13 Nov 2026. Hours above or below contract go to each person's hours account and are balanced with time off; overtime is paid out only when the home manager approves it.\n\nIf any of the figures look wrong, reply to this mail with the staff number and the corrected hours – please do not edit the file.\n\nKind regards\nMarkus Richter\nLohnbüro Sorantis",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0001",
+      "sender": "markus.richter@sorantis-lohnbuero-selkenrath.example",
+      "sender_name": "Markus Richter",
+      "sent_at": "2026-11-03 09:20",
+      "subject": "Payroll cut-off for October and next run",
+      "thread_id": "thread-0001",
+      "to": [
+        "hannah.werner@haus-kastanienhof-selkenrath.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hello,\n\nThank you for covering last week's late shift. Could you send me the booking number for the invoice?\n\nHannah Werner\nAssistant to the Director of Nursing, Haus Kastanienhof",
+      "cc": [],
+      "folder": "sent",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0010",
+      "sender": "hannah.werner@haus-kastanienhof-selkenrath.example",
+      "sender_name": "Hannah Werner",
+      "sent_at": "2026-11-03 10:53",
+      "subject": "Booking number for last week",
+      "thread_id": "thread-0010",
+      "to": [
+        "bookings@mirenta-pflegepersonal-selkenrath.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hello,\n\nI think Mrs Albers left the new glasses in the dining room on Tuesday. Could someone have a look? I can bring the spare pair on Friday.\n\nThank you\nPetra Braun",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0007",
+      "sender": "petra.braun@selkenrath-post.example",
+      "sender_name": "Petra Braun",
+      "sent_at": "2026-11-03 18:10",
+      "subject": "Glasses",
+      "thread_id": "thread-0007",
+      "to": [
+        "hannah.werner@haus-kastanienhof-selkenrath.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hi Ayşe,\n\nThe rota from Sat 7 Nov is published. Open points are in the rota as usual.\n\nHannah Werner\nAssistant to the Director of Nursing, Haus Kastanienhof",
+      "cc": [],
+      "folder": "sent",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0011",
+      "sender": "hannah.werner@haus-kastanienhof-selkenrath.example",
+      "sender_name": "Hannah Werner",
+      "sent_at": "2026-11-04 15:24",
+      "subject": "Rota published",
+      "thread_id": "thread-0011",
+      "to": [
+        "ayse.krause@haus-kastanienhof-selkenrath.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hello,\n\nWe would like to visit Mr Steiner on Sunday afternoon with the grandchildren. Is there anything we should know about visiting times at the moment? And could someone let us know how he has been sleeping?\n\nMany thanks\nMaria Lehmann",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0006",
+      "sender": "maria.lehmann@selkenrath-post.example",
+      "sender_name": "Maria Lehmann",
+      "sent_at": "2026-11-04 19:17",
+      "subject": "Visiting on Sunday",
+      "thread_id": "thread-0006",
+      "to": [
+        "hannah.werner@haus-kastanienhof-selkenrath.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hi all,\n\nThe fire alarm will be checked on Thu 12 Nov 2026 between 10:00 and 10:30. Please reassure residents beforehand. No evacuation.\n\nAyşe Krause",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0008",
+      "sender": "ayse.krause@haus-kastanienhof-selkenrath.example",
+      "sender_name": "Ayşe Krause",
+      "sent_at": "2026-11-06 08:23",
+      "subject": "Fire alarm check on Thu 12 Nov",
+      "thread_id": "thread-0008",
+      "to": [
+        "hannah.werner@haus-kastanienhof-selkenrath.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hi Hannah,\n\nA few things for the coming days:\n- agency: the budget for this planning period isn't signed off yet – ask me by mail before you book anyone and I'll tell you the amount\n- overtime only where it is really needed – the regional office is watching hours closely\n- please make sure everyone who is moved gets a shift message\n\nI'm in meetings most of tomorrow morning; message me in the chat if something can't wait.\n\nAyşe Krause",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": true,
+      "mail_id": "mail-0004",
+      "sender": "ayse.krause@haus-kastanienhof-selkenrath.example",
+      "sender_name": "Ayşe Krause",
+      "sent_at": "2026-11-06 17:47",
+      "subject": "This week – a few things",
+      "thread_id": "thread-0004",
+      "to": [
+        "hannah.werner@haus-kastanienhof-selkenrath.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Two residents need a lot more care since yesterday. Each of these shifts needs 1 extra member of staff:\n- Mon 9 Nov, Rosengarten unit, night\n- Tue 10 Nov, Birke unit, early\n- Tue 10 Nov, Sonnenblick unit, early\n- Fri 13 Nov, Birke unit, late\n- Fri 13 Nov, Sonnenblick unit, early\n- Sun 15 Nov, Rosengarten unit, night\n- Mon 16 Nov, Birke unit, early\n- Mon 16 Nov, Rosengarten unit, night\n- Tue 17 Nov, Sonnenblick unit, late\n- Sat 21 Nov, Birke unit, early\n- Mon 23 Nov, Birke unit, night\n- Mon 30 Nov, Rosengarten unit, night\nThanks, Laura Schwarz",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": false,
+      "mail_id": "mail-0012",
+      "sender": "laura.schwarz@haus-kastanienhof-selkenrath.example",
+      "sender_name": "Laura Schwarz",
+      "sent_at": "2026-11-07 06:51",
+      "subject": "Extra staff needed",
+      "thread_id": "thread-0012",
+      "to": [
+        "hannah.werner@haus-kastanienhof-selkenrath.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "We have a new admission with high care needs. Each of these shifts needs 1 extra member of staff:\n- Mon 9 Nov, Birke unit, night\n- Mon 9 Nov, Sonnenblick unit, late\n- Tue 10 Nov, Sonnenblick unit, late\n- Tue 10 Nov, Sonnenblick unit, night\n- Sat 14 Nov, Rosengarten unit, night\n- Sun 15 Nov, Sonnenblick unit, early\n- Sun 15 Nov, Sonnenblick unit, night\n- Mon 16 Nov, Rosengarten unit, late\n- Fri 20 Nov, Sonnenblick unit, night\n- Sat 21 Nov, Rosengarten unit, early\n- Wed 25 Nov, Rosengarten unit, early\n- Mon 30 Nov, Rosengarten unit, late\nThanks, Laura Schwarz",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": false,
+      "mail_id": "mail-0013",
+      "sender": "laura.schwarz@haus-kastanienhof-selkenrath.example",
+      "sender_name": "Laura Schwarz",
+      "sent_at": "2026-11-07 06:52",
+      "subject": "New admission – extra cover",
+      "thread_id": "thread-0013",
+      "to": [
+        "hannah.werner@haus-kastanienhof-selkenrath.example"
+      ]
+    },
+    {
+      "attachments": [],
+      "body": "Hello,\n\nAutomatic reminder from the HR system (as at the start of the month): these documents run out in the planning period:\n- Markus Bauer: residence permit (Aufenthaltstitel) valid until and including 12 November 2026\n- Tobias Meyer: residence permit (Aufenthaltstitel) valid until and including 16 November 2026\n\nPlease check the current status in the staff file before you plan.\n\nJana Wiese\nHR office",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": false,
+      "mail_id": "mail-0014",
+      "sender": "hr@haus-kastanienhof-selkenrath.example",
+      "sender_name": "Jana Wiese",
+      "sent_at": "2026-11-01 08:15",
+      "subject": "Documents running out this period",
+      "thread_id": "thread-mail-0014",
+      "to": [
+        "hannah.werner@haus-kastanienhof-selkenrath.example"
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "attachment_id": "att-mail-0015",
+          "content": "Staff number,Name,Balance h\nE2007,Monika Yılmaz,+17.25\nE2014,Michael Braun,+25.50\nE2021,Maximilian Keller,+16.75\nE2028,Anna Winkler,+35.75\nE2035,Monika Wolf,+17.50\nE2042,Anne Demir,-6.00\nE2049,Sabine Schmidt,+18.25\nE2056,Stefan Demir,+16.25\nE2063,Jana Vogel,+18.50\nE2070,Lena Fuchs,+5.00\nE2077,Ioana Fuchs,+9.00\nE2084,Marek Wolf,+18.00\nE2091,Petra Nowak,-7.00\nE2098,Jürgen Müller,+5.50\nE2105,Laura Schulz,+17.25\nE2112,Kai Zimmermann,-6.25\nE2119,Lea Neumann,+20.00\nE2126,Mihaela Yılmaz,+16.75\nE2133,Thomas Werner,+16.50\nE2140,Elif Frank,-10.50\nE2147,Tobias Popescu,+19.00\nE2154,Lea Hoffmann,-2.75\nE2161,Agnieszka Zimmermann,+16.75\nE2168,Paul Winkler,+7.75\nE2175,Nicole Beck,-4.00\nE2182,Ayşe Lehmann,+0.75\nE2189,Dmitri Schneider,+18.25\nE2196,Anna Schröder,+19.25\nE2203,Elif Schäfer,+16.75\nE2210,Stefan Richter,+3.00\nE2217,Birgit Beck,+20.00\nE2224,Jürgen Fischer,+20.00\nE2231,Agnieszka Hartmann,+18.75\nE2238,Ahmet Petrović,+2.00\nE2245,Markus Klein,+20.00\nE2252,Birgit Kaya,-10.00\nE2259,Kai Krüger,+16.25\nE2266,Monika Winkler,+18.75\nE2273,Paul Becker,+1.00\nE2280,Maximilian Lorenz,+16.75\nE2287,Michael Beck,+1.50\nE2294,Leon Braun,-3.00\nE2301,Marek Krause,+6.50\nE2308,Tobias Meyer,+19.00\nE2315,Lena Sommer,+25.75\nE2322,Maria Weber,+1.00\nE2329,Katharina Schulz,+10.00\nE2336,Maria Vogel,+8.50\nE2343,Sabine Hartmann,+5.25\nE2350,Monika Frank,+16.50\nE2357,Paul Lehmann,+19.25\nE2364,Petra Weber,+19.50\nE2371,Mia Demir,+18.50\nE2378,Anna Schwarz,+17.25\nE2385,Andreas Müller,+4.00\nE2392,Uwe Lange,-1.50\nE2399,Kerstin Wagner,+9.00\nE2406,Markus Bauer,+18.75\nE2413,Fatma Schäfer,+0.25\nE2420,Hannah Köhler,+19.00\nE2427,Mia Roth,+23.75\nE2434,Leon Popescu,+17.50\nE2441,Kai Petrović,+16.75\nE2448,Jürgen Lorenz,-10.50\nE2455,Claudia Koch,+18.25\nE2462,Ewa Koch,+9.75\nE2469,Dmitri Schmitt,+3.75\nE2476,Birgit Bauer,+16.50\nE2483,Daniel Wagner,+9.00\nE2490,Maximilian Fischer,+9.75\nE2497,Lea Keller,+1.00\nE2504,Swetlana Köhler,+5.25\nE2511,Lea Haas,-3.50\nE2518,Paul Klein,+16.00\nE2525,Dmitri Schröder,+17.25\nE2532,Lukas Hoffmann,+17.00\nE2539,Stefan Nowak,+9.75\nE2546,Andreas Neumann,+17.25\nE2553,Laura Kaya,+19.75\n",
+          "filename": "time_accounts.csv",
+          "media_type": "text/csv"
+        }
+      ],
+      "body": "Hello,\n\nAttached are everyone's time-account balances at month end (plus and minus hours).\n\nKind regards\nMarkus Richter",
+      "cc": [],
+      "folder": "inbox",
+      "in_reply_to": null,
+      "is_read": false,
+      "mail_id": "mail-0015",
+      "sender": "markus.richter@sorantis-lohnbuero-selkenrath.example",
+      "sender_name": "Markus Richter",
+      "sent_at": "2026-11-04 10:20",
+      "subject": "Time accounts at month end",
+      "thread_id": "thread-mail-0015",
+      "to": [
+        "hannah.werner@haus-kastanienhof-selkenrath.example"
+      ]
+    }
+  ],
+  "message_meta": [
+    {
+      "channel": "app",
+      "message_id": "message-event-event-0005",
+      "sender_label": "Kai Zimmermann"
+    },
+    {
+      "channel": "app",
+      "message_id": "message-event-event-0006",
+      "sender_label": "Lea Hoffmann"
+    },
+    {
+      "channel": "app",
+      "message_id": "message-event-event-0007",
+      "sender_label": "Jürgen Fischer"
+    },
+    {
+      "channel": "email",
+      "message_id": "message-event-event-0003",
+      "sender_label": "Laura Schwarz"
+    },
+    {
+      "channel": "email",
+      "message_id": "message-event-event-0004",
+      "sender_label": "Laura Schwarz"
+    },
+    {
+      "channel": "phone",
+      "message_id": "message-event-event-0001",
+      "sender_label": "Monika Yılmaz"
+    }
+  ],
+  "message_texts": {
+    "message-event-event-0001": {
+      "body": "Ahmet Petrović rang at 05:15: signed off sick by the GP for Tue 24 Nov to Mon 30 Nov. Entered on the system. Taken by Monika Yılmaz (nights).",
+      "subject": "Sick call – Ahmet Petrović"
+    },
+    "message-event-event-0003": {
+      "body": "Two residents need a lot more care since yesterday. Each of these shifts needs 1 extra member of staff:\n- Mon 9 Nov, Rosengarten unit, night\n- Tue 10 Nov, Birke unit, early\n- Tue 10 Nov, Sonnenblick unit, early\n- Fri 13 Nov, Birke unit, late\n- Fri 13 Nov, Sonnenblick unit, early\n- Sun 15 Nov, Rosengarten unit, night\n- Mon 16 Nov, Birke unit, early\n- Mon 16 Nov, Rosengarten unit, night\n- Tue 17 Nov, Sonnenblick unit, late\n- Sat 21 Nov, Birke unit, early\n- Mon 23 Nov, Birke unit, night\n- Mon 30 Nov, Rosengarten unit, night\nThanks, Laura Schwarz",
+      "subject": "Extra staff needed"
+    },
+    "message-event-event-0004": {
+      "body": "We have a new admission with high care needs. Each of these shifts needs 1 extra member of staff:\n- Mon 9 Nov, Birke unit, night\n- Mon 9 Nov, Sonnenblick unit, late\n- Tue 10 Nov, Sonnenblick unit, late\n- Tue 10 Nov, Sonnenblick unit, night\n- Sat 14 Nov, Rosengarten unit, night\n- Sun 15 Nov, Sonnenblick unit, early\n- Sun 15 Nov, Sonnenblick unit, night\n- Mon 16 Nov, Rosengarten unit, late\n- Fri 20 Nov, Sonnenblick unit, night\n- Sat 21 Nov, Rosengarten unit, early\n- Wed 25 Nov, Rosengarten unit, early\n- Mon 30 Nov, Rosengarten unit, late\nThanks, Laura Schwarz",
+      "subject": "New admission – extra cover"
+    }
+  },
+  "open_at_start": 0,
+  "profiles": [
+    {
+      "employee_id": "staff-0001",
+      "hire_date": "2016-07-24",
+      "hours_balance_minutes": 270,
+      "notes": "",
+      "phone": "ext. 201",
+      "previous_period_minutes": 10662,
+      "qualification_valid_until": {
+        "Fall prevention training": "2029-04-22",
+        "Fire safety briefing": "2028-04-12",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2028-01-14"
+      },
+      "staff_number": "E2007",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0002",
+      "hire_date": "2025-09-08",
+      "hours_balance_minutes": 300,
+      "notes": "Phased return after knee surgery (finished March 2025).",
+      "phone": "ext. 202",
+      "previous_period_minutes": 9393,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2028-01-27",
+        "First aid course": "2028-06-30",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2027-12-12"
+      },
+      "staff_number": "E2014",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0003",
+      "hire_date": "2020-09-15",
+      "hours_balance_minutes": -90,
+      "notes": "",
+      "phone": "ext. 203",
+      "previous_period_minutes": 5106,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2027-06-26",
+        "Hygiene training": "2028-06-13",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2027-09-25"
+      },
+      "staff_number": "E2021",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0004",
+      "hire_date": "2025-06-29",
+      "hours_balance_minutes": 30,
+      "notes": "",
+      "phone": "ext. 204",
+      "previous_period_minutes": 9772,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2027-12-16",
+        "Hygiene training": "2027-10-18",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2027-04-01"
+      },
+      "staff_number": "E2028",
+      "wishes": [
+        "Would rather not work Sundays",
+        "Does not swap shifts"
+      ]
+    },
+    {
+      "employee_id": "staff-0005",
+      "hire_date": "2013-10-20",
+      "hours_balance_minutes": 210,
+      "notes": "",
+      "phone": "ext. 205",
+      "previous_period_minutes": 9303,
+      "qualification_valid_until": {
+        "Fall prevention training": "2028-03-14",
+        "Hygiene training": "2027-09-19",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2028-03-09"
+      },
+      "staff_number": "E2035",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0006",
+      "hire_date": "2022-06-01",
+      "hours_balance_minutes": 60,
+      "notes": "",
+      "phone": "ext. 206",
+      "previous_period_minutes": 10452,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2027-04-11",
+        "First aid course": "2028-07-09",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2028-06-24"
+      },
+      "staff_number": "E2042",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0007",
+      "hire_date": "2015-12-19",
+      "hours_balance_minutes": -120,
+      "notes": "Please call after 10am if possible. Not to be confused with Dmitri Schmitt.",
+      "phone": "ext. 207",
+      "previous_period_minutes": 8973,
+      "qualification_valid_until": {
+        "First aid course": "2028-07-08",
+        "Hygiene training": "2028-01-03",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2029-03-03"
+      },
+      "staff_number": "E2049",
+      "wishes": [
+        "Would rather not work Sundays"
+      ]
+    },
+    {
+      "employee_id": "staff-0008",
+      "hire_date": "2021-08-26",
+      "hours_balance_minutes": -150,
+      "notes": "",
+      "phone": "ext. 208",
+      "previous_period_minutes": 10242,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-07-28",
+        "First aid course": "2028-04-06",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2028-05-13"
+      },
+      "staff_number": "E2056",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0009",
+      "hire_date": "2017-03-27",
+      "hours_balance_minutes": 180,
+      "notes": "",
+      "phone": "ext. 209",
+      "previous_period_minutes": 9922,
+      "qualification_valid_until": {
+        "Fall prevention training": "2029-01-15",
+        "Fire safety briefing": "2028-09-28",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2027-08-16"
+      },
+      "staff_number": "E2063",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0010",
+      "hire_date": "2025-09-06",
+      "hours_balance_minutes": 300,
+      "notes": "",
+      "phone": "ext. 210",
+      "previous_period_minutes": 9393,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2029-01-14",
+        "Hygiene training": "2028-03-04",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2027-03-28"
+      },
+      "staff_number": "E2070",
+      "wishes": [
+        "Prefers late shifts"
+      ]
+    },
+    {
+      "employee_id": "staff-0011",
+      "hire_date": "2024-07-15",
+      "hours_balance_minutes": 180,
+      "notes": "Phased return after knee surgery (finished March 2025).",
+      "phone": "ext. 211",
+      "previous_period_minutes": 10572,
+      "qualification_valid_until": {
+        "Fall prevention training": "2029-02-01",
+        "First aid course": "2027-05-06",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2028-03-25"
+      },
+      "staff_number": "E2077",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0012",
+      "hire_date": "2016-01-25",
+      "hours_balance_minutes": 150,
+      "notes": "",
+      "phone": "ext. 212",
+      "previous_period_minutes": 4306,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2028-01-26",
+        "First aid course": "2027-07-12",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2027-08-18"
+      },
+      "staff_number": "E2084",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0013",
+      "hire_date": "2016-08-04",
+      "hours_balance_minutes": 360,
+      "notes": "",
+      "phone": "ext. 213",
+      "previous_period_minutes": 6595,
+      "qualification_valid_until": {
+        "First aid course": "2028-03-10",
+        "Hygiene training": "2028-05-23",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2027-10-16"
+      },
+      "staff_number": "E2091",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0014",
+      "hire_date": "2013-01-19",
+      "hours_balance_minutes": 270,
+      "notes": "Please call after 10am if possible.",
+      "phone": "ext. 214",
+      "previous_period_minutes": 9363,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-02-18",
+        "First aid course": "2027-09-01",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2028-11-25"
+      },
+      "staff_number": "E2098",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0015",
+      "hire_date": "2012-10-14",
+      "hours_balance_minutes": -150,
+      "notes": "",
+      "phone": "ext. 215",
+      "previous_period_minutes": 7124,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-09-26",
+        "Fire safety briefing": "2028-10-27",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2028-11-10"
+      },
+      "staff_number": "E2105",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0016",
+      "hire_date": "2024-07-19",
+      "hours_balance_minutes": 180,
+      "notes": "",
+      "phone": "ext. 216",
+      "previous_period_minutes": 6415,
+      "qualification_valid_until": {
+        "Fall prevention training": "2028-07-30",
+        "First aid course": "2027-12-09",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2027-12-22"
+      },
+      "staff_number": "E2112",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0017",
+      "hire_date": "2016-07-03",
+      "hours_balance_minutes": 90,
+      "notes": "",
+      "phone": "ext. 217",
+      "previous_period_minutes": 9832,
+      "qualification_valid_until": {
+        "Fall prevention training": "2028-07-17",
+        "Hygiene training": "2027-06-26",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2028-04-28"
+      },
+      "staff_number": "E2119",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0018",
+      "hire_date": "2022-06-09",
+      "hours_balance_minutes": 150,
+      "notes": "",
+      "phone": "ext. 218",
+      "previous_period_minutes": 9892,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-10-27",
+        "Fire safety briefing": "2027-07-13",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2028-03-14"
+      },
+      "staff_number": "E2126",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0019",
+      "hire_date": "2023-12-10",
+      "hours_balance_minutes": 360,
+      "notes": "",
+      "phone": "ext. 219",
+      "previous_period_minutes": 6595,
+      "qualification_valid_until": {
+        "Fall prevention training": "2028-11-10",
+        "First aid course": "2028-11-05",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2027-10-09"
+      },
+      "staff_number": "E2133",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0020",
+      "hire_date": "2024-10-25",
+      "hours_balance_minutes": 150,
+      "notes": "",
+      "phone": "ext. 220",
+      "previous_period_minutes": 10542,
+      "qualification_valid_until": {
+        "Fall prevention training": "2028-01-02",
+        "First aid course": "2027-01-11",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2028-06-01"
+      },
+      "staff_number": "E2140",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0021",
+      "hire_date": "2018-06-03",
+      "hours_balance_minutes": -30,
+      "notes": "Phased return after knee surgery (finished March 2025).",
+      "phone": "ext. 221",
+      "previous_period_minutes": 5166,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2028-05-03",
+        "Hygiene training": "2028-09-27",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2028-09-14"
+      },
+      "staff_number": "E2147",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0022",
+      "hire_date": "2021-10-19",
+      "hours_balance_minutes": 360,
+      "notes": "",
+      "phone": "ext. 222",
+      "previous_period_minutes": 6595,
+      "qualification_valid_until": {
+        "Fall prevention training": "2029-03-31",
+        "First aid course": "2028-01-30",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2027-07-13"
+      },
+      "staff_number": "E2154",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0023",
+      "hire_date": "2021-05-15",
+      "hours_balance_minutes": -90,
+      "notes": "",
+      "phone": "ext. 223",
+      "previous_period_minutes": 5106,
+      "qualification_valid_until": {
+        "Fall prevention training": "2028-02-12",
+        "Fire safety briefing": "2028-03-01",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2028-01-05"
+      },
+      "staff_number": "E2161",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0024",
+      "hire_date": "2025-06-15",
+      "hours_balance_minutes": 0,
+      "notes": "Phased return after knee surgery (finished March 2025).",
+      "phone": "ext. 224",
+      "previous_period_minutes": 5196,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-09-07",
+        "Fire safety briefing": "2027-07-27",
+        "Nursing licence (Berufsurkunde Pflegefachkraft)": "2027-10-17"
+      },
+      "staff_number": "E2168",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0025",
+      "hire_date": "2023-04-18",
+      "hours_balance_minutes": 120,
+      "notes": "",
+      "phone": "ext. 225",
+      "previous_period_minutes": 10512,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-08-03",
+        "Hygiene training": "2028-06-27"
+      },
+      "staff_number": "E2175",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0026",
+      "hire_date": "2023-10-13",
+      "hours_balance_minutes": -240,
+      "notes": "",
+      "phone": "ext. 226",
+      "previous_period_minutes": 8853,
+      "qualification_valid_until": {
+        "First aid course": "2028-10-09",
+        "Hygiene training": "2028-06-11"
+      },
+      "staff_number": "E2182",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0027",
+      "hire_date": "2016-03-05",
+      "hours_balance_minutes": -90,
+      "notes": "",
+      "phone": "ext. 227",
+      "previous_period_minutes": 9652,
+      "qualification_valid_until": {
+        "First aid course": "2027-12-04",
+        "Hygiene training": "2028-09-09"
+      },
+      "staff_number": "E2189",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0028",
+      "hire_date": "2024-06-30",
+      "hours_balance_minutes": 240,
+      "notes": "",
+      "phone": "ext. 228",
+      "previous_period_minutes": 10632,
+      "qualification_valid_until": {
+        "Fall prevention training": "2028-04-05",
+        "Fire safety briefing": "2027-02-18"
+      },
+      "staff_number": "E2196",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0029",
+      "hire_date": "2015-04-23",
+      "hours_balance_minutes": 60,
+      "notes": "",
+      "phone": "ext. 229",
+      "previous_period_minutes": 10452,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2027-01-12",
+        "Hygiene training": "2028-04-12"
+      },
+      "staff_number": "E2203",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0030",
+      "hire_date": "2026-02-14",
+      "hours_balance_minutes": 60,
+      "notes": "Please call after 10am if possible.",
+      "phone": "ext. 230",
+      "previous_period_minutes": 9153,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-07-20",
+        "Fire safety briefing": "2028-11-19"
+      },
+      "staff_number": "E2210",
+      "wishes": [
+        "Would rather not work Sundays"
+      ]
+    },
+    {
+      "employee_id": "staff-0031",
+      "hire_date": "2010-07-08",
+      "hours_balance_minutes": -240,
+      "notes": "",
+      "phone": "ext. 231",
+      "previous_period_minutes": 9502,
+      "qualification_valid_until": {
+        "First aid course": "2027-02-12",
+        "Hygiene training": "2027-08-14"
+      },
+      "staff_number": "E2217",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0032",
+      "hire_date": "2012-12-02",
+      "hours_balance_minutes": -60,
+      "notes": "",
+      "phone": "ext. 232",
+      "previous_period_minutes": 9033,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-09-18",
+        "First aid course": "2028-02-20"
+      },
+      "staff_number": "E2224",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0033",
+      "hire_date": "2011-11-20",
+      "hours_balance_minutes": 270,
+      "notes": "",
+      "phone": "ext. 233",
+      "previous_period_minutes": 10662,
+      "qualification_valid_until": {
+        "First aid course": "2028-08-12",
+        "Hygiene training": "2028-11-12"
+      },
+      "staff_number": "E2231",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0034",
+      "hire_date": "2015-12-27",
+      "hours_balance_minutes": 150,
+      "notes": "",
+      "phone": "ext. 234",
+      "previous_period_minutes": 10542,
+      "qualification_valid_until": {
+        "Fall prevention training": "2029-03-21",
+        "Fire safety briefing": "2027-02-28"
+      },
+      "staff_number": "E2238",
+      "wishes": [
+        "Prefers late shifts"
+      ]
+    },
+    {
+      "employee_id": "staff-0035",
+      "hire_date": "2011-10-01",
+      "hours_balance_minutes": 90,
+      "notes": "",
+      "phone": "ext. 235",
+      "previous_period_minutes": 9183,
+      "qualification_valid_until": {
+        "First aid course": "2029-04-06",
+        "Hygiene training": "2027-09-22"
+      },
+      "staff_number": "E2245",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0036",
+      "hire_date": "2019-09-28",
+      "hours_balance_minutes": 0,
+      "notes": "",
+      "phone": "ext. 236",
+      "previous_period_minutes": 10392,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-05-26",
+        "First aid course": "2028-10-21"
+      },
+      "staff_number": "E2252",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0037",
+      "hire_date": "2025-03-30",
+      "hours_balance_minutes": 300,
+      "notes": "",
+      "phone": "ext. 237",
+      "previous_period_minutes": 10692,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2028-02-16",
+        "First aid course": "2028-11-04"
+      },
+      "staff_number": "E2259",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0038",
+      "hire_date": "2016-05-10",
+      "hours_balance_minutes": -240,
+      "notes": "",
+      "phone": "ext. 238",
+      "previous_period_minutes": 9502,
+      "qualification_valid_until": {
+        "Fall prevention training": "2028-07-22",
+        "Fire safety briefing": "2027-05-04"
+      },
+      "staff_number": "E2266",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0039",
+      "hire_date": "2022-07-15",
+      "hours_balance_minutes": -150,
+      "notes": "",
+      "phone": "ext. 239",
+      "previous_period_minutes": 8943,
+      "qualification_valid_until": {
+        "First aid course": "2027-04-05",
+        "Hygiene training": "2028-06-02"
+      },
+      "staff_number": "E2273",
+      "wishes": [
+        "Prefers early shifts",
+        "Would rather not work Sundays",
+        "Does not swap shifts"
+      ]
+    },
+    {
+      "employee_id": "staff-0040",
+      "hire_date": "2017-09-02",
+      "hours_balance_minutes": -210,
+      "notes": "Please call after 10am if possible.",
+      "phone": "ext. 240",
+      "previous_period_minutes": 10182,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-10-07",
+        "Fire safety briefing": "2027-09-26"
+      },
+      "staff_number": "E2280",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0041",
+      "hire_date": "2024-11-09",
+      "hours_balance_minutes": 330,
+      "notes": "Please call after 10am if possible.",
+      "phone": "ext. 241",
+      "previous_period_minutes": 6565,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-01-22",
+        "First aid course": "2027-08-18"
+      },
+      "staff_number": "E2287",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0042",
+      "hire_date": "2013-07-13",
+      "hours_balance_minutes": -150,
+      "notes": "",
+      "phone": "ext. 242",
+      "previous_period_minutes": 10242,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2028-02-15",
+        "First aid course": "2027-09-15"
+      },
+      "staff_number": "E2294",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0043",
+      "hire_date": "2018-11-21",
+      "hours_balance_minutes": 120,
+      "notes": "",
+      "phone": "ext. 243",
+      "previous_period_minutes": 9862,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2028-08-20",
+        "Hygiene training": "2028-12-21"
+      },
+      "staff_number": "E2301",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0044",
+      "hire_date": "2020-08-04",
+      "hours_balance_minutes": 90,
+      "notes": "Work permit: residence permit (Aufenthaltstitel) valid until and including 16 November 2026; renewal applied for, new document not received yet.",
+      "phone": "ext. 244",
+      "previous_period_minutes": 6325,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-01-17",
+        "First aid course": "2027-03-13"
+      },
+      "staff_number": "E2308",
+      "wishes": [
+        "Would rather not work Sundays"
+      ]
+    },
+    {
+      "employee_id": "staff-0045",
+      "hire_date": "2023-03-29",
+      "hours_balance_minutes": 120,
+      "notes": "",
+      "phone": "ext. 245",
+      "previous_period_minutes": 9213,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2027-10-28",
+        "First aid course": "2029-03-11"
+      },
+      "staff_number": "E2315",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0046",
+      "hire_date": "2011-09-14",
+      "hours_balance_minutes": 300,
+      "notes": "Phased return after knee surgery (finished March 2025).",
+      "phone": "ext. 246",
+      "previous_period_minutes": 10692,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2029-02-12",
+        "First aid course": "2027-10-10"
+      },
+      "staff_number": "E2322",
+      "wishes": [
+        "Would rather not work Sundays"
+      ]
+    },
+    {
+      "employee_id": "staff-0047",
+      "hire_date": "2012-01-10",
+      "hours_balance_minutes": -60,
+      "notes": "Please call after 10am if possible.",
+      "phone": "ext. 247",
+      "previous_period_minutes": 10332,
+      "qualification_valid_until": {
+        "Fall prevention training": "2028-02-24",
+        "Fire safety briefing": "2027-04-14"
+      },
+      "staff_number": "E2329",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0048",
+      "hire_date": "2014-11-13",
+      "hours_balance_minutes": 300,
+      "notes": "Phased return after knee surgery (finished March 2025).",
+      "phone": "ext. 248",
+      "previous_period_minutes": 7574,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2027-10-22",
+        "First aid course": "2028-06-04"
+      },
+      "staff_number": "E2336",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0049",
+      "hire_date": "2014-01-20",
+      "hours_balance_minutes": 300,
+      "notes": "Phased return after knee surgery (finished March 2025).",
+      "phone": "ext. 249",
+      "previous_period_minutes": 10692,
+      "qualification_valid_until": {
+        "Fall prevention training": "2029-01-09",
+        "Fire safety briefing": "2028-06-20"
+      },
+      "staff_number": "E2343",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0050",
+      "hire_date": "2014-04-02",
+      "hours_balance_minutes": -90,
+      "notes": "",
+      "phone": "ext. 250",
+      "previous_period_minutes": 5106,
+      "qualification_valid_until": {
+        "Fall prevention training": "2029-04-21",
+        "First aid course": "2027-11-07"
+      },
+      "staff_number": "E2350",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0051",
+      "hire_date": "2018-01-25",
+      "hours_balance_minutes": 180,
+      "notes": "",
+      "phone": "ext. 251",
+      "previous_period_minutes": 10572,
+      "qualification_valid_until": {
+        "Fall prevention training": "2029-03-09",
+        "Fire safety briefing": "2028-04-23"
+      },
+      "staff_number": "E2357",
+      "wishes": [
+        "Prefers early shifts"
+      ]
+    },
+    {
+      "employee_id": "staff-0052",
+      "hire_date": "2026-03-28",
+      "hours_balance_minutes": 210,
+      "notes": "Please call after 10am if possible.",
+      "phone": "ext. 252",
+      "previous_period_minutes": 9303,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-11-27",
+        "Hygiene training": "2028-04-09"
+      },
+      "staff_number": "E2364",
+      "wishes": [
+        "Does not swap shifts"
+      ]
+    },
+    {
+      "employee_id": "staff-0053",
+      "hire_date": "2025-04-12",
+      "hours_balance_minutes": -30,
+      "notes": "Please call after 10am if possible.",
+      "phone": "ext. 253",
+      "previous_period_minutes": 10362,
+      "qualification_valid_until": {
+        "First aid course": "2028-04-13",
+        "Hygiene training": "2027-04-09"
+      },
+      "staff_number": "E2371",
+      "wishes": [
+        "Prefers early shifts"
+      ]
+    },
+    {
+      "employee_id": "staff-0054",
+      "hire_date": "2016-07-13",
+      "hours_balance_minutes": 210,
+      "notes": "",
+      "phone": "ext. 254",
+      "previous_period_minutes": 10602,
+      "qualification_valid_until": {
+        "Fall prevention training": "2029-04-04",
+        "Hygiene training": "2029-02-05"
+      },
+      "staff_number": "E2378",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0055",
+      "hire_date": "2010-08-11",
+      "hours_balance_minutes": 150,
+      "notes": "",
+      "phone": "ext. 255",
+      "previous_period_minutes": 9892,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2027-03-26",
+        "Hygiene training": "2029-03-23"
+      },
+      "staff_number": "E2385",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0056",
+      "hire_date": "2010-12-15",
+      "hours_balance_minutes": -150,
+      "notes": "",
+      "phone": "ext. 256",
+      "previous_period_minutes": 9592,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2028-03-20",
+        "First aid course": "2029-01-15"
+      },
+      "staff_number": "E2392",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0057",
+      "hire_date": "2019-12-16",
+      "hours_balance_minutes": 150,
+      "notes": "",
+      "phone": "ext. 257",
+      "previous_period_minutes": 6385,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2029-02-21",
+        "Hygiene training": "2028-07-10"
+      },
+      "staff_number": "E2399",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0058",
+      "hire_date": "2023-01-06",
+      "hours_balance_minutes": 60,
+      "notes": "Work permit: residence permit (Aufenthaltstitel) renewed, valid until 3 December 2028 (document on file).",
+      "phone": "ext. 258",
+      "previous_period_minutes": 9153,
+      "qualification_valid_until": {
+        "Fall prevention training": "2028-07-17",
+        "Hygiene training": "2027-12-27"
+      },
+      "staff_number": "E2406",
+      "wishes": [
+        "Prefers night shifts",
+        "Would rather not work Sundays"
+      ]
+    },
+    {
+      "employee_id": "staff-0059",
+      "hire_date": "2017-01-19",
+      "hours_balance_minutes": 90,
+      "notes": "",
+      "phone": "ext. 259",
+      "previous_period_minutes": 9832,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-04-06",
+        "First aid course": "2028-03-07"
+      },
+      "staff_number": "E2413",
+      "wishes": [
+        "Would rather not work Sundays"
+      ]
+    },
+    {
+      "employee_id": "staff-0060",
+      "hire_date": "2020-11-18",
+      "hours_balance_minutes": 30,
+      "notes": "",
+      "phone": "ext. 260",
+      "previous_period_minutes": 9123,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-05-03",
+        "Hygiene training": "2028-09-09"
+      },
+      "staff_number": "E2420",
+      "wishes": [
+        "Prefers late shifts",
+        "Would rather not work Sundays"
+      ]
+    },
+    {
+      "employee_id": "staff-0061",
+      "hire_date": "2022-11-17",
+      "hours_balance_minutes": -60,
+      "notes": "",
+      "phone": "ext. 261",
+      "previous_period_minutes": 9682,
+      "qualification_valid_until": {
+        "First aid course": "2028-06-11",
+        "Hygiene training": "2029-01-14"
+      },
+      "staff_number": "E2427",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0062",
+      "hire_date": "2014-10-16",
+      "hours_balance_minutes": 270,
+      "notes": "",
+      "phone": "ext. 262",
+      "previous_period_minutes": 5466,
+      "qualification_valid_until": {
+        "First aid course": "2029-03-20",
+        "Hygiene training": "2027-04-26"
+      },
+      "staff_number": "E2434",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0063",
+      "hire_date": "2022-06-22",
+      "hours_balance_minutes": 300,
+      "notes": "",
+      "phone": "ext. 263",
+      "previous_period_minutes": 4456,
+      "qualification_valid_until": {
+        "First aid course": "2027-03-15",
+        "Hygiene training": "2027-11-22"
+      },
+      "staff_number": "E2441",
+      "wishes": [
+        "Does not swap shifts"
+      ]
+    },
+    {
+      "employee_id": "staff-0064",
+      "hire_date": "2010-07-24",
+      "hours_balance_minutes": -90,
+      "notes": "",
+      "phone": "ext. 264",
+      "previous_period_minutes": 10302,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2028-05-06",
+        "Hygiene training": "2029-04-05"
+      },
+      "staff_number": "E2448",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0065",
+      "hire_date": "2015-07-14",
+      "hours_balance_minutes": 210,
+      "notes": "Please call after 10am if possible.",
+      "phone": "ext. 265",
+      "previous_period_minutes": 9952,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2027-05-09",
+        "Hygiene training": "2028-09-13"
+      },
+      "staff_number": "E2455",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0066",
+      "hire_date": "2021-06-27",
+      "hours_balance_minutes": -180,
+      "notes": "",
+      "phone": "ext. 266",
+      "previous_period_minutes": 10212,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2028-06-09",
+        "Hygiene training": "2027-10-19"
+      },
+      "staff_number": "E2462",
+      "wishes": [
+        "Would rather not work Sundays"
+      ]
+    },
+    {
+      "employee_id": "staff-0067",
+      "hire_date": "2018-08-03",
+      "hours_balance_minutes": -60,
+      "notes": "Please call after 10am if possible.",
+      "phone": "ext. 267",
+      "previous_period_minutes": 4096,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-09-28",
+        "First aid course": "2028-06-05"
+      },
+      "staff_number": "E2469",
+      "wishes": [
+        "Prefers early shifts",
+        "Would rather not work Sundays"
+      ]
+    },
+    {
+      "employee_id": "staff-0068",
+      "hire_date": "2025-11-03",
+      "hours_balance_minutes": -180,
+      "notes": "",
+      "phone": "ext. 268",
+      "previous_period_minutes": 9562,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-07-22",
+        "Hygiene training": "2027-10-11"
+      },
+      "staff_number": "E2476",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0069",
+      "hire_date": "2015-03-31",
+      "hours_balance_minutes": 360,
+      "notes": "",
+      "phone": "ext. 269",
+      "previous_period_minutes": 9453,
+      "qualification_valid_until": {
+        "Fall prevention training": "2029-01-30",
+        "Fire safety briefing": "2027-10-20"
+      },
+      "staff_number": "E2483",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0070",
+      "hire_date": "2011-12-01",
+      "hours_balance_minutes": -60,
+      "notes": "",
+      "phone": "ext. 270",
+      "previous_period_minutes": 10332,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-05-25",
+        "Fire safety briefing": "2028-10-11"
+      },
+      "staff_number": "E2490",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0071",
+      "hire_date": "2011-03-23",
+      "hours_balance_minutes": -240,
+      "notes": "",
+      "phone": "ext. 271",
+      "previous_period_minutes": 10152,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2027-07-06",
+        "Hygiene training": "2027-08-18"
+      },
+      "staff_number": "E2497",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0072",
+      "hire_date": "2015-07-24",
+      "hours_balance_minutes": 330,
+      "notes": "",
+      "phone": "ext. 272",
+      "previous_period_minutes": 10722,
+      "qualification_valid_until": {
+        "Fall prevention training": "2029-03-04",
+        "Hygiene training": "2028-08-26"
+      },
+      "staff_number": "E2504",
+      "wishes": [
+        "Prefers night shifts"
+      ]
+    },
+    {
+      "employee_id": "staff-0073",
+      "hire_date": "2011-07-21",
+      "hours_balance_minutes": -30,
+      "notes": "Please call after 10am if possible.",
+      "phone": "ext. 273",
+      "previous_period_minutes": 7244,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-11-26",
+        "First aid course": "2028-04-13"
+      },
+      "staff_number": "E2511",
+      "wishes": [
+        "Does not swap shifts"
+      ]
+    },
+    {
+      "employee_id": "staff-0074",
+      "hire_date": "2025-05-08",
+      "hours_balance_minutes": 30,
+      "notes": "",
+      "phone": "ext. 274",
+      "previous_period_minutes": 10422,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2028-02-23",
+        "Hygiene training": "2028-06-16"
+      },
+      "staff_number": "E2518",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0075",
+      "hire_date": "2022-09-30",
+      "hours_balance_minutes": 270,
+      "notes": "",
+      "phone": "ext. 275",
+      "previous_period_minutes": 5466,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-02-22",
+        "Hygiene training": "2028-05-22"
+      },
+      "staff_number": "E2525",
+      "wishes": [
+        "Does not swap shifts"
+      ]
+    },
+    {
+      "employee_id": "staff-0076",
+      "hire_date": "2022-08-17",
+      "hours_balance_minutes": -240,
+      "notes": "",
+      "phone": "ext. 276",
+      "previous_period_minutes": 5995,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2028-02-27",
+        "First aid course": "2027-12-05"
+      },
+      "staff_number": "E2532",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0077",
+      "hire_date": "2012-12-06",
+      "hours_balance_minutes": -120,
+      "notes": "",
+      "phone": "ext. 277",
+      "previous_period_minutes": 8973,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-09-22",
+        "Hygiene training": "2027-05-02"
+      },
+      "staff_number": "E2539",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0078",
+      "hire_date": "2020-11-30",
+      "hours_balance_minutes": 330,
+      "notes": "",
+      "phone": "ext. 278",
+      "previous_period_minutes": 10722,
+      "qualification_valid_until": {
+        "Fall prevention training": "2027-03-13",
+        "First aid course": "2028-01-09"
+      },
+      "staff_number": "E2546",
+      "wishes": []
+    },
+    {
+      "employee_id": "staff-0079",
+      "hire_date": "2011-02-25",
+      "hours_balance_minutes": -30,
+      "notes": "Please call after 10am if possible.",
+      "phone": "ext. 279",
+      "previous_period_minutes": 4126,
+      "qualification_valid_until": {
+        "Fire safety briefing": "2027-01-06",
+        "Hygiene training": "2029-03-06"
+      },
+      "staff_number": "E2553",
+      "wishes": [
+        "Does not swap shifts"
+      ]
+    }
+  ],
+  "publications": [],
+  "reports": [],
+  "requests": [
+    {
+      "decided_on": null,
+      "first_assignment_id": "initial-000030",
+      "message_id": "message-event-event-0005",
+      "partner_confirmed": true,
+      "partner_id": "staff-0019",
+      "reason": "",
+      "request_id": "request-0001",
+      "requester_id": "staff-0016",
+      "second_assignment_id": "initial-000034",
+      "status": "open"
+    },
+    {
+      "decided_on": null,
+      "first_assignment_id": "initial-000102",
+      "message_id": "message-event-event-0006",
+      "partner_confirmed": true,
+      "partner_id": "staff-0018",
+      "reason": "",
+      "request_id": "request-0002",
+      "requester_id": "staff-0022",
+      "second_assignment_id": "initial-000106",
+      "status": "open"
+    },
+    {
+      "decided_on": null,
+      "first_assignment_id": "initial-000383",
+      "message_id": "message-event-event-0007",
+      "partner_confirmed": true,
+      "partner_id": "staff-0052",
+      "reason": "",
+      "request_id": "request-0003",
+      "requester_id": "staff-0032",
+      "second_assignment_id": "initial-000391",
+      "status": "open"
+    }
+  ],
+  "schema_version": "workforce-app/v2",
+  "session_log": [],
+  "staged": [
+    {
+      "after_changes": 1,
+      "fired_at": null,
+      "kind": "budget_answer",
+      "payload": {
+        "cents": "41719"
+      },
+      "staged_id": "budget-0001",
+      "trigger": "asked"
+    },
+    {
+      "after_changes": 1,
+      "fired_at": null,
+      "kind": "sick_call",
+      "payload": {
+        "employee_id": "staff-0061",
+        "end_date": "2026-11-29",
+        "start_date": "2026-11-24"
+      },
+      "staged_id": "call-0001",
+      "trigger": "gap_filled"
+    },
+    {
+      "after_changes": 1,
+      "fired_at": null,
+      "kind": "agency_cancel",
+      "payload": {
+        "agency_id": "agency-south",
+        "offer_id": "agency-rn-002",
+        "until": "2026-11-07"
+      },
+      "staged_id": "agency-0001",
+      "trigger": "agency_booked"
+    },
+    {
+      "after_changes": 12,
+      "fired_at": null,
+      "kind": "withdraw_request",
+      "payload": {
+        "request_id": "request-0001"
+      },
+      "staged_id": "change-0001",
+      "trigger": "changes"
+    }
+  ],
+  "status_reports": [],
+  "unit_names": {
+    "ward-01": "Birke unit",
+    "ward-02": "Sonnenblick unit",
+    "ward-03": "Rosengarten unit"
+  }
+}

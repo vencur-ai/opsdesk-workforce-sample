@@ -1,0 +1,31 @@
+{
+  "app_sha256": "4ab67afa52a1c248001ccf3fdba945b03dec27697fef5ef8feebe9fd987f8657",
+  "difficulty": "expert",
+  "document_ids": [
+    "doc-current-memo",
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "family": "F09_agency_budget",
+  "horizon_days": 28,
+  "instruction": "Ahmet rang in sick (Tue 24 Nov to Mon 30 Nov). Please fill the gaps on the rota. See Laura Schwarz's email: the shifts listed there need more people now. Have a look at the mail first, a few things came in this morning. The agency budget isn't signed off yet – ask me by mail before you book. Make sure the people affected get a shift message. Watch the rules – rest periods, nights in a row, the lot. Don't reshuffle more than you have to. Cheapest sensible option, please. Please finish with the final status report (Reports → Status report); every field must match the end state. It's one of those weeks: there are swap requests in the requests list too. Please go through everything in the order the house rules give.",
+  "jurisdiction": "de",
+  "start_date": "2026-11-07",
+  "surface": "workforce",
+  "task_id": "ow-53942db8e465",
+  "workforce": {
+    "apps": [
+      "rota"
+    ],
+    "estimated_human_minutes": 64,
+    "locale": "en-DE",
+    "staff": 79,
+    "tier": "evaluation",
+    "units": 3
+  },
+  "world_file": "world.json"
+}

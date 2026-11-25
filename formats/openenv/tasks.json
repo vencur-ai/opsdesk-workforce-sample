@@ -1,7 +1,7 @@
 {
   "environment": "opsdesk-workforce",
-  "version": "3.12.5",
-  "image": "opsdesk-workforce:3.12.5-sample-312en",
+  "version": "3.13.1",
+  "image": "opsdesk-workforce:3.13.1-sample-313en",
   "server": "python -m uvicorn opsdesk.workforce.openenv_server:app (port 8000)",
   "reset": "POST /reset {task_id}, header x-opsdesk-host-key = OPSDESK_HOST_KEY (harness only)",
   "action": "POST /step {action: {tool, args}}",
@@ -9,24 +9,24 @@
   "reward": "POST /step {action: {tool: finish}} -> reward (0-1), done, observation.passed and per layer passed yes/no",
   "tasks": [
     {
-      "task_id": "ow-f83e80f12394",
-      "prompt": "There's a course day in the calendar this period. Our practice instructor, Jonas Roth, knows who is booked on it – please ask in the chat; whoever is booked can't work that day. Could you finish the rota for Sun 5 Jul to Sat 25 Jul (all units)? The first days are in the draft already; please check them and only change what really needs changing. Anything that stays open – report it to me as understaffing, with why. Mind the rest times and the house rules. Please finish with the final status report (Reports → Status report); every field must match the end state. Please message everyone you move. Keep the cost down – no unnecessary overtime. Thanks, Uwe Hartmann"
+      "task_id": "ow-1661190a696e",
+      "prompt": "Morning Dmitri,\n\nThere's a course day in the calendar this period. Our practice instructor, Anne Beck, knows who is booked on it – please ask in the chat; whoever is booked can't work that day. Could you finish the rota for Thu 17 Dec to Wed 6 Jan (all units)? The first days are in the draft already; please check them and only change what really needs changing. Mind the rest times and the house rules. Please keep overtime to what's really needed. Make sure the people affected get a shift message. Please finish with the final status report (Reports → Status report); every field must match the end state. If something can't be covered, send me the understaffing report with the reasons.\n\nThank you, Anna Richter"
     },
     {
-      "task_id": "ow-fb16b3f31e5d",
-      "prompt": "Mia – See Markus Koch's email: the shifts listed there need more people now. Also, a few shifts were already open before (19 shifts, marked open on the rota) – please fill those too. Don't reshuffle more than you have to. Watch the rules – rest periods, nights in a row, the lot. Keep the cost down – overtime and agency only if there's no other way. At the end, send me the final status report (Reports → Status report) – every field has to match the finished rota. Please message everyone you move."
+      "task_id": "ow-75022d7ffcf5",
+      "prompt": "See Mia Fuchs's email: the shifts listed there need more people now. Also, a few shifts were already open before (18 shifts, marked open on the rota) – please fill those too. Cheapest sensible option, please. Everything has to stay within the rules. Don't reshuffle more than you have to. At the end, send me the final status report (Reports → Status report) – every field has to match the finished rota. Make sure the people affected get a shift message. Lena Becker"
     },
     {
-      "task_id": "ow-ba4d0d736522",
-      "prompt": "Morning! There's a course day in the calendar this period. Our practice instructor, Uwe Lehmann, knows who is booked on it – please ask in the chat; whoever is booked can't work that day. Please check the draft for Tue 17 Nov to Mon 7 Dec (all units) against the current documents and put it right. Whatever fits stays as it is. Careful, not every document is current; the staff handbook says which rule comes first. Make sure the people affected get a shift message. Anything that stays open – report it to me as understaffing, with why. Watch the rules – rest periods, nights in a row, the lot. Cheapest sensible option, please. Please finish with the final status report (Reports → Status report); every field must match the end state. Cheers, Ewa Kaya"
+      "task_id": "ow-f6c5ea86c9fe",
+      "prompt": "Morning Julia,\n\nThere's a course day in the calendar this period. Our practice instructor, Lukas Bauer, knows who is booked on it – please ask in the chat; whoever is booked can't work that day. Please check the draft for Fri 1 May to Thu 21 May (all units) against the current documents and put it right. Whatever fits stays as it is. Careful, not every document is current; the staff handbook says which rule comes first. Everything has to stay within the rules. Please keep overtime to what's really needed. Let anyone whose shift changes know. At the end, send me the final status report (Reports → Status report) – every field has to match the finished rota.\n\nThank you, Katharina"
     },
     {
-      "task_id": "ow-bea2e97aa3b3",
-      "prompt": "Agnieszka Schäfer rang in sick (Fri 25 Sep to Thu 1 Oct). Could you get those shifts covered again? Kai Bauer emailed – we need extra staff on the shifts listed. Please get that on the rota. Have a look at the mail first, a few things came in this morning. The agency budget isn't signed off yet – ask me by mail before you book. Fill it as far as the rules allow. Please message everyone you move. Cheapest sensible option, please. Watch the rules – rest periods, nights in a row, the lot. At the end, send me the final status report (Reports → Status report) – every field has to match the finished rota. Don't reshuffle more than you have to. It's one of those weeks: there are swap requests in the requests list too. Please go through everything in the order the house rules give. Marek Meyer"
+      "task_id": "ow-53942db8e465",
+      "prompt": "Ahmet rang in sick (Tue 24 Nov to Mon 30 Nov). Please fill the gaps on the rota. See Laura Schwarz's email: the shifts listed there need more people now. Have a look at the mail first, a few things came in this morning. The agency budget isn't signed off yet – ask me by mail before you book. Make sure the people affected get a shift message. Watch the rules – rest periods, nights in a row, the lot. Don't reshuffle more than you have to. Cheapest sensible option, please. Please finish with the final status report (Reports → Status report); every field must match the end state. It's one of those weeks: there are swap requests in the requests list too. Please go through everything in the order the house rules give."
     },
     {
-      "task_id": "ow-e1b2788d36a4",
-      "prompt": "Quick one – There was a sick call overnight – it's in the messages. Can you sort out the cover? See Mehmet Lange's email: the shifts listed there need more people now. Have a look at the mail first, a few things came in this morning. The agency budget isn't signed off yet – ask me by mail before you book. Fill it as far as the rules allow. At the end, send me the final status report (Reports → Status report) – every field has to match the finished rota. Please message everyone you move. Mind the rest times and the house rules. Don't reshuffle more than you have to. Keep the cost down – overtime and agency only if there's no other way. It's one of those weeks: there are swap requests in the requests list too. Please go through everything in the order the house rules give. Thanks, Thomas Vogel"
+      "task_id": "ow-9f45c4c9f12f",
+      "prompt": "Hello Lea,\n\nKai Klein rang in sick (Fri 27 Mar to Thu 2 Apr). Could you get those shifts covered again? Jonas Richter emailed – we need extra staff on the shifts listed. Please get that on the rota. Have a look at the mail first, a few things came in this morning. The agency budget isn't signed off yet – ask me by mail before you book. If you can't fill something, tell me properly through the understaffing report. Leave the rest of the rota alone as far as possible. Please message everyone you move. Try not to blow the agency budget. At the end, send me the final status report (Reports → Status report) – every field has to match the finished rota. Watch the rules – rest periods, nights in a row, the lot. It's one of those weeks: there are swap requests in the requests list too. Please go through everything in the order the house rules give.\n\nThank you, Nicole Roth"
     }
   ]
 }

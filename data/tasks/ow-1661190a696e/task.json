@@ -1,0 +1,32 @@
+{
+  "app_sha256": "aaaa07bf2a6c16723ddee7a01f96f3be4ad2f94d4f9cafebc1d076bd4b479d19",
+  "difficulty": "expert",
+  "document_ids": [
+    "doc-current-memo",
+    "doc-expired-memo",
+    "doc-handbook",
+    "doc-house-rules",
+    "doc-manager-email",
+    "doc-ward-notes",
+    "doc-works-agreement"
+  ],
+  "family": "F01_build_roster",
+  "horizon_days": 21,
+  "instruction": "Morning Dmitri,\n\nThere's a course day in the calendar this period. Our practice instructor, Anne Beck, knows who is booked on it – please ask in the chat; whoever is booked can't work that day. Could you finish the rota for Thu 17 Dec to Wed 6 Jan (all units)? The first days are in the draft already; please check them and only change what really needs changing. Mind the rest times and the house rules. Please keep overtime to what's really needed. Make sure the people affected get a shift message. Please finish with the final status report (Reports → Status report); every field must match the end state. If something can't be covered, send me the understaffing report with the reasons.\n\nThank you, Anna Richter",
+  "jurisdiction": "de",
+  "start_date": "2026-12-17",
+  "surface": "workforce",
+  "task_id": "ow-1661190a696e",
+  "workforce": {
+    "apps": [
+      "calendar",
+      "rota"
+    ],
+    "estimated_human_minutes": 234,
+    "locale": "en-DE",
+    "staff": 71,
+    "tier": "evaluation",
+    "units": 3
+  },
+  "world_file": "world.json"
+}

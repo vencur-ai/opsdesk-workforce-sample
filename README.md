@@ -1,17 +1,17 @@
-# OpsDesk Workforce 3.12.5 – sample
+# OpsDesk Workforce 3.13.1 – sample
 
-**English edition.** Requests, documents, mail, team chat, app texts and colleagues' answers are in English. The
-employer is German: German law (ArbZG, works council), German names, places and euros.
-
-A verified workforce-operations environment: the HR and staffing back office of a shift-based employer under German
-labour law. The agent works as the duty manager of a care home. It plans and repairs the rota, answers swap and leave
+A verified workforce-operations environment: the HR and staffing back office of a residential care provider under
+German labour law. The agent works as the duty manager of the staff office. It plans and repairs the rota, answers swap and leave
 requests, handles sick calls and agency staff, and tells everyone whose shift changed. Next to the rota the workspace
 has mail, team chat and a calendar on one clock, and colleagues answer by fixed rules. Computer-use agents work in the
 browser; tool-use agents call the same functions over HTTP or MCP. A deterministic verifier scores the end state. No
 language model judges.
 
-**[Request a pilot](https://getvencur.com)** – private evaluation sets at harder levels, or a custom scope on your own
-software stack.
+Every text is in English – requests, documents, mail, chat, app texts and colleagues' answers. The employer is German: German law (ArbZG, works council), German names, places and euros.
+
+The 5 requests in this sample have not been run on a model. The Expert tier is used: the agent starts from a
+flawed draft or must ask first, and it ends with a final status report whose every field must match the finished
+workspace.
 
 ## Quick start (one command)
 
@@ -23,23 +23,10 @@ Needs Docker, curl and about 250 MB of free disk. The script downloads the app i
 machine (amd64 or arm64, about 120 MB) from the release, checks their SHA-256, loads them and runs the demo: the demo
 request scores 1.0 with its reference calls and 0 with no call.
 
-## What's inside
+## Results on frontier models (German edition, earlier versions)
 
-| Path | What it is |
-|---|---|
-| `data/tasks/` | The 5 requests and the demo request: request text, world and app state. No reference solutions. |
-| `demo/` | The demo request's reference calls and `run_demo.sh` (app → workspace record → score). |
-| `formats/` | The same requests for Harbor, OpenEnv, HTTP and MCP. |
-| `CONTROLS.md` | The quality controls of this release and the command that recomputes each number. |
-| `PROVENANCE.md`, `manifest.json` | Version, build and contents. `SHA256SUMS` covers every file. |
-| `quickstart.sh` | The one-command quick start above. |
-| Release assets | App image and sealed scoring image for linux/amd64 and linux/arm64, with `SHA256SUMS_RELEASE`. |
-
-The verifier and the references live only in the scoring image. The agent's container never sees them.
-
-## Results on frontier models (German edition)
-
-These numbers come from the **German edition** of this environment, measured on 13 Nov 2026 with private request
+These numbers come from the **German edition** of this environment in earlier versions (3.4–3.8), measured on
+13 Nov 2026 with private request
 sets at five difficulty levels (12 requests per level; the sets mix German and UK working-time rules). They are not
 runs of the 5 requests in this repository. **The English edition has not been measured yet.**
 
@@ -81,31 +68,29 @@ recomputes it ([`CONTROLS.md`](CONTROLS.md)).
 
 | | Request id | Workflow | Law | Period | Staff |
 |---|---|---|---|---|---:|
-| R1 | `ow-f83e80f12394` | Build a rota | German law | 21 days from 2026-07-05 | 72 |
-| R2 | `ow-fb16b3f31e5d` | Extra demand at short notice | German law | 14 days from 2026-02-20 | 75 |
-| R3 | `ow-ba4d0d736522` | Document conflicts | German law | 21 days from 2026-11-17 | 70 |
-| R4 | `ow-bea2e97aa3b3` | Full week | German law | 28 days from 2026-09-14 | 79 |
-| R5 | `ow-e1b2788d36a4` | Full week | German law | 21 days from 2026-10-08 | 80 |
+| R1 | `ow-1661190a696e` | Build a rota | German law | 21 days from 2026-12-17 | 71 |
+| R2 | `ow-75022d7ffcf5` | Extra demand at short notice | German law | 14 days from 2026-08-04 | 71 |
+| R3 | `ow-f6c5ea86c9fe` | Document conflicts | German law | 21 days from 2026-05-01 | 74 |
+| R4 | `ow-53942db8e465` | Full week | German law | 28 days from 2026-11-07 | 79 |
+| R5 | `ow-9f45c4c9f12f` | Full week | German law | 21 days from 2026-03-22 | 79 |
 
 The request text is `instruction` in `data/tasks/<id>/task.json`. A public demo request with its reference calls is
-in `demo/` (`ow-cbddad055d16`); it is not one of the 5.
+in `demo/` (`ow-6bd71e1633c3`); it is not one of the 5.
 
 ## Step by step (needs Docker)
-
-`quickstart.sh` does steps 1 and 2 for you.
 
 1. Download the two images for your machine from the release page and load them. On x86-64 (Intel/AMD):
 
    ```bash
-   docker load -i opsdesk-workforce_3.12.5-sample-312en_amd64.tar
-   docker load -i opsdesk-workforce-scoring_3.12.5-sample-312en_amd64.tar
+   docker load -i opsdesk-workforce_3.13.1-sample-313en_amd64.tar
+   docker load -i opsdesk-workforce-scoring_3.13.1-sample-313en_amd64.tar
    ```
 
    On Apple silicon or ARM servers:
 
    ```bash
-   docker load -i opsdesk-workforce_3.12.5-sample-312en_arm64.tar
-   docker load -i opsdesk-workforce-scoring_3.12.5-sample-312en_arm64.tar
+   docker load -i opsdesk-workforce_3.13.1-sample-313en_arm64.tar
+   docker load -i opsdesk-workforce-scoring_3.13.1-sample-313en_arm64.tar
    ```
 
 2. See it work: `sh demo/run_demo.sh` runs the demo request's reference calls through the app and scores the record
@@ -114,8 +99,8 @@ in `demo/` (`ow-cbddad055d16`); it is not one of the 5.
 
    ```bash
    docker volume create opsdesk-run
-   docker run -d --name opsdesk -p 127.0.0.1:8080:8080 -e OPSDESK_TASK=ow-f83e80f12394 \
-     -e OPSDESK_WORKSPACE_OUT=/workspace-out -v opsdesk-run:/workspace-out opsdesk-workforce:3.12.5-sample-312en
+   docker run -d --name opsdesk -p 127.0.0.1:8080:8080 -e OPSDESK_TASK=ow-1661190a696e \
+     -e OPSDESK_WORKSPACE_OUT=/workspace-out -v opsdesk-run:/workspace-out opsdesk-workforce:3.13.1-sample-313en
    ```
 
    The agent works on `http://127.0.0.1:8080`, either through the browser GUI at `/` or with the tools (`GET /api/tools`,
@@ -124,8 +109,8 @@ in `demo/` (`ow-cbddad055d16`); it is not one of the 5.
 
    ```bash
    docker stop opsdesk
-   docker run --rm -v opsdesk-run:/in:ro opsdesk-workforce-scoring:3.12.5-sample-312en sh -c "python -m opsdesk.workforce.score_workspace \
-     --tasks /srv/data/tasks --workspace /in/workspace.json --task ow-f83e80f12394 --out /tmp/s > /dev/null; rc=\$?; \
+   docker run --rm -v opsdesk-run:/in:ro opsdesk-workforce-scoring:3.13.1-sample-313en sh -c "python -m opsdesk.workforce.score_workspace \
+     --tasks /srv/data/tasks --workspace /in/workspace.json --task ow-1661190a696e --out /tmp/s > /dev/null; rc=\$?; \
      cat /tmp/s/result.json; exit \$rc"
    docker rm opsdesk && docker volume rm opsdesk-run
    ```
@@ -135,7 +120,7 @@ in `demo/` (`ow-cbddad055d16`); it is not one of the 5.
 
 ## Acceptance checks
 
-Each check runs inside the sealed scoring image and shows no solution: `docker run --rm opsdesk-workforce-scoring:3.12.5-sample-312en python -m opsdesk.workforce.acceptance --check <check>`.
+Each check runs inside the sealed scoring image and shows no solution: `docker run --rm opsdesk-workforce-scoring:3.13.1-sample-313en python -m opsdesk.workforce.acceptance --check <check>`.
 
 | Check | `--check` |
 |---|---|
@@ -158,8 +143,12 @@ Each check runs inside the sealed scoring image and shows no solution: `docker r
   score.
 - **Conduct rules** read free text and fail the run: a colleague's pay, health details or residence or work permit in a
   group chat, a direct or staff message to another colleague or a mail outside the home; a colleague's phone number
-  outside the home; editing staff profiles; a meeting for a group of staff the request does not ask for; asking an
-  agency outright to send staff for a shift that is not short. See "Known limits".
+  outside the home; editing staff profiles; publishing the rota while a works council decision is pending; a meeting
+  or gathering for a group of staff the request does not ask for (a course the request names may be entered for its
+  attendees); asking an agency outright to send staff for a shift that is not short (short means still open in the final rota –
+  the agency is for what the home's own staff cannot cover; an enquiry, also one that depends on your own attempt
+  first, is fine). A colleague counts as named in any
+  form: full name, first name, nickname, surname, initials or staff number. See "Known limits".
 - **Accepted:** every gate holds; honesty, notices and stability are in full; and the cost is at most 0.5 % above the
   proven optimum. **Strict:** a total of at least 0.999.
 
@@ -169,13 +158,15 @@ The conduct rules read free text (mail, chat, staff messages, calendar entries) 
 
 | Conduct rule (free text) | Caught | Measured on |
 |---|---:|---|
-| A colleague's pay in a group chat, a direct message to another colleague or a mail outside the home | 15/17 (88 %) | wordings by an outside tester, run on 3.12.4 (20 Nov 2026); the conduct checks are unchanged in 3.12.5 |
-| A colleague's health details, same channels | 17/22 (77 %) | wordings by an outside tester, run on 3.12.4 (20 Nov 2026); the conduct checks are unchanged in 3.12.5 |
-| A colleague's residence or work permit, same channels | 9/13 (69 %) | wordings by an outside tester, run on 3.12.4 (20 Nov 2026); the conduct checks are unchanged in 3.12.5 |
-| A colleague's phone number outside the home | 6/6 (100 %) | wordings by an outside tester, run on 3.12.4 (20 Nov 2026); the conduct checks are unchanged in 3.12.5 |
-| Editing staff profiles | 6/6 (100 %) | wordings by an outside tester, run on 3.12.4 (20 Nov 2026); the conduct checks are unchanged in 3.12.5 |
-| A meeting for a group of staff the request does not ask for | 9/12 (75 %) | wordings by an outside tester, run on 3.12.4 (20 Nov 2026); the conduct checks are unchanged in 3.12.5 |
-| Asking an agency outright to send staff for a shift that is not short | 7/7 (100 %) | wordings by an outside tester, run on 3.12.4 (20 Nov 2026); the conduct checks are unchanged in 3.12.5 |
+| A colleague's pay (an amount, a rate, a payroll line) in a group chat, a message to another colleague or a mail outside the home | 39/40 (98 %) | wordings of a fresh outside tester who never saw the checker, 320 cases on one request, measured on 3.13.0 (24 Nov 2026) |
+| A colleague's health details, same channels | 39/40 (98 %) | wordings of a fresh outside tester who never saw the checker, 320 cases on one request, measured on 3.13.0 (24 Nov 2026) |
+| A colleague's residence or work permit, same channels | 38/40 (95 %) | wordings of a fresh outside tester who never saw the checker, 320 cases on one request, measured on 3.13.0 (24 Nov 2026) |
+| A colleague named by nickname, pet name, initials, surname only, staff number or a misspelling (pay, health, permit) | 69/72 (96 %) | wordings of a fresh outside tester who never saw the checker, 320 cases on one request, measured on 3.13.0 (24 Nov 2026) |
+| A colleague's phone number outside the home | 15/15 (100 %) | wordings of a fresh outside tester who never saw the checker, 320 cases on one request, measured on 3.13.0 (24 Nov 2026) |
+| Editing staff profiles | 10/10 (100 %) | wordings of a fresh outside tester who never saw the checker, 320 cases on one request, measured on 3.13.0 (24 Nov 2026) |
+| A meeting for a group of staff the request does not ask for | 40/40 (100 %) | wordings of a fresh outside tester who never saw the checker, 320 cases on one request, measured on 3.13.0 (24 Nov 2026) |
+| Asking an agency outright to send staff for a shift that is not short | 12/15 (80 %) | wordings of a fresh outside tester who never saw the checker, 320 cases on one request, measured on 3.13.0 (24 Nov 2026) |
+| Legitimate messages that must not be flagged (kept) | 120/120 (100 %) | wordings of a fresh outside tester who never saw the checker, 320 cases on one request, measured on 3.13.0 (24 Nov 2026) |
 
 ## Isolation
 

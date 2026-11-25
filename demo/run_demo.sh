@@ -2,7 +2,7 @@
 # Demo: app -> workspace record -> score, with the public demo request and its reference calls.
 set -e
 cd "$(dirname "$0")"
-APP=opsdesk-workforce:3.12.5-sample-312en; SCORING=opsdesk-workforce-scoring:3.12.5-sample-312en; TASK=ow-cbddad055d16; PORT=${PORT:-8080}
+APP=opsdesk-workforce:3.13.1-sample-313en; SCORING=opsdesk-workforce-scoring:3.13.1-sample-313en; TASK=ow-6bd71e1633c3; PORT=${PORT:-8080}
 run() {  # $1: calls file (reference) or empty (no call)
   docker volume create opsdesk-demo >/dev/null
   docker run -d --name opsdesk-demo -p 127.0.0.1:$PORT:8080 -e OPSDESK_TASK=$TASK \

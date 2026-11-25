@@ -1,0 +1,3 @@
+See Mia Fuchs's email: the shifts listed there need more people now. Also, a few shifts were already open before (18 shifts, marked open on the rota) – please fill those too. Cheapest sensible option, please. Everything has to stay within the rules. Don't reshuffle more than you have to. At the end, send me the final status report (Reports → Status report) – every field has to match the finished rota. Make sure the people affected get a shift message. Lena Becker
+
+OpsDesk Workforce is open in the browser at http://app:8080. Tools for programs: GET http://app:8080/api/tools, POST http://app:8080/api/step with {"tool": ..., "args": {...}}.
