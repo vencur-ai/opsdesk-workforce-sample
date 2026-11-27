@@ -1,6 +1,6 @@
 # OpsDesk Workforce 3.13.1 – sample
 
-A verified workforce-operations environment: the HR and staffing back office of a residential care provider under
+A verified workforce-operations environment: the HR and staffing back office of a shift-based employer under
 German labour law. The agent works as the duty manager of the staff office. It plans and repairs the rota, answers swap and leave
 requests, handles sick calls and agency staff, and tells everyone whose shift changed. Next to the rota the workspace
 has mail, team chat and a calendar on one clock, and colleagues answer by fixed rules. Computer-use agents work in the
